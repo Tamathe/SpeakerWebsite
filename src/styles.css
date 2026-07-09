@@ -105,6 +105,7 @@ main {
   max-width: 860px;
   font-size: clamp(3rem, 9vw, 7.8rem);
   line-height: 0.9;
+  overflow-wrap: break-word;
 }
 
 .eyebrow {
@@ -458,7 +459,13 @@ main {
   }
 
   .hero-copy h1 {
-    font-size: clamp(2.6rem, 17vw, 4.8rem);
+    font-size: clamp(2.8rem, 14vw, 3.8rem);
+  }
+
+  .eyebrow {
+    font-size: 0.66rem;
+    line-height: 1.5;
+    letter-spacing: 0.1em;
   }
 
   .invite-section {

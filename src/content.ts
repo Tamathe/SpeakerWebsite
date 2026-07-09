@@ -3,7 +3,7 @@ import type { SiteContent } from "./types";
 export const siteContent: SiteContent = {
   hero: {
     eyebrow: "Academic medicine | Higher education | AI",
-    title: "Helping academic institutions become AI-ready.",
+    title: "Helping institutions become AI-ready.",
     summary:
       "Dr. Tama Thé is a physician educator and practical AI leader helping universities, health systems, and faculty communities move from AI anxiety to AI-ready practice.",
     primaryAction: {
