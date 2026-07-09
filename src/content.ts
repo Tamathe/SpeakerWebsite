@@ -17,7 +17,7 @@ export const siteContent: SiteContent = {
       "State cancer screening work",
       "Diabetic retinopathy projects",
       "UK AI literacy curriculum",
-      "NBME AI Research Fellow",
+      "Completed NBME AI Research Fellowship",
     ],
   },
   featuredMedia: {
@@ -35,7 +35,7 @@ export const siteContent: SiteContent = {
   profile: {
     title: "Physician, educator, AI implementer.",
     summary:
-      "Tama Th\u00e9 is a pediatric emergency physician and an AI Research Fellow with the National Board of Medical Examiners. His work sits where clinical care, medical education, assessment, and public-health implementation meet.",
+      "Tama Th\u00e9 is a pediatric emergency physician who completed an AI Research Fellowship with the National Board of Medical Examiners in June 2026. His work sits where clinical care, medical education, assessment, and public-health implementation meet.",
     details: [
       "Co-created the University of Kentucky's institutional AI literacy and skills curriculum.",
       "Founded and directs the AI Incubator at the University of Kentucky.",
@@ -143,7 +143,8 @@ export const siteContent: SiteContent = {
     },
     {
       label: "National fellowship",
-      detail: "AI Research Fellow with the National Board of Medical Examiners.",
+      detail:
+        "Completed an AI Research Fellowship with the National Board of Medical Examiners in June 2026.",
     },
     {
       label: "Institutional AI",
