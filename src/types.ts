@@ -4,7 +4,6 @@ export interface LinkAction {
 }
 
 export interface HeroContent {
-  eyebrow: string;
   title: string;
   summary: string;
   primaryAction: LinkAction;

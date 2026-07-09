@@ -14,9 +14,9 @@ function Header() {
         Tama Thé, MD
       </a>
       <nav className="nav-links">
-        <a href="#work">Work</a>
+        <a href="#work">Projects</a>
         <a href="#talks">Talks</a>
-        <a href="#thinking">Thinking</a>
+        <a href="#thinking">Notes</a>
         <a href="#invite">Contact</a>
       </nav>
     </header>
@@ -43,7 +43,6 @@ function Hero() {
   return (
     <section className="hero" id="top">
       <div className="hero-copy">
-        <p className="eyebrow">{hero.eyebrow}</p>
         <h1>{hero.title}</h1>
         <p className="hero-summary">{hero.summary}</p>
         <div className="hero-actions" aria-label="Primary actions">
@@ -51,8 +50,8 @@ function Hero() {
           <ActionLink action={hero.secondaryAction} variant="secondary" />
         </div>
       </div>
-      <aside className="proof-panel" aria-label="Clinical and academic context">
-        <p className="panel-label">Clinical and academic context</p>
+      <aside className="proof-panel" aria-label="Current focus">
+        <p className="panel-label">Current focus</p>
         <ul>
           {hero.proofPoints.map((point) => (
             <li key={point}>{point}</li>
@@ -139,9 +138,9 @@ function App() {
 
       <section className="section" id="work" aria-labelledby="work-title">
         <div className="section-heading">
-          <p className="eyebrow">Current work</p>
+          <p className="eyebrow">Projects</p>
           <h2 id="work-title">
-            Practical AI work for institutions that teach, heal, and govern.
+            Clinical AI that has to work beyond the demo.
           </h2>
         </div>
         <div className="card-grid">
@@ -155,7 +154,7 @@ function App() {
         <div className="section-heading section-heading-wide">
           <p className="eyebrow">Selected teaching and talks</p>
           <h2 id="talks-title">
-            Sessions that translate AI pressure into practice.
+            Sessions on healthcare AI, education, and implementation.
           </h2>
         </div>
         <div className="talk-list">
@@ -171,9 +170,9 @@ function App() {
         aria-labelledby="thinking-title"
       >
         <div className="section-heading">
-          <p className="eyebrow">Recent thinking</p>
+          <p className="eyebrow">Notes</p>
           <h2 id="thinking-title">
-            A living archive of talks, essays, videos, and field notes.
+            Short field notes from the work as it develops.
           </h2>
         </div>
         <div className="thinking-list">
@@ -217,7 +216,7 @@ function App() {
 
       <footer className="site-footer">
         <span>Tama Thé, MD</span>
-        <span>Academic medicine, higher education, and practical AI readiness.</span>
+        <span>AI in healthcare, clinical education, and implementation.</span>
       </footer>
     </main>
   );

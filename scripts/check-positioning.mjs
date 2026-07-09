@@ -7,21 +7,28 @@ const source = [
 ].join("\n");
 
 const requiredSignals = [
-  "Work, talks, and writing on AI in academic medicine and higher education.",
-  "Explore the work",
-  "Teaching, writing, and institutional work",
+  "Making AI useful in healthcare.",
+  "Kentucky cancer screening",
+  "diabetic retinopathy",
+  "Projects",
+  "Notes",
   "For invitations and collaborations",
-  "Clinical and academic context",
-  "AI in Academic Medicine and Higher Education",
+  "Current focus",
+  "AI in Healthcare",
 ];
 
 const rejectedSignals = [
+  "Academic medicine | Higher education | AI",
+  "Work, talks, and writing on AI in academic medicine and higher education.",
+  "Teaching, writing, and institutional work",
+  "Clinical and academic context",
   "Watch featured talk",
   "The strongest reel belongs here.",
   "Proof points",
   "Invite Dr.",
   "paid keynote work",
   "Academic AI Speaker",
+  "AI in Academic Medicine and Higher Education",
 ];
 
 const missingSignals = requiredSignals.filter((signal) => !source.includes(signal));
