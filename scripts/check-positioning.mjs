@@ -8,8 +8,14 @@ const source = [
 
 const requiredSignals = [
   "Making AI useful in healthcare.",
-  "Kentucky cancer screening",
-  "diabetic retinopathy",
+  "AHEAD: closing Kentucky's cancer screening gap",
+  "Diabetic retinopathy projects",
+  "Kentucky CHFS",
+  "AI Incubator",
+  "NBME AI Research Fellow",
+  "Dreams of Data",
+  "Precision Medicine 2.0",
+  "University of Kentucky-Microsoft",
   "Projects",
   "Notes",
   "For invitations and collaborations",

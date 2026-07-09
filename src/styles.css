@@ -25,12 +25,14 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
   min-width: 320px;
   min-height: 100vh;
   margin: 0;
+  overflow-x: hidden;
   background:
     radial-gradient(circle at top left, rgba(103, 232, 249, 0.16), transparent 30rem),
     linear-gradient(135deg, rgba(255, 255, 255, 0.04), transparent 32rem),
@@ -88,7 +90,7 @@ main {
   gap: 40px;
   align-items: center;
   width: min(1180px, calc(100% - 40px));
-  min-height: calc(100vh - 82px);
+  min-height: calc(100vh - 180px);
   margin: 0 auto;
   padding: 72px 0 64px;
 }
@@ -101,11 +103,29 @@ main {
   letter-spacing: 0;
 }
 
+.hero-copy,
+.section-heading,
+.media-stage,
+.profile-copy,
+.talk-card-copy {
+  min-width: 0;
+  max-width: 100%;
+}
+
 .hero-copy h1 {
   max-width: 860px;
   font-size: clamp(3rem, 9vw, 7.8rem);
   line-height: 0.9;
   overflow-wrap: break-word;
+}
+
+.hero-summary,
+.section-heading h2,
+.invite-section h2,
+.surface-card h3,
+.talk-card h3,
+.thinking-row h3 {
+  overflow-wrap: anywhere;
 }
 
 .eyebrow {
@@ -165,6 +185,7 @@ main {
 .talk-card,
 .credential,
 .invite-panel {
+  max-width: 100%;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: linear-gradient(
@@ -293,12 +314,60 @@ main {
   line-height: 1.55;
 }
 
+.media-caption a,
+.talk-links a {
+  display: inline-flex;
+  width: fit-content;
+  margin-top: 14px;
+  color: var(--accent);
+  font-weight: 800;
+}
+
+.media-caption a:hover,
+.talk-links a:hover {
+  color: var(--text);
+}
+
+.profile-section {
+  display: grid;
+  grid-template-columns: 0.78fr 1.22fr;
+  gap: 48px;
+  align-items: start;
+}
+
+.profile-copy p {
+  max-width: 760px;
+  margin: 0;
+  color: var(--soft);
+  font-size: 1.15rem;
+  line-height: 1.65;
+}
+
+.profile-copy ul {
+  display: grid;
+  gap: 14px;
+  padding: 0;
+  margin: 28px 0 0;
+  list-style: none;
+}
+
+.profile-copy li {
+  padding-top: 14px;
+  color: var(--muted);
+  line-height: 1.5;
+  border-top: 1px solid var(--line);
+}
+
 .card-grid,
 .credential-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 16px;
   margin-top: 30px;
+}
+
+.card-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .surface-card,
@@ -350,6 +419,23 @@ main {
   font-weight: 800;
   letter-spacing: 0.12em;
   text-transform: uppercase;
+}
+
+.talk-card-copy {
+  display: grid;
+  gap: 8px;
+}
+
+.talk-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: baseline;
+}
+
+.talk-links small {
+  color: var(--soft);
+  font-weight: 700;
 }
 
 .split-section {
@@ -418,6 +504,7 @@ main {
 @media (max-width: 900px) {
   .hero,
   .featured,
+  .profile-section,
   .split-section,
   .invite-section {
     grid-template-columns: 1fr;
@@ -445,21 +532,52 @@ main {
 }
 
 @media (max-width: 620px) {
+  .site-header {
+    width: calc(100vw - 56px);
+    max-width: calc(100vw - 56px);
+  }
+
   .nav-links {
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: flex-start;
     width: 100%;
-    gap: 10px;
-    font-size: 0.82rem;
+    column-gap: 22px;
+    row-gap: 8px;
+    font-size: 0.76rem;
   }
 
   .hero,
   .section,
   .invite-section {
-    width: min(100% - 28px, 1180px);
+    width: calc(100vw - 56px);
+    max-width: calc(100vw - 56px);
+  }
+
+  .hero-summary,
+  .section-heading,
+  .profile-copy,
+  .media-stage {
+    width: 100%;
+    max-width: 100%;
   }
 
   .hero-copy h1 {
-    font-size: clamp(2.8rem, 14vw, 3.8rem);
+    font-size: clamp(2.55rem, 12vw, 3.2rem);
+  }
+
+  .hero-summary {
+    font-size: 1.03rem;
+    max-width: 31ch;
+  }
+
+  .section-heading h2,
+  .invite-section h2 {
+    font-size: clamp(1.65rem, 8vw, 2.25rem);
+    max-width: 11ch;
+  }
+
+  .profile-copy p {
+    max-width: 32ch;
   }
 
   .eyebrow {

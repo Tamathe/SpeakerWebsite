@@ -16,8 +16,16 @@ export interface FeaturedMedia {
   title: string;
   summary: string;
   status: string;
+  href?: string;
+  actionLabel?: string;
   imageSrc: string;
   imageAlt: string;
+}
+
+export interface ProfileContent {
+  title: string;
+  summary: string;
+  details: string[];
 }
 
 export interface WorkItem {
@@ -29,6 +37,8 @@ export interface TalkItem {
   title: string;
   audience: string;
   summary: string;
+  href?: string;
+  note?: string;
 }
 
 export interface ThinkingItem {
@@ -52,6 +62,7 @@ export interface InviteContent {
 export interface SiteContent {
   hero: HeroContent;
   featuredMedia: FeaturedMedia;
+  profile: ProfileContent;
   currentWork: WorkItem[];
   talks: TalkItem[];
   recentThinking: ThinkingItem[];

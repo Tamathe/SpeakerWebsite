@@ -4,7 +4,7 @@
 **Plan:** docs/superpowers/plans/2026-07-09-speaker-website.md
 
 ## Current Phase
-Phase 4 - Handoff
+Phase 5 - Grounded content build-out
 
 ## Phase 1 - Discovery
 **Status:** done
@@ -26,5 +26,11 @@ Phase 4 - Handoff
 ## Phase 4 - Handoff
 **Status:** done
 
+## Phase 5 - Grounded content build-out
+**Status:** done
+**Source material:** User-provided Texas engagement speaker profile, talk links, and attached promotion dossier.
+**Goal:** Replace generic speaker placeholders with a quieter professional home grounded in healthcare AI projects, Kentucky public-health work, AI literacy, NBME fellowship, and selected talks.
+**Content decisions:** Keep the hero centered on practical healthcare AI. Add a compact professional context section. Name the AHEAD cancer screening gap project, diabetic retinopathy projects, clinical reasoning AI work, UK AI literacy curriculum, AI Incubator, and selected public talks. Keep booking language quiet and collaboration-oriented.
+
 ## Next Action
-Review the local site at `http://127.0.0.1:5173/` and replace temporary media/content with final assets when ready.
+Verify the revised site locally, then decide whether to add a dedicated writing/video archive or deploy the one-page version.

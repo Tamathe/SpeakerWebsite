@@ -2,6 +2,7 @@ import { siteContent } from "./content";
 import type {
   CredentialItem,
   LinkAction,
+  ProfileContent,
   TalkItem,
   ThinkingItem,
   WorkItem,
@@ -80,7 +81,31 @@ function FeaturedMedia() {
         <div className="media-caption">
           <span>{featuredMedia.status}</span>
           <p>{featuredMedia.summary}</p>
+          {featuredMedia.href && featuredMedia.actionLabel ? (
+            <a href={featuredMedia.href} target="_blank" rel="noreferrer">
+              {featuredMedia.actionLabel}
+            </a>
+          ) : null}
         </div>
+      </div>
+    </section>
+  );
+}
+
+function ProfileSection({ profile }: { profile: ProfileContent }) {
+  return (
+    <section className="section profile-section" aria-labelledby="profile-title">
+      <div className="section-heading">
+        <p className="eyebrow">Context</p>
+        <h2 id="profile-title">{profile.title}</h2>
+      </div>
+      <div className="profile-copy">
+        <p>{profile.summary}</p>
+        <ul>
+          {profile.details.map((detail) => (
+            <li key={detail}>{detail}</li>
+          ))}
+        </ul>
       </div>
     </section>
   );
@@ -100,7 +125,17 @@ function TalkCard({ talk }: { talk: TalkItem }) {
     <article className="talk-card">
       <p>{talk.audience}</p>
       <h3>{talk.title}</h3>
-      <span>{talk.summary}</span>
+      <div className="talk-card-copy">
+        <span>{talk.summary}</span>
+        <div className="talk-links">
+          {talk.href ? (
+            <a href={talk.href} target="_blank" rel="noreferrer">
+              View
+            </a>
+          ) : null}
+          {talk.note ? <small>{talk.note}</small> : null}
+        </div>
+      </div>
     </article>
   );
 }
@@ -127,7 +162,7 @@ function CredentialCard({ item }: { item: CredentialItem }) {
 }
 
 function App() {
-  const { currentWork, talks, recentThinking, credentials, invite } =
+  const { profile, currentWork, talks, recentThinking, credentials, invite } =
     siteContent;
 
   return (
@@ -135,6 +170,7 @@ function App() {
       <Header />
       <Hero />
       <FeaturedMedia />
+      <ProfileSection profile={profile} />
 
       <section className="section" id="work" aria-labelledby="work-title">
         <div className="section-heading">

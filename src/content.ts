@@ -4,7 +4,7 @@ export const siteContent: SiteContent = {
   hero: {
     title: "Making AI useful in healthcare.",
     summary:
-      "Projects, talks, and notes on clinical AI, screening, education, and implementation in Kentucky and beyond.",
+      "Clinical AI projects, talks, and notes on screening, education, assessment, and implementation across Kentucky.",
     primaryAction: {
       label: "Projects",
       href: "#work",
@@ -14,77 +14,120 @@ export const siteContent: SiteContent = {
       href: "#thinking",
     },
     proofPoints: [
-      "Kentucky cancer screening",
+      "State cancer screening work",
       "Diabetic retinopathy projects",
-      "Clinical AI implementation",
-      "Education and faculty development",
+      "UK AI literacy curriculum",
+      "NBME AI Research Fellow",
     ],
   },
   featuredMedia: {
-    label: "Archive",
-    title: "Projects, talks, and notes.",
+    label: "Kentucky healthcare",
+    title: "Dreams of Data: The Promise of AI for Kentucky Healthcare.",
     summary:
-      "Selected lectures, project updates, and practical writing as the work develops.",
-    status: "Work in progress",
+      "A talk on moving from AI excitement to data-driven, practical precision medicine across the Commonwealth.",
+    status: "Featured talk",
+    href: "https://www.kentuckyrec.com/2025-annual-conference/",
+    actionLabel: "View event",
     imageSrc: "/images/dark-academic-stage.png",
     imageAlt:
       "Dark academic auditorium stage with a lectern and blue AI-inspired screen light.",
   },
+  profile: {
+    title: "Physician, educator, AI implementer.",
+    summary:
+      "Tama Th\u00e9 is a pediatric emergency physician and an AI Research Fellow with the National Board of Medical Examiners. His work sits where clinical care, medical education, assessment, and public-health implementation meet.",
+    details: [
+      "Co-created the University of Kentucky's institutional AI literacy and skills curriculum.",
+      "Founded and directs the AI Incubator at the University of Kentucky.",
+      "Leads healthcare AI work in the University of Kentucky-Microsoft strategic collaboration.",
+      "Principal investigator for a state-funded cancer screening gap project with Kentucky CHFS.",
+    ],
+  },
   currentWork: [
     {
-      title: "Kentucky cancer screening",
+      title: "AHEAD: closing Kentucky's cancer screening gap",
       summary:
-        "Practical AI and workflow projects aimed at making prevention easier to identify, explain, and follow through.",
+        "A state-funded CHFS partnership using AI and linked public-health data to identify people overdue for high-impact prevention and connect them with tailored outreach.",
     },
     {
       title: "Diabetic retinopathy projects",
       summary:
-        "Exploring how clinical AI can support earlier detection, clearer handoffs, and better patient follow-up.",
+        "AI-supported screening and follow-up work aimed at earlier detection, clearer handoffs, and practical patient navigation.",
     },
     {
-      title: "Clinical education and implementation",
+      title: "Clinical reasoning AI",
       summary:
-        "Teaching clinicians and educators how to use AI safely, practically, and with enough context to matter.",
+        "Grant-supported work exploring generative AI as a reference for diagnostic reasoning and decision-making in complex patient care.",
+    },
+    {
+      title: "AI literacy at scale",
+      summary:
+        "University-wide curriculum and faculty development that help clinicians, educators, staff, and students use AI with better judgment.",
     },
   ],
   talks: [
     {
-      title: "Making AI Useful In Healthcare",
-      audience: "Healthcare, public health, and academic leaders",
+      title: "Dreams of Data: The Promise of AI for Kentucky Healthcare",
+      audience: "Kentucky REC Annual Conference",
       summary:
-        "A practical session on moving from AI excitement to tools, workflows, and decisions that help patients and teams.",
+        "Data-driven precision medicine, screening, and practical implementation across Kentucky healthcare.",
+      href: "https://www.kentuckyrec.com/2025-annual-conference/",
     },
     {
-      title: "From Tool To Teammate",
-      audience: "Academic medicine and health systems",
+      title: "Precision Medicine 2.0: Logistical Precision with AI",
+      audience: "Markey Cancer Center",
       summary:
-        "A practical frame for moving AI from novelty to trustworthy clinical, educational, and operational support.",
+        "A healthcare implementation talk on making precision medicine more operational, reachable, and useful.",
+      href: "https://cme.cecentral.com/node/3673/bio/11990/view",
     },
     {
-      title: "Teaching Clinicians In An AI World",
-      audience: "Faculty development and CME",
+      title: "The Dawn of AI in Medical Education",
+      audience: "SAEM webinar",
       summary:
-        "A faculty-facing session for educators who need clear clinical examples, boundaries, and practices they can use immediately.",
+        "A technical session on large language models, clinical reasoning assessment, and the future of medical education.",
+      href: "https://www.saem.org/detail-pages/media/the-dawn-of-ai-in-medical-education",
+    },
+    {
+      title: "Personalizing Learning with AI",
+      audience: "Cassyni",
+      summary:
+        "AI as an invisible layer over professional life, learning, and the systems clinicians work inside.",
+      href: "https://cassyni.com/events/HVY1tsKLvcDMQrSyQAqNds",
+      note: "Starts at 29:00",
+    },
+    {
+      title: "AI for Assessment and Evaluation in Medical Education",
+      audience: "Cassyni",
+      summary:
+        "Why educators need to build, test, and understand AI-powered tools for assessment and feedback.",
+      href: "https://cassyni.com/events/R2RUrHw6cqfDzUzGihxfkq",
+      note: "Starts at 19:00",
+    },
+    {
+      title: "Blueprint for Care",
+      audience: "Louisville AI Week",
+      summary:
+        "How the University of Kentucky is moving healthcare AI from concepts to enterprise-scale experiences.",
     },
   ],
   recentThinking: [
     {
       type: "Field note",
-      title: "Why healthcare AI has to earn trust at the workflow level",
+      title: "What cancer screening asks of AI",
+      summary:
+        "Useful AI has to connect risk, outreach, patient understanding, scheduling, and the next accountable step.",
+    },
+    {
+      type: "Project note",
+      title: "The quiet work of healthcare AI",
       summary:
         "The hard part is not the model demo. It is the handoff, the explanation, the accountability, and the follow-through.",
     },
     {
-      type: "Project note",
-      title: "What cancer screening teaches us about implementation",
-      summary:
-        "Useful AI has to connect risk, outreach, patient understanding, and the next action.",
-    },
-    {
       type: "Essay",
-      title: "AI education for clinicians should start with judgment",
+      title: "AI literacy is clinical infrastructure",
       summary:
-        "Before clinicians need more tools, they need better ways to decide when a tool is useful, risky, or beside the point.",
+        "Clinicians and educators need better ways to decide when a tool is useful, risky, or beside the point.",
     },
   ],
   credentials: [
@@ -94,24 +137,24 @@ export const siteContent: SiteContent = {
         "Pediatric emergency physician with frontline academic medicine experience.",
     },
     {
-      label: "Healthcare AI projects",
+      label: "State-funded work",
       detail:
-        "Cancer screening, diabetic retinopathy, and implementation work with Kentucky partners.",
+        "Principal investigator for AHEAD, an AI and public-health data project focused on cancer screening gaps in Kentucky.",
     },
     {
       label: "National fellowship",
-      detail: "National Board of Medical Examiners AI Fellow.",
+      detail: "AI Research Fellow with the National Board of Medical Examiners.",
     },
     {
-      label: "Teaching",
+      label: "Institutional AI",
       detail:
-        "Grand rounds, CME lectures, national presentations, and academic convenings.",
+        "Co-created UK AI literacy training, founded the UK AI Incubator, and leads healthcare AI collaboration work.",
     },
   ],
   invite: {
     title: "For invitations and collaborations",
     summary:
-      "For healthcare AI projects, lectures, workshops, panels, clinical education, and thoughtful implementation conversations.",
+      "For healthcare AI projects, lectures, workshops, faculty retreats, panels, public-sector collaborations, and implementation conversations.",
     email: "mailto:tsthe2@uky.edu?subject=Speaking%20Invitation",
     materials: ["Short bio", "Selected topics", "Media links", "AV notes"],
   },
