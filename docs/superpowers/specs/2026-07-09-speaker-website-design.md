@@ -1,18 +1,18 @@
-# Speaker Website Design
+# Public Professional Home Design
 
 **Date:** 2026-07-09
 **Project root:** `C:\AA Code\Speaker`
-**Status:** awaiting user review
+**Status:** implemented and reframed after browser review
 
 ## Goal
 
-Build a standalone speaker website for Dr. Tama Thé that feels vivid, premium, and personally owned without becoming a blunt advertisement. The site should support academic medicine, higher education, university, state, and conference audiences at the same time.
+Build a standalone public professional home for Dr. Tama Thé that feels vivid, premium, and personally owned without becoming a blunt advertisement. The site should support academic medicine, higher education, university, state, and conference audiences at the same time.
 
 The first version will be a polished one-page site that can later grow into separate pages for Speaking, Videos, Writing, and About.
 
 ## Positioning
 
-The site should present Dr. Thé as a physician educator and practical AI leader helping academic institutions move from AI anxiety to AI-ready practice.
+The site should present Dr. Thé as a physician educator and practical AI leader through work, talks, writing, teaching, and institutional practice. After first browser review, the moral center moved away from keynote marketing and toward a public professional archive.
 
 The tone should be:
 
@@ -20,9 +20,9 @@ The tone should be:
 - Academically serious
 - Quietly premium
 - Useful as a living archive
-- Discoverably bookable, not aggressively salesy
+- Open to invitations and collaborations, not aggressively salesy
 
-The booking path should use language like `Invite` or `Speaking`, not hard-sell language. Public fees should not appear on version one.
+The contact path should be present but quiet. Public fees should not appear on version one.
 
 ## Visual Direction
 
@@ -42,10 +42,10 @@ The site can use dark sections throughout, but it should avoid feeling like a ge
 Version one is a one-page site with these sections:
 
 1. **Hero**
-   - Signature speaker identity
+   - Public-professional identity
    - Clear academic AI positioning
-   - Primary action: featured talk or reel
-   - Secondary action: invite
+   - Primary action: explore the work
+   - Secondary action: recent thinking
 
 2. **Featured Media**
    - Asset-ready area for the best talk, reel, or keynote clip
@@ -76,6 +76,10 @@ Version one is a one-page site with these sections:
    - Quiet invitation path
    - Email link in version one instead of a backend form
    - Space for downloadable bio, headshot, media kit, and AV information later
+
+## Reframing Guardrail
+
+The site should avoid leading with speaker-sales signals. In version one, it should not use `Academic AI Speaker` as the browser title, should not present `Proof points` as the primary credibility frame, and should not lead with `Watch featured talk` or `Invite Dr.` as the core homepage action.
 
 ## Content Model
 

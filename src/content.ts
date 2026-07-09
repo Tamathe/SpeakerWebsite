@@ -3,30 +3,30 @@ import type { SiteContent } from "./types";
 export const siteContent: SiteContent = {
   hero: {
     eyebrow: "Academic medicine | Higher education | AI",
-    title: "Helping institutions become AI-ready.",
+    title: "Work, talks, and writing on AI in academic medicine and higher education.",
     summary:
-      "Dr. Tama Thé is a physician educator and practical AI leader helping universities, health systems, and faculty communities move from AI anxiety to AI-ready practice.",
+      "A public home for teaching, writing, and institutional work at the edge of AI, clinical education, and human-centered academic practice.",
     primaryAction: {
-      label: "Watch featured talk",
-      href: "#featured",
+      label: "Explore the work",
+      href: "#work",
     },
     secondaryAction: {
-      label: "Invite",
-      href: "#invite",
+      label: "Recent thinking",
+      href: "#thinking",
     },
     proofPoints: [
-      "Pediatric emergency physician",
-      "University AI curriculum leader",
-      "NBME AI Fellow",
-      "Invited keynote and CME speaker",
+      "Physician educator in pediatric emergency medicine",
+      "University AI curriculum and faculty development work",
+      "National Board of Medical Examiners AI Fellow",
+      "Grand rounds, CME, academic, and public-sector teaching",
     ],
   },
   featuredMedia: {
-    label: "Featured media",
-    title: "The strongest reel belongs here.",
+    label: "Teaching, writing, and institutional work",
+    title: "A public archive in progress.",
     summary:
-      "Version one reserves a polished stage for the best keynote clip, speaker reel, or full talk recording once final media is selected.",
-    status: "Asset-ready panel",
+      "This space can hold selected lectures, writing, videos, and project notes without making the site feel like a brochure.",
+    status: "Media and notes",
     imageSrc: "/images/dark-academic-stage.png",
     imageAlt:
       "Dark academic auditorium stage with a lectern and blue AI-inspired screen light.",
@@ -53,7 +53,7 @@ export const siteContent: SiteContent = {
       title: "The AI-Ready University",
       audience: "Provosts, deans, faculty leaders",
       summary:
-        "A keynote on what institutions can do now to prepare students, faculty, and systems for human-centered AI practice.",
+        "A practical session on what institutions can do now to prepare students, faculty, and systems for human-centered AI practice.",
     },
     {
       title: "From Tool To Teammate",
@@ -65,7 +65,7 @@ export const siteContent: SiteContent = {
       title: "Teaching In An AI World",
       audience: "Faculty development and CME",
       summary:
-        "A workshop-style talk for faculty who need clear practices, policies, and examples they can use immediately.",
+        "A faculty-facing session for educators who need clear practices, policies, and examples they can use immediately.",
     },
   ],
   recentThinking: [
@@ -104,16 +104,16 @@ export const siteContent: SiteContent = {
       detail: "National Board of Medical Examiners AI Fellow.",
     },
     {
-      label: "Speaking record",
+      label: "Teaching and presentations",
       detail:
-        "Invited grand rounds, CME lectures, national presentations, and paid keynote work.",
+        "Grand rounds, CME lectures, national presentations, and academic convenings.",
     },
   ],
   invite: {
-    title: "Invite Dr. Thé",
+    title: "For invitations and collaborations",
     summary:
-      "For keynotes, academic medicine sessions, higher education convenings, faculty development, and AI strategy conversations.",
+      "For lectures, workshops, panels, faculty development, academic medicine sessions, and thoughtful AI strategy conversations.",
     email: "mailto:tsthe2@uky.edu?subject=Speaking%20Invitation",
-    materials: ["Speaker bio", "Headshot", "Talk descriptions", "AV preferences"],
+    materials: ["Short bio", "Selected topics", "Media links", "AV notes"],
   },
 };

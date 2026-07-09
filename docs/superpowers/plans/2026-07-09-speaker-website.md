@@ -2,9 +2,9 @@
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
-**Goal:** Build a standalone, dark-stage, one-page speaker website for Dr. Tama The in `C:\AA Code\Speaker`.
+**Goal:** Build a standalone, dark-stage, one-page public professional home for Dr. Tama The in `C:\AA Code\Speaker`.
 
-**Architecture:** Use a Vite React TypeScript app with structured local content and focused presentation components. The first release is a single-page site with future-ready content groups for Speaking, Videos, Writing, and About expansion.
+**Architecture:** Use a Vite React TypeScript app with structured local content and focused presentation components. The first release is a single-page site with future-ready content groups for Work, Talks, Videos, Writing, and About expansion.
 
 **Tech Stack:** Vite, React, TypeScript, CSS, local static content, no backend.
 
@@ -12,8 +12,10 @@
 
 - Project root is `C:\AA Code\Speaker`.
 - Site tone must be dark, vivid, premium, academically serious, and organized as a living archive with a quiet invitation path.
+- The homepage must read as a public professional archive first and an invitation path second.
 - Version one must not include a backend contact form, CMS, blog engine, public fee schedule, payment flow, or booking automation.
 - Booking language should be `Invite` or `Speaking`, not hard-sell language.
+- The top navigation should use `Contact`, not a stronger booking phrase.
 - Invite path should use a mail link in version one.
 - Missing video or image assets should render polished asset-ready panels, not broken boxes.
 - TypeScript strict mode is required.
@@ -32,6 +34,11 @@
 - Create `src/types.ts`: shared content interfaces.
 - Create `src/styles.css`: dark-stage visual system and responsive layout.
 - Create `public/images/dark-academic-stage.png`: generated temporary hero/media asset.
+- Create `scripts/check-positioning.mjs`: copy-positioning guard against returning to speaker-sales framing.
+
+## Reframe Addendum
+
+After browser review, the site was intentionally shifted away from a speaker sales page. The revised homepage leads with `Work, talks, and writing on AI in academic medicine and higher education.`, uses `Explore the work` and `Recent thinking` as hero actions, changes the nav invitation path to `Contact`, and adds `npm run check:positioning` to guard against self-promotional drift.
 
 ---
 

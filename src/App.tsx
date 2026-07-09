@@ -17,7 +17,7 @@ function Header() {
         <a href="#work">Work</a>
         <a href="#talks">Talks</a>
         <a href="#thinking">Thinking</a>
-        <a href="#invite">Invite</a>
+        <a href="#invite">Contact</a>
       </nav>
     </header>
   );
@@ -51,8 +51,8 @@ function Hero() {
           <ActionLink action={hero.secondaryAction} variant="secondary" />
         </div>
       </div>
-      <aside className="proof-panel" aria-label="Professional proof points">
-        <p className="panel-label">Proof points</p>
+      <aside className="proof-panel" aria-label="Clinical and academic context">
+        <p className="panel-label">Clinical and academic context</p>
         <ul>
           {hero.proofPoints.map((point) => (
             <li key={point}>{point}</li>
@@ -153,9 +153,9 @@ function App() {
 
       <section className="section" id="talks" aria-labelledby="talks-title">
         <div className="section-heading section-heading-wide">
-          <p className="eyebrow">Selected talks</p>
+          <p className="eyebrow">Selected teaching and talks</p>
           <h2 id="talks-title">
-            Keynotes and sessions that translate AI pressure into practice.
+            Sessions that translate AI pressure into practice.
           </h2>
         </div>
         <div className="talk-list">
@@ -205,7 +205,7 @@ function App() {
         </div>
         <div className="invite-panel">
           <a className="action-link action-link-primary" href={invite.email}>
-            Start a conversation
+            Send a note
           </a>
           <ul>
             {invite.materials.map((material) => (
