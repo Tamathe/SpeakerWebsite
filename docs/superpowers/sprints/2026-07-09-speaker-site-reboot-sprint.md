@@ -1,10 +1,10 @@
 # Sprint: speaker site reboot
 **Started:** 2026-07-09
 **Spec:** docs/superpowers/specs/2026-07-10-speaker-site-signal-field-design.md
-**Plan:** pending
+**Plan:** docs/superpowers/plans/2026-07-10-speaker-site-signal-field.md
 
 ## Current Phase
-Phase 3 - Documentation
+Phase 4 - Handoff
 
 ## Phase 1 - Discovery
 **Status:** done
@@ -25,12 +25,12 @@ Phase 3 - Documentation
 **Pending media:** `C0050` and `C0051` are explicitly deferred and excluded from launch scope.
 
 ## Phase 3 - Documentation
-**Status:** active
+**Status:** done
 **Spec path:** docs/superpowers/specs/2026-07-10-speaker-site-signal-field-design.md
-**Spec approved:** no
+**Spec approved:** yes
 
 ## Phase 4 - Handoff
-**Status:** pending
+**Status:** done
 
 ## Next Action
-Commit the self-reviewed written specification and ask the user for final spec approval.
+Execute docs/superpowers/plans/2026-07-10-speaker-site-signal-field.md using the selected execution workflow.
