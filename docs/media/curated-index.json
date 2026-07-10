@@ -1,0 +1,514 @@
+{
+  "version": 1,
+  "updated": "2026-07-10",
+  "source": {
+    "rootAlias": "camera_clip_root",
+    "clipCount": 23,
+    "sourceBytes": 98747183635,
+    "durationSeconds": 14756.761,
+    "orphanMetadata": ["C0028M01.XML"]
+  },
+  "privateArtifacts": {
+    "inventory": "%LOCALAPPDATA%/SpeakerMediaIndex/inventory.json",
+    "contactSheets": "%LOCALAPPDATA%/SpeakerMediaIndex/contact-sheets",
+    "transcripts": "%LOCALAPPDATA%/SpeakerMediaIndex/transcripts"
+  },
+  "clips": [
+    {
+      "id": "C0029",
+      "session": "Markey Cancer Center precision medicine event",
+      "title": "Precision Medicine 2.0: Logistical Precision with AI",
+      "duration": "01:17:20",
+      "sites": ["speaker", "incubator"],
+      "priority": "hero",
+      "channel": "on-stage",
+      "speakerPresence": "primary from 00:16:25; panel later",
+      "summary": "Wide stage recording with the strongest healthcare-AI explanations in the library.",
+      "transcriptStatus": "good",
+      "rights": "verify event recording and panel reuse",
+      "cuts": [
+        {
+          "start": "00:21:27",
+          "end": "00:22:06",
+          "label": "Closing Kentucky cancer-screening gaps",
+          "sites": ["speaker"]
+        },
+        {
+          "start": "00:22:06",
+          "end": "00:22:39",
+          "label": "Conversational AI outreach with guardrails",
+          "sites": ["speaker"]
+        },
+        {
+          "start": "00:25:15",
+          "end": "00:25:55",
+          "label": "Smart pillbox and AI adherence nudge",
+          "sites": ["speaker"]
+        },
+        {
+          "start": "00:29:59",
+          "end": "00:30:44",
+          "label": "A digital care grid for Kentucky",
+          "sites": ["speaker", "incubator"]
+        },
+        {
+          "start": "00:37:18",
+          "end": "00:37:37",
+          "label": "Diabetic-retinopathy cameras in primary care",
+          "sites": ["speaker"]
+        },
+        {
+          "start": "00:37:41",
+          "end": "00:38:17",
+          "label": "A language model that understands Kentucky patients",
+          "sites": ["speaker"]
+        },
+        {
+          "start": "00:40:25",
+          "end": "00:40:45",
+          "label": "The chasm between an idea and reality",
+          "sites": ["speaker", "incubator"]
+        },
+        {
+          "start": "00:49:57",
+          "end": "00:50:46",
+          "label": "Language models and health literacy",
+          "sites": ["speaker"]
+        },
+        {
+          "start": "00:55:36",
+          "end": "00:56:04",
+          "label": "Human connection, precision, and impact",
+          "sites": ["speaker"]
+        }
+      ]
+    },
+    {
+      "id": "C0030",
+      "session": "Student testimonial setup",
+      "duration": "00:00:00.501",
+      "sites": ["archive"],
+      "priority": "archive",
+      "channel": "camera-test",
+      "speakerPresence": "none",
+      "summary": "Half-second setup fragment.",
+      "transcriptStatus": "not applicable",
+      "rights": "not for publication",
+      "cuts": []
+    },
+    {
+      "id": "C0031",
+      "session": "Student testimonial roundtable",
+      "duration": "00:18:32",
+      "sites": ["incubator"],
+      "priority": "supporting",
+      "channel": "with-students",
+      "speakerPresence": "off camera",
+      "summary": "Mostly testimonials about Dr. Ballard; one useful student-built AI mentoring project explanation.",
+      "transcriptStatus": "good",
+      "rights": "verify student releases",
+      "cuts": [
+        {
+          "start": "00:07:57",
+          "end": "00:08:54",
+          "label": "Student explains an AI mentoring chatbot",
+          "sites": ["incubator"]
+        }
+      ]
+    },
+    {
+      "id": "C0032",
+      "session": "Office setup",
+      "duration": "00:00:01.502",
+      "sites": ["archive"],
+      "priority": "archive",
+      "channel": "camera-test",
+      "speakerPresence": "none",
+      "summary": "Tripod/setup fragment.",
+      "transcriptStatus": "not applicable",
+      "rights": "not for publication",
+      "cuts": []
+    },
+    {
+      "id": "C0033",
+      "session": "Office setup",
+      "duration": "00:00:02.503",
+      "sites": ["archive"],
+      "priority": "archive",
+      "channel": "camera-test",
+      "speakerPresence": "none",
+      "summary": "Computer-screen setup fragment.",
+      "transcriptStatus": "not applicable",
+      "rights": "not for publication",
+      "cuts": []
+    },
+    {
+      "id": "C0034",
+      "session": "Office B-roll",
+      "duration": "00:01:36",
+      "sites": ["incubator"],
+      "priority": "b-roll",
+      "channel": "ideas-in-motion",
+      "speakerPresence": "brief/unclear",
+      "summary": "Hallway, office, workstation, and equipment-room movement; useful as a muted loop.",
+      "transcriptStatus": "no speech",
+      "rights": "verify people visible in office",
+      "cuts": []
+    },
+    {
+      "id": "C0035",
+      "session": "AI in Action",
+      "duration": "00:01:29",
+      "sites": ["incubator"],
+      "priority": "b-roll",
+      "channel": "in-the-field",
+      "speakerPresence": "camera operator/off camera",
+      "summary": "Arrival and crowd movement that can establish the scale and energy of the event.",
+      "transcriptStatus": "ambient",
+      "rights": "verify event and attendee reuse",
+      "cuts": []
+    },
+    {
+      "id": "C0036",
+      "session": "AI in Action",
+      "duration": "00:00:10",
+      "sites": ["incubator"],
+      "priority": "b-roll",
+      "channel": "in-the-field",
+      "speakerPresence": "none",
+      "summary": "Short audience/crowd sweep.",
+      "transcriptStatus": "no speech",
+      "rights": "verify event and attendee reuse",
+      "cuts": []
+    },
+    {
+      "id": "C0037",
+      "session": "AI in Action",
+      "duration": "00:01:13",
+      "sites": ["incubator", "speaker"],
+      "priority": "high",
+      "channel": "projects",
+      "speakerPresence": "off camera",
+      "summary": "Student team demonstrates an AI-supported ultrasound training project.",
+      "transcriptStatus": "rough but usable",
+      "rights": "verify student releases and project attribution",
+      "cuts": [
+        {
+          "start": "00:00:29",
+          "end": "00:00:55",
+          "label": "AI-guided ultrasound-position training",
+          "sites": ["incubator", "speaker"]
+        }
+      ]
+    },
+    {
+      "id": "C0038",
+      "session": "AI in Action",
+      "duration": "00:04:13",
+      "sites": ["incubator", "speaker"],
+      "priority": "high",
+      "channel": "with-students",
+      "speakerPresence": "off camera and conversational",
+      "summary": "Students discuss a portable blood-delivery concept, rural EMT use, and next steps with Tama.",
+      "transcriptStatus": "mixed but usable",
+      "rights": "verify student releases and project attribution",
+      "cuts": [
+        {
+          "start": "00:01:20",
+          "end": "00:02:25",
+          "label": "Design feedback for rural EMS use",
+          "sites": ["incubator"]
+        },
+        {
+          "start": "00:02:33",
+          "end": "00:03:00",
+          "label": "From introductions to real partnerships",
+          "sites": ["incubator", "speaker"]
+        }
+      ]
+    },
+    {
+      "id": "C0039",
+      "session": "AI in Action",
+      "duration": "00:01:04",
+      "sites": ["incubator"],
+      "priority": "supporting",
+      "channel": "projects",
+      "speakerPresence": "in conversation",
+      "summary": "Conversation about pediatric gaming, hospital use, and a possible Microsoft connection.",
+      "transcriptStatus": "usable",
+      "rights": "verify participant release",
+      "cuts": [
+        {
+          "start": "00:00:08",
+          "end": "00:00:27",
+          "label": "Building pediatric gaming in the hospital",
+          "sites": ["incubator"]
+        }
+      ]
+    },
+    {
+      "id": "C0040",
+      "session": "AI in Action",
+      "duration": "00:03:48",
+      "sites": ["speaker", "incubator"],
+      "priority": "hero",
+      "channel": "in-the-field",
+      "speakerPresence": "prominent and conversational",
+      "summary": "Tama tries AR glasses, discusses pediatric use, and naturally explains the AI Incubator.",
+      "transcriptStatus": "good",
+      "rights": "verify participant and event reuse",
+      "cuts": [
+        {
+          "start": "00:01:14",
+          "end": "00:01:33",
+          "label": "AR distraction during pediatric procedures",
+          "sites": ["incubator", "speaker"]
+        },
+        {
+          "start": "00:02:58",
+          "end": "00:03:02",
+          "label": "We need some of those in the emergency department",
+          "sites": ["speaker"]
+        },
+        {
+          "start": "00:03:15",
+          "end": "00:03:37",
+          "label": "A natural definition of the AI Incubator",
+          "sites": ["incubator", "speaker"]
+        }
+      ]
+    },
+    {
+      "id": "C0041",
+      "session": "AI in Action",
+      "duration": "00:00:19",
+      "sites": ["incubator"],
+      "priority": "supporting",
+      "channel": "projects",
+      "speakerPresence": "interviewer",
+      "summary": "Very short project-introduction sound bite.",
+      "transcriptStatus": "good",
+      "rights": "verify participant release",
+      "cuts": [
+        {
+          "start": "00:00:07",
+          "end": "00:00:14",
+          "label": "I do not have one project; I have five",
+          "sites": ["incubator"]
+        }
+      ]
+    },
+    {
+      "id": "C0042",
+      "session": "AI in Action",
+      "duration": "00:01:21",
+      "sites": ["incubator"],
+      "priority": "high",
+      "channel": "projects",
+      "speakerPresence": "off camera",
+      "summary": "Builder explains using AI as a personal software-development team across five projects.",
+      "transcriptStatus": "good",
+      "rights": "verify participant release and product references",
+      "cuts": [
+        {
+          "start": "00:00:01",
+          "end": "00:00:11",
+          "label": "AI as a personal development team",
+          "sites": ["incubator"]
+        }
+      ]
+    },
+    {
+      "id": "C0043",
+      "session": "AI in Action",
+      "duration": "00:03:52",
+      "sites": ["incubator"],
+      "priority": "high",
+      "channel": "ideas-in-motion",
+      "speakerPresence": "interviewer/off camera",
+      "summary": "A grounded discussion of planning, patterns, security, and failure modes when building with AI.",
+      "transcriptStatus": "good through 00:01:33; ambient after",
+      "rights": "verify participant release",
+      "cuts": [
+        {
+          "start": "00:00:24",
+          "end": "00:01:33",
+          "label": "What novice AI builders need to understand",
+          "sites": ["incubator"]
+        }
+      ]
+    },
+    {
+      "id": "C0044",
+      "session": "AI in Action",
+      "duration": "00:00:07",
+      "sites": ["incubator"],
+      "priority": "b-roll",
+      "channel": "in-the-field",
+      "speakerPresence": "none",
+      "summary": "Brief crowd and demonstration-floor movement.",
+      "transcriptStatus": "ambient",
+      "rights": "verify event and attendee reuse",
+      "cuts": []
+    },
+    {
+      "id": "C0045",
+      "session": "AI in Action",
+      "duration": "00:00:59",
+      "sites": ["incubator"],
+      "priority": "b-roll",
+      "channel": "in-the-field",
+      "speakerPresence": "brief/unclear",
+      "summary": "Demonstration-floor interactions; stronger as a muted transition than a voiced story.",
+      "transcriptStatus": "poor",
+      "rights": "verify event and attendee reuse",
+      "cuts": []
+    },
+    {
+      "id": "C0046",
+      "session": "AI in Action",
+      "duration": "00:01:48",
+      "sites": ["incubator", "speaker"],
+      "priority": "high",
+      "channel": "projects",
+      "speakerPresence": "off camera at close",
+      "summary": "Excellent close-up story about pediatric gaming, accessibility devices, AR distraction, and pain management.",
+      "transcriptStatus": "good",
+      "rights": "verify presenter release and project attribution",
+      "cuts": [
+        {
+          "start": "00:00:06",
+          "end": "00:00:24",
+          "label": "3D-printed tools for patient stress and safety",
+          "sites": ["incubator"]
+        },
+        {
+          "start": "00:00:26",
+          "end": "00:00:47",
+          "label": "One-handed accessible game controller",
+          "sites": ["incubator"]
+        },
+        {
+          "start": "00:00:56",
+          "end": "00:01:34",
+          "label": "AR glasses for distraction and pain management",
+          "sites": ["incubator", "speaker"]
+        }
+      ]
+    },
+    {
+      "id": "C0047",
+      "session": "AI in Action",
+      "duration": "00:05:03",
+      "sites": ["incubator", "speaker"],
+      "priority": "hero",
+      "channel": "with-students",
+      "speakerPresence": "interviewer/off camera",
+      "summary": "The strongest student-voice source: AI, medicine, engineering, projects, and a visible community forming in real time.",
+      "transcriptStatus": "good",
+      "rights": "verify student releases",
+      "cuts": [
+        {
+          "start": "00:00:34",
+          "end": "00:01:04",
+          "label": "A pivotal day for AI at the University of Kentucky",
+          "sites": ["incubator", "speaker"]
+        },
+        {
+          "start": "00:01:46",
+          "end": "00:02:14",
+          "label": "Learning AI to become a better physician",
+          "sites": ["incubator", "speaker"]
+        },
+        {
+          "start": "00:03:22",
+          "end": "00:03:45",
+          "label": "A bridge between engineering and medicine",
+          "sites": ["incubator"]
+        },
+        {
+          "start": "00:04:00",
+          "end": "00:04:27",
+          "label": "Diverse backgrounds converging on healthcare",
+          "sites": ["incubator"]
+        }
+      ]
+    },
+    {
+      "id": "C0048",
+      "session": "AI in Action",
+      "duration": "00:03:41",
+      "sites": ["incubator"],
+      "priority": "high",
+      "channel": "projects",
+      "speakerPresence": "off camera",
+      "summary": "Student demonstrates drone hardware and explains the delivery, sensing, and AI-location concept.",
+      "transcriptStatus": "good",
+      "rights": "verify student release and project attribution",
+      "cuts": [
+        {
+          "start": "00:00:08",
+          "end": "00:00:39",
+          "label": "Testing drone payloads for a delivery project",
+          "sites": ["incubator"]
+        },
+        {
+          "start": "00:01:00",
+          "end": "00:01:27",
+          "label": "Accessible live-feed drone control",
+          "sites": ["incubator"]
+        },
+        {
+          "start": "00:03:13",
+          "end": "00:03:31",
+          "label": "AI-supported location and visual sensing",
+          "sites": ["incubator"]
+        }
+      ]
+    },
+    {
+      "id": "C0049",
+      "session": "AI in Action",
+      "duration": "00:00:13",
+      "sites": ["incubator"],
+      "priority": "b-roll",
+      "channel": "in-the-field",
+      "speakerPresence": "brief/unclear",
+      "summary": "Short demonstration-floor fragment with screens and people.",
+      "transcriptStatus": "poor",
+      "rights": "verify event and attendee reuse",
+      "cuts": []
+    },
+    {
+      "id": "C0050",
+      "session": "May faculty session; exact venue and title pending",
+      "duration": "01:40:08",
+      "sites": ["speaker"],
+      "priority": "provisional-high",
+      "channel": "on-stage",
+      "speakerPresence": "one of several presenters",
+      "summary": "Long multi-speaker classroom/faculty session. Visually usable, but the camera audio is not intelligible.",
+      "transcriptStatus": "invalid; repeated hallucinated phrase from unusable camera audio",
+      "rights": "verify venue, presenters, and audience reuse",
+      "audioStatus": "separate audio file requested",
+      "continuousGroup": "may-session",
+      "cuts": []
+    },
+    {
+      "id": "C0051",
+      "session": "May faculty session; exact venue and title pending",
+      "duration": "00:18:49",
+      "sites": ["speaker"],
+      "priority": "b-roll",
+      "channel": "in-conversation",
+      "speakerPresence": "networking and room interactions",
+      "summary": "Continuation of the May recording, mostly post-session conversation and human moments.",
+      "transcriptStatus": "no intelligible camera speech",
+      "rights": "verify venue, presenters, and attendee reuse",
+      "audioStatus": "separate audio file requested",
+      "continuousGroup": "may-session",
+      "cuts": []
+    }
+  ]
+}
