@@ -4,24 +4,23 @@ const source = [
   readFileSync("index.html", "utf8"),
   readFileSync("src/content.ts", "utf8"),
   readFileSync("src/App.tsx", "utf8"),
+  readFileSync("src/components/WorkWall.tsx", "utf8"),
+  readFileSync("src/wallContent.ts", "utf8"),
 ].join("\n");
 
 const requiredSignals = [
-  "Tama Thé",
-  "Making AI useful in healthcare.",
-  "Physician · Educator · AI builder",
-  "Cancer screening",
-  "Diabetic retinopathy",
-  "Kentucky CHFS",
-  "AI Incubator",
-  "Completed NBME AI Research Fellowship",
-  "June 2026",
-  "Dreams of Data",
-  "Precision Medicine 2.0",
-  "Ask about my work",
+  "TAMA THÉ",
+  "PHYSICIAN · EDUCATOR · BUILDER",
+  "The promise of AI for Kentucky healthcare",
+  "Kentucky is not a clean diagram.",
   "The model is usually the easy part.",
-  "HAVE A PRACTICAL AI PROBLEM?",
-  "Let's talk.",
+  "People need practice, not another AI webinar.",
+  "Screening creates a connection problem.",
+  "AI for assessment and evaluation",
+  "Personalizing Learning with AI",
+  "Precision Medicine 2.0",
+  "Bring me the messy version.",
+  "FIND SOMETHING",
 ];
 
 const rejectedSignals = [
