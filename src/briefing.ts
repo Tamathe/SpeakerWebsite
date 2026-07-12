@@ -61,54 +61,54 @@ function detectIntent(query: string) {
 
   if (/conference|speaker|speaking|keynote|panel|retreat|talk/.test(normalized)) {
     return {
-      label: "Speaking + synthesis",
-      headline: "A talk that moves from possibility to accountable action.",
+      label: "Talks and workshops",
+      headline: "I would start with the work, not with a tour of AI tools.",
       framing:
-        "The strongest route pairs a memorable systems idea with evidence from work already happening in healthcare and education.",
+        "The talks that land best use a real healthcare problem to show what AI can do, where it breaks, and what people still have to own.",
     };
   }
 
   if (/teach|learn|student|faculty|curriculum|educat|training|literacy/.test(normalized)) {
     return {
-      label: "Learning + judgment",
-      headline: "AI literacy becomes real when people can test their judgment.",
+      label: "Teaching and AI literacy",
+      headline: "Clinicians do not need another list of AI tools.",
       framing:
-        "Start with lived decisions—not a tool tour—then connect capability, limits, evaluation, and responsibility.",
+        "They need a chance to use the tools, test the output, see where it fails, and decide when AI does not belong in the task.",
     };
   }
 
   if (/state|public|rural|kentucky|population|community|government/.test(normalized)) {
     return {
-      label: "Public systems + reach",
-      headline: "Statewide AI succeeds or fails in the last mile.",
+      label: "Kentucky and public health",
+      headline: "Finding people is only useful if we can connect them to care.",
       framing:
-        "The relevant work connects data and models to access, understandable outreach, local workflow, and an owned next step.",
+        "The work is as much about referrals, patient navigation, local capacity, and follow-up as it is about the model.",
     };
   }
 
   if (/hospital|health system|clinic|clinical|pilot|implement|workflow/.test(normalized)) {
     return {
       label: "Healthcare implementation",
-      headline: "The model is one layer. The care pathway is the product.",
+      headline: "A good model can still make a bad project.",
       framing:
-        "A durable implementation makes workflow, trust, ownership, and feedback as visible as model performance.",
+        "If it does not fit the workflow, make sense to the people using it, and lead to a clear next step, it will not help for long.",
     };
   }
 
   if (/partner|collaborat|build|project|work together/.test(normalized)) {
     return {
-      label: "Collaboration + building",
-      headline: "Begin with the consequential problem, then build the full route.",
+      label: "Potential collaboration",
+      headline: "Bring me a real problem and the people who live with it.",
       framing:
-        "The best collaboration surface is a real constraint, a reachable user, and a shared definition of what happens after the AI signal.",
+        "That is usually enough to start figuring out whether AI belongs in the solution and what would have to happen after the model gives an answer.",
     };
   }
 
   return {
-    label: "Cross-domain briefing",
-    headline: "Here is the shortest grounded route through the work.",
+    label: "Closest matches",
+    headline: "Here is the work that is closest to your question.",
     framing:
-      "This interface retrieves from a small, human-verified evidence base and shows why each domain was selected.",
+      "These matches come from the projects and talks listed on this page. The search does not add new claims or write an answer for me.",
   };
 }
 
@@ -131,7 +131,7 @@ export function buildBriefing(query: string): BriefingResult {
     intent: intent.label,
     headline: intent.headline,
     summary: intent.framing,
-    rationale: `Matched ${matches.map((node) => node.shortTitle).join(", ")} across a five-domain, source-grounded archive.`,
+    rationale: `Matched ${matches.map((node) => node.shortTitle).join(", ")} across the five project areas on this page.`,
     matches,
   };
 }

@@ -18,9 +18,10 @@ const requiredSignals = [
   "June 2026",
   "Dreams of Data",
   "Precision Medicine 2.0",
-  "Ask the work",
-  "The model is one fifth of the system.",
-  "Let's make AI useful.",
+  "Ask about my work",
+  "The model is usually the easy part.",
+  "HAVE A PRACTICAL AI PROBLEM?",
+  "Let's talk.",
 ];
 
 const rejectedSignals = [
@@ -37,6 +38,11 @@ const rejectedSignals = [
   "AI in Academic Medicine and Higher Education",
   "Current focus",
   "generic AI",
+  "source-grounded semantic atlas",
+  "Building the connective tissue",
+  "Judgment is the infrastructure",
+  "No project lives alone",
+  "Built with AI. Grounded by humans.",
 ];
 
 const missingSignals = requiredSignals.filter((signal) => !source.includes(signal));

@@ -15,16 +15,16 @@ export const signalNodes: SignalNode[] = [
     shortTitle: "Screening",
     color: "chartreuse",
     position: { x: 18, y: 22 },
-    thesis: "Find the gap. Make the next step accountable.",
+    thesis: "Screening is not the endpoint.",
     problem:
-      "People who are overdue for high-impact cancer prevention are often invisible to any one part of the care system.",
+      "Kentucky has people who are overdue for cancer screening, but the information needed to find and reach them is spread across different parts of the healthcare system.",
     aiRole:
-      "Connect risk signals, public-health data, tailored outreach, and a navigable next action.",
+      "AI can help identify people who may be overdue, tailor outreach, and direct them to a specific next step.",
     humanGuardrail:
-      "Outreach is only useful when responsibility for scheduling, explanation, and follow-through is explicit.",
+      "Someone still has to answer questions, help with scheduling, and make sure the referral is completed.",
     evidence:
-      "AHEAD is a state-funded Kentucky CHFS partnership focused on closing cancer-screening gaps.",
-    sourceLabel: "AHEAD project record",
+      "I lead AHEAD, a state-funded partnership with Kentucky CHFS focused on cancer-screening gaps.",
+    sourceLabel: "AHEAD",
     keywords: [
       "cancer",
       "screening",
@@ -43,16 +43,16 @@ export const signalNodes: SignalNode[] = [
     shortTitle: "Retinopathy",
     color: "cyan",
     position: { x: 77, y: 18 },
-    thesis: "Move detection closer to where patients already are.",
+    thesis: "Finding disease early only matters if the patient gets care.",
     problem:
-      "A proven model still fails if screening is difficult to reach or the result never becomes a completed handoff.",
+      "Many people with diabetes do not get regular eye screening, especially when an eye clinic is far away.",
     aiRole:
-      "Support image-based screening in primary care so earlier detection can happen outside a specialty clinic.",
+      "AI-assisted cameras can move screening into primary care and flag patients who need follow-up.",
     humanGuardrail:
-      "The clinical value depends on referral ownership, understandable results, and a reliable path to follow-up.",
+      "The difficult part is the connection question: who receives the referral, what can be handled locally, and who helps the patient get there?",
     evidence:
-      "Current work explores AI-supported screening, clearer handoffs, and practical patient navigation.",
-    sourceLabel: "Diabetic-retinopathy project record",
+      "I am working with UK and rural-health partners on screening sites, referral pathways, and patient navigation across Kentucky.",
+    sourceLabel: "Kentucky diabetic-retinopathy work",
     keywords: [
       "diabetes",
       "retina",
@@ -67,19 +67,19 @@ export const signalNodes: SignalNode[] = [
   {
     id: "infrastructure",
     index: "03",
-    title: "Rural access + infrastructure",
-    shortTitle: "Access",
+    title: "Rural access across Kentucky",
+    shortTitle: "Rural access",
     color: "orange",
     position: { x: 83, y: 71 },
-    thesis: "Build for the whole route, not the cleanest zip code.",
+    thesis: "Kentucky is not a clean diagram.",
     problem:
-      "Rural distance, fragmented systems, and uneven access can turn a technically good idea into an unusable service.",
+      "Distance, staffing, broadband, transportation, and fragmented records all change what is possible from one community to the next.",
     aiRole:
-      "Help coordinate statewide signals and adapt communication to the people and places a system is meant to serve.",
+      "AI may help connect information across the state and make communication easier to understand and act on.",
     humanGuardrail:
-      "Local workflow, access, language, trust, and ownership have to shape the technology—not arrive after it.",
+      "The project has to be designed around local clinics and communities. They cannot be an afterthought.",
     evidence:
-      "Kentucky healthcare work links screening, public-health infrastructure, and practical implementation across the Commonwealth.",
+      "My Kentucky work includes cancer screening, diabetic retinopathy, rural health, and the state infrastructure needed to connect patients with care.",
     sourceLabel: "Dreams of Data",
     sourceHref: "https://www.kentuckyrec.com/2025-annual-conference/",
     keywords: [
@@ -100,16 +100,16 @@ export const signalNodes: SignalNode[] = [
     shortTitle: "Literacy",
     color: "chartreuse",
     position: { x: 51, y: 48 },
-    thesis: "Judgment is the infrastructure.",
+    thesis: "People need practice, not another AI webinar.",
     problem:
-      "Access to AI is moving faster than the shared judgment needed to use it well in clinical and educational settings.",
+      "Clinicians, educators, staff, and students already have access to AI. Most have had very little chance to learn what good use actually looks like.",
     aiRole:
-      "Create practical ways for clinicians, educators, staff, and students to learn by doing, testing, and reflecting.",
+      "AI can be the thing people practice with: testing outputs, comparing approaches, finding limits, and deciding when not to use it.",
     humanGuardrail:
-      "Fluency means knowing when a tool is useful, risky, ungrounded, or simply beside the point.",
+      "The point is better judgment, not memorizing a list of tools or pretending the risks have been solved.",
     evidence:
-      "Co-created the University of Kentucky's institutional AI literacy curriculum and founded the UK AI Incubator.",
-    sourceLabel: "UK AI literacy + Incubator work",
+      "I co-created the University of Kentucky's AI literacy curriculum and founded the UK AI Incubator.",
+    sourceLabel: "UK AI literacy and AI Incubator",
     keywords: [
       "education",
       "curriculum",
@@ -125,20 +125,20 @@ export const signalNodes: SignalNode[] = [
   {
     id: "reasoning",
     index: "05",
-    title: "Clinical reasoning + assessment",
+    title: "Clinical reasoning and assessment",
     shortTitle: "Reasoning",
     color: "cyan",
     position: { x: 20, y: 76 },
-    thesis: "Use AI to sharpen thinking—not hide it.",
+    thesis: "A fluent answer is not the same as good reasoning.",
     problem:
-      "Generative systems can produce fluent answers while making the quality of the underlying reasoning harder to see.",
+      "Large language models can sound certain and polished even when the reasoning underneath the answer is incomplete or wrong.",
     aiRole:
-      "Explore AI as a reference, teaching partner, and assessment surface for diagnostic reasoning and decision-making.",
+      "I am studying how AI can support teaching and assessment of diagnostic reasoning without becoming the answer key.",
     humanGuardrail:
-      "The goal is better human judgment, with uncertainty, provenance, and evaluation kept visible.",
+      "We still need to see the reasoning, test it against evidence, and be honest about uncertainty.",
     evidence:
-      "Grant-supported clinical-reasoning work builds on a completed NBME AI Research Fellowship in June 2026.",
-    sourceLabel: "Clinical reasoning + NBME fellowship",
+      "This work builds on my clinical-reasoning research and the NBME AI Research Fellowship I completed in June 2026.",
+    sourceLabel: "Clinical reasoning and NBME fellowship",
     keywords: [
       "clinical",
       "reasoning",
@@ -155,19 +155,19 @@ export const signalNodes: SignalNode[] = [
 export const briefingPresets: BriefingPreset[] = [
   {
     label: "Health-system leader",
-    prompt: "How do you move healthcare AI beyond the pilot?",
+    prompt: "How do we get an AI project out of the pilot stage?",
   },
   {
     label: "Conference organizer",
-    prompt: "What would make a practical AI talk memorable?",
+    prompt: "What could you talk about that is practical, not hype?",
   },
   {
     label: "Educator",
-    prompt: "How should clinicians learn to work with AI?",
+    prompt: "How should we teach clinicians to use AI?",
   },
   {
-    label: "Public-sector partner",
-    prompt: "Where can AI help statewide prevention in Kentucky?",
+    label: "Kentucky partner",
+    prompt: "How could AI help with prevention across Kentucky?",
   },
 ];
 
@@ -176,51 +176,51 @@ export const systemLayers: SystemLayer[] = [
     id: "model",
     index: "01",
     label: "Model",
-    title: "Can it detect or generate the right thing?",
+    title: "Does it work well enough for this job?",
     description:
-      "Performance matters. It is also the beginning of the system, not the end of the work.",
-    failure: "A benchmark win with no usable path into care.",
-    question: "What is the model allowed to decide—and what is it not?",
+      "A benchmark is useful, but it does not tell us whether the model will help in this clinic, with these patients, doing this job.",
+    failure: "A model that performs well in a paper and has nowhere sensible to go in the clinic.",
+    question: "What exactly are we asking the model to do?",
   },
   {
     id: "workflow",
     index: "02",
     label: "Workflow",
-    title: "Can it survive contact with a real Tuesday?",
+    title: "Who has to do something when it fires?",
     description:
-      "The tool has to fit existing people, time, handoffs, constraints, and incentives.",
-    failure: "A separate dashboard that quietly becomes one more inbox.",
-    question: "Whose work changes when the signal appears?",
+      "The tool has to fit the time, staff, handoffs, and incentives that already shape the work.",
+    failure: "A new dashboard that quietly becomes one more inbox nobody has time to check.",
+    question: "Whose day changes when this result appears?",
   },
   {
     id: "trust",
     index: "03",
     label: "Trust",
-    title: "Can a person understand what happens next?",
+    title: "Will anyone understand or believe the result?",
     description:
-      "Useful communication respects language, context, uncertainty, and the right to ask a human.",
-    failure: "Technically correct outreach that nobody believes or acts on.",
-    question: "What would make this legible to the person receiving it?",
+      "Patients and clinicians need an explanation they can understand, including what the system does not know.",
+    failure: "Technically correct outreach that nobody trusts or acts on.",
+    question: "Would this make sense to the person receiving it?",
   },
   {
     id: "ownership",
     index: "04",
     label: "Ownership",
-    title: "Who is accountable for the handoff?",
+    title: "Who owns the next step?",
     description:
-      "Every recommendation needs a named path from signal to scheduling, care, or follow-up.",
-    failure: "The algorithm finds the gap; the system leaves it open.",
-    question: "Who owns the next step when the model is right?",
+      "A result needs a clear path to scheduling, referral, treatment, or follow-up.",
+    failure: "The algorithm finds the problem, but nobody is responsible for what happens next.",
+    question: "When the model is right, who is responsible for acting on it?",
   },
   {
     id: "learning",
     index: "05",
-    label: "Learning loop",
-    title: "Can the system learn without hiding harm?",
+    label: "Follow-up",
+    title: "How will we know when it stops working?",
     description:
-      "Feedback, drift, missed cases, and uneven outcomes have to remain observable over time.",
-    failure: "A pilot freezes into infrastructure without a feedback loop.",
-    question: "What evidence would make us change or stop this system?",
+      "We need to watch for drift, missed cases, extra work, and differences in who benefits over time.",
+    failure: "A promising pilot becomes permanent before anyone decides how it will be monitored.",
+    question: "What would make us change this project—or stop it?",
   },
 ];
 
@@ -230,7 +230,7 @@ export const talks: TalkItem[] = [
     title: "Dreams of Data: The Promise of AI for Kentucky Healthcare",
     audience: "Kentucky REC Annual Conference",
     summary:
-      "From AI excitement to data-driven, practical precision medicine across the Commonwealth.",
+      "What Kentucky can do with better data, better connections, and a practical approach to AI in healthcare.",
     href: "https://www.kentuckyrec.com/2025-annual-conference/",
     keywords: ["kentucky", "health system", "rural", "screening"],
   },
@@ -239,7 +239,7 @@ export const talks: TalkItem[] = [
     title: "Precision Medicine 2.0: Logistical Precision with AI",
     audience: "Markey Cancer Center",
     summary:
-      "Making precision medicine more operational, reachable, and useful beyond the model demo.",
+      "Why precision medicine depends as much on logistics, access, and follow-through as it does on the science.",
     href: "https://cme.cecentral.com/node/3673/bio/11990/view",
     keywords: ["cancer", "implementation", "precision", "healthcare"],
   },
@@ -248,7 +248,7 @@ export const talks: TalkItem[] = [
     title: "The Dawn of AI in Medical Education",
     audience: "SAEM webinar",
     summary:
-      "Large language models, clinical reasoning assessment, and what medical education has to build next.",
+      "What large language models mean for clinical reasoning, assessment, and the way we train physicians.",
     href:
       "https://www.saem.org/detail-pages/media/the-dawn-of-ai-in-medical-education",
     keywords: ["education", "reasoning", "assessment", "llm"],
@@ -258,7 +258,7 @@ export const talks: TalkItem[] = [
     title: "Personalizing Learning with AI",
     audience: "Cassyni",
     summary:
-      "AI as an invisible layer over professional life, learning, and the systems clinicians work inside.",
+      "How AI is changing learning at work, including the parts we may not notice happening.",
     href: "https://cassyni.com/events/HVY1tsKLvcDMQrSyQAqNds",
     note: "Starts at 29:00",
     keywords: ["education", "learning", "clinical", "faculty"],
@@ -268,7 +268,7 @@ export const talks: TalkItem[] = [
     title: "AI for Assessment and Evaluation in Medical Education",
     audience: "Cassyni",
     summary:
-      "Why educators need to build, test, and understand AI-powered assessment and feedback.",
+      "What educators need to understand before using AI for assessment and feedback.",
     href: "https://cassyni.com/events/R2RUrHw6cqfDzUzGihxfkq",
     note: "Starts at 19:00",
     keywords: ["assessment", "evaluation", "education", "faculty"],
@@ -278,21 +278,21 @@ export const talks: TalkItem[] = [
 export const fieldNotes: FieldNote[] = [
   {
     type: "Field note / 01",
-    title: "The hard part is not the model demo.",
+    title: "Screening creates a connection problem.",
     summary:
-      "It is the handoff, the explanation, the accountable next step, and the follow-through.",
+      "If we identify more people with cancer or diabetic retinopathy, we also need a realistic way to get them into care.",
   },
   {
     type: "Field note / 02",
-    title: "AI literacy is clinical infrastructure.",
+    title: "AI literacy is not knowing every tool.",
     summary:
-      "People need better ways to decide when a system is useful, risky, ungrounded, or beside the point.",
+      "It is knowing how to test the output, recognize the limits, and decide whether AI belongs in the task at all.",
   },
   {
     type: "Field note / 03",
-    title: "Human connection is not the fallback.",
+    title: "The goal is better care, not less human contact.",
     summary:
-      "It is the point of building more precise, reachable, and responsive systems of care.",
+      "If AI gives clinicians more time and helps patients get the right care, it is doing something useful. If it adds noise, it is not.",
   },
 ];
 

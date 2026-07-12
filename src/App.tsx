@@ -20,7 +20,7 @@ import {
 import { useSemanticSearch } from "./hooks/useSemanticSearch";
 import type { BriefingResult, SignalNode, SystemLayer } from "./types";
 
-const defaultQuery = "How do you move healthcare AI beyond the pilot?";
+const defaultQuery = "How do we get an AI project out of the pilot stage?";
 
 function Arrow({ diagonal = false }: { diagonal?: boolean }) {
   return <span aria-hidden="true">{diagonal ? "↗" : "→"}</span>;
@@ -34,13 +34,13 @@ function Header() {
         <span>TAMA THÉ</span>
       </a>
       <nav className="nav-links" aria-label="Primary navigation">
-        <a href="#ask">Ask the work</a>
-        <a href="#field">Field</a>
-        <a href="#method">Method</a>
+        <a href="#ask">Ask about my work</a>
+        <a href="#field">Projects</a>
+        <a href="#method">Why projects fail</a>
         <a href="#talks">Talks</a>
       </nav>
       <a className="header-contact" href="#contact">
-        Start a conversation <Arrow />
+        Get in touch <Arrow />
       </a>
     </header>
   );
@@ -69,21 +69,22 @@ function Hero() {
         </p>
         <div className="hero-bottom">
           <p>
-            Building the connective tissue between models, people, and the
-            systems where care actually happens.
+            I work on what comes after the demo: getting AI into real clinical
+            care, education, and public-health work without making those jobs
+            harder.
           </p>
           <div className="hero-actions">
             <a className="button button-primary" href="#ask">
-              Ask the work <Arrow />
+              Ask about my work <Arrow />
             </a>
             <a className="button button-quiet" href="#field">
-              Explore the signal field
+              See the projects
             </a>
           </div>
         </div>
       </div>
       <div className="hero-ticker" aria-label="Current work">
-        <span>LIVE SIGNAL</span>
+        <span>CURRENT WORK</span>
         <div>
           <b>Cancer screening</b>
           <b>Diabetic retinopathy</b>
@@ -102,14 +103,14 @@ function statusCopy(
 ) {
   if (status === "loading") {
     return progress
-      ? `Loading the local model · ${progress}%`
-      : "Loading the local model · first use only";
+      ? `Downloading a small language model · ${progress}%`
+      : "Downloading a small language model · first search only";
   }
-  if (status === "embedding") return "Mapping meaning across five evidence domains";
-  if (status === "ready") return "On-device semantic match complete";
-  if (status === "unavailable") return "Guided match active · semantic model unavailable";
-  if (status === "guided") return "Guided match active · data-saving mode respected";
-  return "Ready · the model loads only when you ask";
+  if (status === "embedding") return "Comparing your question with my projects";
+  if (status === "ready") return "Done · these are the closest matches";
+  if (status === "unavailable") return "Using basic search · the language model could not load";
+  if (status === "guided") return "Using basic search · data-saving mode is on";
+  return "Ready · the model only loads if you use it";
 }
 
 function IntelligenceConsole({
@@ -174,33 +175,32 @@ function IntelligenceConsole({
     <section className="ask-section" id="ask" aria-labelledby="ask-title">
       <div className="section-index">
         <span>01</span>
-        <span>On-device intelligence</span>
+        <span>Search my work</span>
       </div>
       <div className="ask-intro">
-        <p className="eyebrow">Ask the work</p>
+        <p className="eyebrow">Ask about my work</p>
         <h2 id="ask-title">This is not a chatbot pretending to be me.</h2>
         <p>
-          It is a source-grounded semantic atlas. Describe the healthcare
-          problem you are trying to move; a language model running in your
-          browser will trace the closest path through verified work, talks, and
-          evidence.
+          Describe what you are working on. A small language model running in
+          your browser will compare your question with my projects and talks
+          and show you the closest matches.
         </p>
         <div className="privacy-note">
           <span className="privacy-icon" aria-hidden="true">↳</span>
           <span>
-            Your question stays on this device. No account, API key, or data
-            collection.
+            Your question stays in your browser. Nothing is saved or sent to
+            me.
           </span>
         </div>
       </div>
 
       <div className="intelligence-console">
         <div className="console-topline">
-          <span>TAMA / SIGNAL / SEMANTIC RETRIEVAL</span>
-          <span className="console-online"><i /> LOCAL</span>
+          <span>SEARCH MY WORK</span>
+          <span className="console-online"><i /> RUNS HERE</span>
         </div>
         <form className="query-form" onSubmit={onSubmit}>
-          <label htmlFor="field-query">What problem are you trying to move?</label>
+          <label htmlFor="field-query">What are you working on?</label>
           <div className="query-input-row">
             <span aria-hidden="true">›</span>
             <input
@@ -211,8 +211,8 @@ function IntelligenceConsole({
               onChange={(event) => setQuery(event.target.value)}
               autoComplete="off"
             />
-            <button type="submit" aria-label="Trace this question through the work">
-              Trace <Arrow />
+            <button type="submit" aria-label="Search my work">
+              Search <Arrow />
             </button>
           </div>
         </form>
@@ -248,7 +248,7 @@ function IntelligenceConsole({
                     0{index + 1}
                   </span>
                   <span>
-                    <small>{index === 0 ? "Closest signal" : "Also connected"}</small>
+                    <small>{index === 0 ? "Closest match" : "Also related"}</small>
                     <strong>{node.title}</strong>
                     <em>{node.thesis}</em>
                   </span>
@@ -260,11 +260,10 @@ function IntelligenceConsole({
           <details className="model-disclosure">
             <summary>How this works</summary>
             <p>
-              A compact sentence-embedding model compares the meaning of your
-              question with a curated public evidence set. It retrieves; it
-              does not invent answers, impersonate Tama, or provide medical
-              advice. If the model cannot load, the same interface falls back
-              to transparent keyword matching.
+              This is search, not a chatbot. A small embedding model compares
+              your question with the projects and talks on this page. It does
+              not write an answer, speak for me, or provide medical advice. If
+              the model cannot load, the page uses basic keyword matching.
             </p>
           </details>
         </div>
@@ -302,14 +301,14 @@ function SignalField({
     <section className="field-section" id="field" aria-labelledby="field-title">
       <div className="section-index">
         <span>02</span>
-        <span>Five connected systems</span>
+        <span>Five areas of work</span>
       </div>
       <div className="field-heading">
-        <p className="eyebrow">Signal field</p>
-        <h2 id="field-title">No project lives alone.</h2>
+        <p className="eyebrow">Current projects</p>
+        <h2 id="field-title">Different projects. A lot of the same hard parts.</h2>
         <p>
-          Select a signal. The field exposes the problem, the appropriate role
-          for AI, the human guardrail, and the evidence behind it.
+          Choose an area to see the problem, where AI may help, what people
+          still have to do, and the work behind it.
         </p>
       </div>
 
@@ -321,8 +320,8 @@ function SignalField({
             {signalNodes.map((node) => <FieldLine node={node} key={node.id} />)}
           </div>
           <div className="field-hub" aria-hidden="true">
-            <span>USEFUL</span>
-            <b>AI</b>
+            <span>AFTER THE</span>
+            <b>DEMO</b>
           </div>
           <div className="field-node-list">
             {signalNodes.map((node) => (
@@ -353,7 +352,7 @@ function SignalField({
           aria-live="polite"
         >
           <div className="detail-meta">
-            <span>Signal / {selected.index}</span>
+            <span>Project / {selected.index}</span>
             <span>{selected.title}</span>
           </div>
           <h3>{selected.thesis}</h3>
@@ -363,16 +362,16 @@ function SignalField({
               <p>{selected.problem}</p>
             </div>
             <div>
-              <small>AI's role</small>
+              <small>Where AI may help</small>
               <p>{selected.aiRole}</p>
             </div>
             <div>
-              <small>Human guardrail</small>
+              <small>What people still have to do</small>
               <p>{selected.humanGuardrail}</p>
             </div>
           </div>
           <div className="evidence-strip">
-            <span>Verified evidence</span>
+            <span>Related work</span>
             <p>{selected.evidence}</p>
             {selected.sourceHref ? (
               <a href={selected.sourceHref} target="_blank" rel="noreferrer">
@@ -395,14 +394,14 @@ function MethodLab() {
     <section className="method-section" id="method" aria-labelledby="method-title">
       <div className="section-index section-index-dark">
         <span>03</span>
-        <span>Implementation model</span>
+        <span>What happens after the demo</span>
       </div>
       <div className="method-heading">
-        <p className="eyebrow eyebrow-dark">The implementation stack</p>
-        <h2 id="method-title">The model is one fifth of the system.</h2>
+        <p className="eyebrow eyebrow-dark">Why good demos fail</p>
+        <h2 id="method-title">The model is usually the easy part.</h2>
         <p>
-          Pick a layer. This is where technically impressive AI becomes useful
-          infrastructure—or quietly fails.
+          Pick a layer. These are the questions that decide whether an AI
+          project helps anyone or just creates another dashboard.
         </p>
       </div>
       <div className="method-lab">
@@ -422,7 +421,7 @@ function MethodLab() {
         </div>
         <article className="layer-detail" aria-live="polite">
           <div>
-            <small>System question / {selected.index}</small>
+            <small>Question / {selected.index}</small>
             <h3>{selected.title}</h3>
             <p>{selected.description}</p>
           </div>
@@ -442,11 +441,11 @@ function TalksAndNotes() {
     <section className="archive-section" id="talks" aria-labelledby="talks-title">
       <div className="section-index">
         <span>04</span>
-        <span>Public archive</span>
+        <span>Talks and notes</span>
       </div>
       <div className="archive-heading">
-        <p className="eyebrow">Selected talks + field notes</p>
-        <h2 id="talks-title">Ideas tested in public.</h2>
+        <p className="eyebrow">Selected talks and field notes</p>
+        <h2 id="talks-title">Things I have been talking about.</h2>
       </div>
       <div className="talk-list">
         {talks.map((talk, index) => (
@@ -493,14 +492,15 @@ function Profile() {
       <div className="profile-copy">
         <p className="eyebrow">Tama Thé, MD</p>
         <h2 id="about-title">
-          A pediatric emergency physician building at the edge of clinical
-          care, education, and public systems.
+          I am a pediatric emergency physician who got pulled deep into AI
+          because I could see where it might help—and how easily it could make
+          healthcare more complicated.
         </h2>
         <p>
-          Tama's work focuses on the parts of AI that determine whether a good
-          idea survives: real workflows, understandable communication, human
-          judgment, accountable handoffs, and the infrastructure to learn what
-          happens next.
+          My work now includes cancer screening, diabetic retinopathy, medical
+          education, clinical reasoning, and AI strategy at UK. The common
+          question is pretty simple: can we make this useful for the person who
+          actually has to use it?
         </p>
       </div>
       <div className="credential-list">
@@ -520,20 +520,21 @@ function Contact() {
   return (
     <section className="contact-section" id="contact" aria-labelledby="contact-title">
       <div className="contact-meta">
-        <span>AVAILABLE FOR THE RIGHT PROBLEM</span>
-        <span>HEALTHCARE · EDUCATION · PUBLIC SYSTEMS</span>
+        <span>HAVE A PRACTICAL AI PROBLEM?</span>
+        <span>TALKS · WORKSHOPS · COLLABORATIONS</span>
       </div>
-      <h2 id="contact-title">Let's make AI useful.</h2>
+      <h2 id="contact-title">Let's talk.</h2>
       <p>
-        For healthcare AI projects, talks, workshops, faculty retreats, panels,
-        and public-sector collaborations.
+        I am happy to talk about healthcare AI projects, lectures, workshops,
+        faculty retreats, panels, or a collaboration that is still taking
+        shape.
       </p>
       <a href={contactEmail} className="contact-link">
-        Start a conversation <Arrow />
+        Send me a note <Arrow />
       </a>
       <footer>
         <span>© 2026 Tama Thé</span>
-        <span>Built with AI. Grounded by humans.</span>
+        <span>Built with AI, then revised until it stopped sounding like AI.</span>
         <a href="#top">Back to top ↑</a>
       </footer>
     </section>
