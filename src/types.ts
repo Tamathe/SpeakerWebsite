@@ -1,47 +1,38 @@
+export type SignalColor = "chartreuse" | "cyan" | "orange";
+
 export interface LinkAction {
   label: string;
   href: string;
 }
 
-export interface HeroContent {
+export interface SignalNode {
+  id: string;
+  index: string;
   title: string;
-  summary: string;
-  primaryAction: LinkAction;
-  secondaryAction: LinkAction;
-  proofPoints: string[];
-}
-
-export interface FeaturedMedia {
-  label: string;
-  title: string;
-  summary: string;
-  status: string;
-  href?: string;
-  actionLabel?: string;
-  imageSrc: string;
-  imageAlt: string;
-}
-
-export interface ProfileContent {
-  title: string;
-  summary: string;
-  details: string[];
-}
-
-export interface WorkItem {
-  title: string;
-  summary: string;
+  shortTitle: string;
+  color: SignalColor;
+  position: { x: number; y: number };
+  thesis: string;
+  problem: string;
+  aiRole: string;
+  humanGuardrail: string;
+  evidence: string;
+  sourceLabel: string;
+  sourceHref?: string;
+  keywords: string[];
 }
 
 export interface TalkItem {
+  id: string;
   title: string;
   audience: string;
   summary: string;
   href?: string;
   note?: string;
+  keywords: string[];
 }
 
-export interface ThinkingItem {
+export interface FieldNote {
   type: string;
   title: string;
   summary: string;
@@ -52,20 +43,26 @@ export interface CredentialItem {
   detail: string;
 }
 
-export interface InviteContent {
-  title: string;
-  summary: string;
-  email: string;
-  materials: string[];
+export interface BriefingPreset {
+  label: string;
+  prompt: string;
 }
 
-export interface SiteContent {
-  hero: HeroContent;
-  featuredMedia: FeaturedMedia;
-  profile: ProfileContent;
-  currentWork: WorkItem[];
-  talks: TalkItem[];
-  recentThinking: ThinkingItem[];
-  credentials: CredentialItem[];
-  invite: InviteContent;
+export interface BriefingResult {
+  query: string;
+  intent: string;
+  headline: string;
+  summary: string;
+  rationale: string;
+  matches: SignalNode[];
+}
+
+export interface SystemLayer {
+  id: string;
+  index: string;
+  label: string;
+  title: string;
+  description: string;
+  failure: string;
+  question: string;
 }

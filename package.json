@@ -5,19 +5,22 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host 127.0.0.1",
-    "build": "tsc --noEmit && vite build",
+    "build": "node scripts/clean-dist.mjs && tsc --noEmit && vite build",
     "check:positioning": "node scripts/check-positioning.mjs",
     "preview": "vite preview --host 127.0.0.1"
   },
   "dependencies": {
+    "@huggingface/transformers": "^4.2.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
+    "@cloudflare/vite-plugin": "^1.37.1",
     "@types/react": "^19.0.8",
     "@types/react-dom": "^19.0.3",
     "@vitejs/plugin-react": "^4.3.4",
     "typescript": "^5.7.2",
-    "vite": "^6.0.11"
+    "vite": "^6.0.11",
+    "wrangler": "^4.92.0"
   }
 }

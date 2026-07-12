@@ -7,21 +7,20 @@ const source = [
 ].join("\n");
 
 const requiredSignals = [
+  "Tama Thé",
   "Making AI useful in healthcare.",
-  "AHEAD: closing Kentucky's cancer screening gap",
-  "Diabetic retinopathy projects",
+  "Physician · Educator · AI builder",
+  "Cancer screening",
+  "Diabetic retinopathy",
   "Kentucky CHFS",
   "AI Incubator",
   "Completed NBME AI Research Fellowship",
   "June 2026",
   "Dreams of Data",
   "Precision Medicine 2.0",
-  "University of Kentucky-Microsoft",
-  "Projects",
-  "Notes",
-  "For invitations and collaborations",
-  "Current focus",
-  "AI in Healthcare",
+  "Ask the work",
+  "The model is one fifth of the system.",
+  "Let's make AI useful.",
 ];
 
 const rejectedSignals = [
@@ -36,6 +35,8 @@ const rejectedSignals = [
   "paid keynote work",
   "Academic AI Speaker",
   "AI in Academic Medicine and Higher Education",
+  "Current focus",
+  "generic AI",
 ];
 
 const missingSignals = requiredSignals.filter((signal) => !source.includes(signal));
