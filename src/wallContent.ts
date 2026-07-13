@@ -31,6 +31,7 @@ export type WallMedia =
       src: string;
       poster: string;
       alt: string;
+      captioned?: boolean;
     }
   | {
       kind: "text";
@@ -64,16 +65,18 @@ const learningEvent =
 export const wallItems: WallItem[] = [
   {
     id: "kentucky-stage",
-    title: "The promise of AI for Kentucky healthcare",
-    kicker: "Kentucky REC / 2025",
+    title: "AI will reshape every industry. What Kentucky does next is up to us.",
+    kicker: "Microsoft × UK / 28-second clip",
     body:
-      "I talk about what AI can do here, but also what has to exist around it: people, clinics, trust, and a way to get the patient to the next step.",
+      "The argument in 28 seconds: AI will touch every industry. Kentucky's students and faculty should be the ones who figure out what comes next.",
     keywords: [
       "kentucky",
-      "rural health",
-      "healthcare",
-      "implementation",
-      "public health",
+      "microsoft",
+      "university of kentucky",
+      "students",
+      "faculty",
+      "workforce",
+      "The promise of AI for Kentucky healthcare",
     ],
     x: 140,
     y: 120,
@@ -81,14 +84,14 @@ export const wallItems: WallItem[] = [
     h: 540,
     theme: "black",
     media: {
-      kind: "image",
-      src: "/images/dark-academic-stage.png",
-      alt: "Tama The speaking on a dark auditorium stage",
-      fit: "cover",
-      position: "center",
+      kind: "video",
+      src: "/media-wall/kentucky-ai-future.mp4",
+      poster: "/media-wall/kentucky-ai-future.jpg",
+      alt: "Tama The speaking about the future of AI in Kentucky with animated captions",
+      captioned: true,
     },
-    href: "https://www.kentuckyrec.com/kentucky-rec-annual-conference-oct-23-2025-dr-tama-the-the-promise-of-ai-for-kentucky-healthcare/",
-    linkLabel: "See the talk",
+    href: "https://www.youtube.com/watch?v=TU3i1DEY2pI",
+    linkLabel: "Watch the full video on YouTube",
   },
   {
     id: "kentucky-not-diagram",

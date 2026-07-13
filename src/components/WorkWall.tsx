@@ -19,7 +19,7 @@ import {
 
 const WALL_WIDTH = 3600;
 const WALL_HEIGHT = 2400;
-const START_ITEM = "assessment-live-02";
+const START_ITEM = "kentucky-stage";
 
 type Camera = {
   left: number;
@@ -105,12 +105,17 @@ function VideoPreview({
     const video = videoRef.current;
     if (!video) return;
 
+    video.muted = !detail;
+    if (detail) video.currentTime = 0;
+
     if (active && motionAllowed) {
       void video.play().catch(() => undefined);
     } else {
       video.pause();
     }
-  }, [active, motionAllowed]);
+
+    return () => video.pause();
+  }, [active, detail, motionAllowed]);
 
   if ((!active || !motionAllowed) && !detail) {
     return <img src={media.poster} alt={media.alt} loading="lazy" />;
@@ -121,12 +126,12 @@ function VideoPreview({
       ref={videoRef}
       src={media.src}
       poster={media.poster}
-      muted
-      loop
+      muted={!detail}
+      loop={!detail}
       playsInline
       autoPlay={motionAllowed}
       controls={detail}
-      preload="metadata"
+      preload={detail ? "auto" : "metadata"}
       aria-label={media.alt}
     />
   );
@@ -205,6 +210,10 @@ const WallTile = memo(function WallTile({
     <button
       className={`wall-tile theme-${item.theme} ${
         item.media.kind === "text" ? "is-text" : "has-media"
+      } ${
+        item.media.kind === "video" && item.media.captioned
+          ? "is-captioned-feature"
+          : ""
       } ${active ? "is-active" : ""}`}
       style={style}
       type="button"
@@ -223,7 +232,12 @@ const WallTile = memo(function WallTile({
       <span className="tile-shade" />
       <span className="tile-number">{String(index + 1).padStart(2, "0")}</span>
       {item.media.kind === "video" && (
-        <span className="tile-live"><i /> LIVE LOOP</span>
+        <span className="tile-live">
+          <i />
+          {item.media.captioned
+            ? "CAPTIONED LOOP · OPEN WITH SOUND"
+            : "SILENT LOOP"}
+        </span>
       )}
       {item.media.kind === "sprite" && (
         <span className="tile-live"><i /> MOVING FRAMES</span>
@@ -232,7 +246,9 @@ const WallTile = memo(function WallTile({
         <span className="tile-kicker">{item.kicker}</span>
         <strong>{item.title}</strong>
         <span className="tile-body">{item.body}</span>
-        <span className="tile-open">OPEN ↗</span>
+        <span className="tile-open">
+          {item.media.kind === "video" ? "OPEN CLIP + SOUND" : "OPEN"} ↗
+        </span>
       </span>
     </button>
   );

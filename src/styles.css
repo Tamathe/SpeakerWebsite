@@ -307,6 +307,26 @@ a {
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.02) 30%, rgba(0, 0, 0, 0.2) 55%, rgba(0, 0, 0, 0.91) 100%);
 }
 
+.wall-tile.is-captioned-feature .tile-shade {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.12), transparent 28%);
+}
+
+.wall-tile.is-captioned-feature .tile-number,
+.wall-tile.is-captioned-feature .tile-copy {
+  display: none;
+}
+
+.wall-tile.is-captioned-feature .tile-live {
+  color: #0a0a09;
+  font-weight: 700;
+  background: var(--acid);
+}
+
+.wall-tile.is-captioned-feature .tile-live i {
+  background: #0a0a09;
+  box-shadow: none;
+}
+
 .is-text .tile-shade {
   display: none;
 }
