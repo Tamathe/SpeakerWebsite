@@ -317,13 +317,13 @@ a {
 }
 
 .wall-tile.is-captioned-feature .tile-live {
-  color: #0a0a09;
+  color: #ffffff;
   font-weight: 700;
-  background: var(--acid);
+  background: #0033a0;
 }
 
 .wall-tile.is-captioned-feature .tile-live i {
-  background: #0a0a09;
+  background: #ffffff;
   box-shadow: none;
 }
 
