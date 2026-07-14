@@ -23,8 +23,8 @@ export function HomePage() {
           <div className="home-visual">
             <figure className="home-plate home-plate-a">
               <img
-                src="/images/studio/ahead.png"
-                alt="Concept visualization of an accurate Kentucky relief map covered with dense cobalt and white screening-navigation pushpins"
+                src="/images/studio/ai-for-ky.png"
+                alt="AI for Kentucky public-health concept visualization with an accurate relief map covered in dense cobalt and white pushpins"
               />
               <figcaption><span>01</span> KY-AHEAD</figcaption>
             </figure>

@@ -159,9 +159,9 @@ export const healthcareInitiatives: Initiative[] = [
       "KY-AHEAD uses data and AI-assisted review to identify Kentuckians who may be due for colorectal, cervical, or lung cancer screening. Care teams remain responsible for outreach, navigation, and scheduling.",
     focus:
       "A state-funded partnership with Kentucky CHFS focused on closing cancer-screening gaps without treating identification as the endpoint.",
-    image: "/images/studio/ahead.png",
+    image: "/images/studio/ai-for-ky.png",
     imageAlt:
-      "Conceptual visualization of an accurate Kentucky relief map covered with dense cobalt and white screening-navigation pushpins",
+      "AI for Kentucky public-health concept visualization with an accurate relief map covered in dense cobalt and white pushpins",
     imageCaption: "Concept visualization",
     links: [
       {
