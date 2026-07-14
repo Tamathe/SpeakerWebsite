@@ -15,8 +15,8 @@ export function IncubatorPage() {
               <a className="button button-primary" href="https://aiincubator.uky.edu">
                 Visit the AI Incubator <span aria-hidden="true">↗</span>
               </a>
-              <a className="button button-outline" href="/medical-education">
-                Related education work
+              <a className="button button-outline" href="/ai-literacy">
+                Explore AI literacy
               </a>
             </div>
           </div>

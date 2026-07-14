@@ -9,6 +9,7 @@ const source = [
   readFileSync("src/pages/HealthcarePage.tsx", "utf8"),
   readFileSync("src/pages/MedicalEducationPage.tsx", "utf8"),
   readFileSync("src/pages/IncubatorPage.tsx", "utf8"),
+  readFileSync("src/pages/AiLiteracyPage.tsx", "utf8"),
   readFileSync("src/pages/SpeakingPage.tsx", "utf8"),
 ].join("\n");
 
@@ -21,6 +22,7 @@ const requiredSignals = [
   "Whole-Blood Drone Delivery",
   "Entrustable Professional AI",
   "AI Incubator",
+  "People need practice, not another AI webinar.",
   "Speaking",
   "Bring me the messy version.",
 ];

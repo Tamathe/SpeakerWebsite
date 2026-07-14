@@ -52,14 +52,17 @@ export function MedicalEducationPage() {
 
       <section className="education-thesis" aria-labelledby="practice-title">
         <div className="shell thesis-grid">
-          <p className="section-index">AI literacy</p>
+          <p className="section-index">Related work</p>
           <div>
-            <h2 id="practice-title">People need practice, not another AI webinar.</h2>
+            <h2 id="practice-title">AI literacy needs its own practice space.</h2>
             <p>
-              Use it. Test it. Break it. Compare the output with the real work.
-              That is how people learn where AI helps, where it misleads, and
-              when it does not belong in the task.
+              Medical education is one setting where people are learning to
+              work with AI. The broader literacy work also reaches clinicians,
+              staff, students, faculty communities, and institutional leaders.
             </p>
+            <a className="text-link" href="/ai-literacy">
+              Explore AI literacy <span aria-hidden="true">→</span>
+            </a>
           </div>
         </div>
       </section>

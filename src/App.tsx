@@ -1,5 +1,6 @@
 import { useEffect, type ComponentType } from "react";
 import { SiteShell } from "./components/SiteShell";
+import { AiLiteracyPage } from "./pages/AiLiteracyPage";
 import { HealthcarePage } from "./pages/HealthcarePage";
 import { HomePage } from "./pages/HomePage";
 import { IncubatorPage } from "./pages/IncubatorPage";
@@ -13,6 +14,7 @@ const pages: Record<RouteId, ComponentType> = {
   healthcare: HealthcarePage,
   "medical-education": MedicalEducationPage,
   incubator: IncubatorPage,
+  "ai-literacy": AiLiteracyPage,
   speaking: SpeakingPage,
   "not-found": NotFoundPage,
 };

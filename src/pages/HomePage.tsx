@@ -55,7 +55,7 @@ export function HomePage() {
         <div className="shell section-intro">
           <p className="section-index">The work</p>
           <div>
-            <h2 id="pathways-title">Four ways into the same question.</h2>
+            <h2 id="pathways-title">Five ways into the same question.</h2>
             <p>
               What would it take for AI to become useful in real care, real
               classrooms, real institutions, and real conversations?

@@ -72,7 +72,7 @@ export const homePathways = [
     number: "02",
     title: "AI in Medical Education",
     description:
-      "Research and teaching on clinical reasoning, assessment, AI literacy, and learning in an AI-shaped workplace.",
+      "Research and teaching on clinical reasoning, assessment, and learning in an AI-shaped workplace.",
     href: "/medical-education",
   },
   {
@@ -84,10 +84,65 @@ export const homePathways = [
   },
   {
     number: "04",
+    title: "AI Literacy",
+    description:
+      "Practice-based learning for testing AI, recognizing its limits, and deciding when it belongs in the work.",
+    href: "/ai-literacy",
+  },
+  {
+    number: "05",
     title: "Speaking",
     description:
       "Talks, workshops, and public conversations that start with real problems instead of a tour of AI tools.",
     href: "/speaking",
+  },
+];
+
+export const literacyPractices = [
+  {
+    number: "01",
+    title: "Use it.",
+    summary:
+      "Work with AI on recognizable tasks instead of only watching someone else demonstrate it.",
+  },
+  {
+    number: "02",
+    title: "Test it.",
+    summary:
+      "Look for missing context, unsupported confidence, and the places where a polished answer hides weak work.",
+  },
+  {
+    number: "03",
+    title: "Compare it.",
+    summary:
+      "Set the output beside trusted sources, professional standards, and the work a person would actually do.",
+  },
+  {
+    number: "04",
+    title: "Decide.",
+    summary:
+      "Know when AI helps, when more review is needed, and when it does not belong in the task.",
+  },
+];
+
+export const literacyContexts = [
+  {
+    number: "01",
+    title: "Curriculum",
+    summary:
+      "Learning experiences organized around capabilities, limitations, verification, and responsible use.",
+  },
+  {
+    number: "02",
+    title: "Faculty and learner development",
+    summary:
+      "Practice for clinicians, educators, staff, and students who are already encountering AI in everyday work.",
+  },
+  {
+    number: "03",
+    title: "Learning in public",
+    summary:
+      "Talks, workshops, and open demonstrations that begin with real problems instead of a product tour.",
   },
 ];
 
@@ -230,23 +285,6 @@ export const educationProjects: EducationProject[] = [
     imageAlt:
       "Presentation slide from a discussion of evidence and transparency in AI-supported assessment",
     imageCaption: "AI and assessment discussion",
-  },
-  {
-    id: "literacy",
-    number: "04",
-    title: "AI Literacy and Curriculum",
-    category: "Faculty and learner development",
-    stage: "Practice before policy slogans",
-    question:
-      "How do clinicians learn when to use AI—and when not to?",
-    summary:
-      "The University of Kentucky AI literacy work gives clinicians, educators, staff, and students opportunities to use AI, test the output, compare approaches, and notice where the tools fail.",
-    guardrail:
-      "The goal is better judgment, not memorizing a list of products or pretending the risks have already been solved.",
-    image: "/media-wall/learning-questions.jpg",
-    imageAlt:
-      "Video still from a talk asking how medical educators should use AI",
-    imageCaption: "Personalizing learning with AI",
   },
 ];
 

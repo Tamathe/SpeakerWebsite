@@ -3,6 +3,7 @@ export type RouteId =
   | "healthcare"
   | "medical-education"
   | "incubator"
+  | "ai-literacy"
   | "speaking"
   | "not-found";
 
@@ -36,7 +37,7 @@ export const routes: RouteDefinition[] = [
     navLabel: "Medical Education",
     title: "AI in Medical Education | Tama Thé, MD",
     description:
-      "Research and practical work on AI literacy, clinical reasoning, assessment, SEEF, and formative clinical-performance evaluation.",
+      "Research and practical work on clinical reasoning, assessment, SEEF, and formative clinical-performance evaluation.",
   },
   {
     id: "incubator",
@@ -45,6 +46,14 @@ export const routes: RouteDefinition[] = [
     title: "AI Incubator | Tama Thé, MD",
     description:
       "A brief introduction to the University of Kentucky AI Incubator and Tama Thé's role in building the cross-campus community.",
+  },
+  {
+    id: "ai-literacy",
+    path: "/ai-literacy",
+    navLabel: "AI Literacy",
+    title: "AI Literacy | Tama Thé, MD",
+    description:
+      "Practice-based AI literacy for clinicians, educators, staff, students, and institutions learning to test output, recognize limits, and use AI with judgment.",
   },
   {
     id: "speaking",

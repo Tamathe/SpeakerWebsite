@@ -1008,6 +1008,53 @@ a {
   color: var(--cobalt-bright);
 }
 
+.literacy-hero {
+  background:
+    radial-gradient(circle at 82% 28%, rgba(23, 105, 224, 0.15), transparent 30%),
+    var(--black-0);
+}
+
+.incubator-copy.literacy-copy > p.literacy-evidence {
+  max-width: 620px;
+  margin-top: 24px;
+  padding-left: 16px;
+  border-left: 1px solid var(--cobalt-bright);
+  font-family: var(--mono);
+  font-size: 10px;
+  line-height: 1.6;
+  text-transform: uppercase;
+  color: var(--cobalt-bright);
+}
+
+.literacy-art .literacy-art-main {
+  inset: 0 0 auto;
+  width: 100%;
+  height: 56%;
+  object-position: center;
+}
+
+.literacy-art .literacy-art-side {
+  right: 0;
+  bottom: 0;
+  width: 78%;
+  height: 40%;
+  object-position: center;
+}
+
+.literacy-art > span {
+  top: auto;
+  right: auto;
+  bottom: 13%;
+  left: 0;
+  width: 20%;
+  padding-right: 12px;
+}
+
+.literacy-thesis .text-link,
+.education-thesis .text-link {
+  margin-top: 28px;
+}
+
 .incubator-principles {
   padding: 126px 0;
   background: var(--black-2);
