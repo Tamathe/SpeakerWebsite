@@ -24,7 +24,7 @@ export function HomePage() {
             <figure className="home-plate home-plate-a">
               <img
                 src="/images/studio/ahead.png"
-                alt="Concept visualization of a Kentucky map and a pathway from identifying people to scheduling care"
+                alt="Concept visualization of an accurate Kentucky relief map covered with dense cobalt and white screening-navigation pushpins"
               />
               <figcaption><span>01</span> KY-AHEAD</figcaption>
             </figure>

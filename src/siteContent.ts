@@ -106,7 +106,7 @@ export const healthcareInitiatives: Initiative[] = [
       "A state-funded partnership with Kentucky CHFS focused on closing cancer-screening gaps without treating identification as the endpoint.",
     image: "/images/studio/ahead.png",
     imageAlt:
-      "Conceptual studio visualization of a sculpted Kentucky map, groups of markers, and a path toward outreach and scheduling",
+      "Conceptual visualization of an accurate Kentucky relief map covered with dense cobalt and white screening-navigation pushpins",
     imageCaption: "Concept visualization",
     links: [
       {
