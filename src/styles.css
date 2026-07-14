@@ -350,7 +350,15 @@ a {
 
 .home-plate-a {
   z-index: 2;
-  inset: 2% 24% 2% 2%;
+  top: 2%;
+  right: 24%;
+  bottom: auto;
+  left: 2%;
+  aspect-ratio: 1.12 / 1;
+}
+
+.home-plate-a img {
+  object-position: center 30%;
 }
 
 .home-plate-b {
@@ -1683,7 +1691,10 @@ a {
   }
 
   .home-plate-a {
-    inset: 0 20% 0 0;
+    top: 0;
+    right: 20%;
+    bottom: auto;
+    left: 0;
   }
 
   .home-plate-b {
