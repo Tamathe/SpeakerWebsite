@@ -45,13 +45,13 @@ export function SpeakingPage() {
               What if healthcare AI were shared infrastructure?
             </h2>
             <p>
-              In this 90-second excerpt, Tama makes the case for moving beyond
+              In this excerpt, Tama makes the case for moving beyond
               disconnected tools and building an intelligence layer that can
               help public systems find people who need care and connect them to
               the next step.
             </p>
             <div className="featured-talk-details" aria-label="Video details">
-              <span>1:29 excerpt</span>
+              <span>1:23 excerpt</span>
               <span>English captions</span>
               <span>Produced by NBME</span>
             </div>
@@ -72,12 +72,12 @@ export function SpeakingPage() {
               poster="/media/speaking/nbme-stage-poster.jpg"
             >
               <source
-                src="/media/speaking/nbme-nice-2026-excerpt.mp4"
+                src="/media/speaking/nbme-nice-2026-healthcare-ai-excerpt.mp4"
                 type="video/mp4"
               />
               <track
                 kind="captions"
-                src="/media/speaking/nbme-nice-2026.en.vtt"
+                src="/media/speaking/nbme-nice-2026-healthcare-ai.en.vtt"
                 srcLang="en"
                 label="English"
                 default
