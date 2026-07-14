@@ -10,6 +10,7 @@ export function EngagementList({ engagements }: { engagements: Engagement[] }) {
           </div>
           <div className="engagement-venue">
             <span>{engagement.venue}</span>
+            {engagement.date && <time>{engagement.date}</time>}
             <small>{engagement.format}</small>
           </div>
           <div className="engagement-main">

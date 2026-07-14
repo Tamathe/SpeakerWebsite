@@ -39,7 +39,10 @@ export function HomePage() {
         </div>
         <div className="hero-facts">
           {credentials.map((credential) => (
-            <span key={credential}>{credential}</span>
+            <span key={credential.label}>
+              <small>{credential.label}</small>
+              <strong>{credential.detail}</strong>
+            </span>
           ))}
         </div>
       </section>

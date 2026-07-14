@@ -35,6 +35,7 @@ export type EducationProject = {
 
 export type Engagement = {
   id: string;
+  date?: string;
   title: string;
   venue: string;
   format: string;
@@ -54,10 +55,25 @@ export const siteIdentity = {
 };
 
 export const credentials = [
-  "Pediatric emergency physician",
-  "Principal investigator · state-funded AHEAD project",
-  "Completed NBME AI Research Fellowship · June 2026",
-  "UK AI curriculum · AI Incubator · UK–Microsoft collaboration",
+  {
+    label: "Clinical practice",
+    detail: "Pediatric emergency physician",
+  },
+  {
+    label: "Public health",
+    detail:
+      "Principal investigator on a state-funded university partnership using AI to close cancer-screening gaps",
+  },
+  {
+    label: "AI literacy",
+    detail:
+      "Foundational, hands-on courses available to 70,000+ students, faculty, and staff",
+  },
+  {
+    label: "Teaching",
+    detail:
+      "2025 Faculty Excellence in Teaching Award – College of Medicine",
+  },
 ];
 
 export const homePathways = [
@@ -290,7 +306,49 @@ export const educationProjects: EducationProject[] = [
 
 export const engagements: Engagement[] = [
   {
+    id: "medicolegal-symposium",
+    date: "February 21, 2026",
+    title: "AI in Healthcare",
+    venue: "UK/NKU Medicolegal Symposium",
+    format: "Keynote host and invited speaker",
+    summary:
+      "Hosted the opening physician-attorney roundtable and delivered separate sessions for legal and medical audiences on the operational and medicolegal implications of AI in healthcare.",
+    topics: ["Healthcare", "Law", "Implementation"],
+  },
+  {
+    id: "louisville-ai-week",
+    date: "February 11, 2026",
+    title: "Blueprint for Care: Moving AI from Concepts to Experiences",
+    venue: "Louisville AI Week",
+    format: "Invited presentation",
+    summary:
+      "A conversation with University of Kentucky leaders about moving healthcare AI from institutional strategy into practical experiences and workflows.",
+    topics: ["Healthcare", "Strategy", "Implementation"],
+  },
+  {
+    id: "aamc-emerging-technologies",
+    date: "February 4–5, 2026",
+    title: "Emerging Technologies for Teaching and Learning",
+    venue: "Association of American Medical Colleges",
+    format: "Planning committee and session moderator",
+    summary:
+      "Helped shape the national conference's AI program and moderated five sessions on emerging technologies in medical education.",
+    topics: ["Medical education", "AI", "Convening"],
+  },
+  {
+    id: "dreams-of-data",
+    date: "October 23, 2025",
+    title: "Dreams of Data: The Promise of AI for Kentucky Healthcare",
+    venue: "Kentucky REC Annual Conference",
+    format: "Invited talk",
+    summary:
+      "What Kentucky can do with better data, stronger connections, and a practical approach to AI in healthcare.",
+    href: "https://www.kentuckyrec.com/2025-annual-conference/",
+    topics: ["Healthcare", "Rural access", "Screening"],
+  },
+  {
     id: "kentucky-legislature-ai",
+    date: "September 11, 2025",
     title: "Artificial Intelligence at the University of Kentucky",
     venue: "Kentucky General Assembly",
     format: "Legislative presentation",
@@ -299,6 +357,37 @@ export const engagements: Engagement[] = [
     href: "https://www.youtube.com/watch?v=v1aHwVq0dLI&t=4664s",
     note: "Presentation begins at 1:17:44",
     topics: ["Kentucky", "Healthcare", "Higher education"],
+  },
+  {
+    id: "old-dominion-grand-rounds",
+    date: "June 9, 2025",
+    title: "Using a Large Language Model to Grade Medical Student Notes",
+    venue: "Old Dominion University",
+    format: "Invited educational grand rounds",
+    summary:
+      "A discussion of what it takes to evaluate whether a language model can score medical student documentation accurately and reliably.",
+    topics: ["Assessment", "Medical education", "Clinical reasoning"],
+  },
+  {
+    id: "dawn-of-ai",
+    date: "May 7, 2025",
+    title: "The Dawn of AI in Medical Education",
+    venue: "Society for Academic Emergency Medicine",
+    format: "Webinar",
+    summary:
+      "What large language models mean for clinical reasoning, assessment, and the way physicians are trained.",
+    href: "https://www.saem.org/detail-pages/media/the-dawn-of-ai-in-medical-education",
+    topics: ["Medical education", "Reasoning", "Assessment"],
+  },
+  {
+    id: "new-mexico-grand-rounds",
+    date: "March 12, 2025",
+    title: "The Dawn of AI in Medical Education",
+    venue: "University of New Mexico",
+    format: "Invited emergency medicine grand rounds",
+    summary:
+      "A practical look at how AI may change clinical reasoning, teaching, and assessment in emergency medicine.",
+    topics: ["Medical education", "Emergency medicine", "Assessment"],
   },
   {
     id: "kentucky-future",
@@ -311,16 +400,6 @@ export const engagements: Engagement[] = [
     topics: ["Kentucky", "AI literacy", "Workforce"],
   },
   {
-    id: "dreams-of-data",
-    title: "Dreams of Data: The Promise of AI for Kentucky Healthcare",
-    venue: "Kentucky REC Annual Conference",
-    format: "Invited talk",
-    summary:
-      "What Kentucky can do with better data, stronger connections, and a practical approach to AI in healthcare.",
-    href: "https://www.kentuckyrec.com/2025-annual-conference/",
-    topics: ["Healthcare", "Rural access", "Screening"],
-  },
-  {
     id: "precision-medicine",
     title: "Precision Medicine 2.0: Logistical Precision with AI",
     venue: "Markey Cancer Center",
@@ -329,16 +408,6 @@ export const engagements: Engagement[] = [
       "Why precision medicine depends as much on logistics, access, navigation, and follow-through as it does on the science.",
     href: "https://cme.cecentral.com/node/3673/bio/11990/view",
     topics: ["Cancer", "Implementation", "Access"],
-  },
-  {
-    id: "dawn-of-ai",
-    title: "The Dawn of AI in Medical Education",
-    venue: "Society for Academic Emergency Medicine",
-    format: "Webinar",
-    summary:
-      "What large language models mean for clinical reasoning, assessment, and the way physicians are trained.",
-    href: "https://www.saem.org/detail-pages/media/the-dawn-of-ai-in-medical-education",
-    topics: ["Medical education", "Reasoning", "Assessment"],
   },
   {
     id: "assessment",
@@ -392,9 +461,12 @@ export const signatureTopics = [
 ];
 
 export const speakingRecordVenues = [
-  "University law school",
+  "Kentucky General Assembly",
+  "UK/NKU Medicolegal Symposium",
+  "Louisville AI Week",
+  "National Board of Medical Examiners",
+  "Association of American Medical Colleges",
   "Howard University",
-  "AAMC",
 ];
 
 export const contactEmail = siteIdentity.email;

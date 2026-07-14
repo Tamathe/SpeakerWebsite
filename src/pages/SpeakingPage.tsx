@@ -169,14 +169,15 @@ export function SpeakingPage() {
       <section className="record-section" aria-labelledby="record-title">
         <div className="shell record-grid">
           <div>
-            <p className="section-index">Full record in progress</p>
-            <h2 id="record-title">More of the chronology is being assembled.</h2>
+            <p className="section-index">Selected settings</p>
+            <h2 id="record-title">From classrooms to public forums.</h2>
           </div>
           <div>
             <p>
-              The next archive pass will add dates, titles, and media for these
-              engagements without guessing at details that still need to be
-              verified.
+              The record spans medical education, healthcare, university
+              strategy, workforce, and public policy. Selected photographs and
+              additional recordings will be added as permissions and source
+              details are confirmed.
             </p>
             <div className="venue-list">
               {speakingRecordVenues.map((venue) => (
