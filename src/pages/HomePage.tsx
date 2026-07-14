@@ -1,3 +1,4 @@
+import { AmbientSpeakerVideo } from "../components/AmbientSpeakerVideo";
 import { credentials, homePathways, siteIdentity } from "../siteContent";
 
 export function HomePage() {
@@ -11,38 +12,30 @@ export function HomePage() {
             <p className="hero-descriptor">{siteIdentity.descriptor}</p>
             <p className="hero-bio">{siteIdentity.bio}</p>
             <div className="hero-actions">
-              <a className="button button-primary" href="/healthcare">
-                Explore the work <span aria-hidden="true">→</span>
+              <a className="button button-primary" href="/speaking#featured-talk">
+                Watch a featured talk <span aria-hidden="true">→</span>
               </a>
-              <a className="button button-outline" href="/speaking">
-                Speaking profile
+              <a className="button button-outline" href="/healthcare">
+                Explore the work
               </a>
             </div>
           </div>
 
-          <div className="home-visual">
-            <figure className="home-plate home-plate-a">
-              <img
-                src="/images/studio/ai-for-ky.png"
-                alt="AI for Kentucky public-health concept visualization with an accurate relief map covered in dense cobalt and white pushpins"
-              />
-              <figcaption><span>01</span> KY-AHEAD</figcaption>
-            </figure>
-            <figure className="home-plate home-plate-b">
-              <img
-                src="/images/studio/retinopathy.png"
-                alt="Concept visualization of portable retinal imaging equipment"
-              />
-              <figcaption><span>02</span> Retinopathy</figcaption>
-            </figure>
-            <figure className="home-plate home-plate-c">
-              <img
-                src="/images/studio/blood-drone.png"
-                alt="Concept visualization of a drone, insulated carrier, and test equipment"
-              />
-              <figcaption><span>03</span> Rural logistics</figcaption>
-            </figure>
-          </div>
+          <a
+            className="home-speaker-media"
+            href="/speaking#featured-talk"
+            aria-label="Watch Tama Thé speak at NBME NICE 2026"
+          >
+            <AmbientSpeakerVideo className="home-speaker-video" />
+            <span className="home-speaker-shade" aria-hidden="true" />
+            <span className="home-speaker-meta">
+              <span>On stage</span>
+              <strong>NBME NICE 2026</strong>
+            </span>
+            <span className="home-speaker-prompt">
+              Watch Tama speak <i aria-hidden="true">→</i>
+            </span>
+          </a>
         </div>
         <div className="hero-facts">
           {credentials.map((credential) => (

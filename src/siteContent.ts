@@ -290,6 +290,17 @@ export const educationProjects: EducationProject[] = [
 
 export const engagements: Engagement[] = [
   {
+    id: "kentucky-legislature-ai",
+    title: "Artificial Intelligence at the University of Kentucky",
+    venue: "Kentucky General Assembly",
+    format: "Legislative presentation",
+    summary:
+      "A presentation with Hubert Ballard on AI work across the University of Kentucky and UK HealthCare.",
+    href: "https://www.youtube.com/watch?v=v1aHwVq0dLI&t=4664s",
+    note: "Presentation begins at 1:17:44",
+    topics: ["Kentucky", "Healthcare", "Higher education"],
+  },
+  {
     id: "kentucky-future",
     title: "Creating an AI Future for Kentucky",
     venue: "Microsoft × University of Kentucky",
@@ -381,10 +392,8 @@ export const signatureTopics = [
 ];
 
 export const speakingRecordVenues = [
-  "Kentucky legislature",
   "University law school",
   "Howard University",
-  "NBME",
   "AAMC",
 ];
 

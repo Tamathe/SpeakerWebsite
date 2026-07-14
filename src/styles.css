@@ -293,49 +293,63 @@ a {
   color: var(--muted);
 }
 
-.home-visual {
+.home-speaker-media {
   position: relative;
-  height: clamp(570px, 71svh, 760px);
+  height: clamp(540px, 68svh, 730px);
   min-width: 0;
-}
-
-.home-plate {
-  position: absolute;
-  margin: 0;
   overflow: hidden;
   border: 1px solid var(--line-strong);
   background: #0d0d0d;
   box-shadow: 0 40px 100px rgba(0, 0, 0, 0.5);
 }
 
-.home-plate::after {
+.home-speaker-media::before {
   content: "";
   position: absolute;
-  inset: 62% 0 0;
-  pointer-events: none;
-  background: linear-gradient(0deg, rgba(2, 3, 5, 0.86), transparent);
+  z-index: 3;
+  inset: 0 auto 0 0;
+  width: 3px;
+  background: var(--cobalt);
 }
 
-.home-plate img {
+.home-speaker-video,
+.home-speaker-shade {
+  position: absolute;
+  inset: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  transition: transform 700ms var(--ease), filter 700ms var(--ease);
 }
 
-.home-plate:hover img {
-  transform: scale(1.025);
+.home-speaker-video {
+  object-fit: cover;
+  object-position: 56% center;
+  transition: transform 900ms var(--ease), filter 900ms var(--ease);
+}
+
+.home-speaker-shade {
+  background:
+    linear-gradient(0deg, rgba(2, 3, 6, 0.9) 0%, transparent 50%),
+    linear-gradient(90deg, rgba(2, 3, 6, 0.25), transparent 45%);
+}
+
+.home-speaker-media:hover .home-speaker-video {
+  transform: scale(1.02);
   filter: contrast(1.04);
 }
 
-.home-plate figcaption {
+.home-speaker-meta,
+.home-speaker-prompt {
   position: absolute;
-  z-index: 2;
-  right: 16px;
-  bottom: 14px;
-  left: 16px;
+  z-index: 4;
+  right: 24px;
+  left: 24px;
   display: flex;
+  align-items: center;
   justify-content: space-between;
+}
+
+.home-speaker-meta {
+  top: 22px;
   font-family: var(--mono);
   font-size: 10px;
   line-height: 1.3;
@@ -344,37 +358,20 @@ a {
   color: rgba(255, 255, 255, 0.72);
 }
 
-.home-plate figcaption span {
+.home-speaker-meta > span {
   color: var(--cobalt-bright);
 }
 
-.home-plate-a {
-  z-index: 2;
-  top: 2%;
-  right: 24%;
-  bottom: auto;
-  left: 2%;
-  aspect-ratio: 1.12 / 1;
+.home-speaker-prompt {
+  bottom: 22px;
+  font-size: 17px;
+  line-height: 1.2;
+  font-weight: 650;
 }
 
-.home-plate-a img {
-  object-position: center 30%;
-}
-
-.home-plate-b {
-  z-index: 3;
-  top: 8%;
-  right: 0;
-  width: 32%;
-  height: 40%;
-}
-
-.home-plate-c {
-  z-index: 3;
-  right: 0;
-  bottom: 8%;
-  width: 36%;
-  height: 43%;
+.home-speaker-prompt i {
+  font-style: normal;
+  color: var(--cobalt-bright);
 }
 
 .hero-facts {
@@ -1136,7 +1133,7 @@ a {
   background: var(--black-0);
 }
 
-.speaking-hero > img,
+.speaking-hero-video,
 .speaking-shade {
   position: absolute;
   inset: 0;
@@ -1144,9 +1141,9 @@ a {
   height: 100%;
 }
 
-.speaking-hero > img {
+.speaking-hero-video {
   object-fit: cover;
-  object-position: center;
+  object-position: 60% center;
 }
 
 .speaking-shade {
@@ -1183,6 +1180,235 @@ a {
   font-size: 19px;
   line-height: 1.6;
   color: rgba(255, 255, 255, 0.8);
+}
+
+.featured-talk-section {
+  padding: 126px 0;
+  background: var(--black-0);
+  border-top: 1px solid var(--line);
+}
+
+.featured-talk-grid {
+  display: grid;
+  grid-template-columns: minmax(320px, 0.78fr) minmax(520px, 1.22fr);
+  gap: clamp(48px, 7vw, 112px);
+  align-items: center;
+}
+
+.featured-talk-copy h2,
+.legislature-copy h2 {
+  margin: 24px 0 0;
+  font-size: clamp(48px, 5vw, 76px);
+  line-height: 0.98;
+  font-weight: 600;
+  letter-spacing: -0.04em;
+  text-wrap: balance;
+}
+
+.featured-talk-copy > p:not(.section-index),
+.legislature-copy > p:not(.section-index) {
+  margin: 28px 0 0;
+  font-size: 18px;
+  line-height: 1.62;
+  color: var(--muted);
+}
+
+.featured-talk-details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-top: 30px;
+}
+
+.featured-talk-details span {
+  padding: 7px 9px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  font-family: var(--mono);
+  font-size: 9px;
+  line-height: 1.3;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.64);
+}
+
+.featured-talk-copy .text-link {
+  margin-top: 30px;
+}
+
+.featured-talk-player {
+  min-width: 0;
+}
+
+.featured-talk-player video {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  background: #000;
+  box-shadow: 0 42px 110px rgba(0, 0, 0, 0.58);
+}
+
+.featured-talk-player > p,
+.legislature-media > p {
+  margin: 14px 0 0;
+  font-family: var(--mono);
+  font-size: 9px;
+  line-height: 1.4;
+  text-transform: uppercase;
+  color: var(--muted-3);
+}
+
+.legislature-section {
+  padding: 126px 0;
+  background: #f0f1ed;
+  color: #090909;
+}
+
+.legislature-grid {
+  display: grid;
+  grid-template-columns: minmax(520px, 1.18fr) minmax(320px, 0.82fr);
+  gap: clamp(48px, 7vw, 112px);
+  align-items: center;
+}
+
+.legislature-video {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border: 1px solid rgba(9, 9, 9, 0.2);
+  background: #050505;
+  box-shadow: 0 34px 80px rgba(10, 20, 40, 0.18);
+}
+
+.legislature-video iframe,
+.legislature-video-poster,
+.legislature-video-poster img {
+  width: 100%;
+  height: 100%;
+}
+
+.legislature-video iframe {
+  display: block;
+  border: 0;
+}
+
+.legislature-video-poster {
+  position: relative;
+  display: block;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  background: #050505;
+  color: var(--white);
+  cursor: pointer;
+}
+
+.legislature-video-poster::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(0deg, rgba(2, 3, 6, 0.7), transparent 48%);
+  transition: background 180ms var(--ease);
+}
+
+.legislature-video-poster img {
+  object-fit: cover;
+  transition: transform 700ms var(--ease);
+}
+
+.legislature-video-poster:hover img {
+  transform: scale(1.015);
+}
+
+.video-play {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  width: 76px;
+  height: 76px;
+  display: grid;
+  place-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  border-radius: 50%;
+  background: rgba(8, 45, 105, 0.88);
+  transform: translate(-50%, -50%);
+  transition: transform 180ms var(--ease), background 180ms var(--ease);
+}
+
+.legislature-video-poster:hover .video-play {
+  background: var(--cobalt);
+  transform: translate(-50%, -50%) scale(1.06);
+}
+
+.video-play i {
+  width: 0;
+  height: 0;
+  margin-left: 5px;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 16px solid var(--white);
+}
+
+.video-start-time {
+  position: absolute;
+  z-index: 2;
+  right: 18px;
+  bottom: 16px;
+  padding: 7px 9px;
+  background: rgba(3, 3, 3, 0.84);
+  font-family: var(--mono);
+  font-size: 9px;
+  line-height: 1.3;
+  text-transform: uppercase;
+}
+
+.legislature-media > p {
+  color: rgba(9, 9, 9, 0.48);
+}
+
+.legislature-copy .section-index {
+  color: #174f9f;
+}
+
+.legislature-copy > p:not(.section-index) {
+  color: rgba(9, 9, 9, 0.68);
+}
+
+.legislature-details {
+  margin: 32px 0 0;
+  border-top: 1px solid rgba(9, 9, 9, 0.2);
+}
+
+.legislature-details > div {
+  display: grid;
+  grid-template-columns: 94px minmax(0, 1fr);
+  gap: 18px;
+  padding: 13px 0;
+  border-bottom: 1px solid rgba(9, 9, 9, 0.2);
+}
+
+.legislature-details dt,
+.legislature-details dd {
+  margin: 0;
+}
+
+.legislature-details dt {
+  font-family: var(--mono);
+  font-size: 9px;
+  line-height: 1.45;
+  text-transform: uppercase;
+  color: rgba(9, 9, 9, 0.48);
+}
+
+.legislature-details dd {
+  font-size: 14px;
+  line-height: 1.45;
+  font-weight: 550;
+}
+
+.legislature-copy .text-link {
+  margin-top: 28px;
+  border-color: rgba(9, 9, 9, 0.46);
 }
 
 .topics-section {
@@ -1525,8 +1751,8 @@ a {
     max-width: 680px;
   }
 
-  .home-visual {
-    height: 680px;
+  .home-speaker-media {
+    height: 640px;
   }
 
   .hero-facts {
@@ -1547,9 +1773,21 @@ a {
   .thesis-grid,
   .bridge-grid,
   .record-grid,
-  .implementation-head {
+  .implementation-head,
+  .featured-talk-grid,
+  .legislature-grid {
     grid-template-columns: 1fr;
     gap: 28px;
+  }
+
+  .featured-talk-grid,
+  .legislature-grid {
+    gap: 56px;
+  }
+
+  .featured-talk-copy,
+  .legislature-copy {
+    max-width: 680px;
   }
 
   .pathway {
@@ -1686,25 +1924,8 @@ a {
     width: 100%;
   }
 
-  .home-visual {
-    height: 510px;
-  }
-
-  .home-plate-a {
-    top: 0;
-    right: 20%;
-    bottom: auto;
-    left: 0;
-  }
-
-  .home-plate-b {
-    width: 31%;
-    height: 38%;
-  }
-
-  .home-plate-c {
-    width: 34%;
-    height: 42%;
+  .home-speaker-media {
+    height: 500px;
   }
 
   .hero-facts {
@@ -1733,6 +1954,8 @@ a {
   .education-thesis,
   .incubator-principles,
   .incubator-bridge,
+  .featured-talk-section,
+  .legislature-section,
   .topics-section,
   .engagements-section,
   .record-section {
@@ -1745,7 +1968,9 @@ a {
   .thesis-grid h2,
   .bridge-grid h2,
   .record-grid h2,
-  .implementation-head h2 {
+  .implementation-head h2,
+  .featured-talk-copy h2,
+  .legislature-copy h2 {
     font-size: 43px;
   }
 
@@ -1755,6 +1980,16 @@ a {
   .bridge-grid > div > p,
   .record-grid > div > p {
     font-size: 17px;
+  }
+
+  .featured-talk-copy > p:not(.section-index),
+  .legislature-copy > p:not(.section-index) {
+    font-size: 17px;
+  }
+
+  .video-play {
+    width: 64px;
+    height: 64px;
   }
 
   .pathway {
