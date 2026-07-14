@@ -1,3 +1,5 @@
+import { incubatorSiteUrl } from "../siteContent";
+
 export function IncubatorPage() {
   return (
     <>
@@ -12,7 +14,12 @@ export function IncubatorPage() {
               work, learn from one another, and build across disciplines.
             </p>
             <div className="hero-actions">
-              <a className="button button-primary" href="https://aiincubator.uky.edu">
+              <a
+                className="button button-primary"
+                href={incubatorSiteUrl}
+                target="_blank"
+                rel="noreferrer"
+              >
                 Visit the AI Incubator <span aria-hidden="true">↗</span>
               </a>
               <a className="button button-outline" href="/ai-literacy">
@@ -78,8 +85,13 @@ export function IncubatorPage() {
               participation details, and the evolving record of what the group
               is building together.
             </p>
-            <a className="text-link" href="https://aiincubator.uky.edu">
-              Continue to aiincubator.uky.edu <span aria-hidden="true">↗</span>
+            <a
+              className="text-link"
+              href={incubatorSiteUrl}
+              target="_blank"
+              rel="noreferrer"
+            >
+              Continue to the AI Incubator website <span aria-hidden="true">↗</span>
             </a>
           </div>
         </div>

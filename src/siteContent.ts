@@ -51,8 +51,10 @@ export const siteIdentity = {
   thesis: "Making AI useful in healthcare.",
   bio:
     "I am a pediatric emergency physician and medical educator working where medicine, public health, education, and AI keep running into one another. My work focuses on the part after the model: how people understand it, how it fits into real work, and who owns what happens next.",
-  email: "mailto:tsthe2@uky.edu?subject=Healthcare%20AI%20conversation",
+  email: "mailto:Tama.the@uky.edu?subject=Healthcare%20AI%20conversation",
 };
+
+export const incubatorSiteUrl = "https://aiincubator-uky.vercel.app";
 
 export const credentials = [
   {

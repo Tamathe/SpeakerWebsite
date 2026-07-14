@@ -190,6 +190,47 @@ export function SpeakingPage() {
           </div>
         </div>
       </section>
+
+      <section
+        className="speaker-kit-section"
+        id="speaker-materials"
+        aria-labelledby="speaker-kit-title"
+      >
+        <div className="shell speaker-kit-grid">
+          <figure className="speaker-kit-photo">
+            <img
+              src="/media/speaking/tama-headshot.png"
+              alt="Tama Thé smiling in a bright office"
+              width="960"
+              height="1088"
+              loading="lazy"
+              decoding="async"
+            />
+            <figcaption>Current speaker headshot</figcaption>
+          </figure>
+          <div className="speaker-kit-copy">
+            <p className="section-index">Speaker materials</p>
+            <h2 id="speaker-kit-title">For event organizers.</h2>
+            <p>
+              Download the current headshot here. Short and extended bios,
+              talk descriptions, and additional event information are
+              available by email.
+            </p>
+            <div className="speaker-kit-actions">
+              <a
+                className="button button-primary"
+                href="/media/speaking/tama-headshot.png"
+                download
+              >
+                Download headshot <span aria-hidden="true">↓</span>
+              </a>
+              <a className="button button-outline" href={siteIdentity.email}>
+                Email Tama.the@uky.edu <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 }

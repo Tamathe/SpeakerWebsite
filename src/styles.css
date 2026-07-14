@@ -1607,6 +1607,75 @@ a {
   margin-top: 30px;
 }
 
+.speaker-kit-section {
+  padding: 126px 0;
+  border-top: 1px solid var(--line);
+  background: var(--black-2);
+}
+
+.speaker-kit-grid {
+  display: grid;
+  grid-template-columns: minmax(280px, 0.72fr) minmax(380px, 1.28fr);
+  gap: clamp(54px, 8vw, 132px);
+  align-items: center;
+}
+
+.speaker-kit-photo {
+  position: relative;
+  max-width: 520px;
+  margin: 0;
+}
+
+.speaker-kit-photo::before {
+  content: "";
+  position: absolute;
+  z-index: 2;
+  inset: 0 auto 0 0;
+  width: 3px;
+  background: var(--cobalt);
+}
+
+.speaker-kit-photo img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 1px solid var(--line-strong);
+  background: var(--black-3);
+}
+
+.speaker-kit-photo figcaption {
+  margin-top: 12px;
+  font-family: var(--mono);
+  font-size: 9px;
+  line-height: 1.4;
+  text-transform: uppercase;
+  color: var(--muted-3);
+}
+
+.speaker-kit-copy h2 {
+  max-width: 12ch;
+  margin: 24px 0 0;
+  font-size: clamp(48px, 5vw, 76px);
+  line-height: 0.98;
+  font-weight: 600;
+  letter-spacing: -0.04em;
+}
+
+.speaker-kit-copy > p:not(.section-index) {
+  max-width: 620px;
+  margin: 30px 0 0;
+  font-size: 18px;
+  line-height: 1.6;
+  color: var(--muted);
+}
+
+.speaker-kit-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 34px;
+}
+
 /* Not found */
 
 .not-found {
@@ -1758,6 +1827,7 @@ a {
   .home-hero-grid,
   .page-hero-grid,
   .incubator-hero-grid,
+  .speaker-kit-grid,
   .footer-grid {
     grid-template-columns: 1fr;
   }
@@ -1934,7 +2004,8 @@ a {
     font-size: 17px;
   }
 
-  .hero-actions {
+  .hero-actions,
+  .speaker-kit-actions {
     align-items: stretch;
     flex-direction: column;
   }
@@ -1977,7 +2048,8 @@ a {
   .legislature-section,
   .topics-section,
   .engagements-section,
-  .record-section {
+  .record-section,
+  .speaker-kit-section {
     padding-top: 88px;
     padding-bottom: 88px;
   }
@@ -1989,7 +2061,8 @@ a {
   .record-grid h2,
   .implementation-head h2,
   .featured-talk-copy h2,
-  .legislature-copy h2 {
+  .legislature-copy h2,
+  .speaker-kit-copy h2 {
     font-size: 43px;
   }
 
