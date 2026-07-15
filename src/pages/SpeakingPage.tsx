@@ -2,10 +2,11 @@ import { AmbientSpeakerVideo } from "../components/AmbientSpeakerVideo";
 import { EngagementList } from "../components/EngagementList";
 import { LegislatureVideo } from "../components/LegislatureVideo";
 import {
+  credentials,
   engagements,
+  incubatorSiteUrl,
   signatureTopics,
   siteIdentity,
-  speakingRecordVenues,
 } from "../siteContent";
 
 export function SpeakingPage() {
@@ -15,7 +16,7 @@ export function SpeakingPage() {
         <AmbientSpeakerVideo className="speaking-hero-video" />
         <div className="speaking-shade" aria-hidden="true" />
         <div className="shell speaking-hero-content">
-          <p className="page-kicker">Speaker profile / Talks and workshops</p>
+          <p className="page-kicker">Physician / Educator / Builder / Speaker</p>
           <h1>Start with the work, not with a tour of AI tools.</h1>
           <p>
             I speak about AI through the problems people are already trying to
@@ -90,6 +91,118 @@ export function SpeakingPage() {
         </div>
       </section>
 
+      <section
+        className="story-section story-section-incubator"
+        id="incubator"
+        aria-labelledby="incubator-feature-title"
+      >
+        <div className="shell story-grid story-grid-media-first">
+          <div className="story-copy">
+            <p className="section-index">Build in public / UK AI Incubator</p>
+            <h2 id="incubator-feature-title">
+              People in a room, building the future together.
+            </h2>
+            <p>
+              The AI Incubator brings students, faculty, and staff together to
+              test tools, pitch ambitious ideas, and solve real problems. It is
+              a community built around curiosity, practical work, and learning
+              in public.
+            </p>
+            <div className="featured-talk-details" aria-label="Video details">
+              <span>0:58 film</span>
+              <span>English captions</span>
+              <span>University of Kentucky</span>
+            </div>
+            <a
+              className="text-link"
+              href={incubatorSiteUrl}
+              target="_blank"
+              rel="noreferrer"
+            >
+              Visit the AI Incubator <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+          <div className="story-player">
+            <video
+              controls
+              playsInline
+              preload="metadata"
+              poster="/media/speaking/ai-incubator-commercial-poster.jpg"
+            >
+              <source
+                src="/media/speaking/ai-incubator-commercial.mp4"
+                type="video/mp4"
+              />
+              <track
+                kind="captions"
+                src="/media/speaking/ai-incubator-commercial.en.vtt"
+                srcLang="en"
+                label="English"
+                default
+              />
+              Your browser does not support embedded video. Visit the AI
+              Incubator using the link beside this player.
+            </video>
+            <p>UK AI Incubator · Community film</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="hero-facts proof-strip" aria-label="Selected experience">
+        {credentials.map((credential) => (
+          <span key={credential.label}>
+            <small>{credential.label}</small>
+            <strong>{credential.detail}</strong>
+          </span>
+        ))}
+      </section>
+
+      <section
+        className="story-section story-section-tek100"
+        id="tek100"
+        aria-labelledby="tek100-title"
+      >
+        <div className="shell story-grid">
+          <div className="story-copy">
+            <p className="section-index">Teaching / TEK 100</p>
+            <h2 id="tek100-title">Teach the principles that survive the next tool.</h2>
+            <p>
+              A moment from TEK 100, the foundational, hands-on AI literacy
+              course co-created for University of Kentucky students. The aim is
+              not fluency in one product. It is the judgment to approach any AI
+              tool thoughtfully.
+            </p>
+            <div className="featured-talk-details" aria-label="Video details">
+              <span>0:31 excerpt</span>
+              <span>English captions</span>
+              <span>Foundational AI literacy</span>
+            </div>
+          </div>
+          <div className="story-player">
+            <video
+              controls
+              playsInline
+              preload="metadata"
+              poster="/media/speaking/tek100-tech-agnostic-poster.jpg"
+            >
+              <source
+                src="/media/speaking/tek100-tech-agnostic-excerpt.mp4"
+                type="video/mp4"
+              />
+              <track
+                kind="captions"
+                src="/media/speaking/tek100-tech-agnostic-excerpt.en.vtt"
+                srcLang="en"
+                label="English"
+                default
+              />
+              Your browser does not support embedded video.
+            </video>
+            <p>TEK 100 · Course excerpt</p>
+          </div>
+        </div>
+      </section>
+
       <section className="legislature-section" aria-labelledby="legislature-title">
         <div className="shell legislature-grid">
           <div className="legislature-media">
@@ -132,7 +245,7 @@ export function SpeakingPage() {
         </div>
       </section>
 
-      <section className="topics-section" aria-labelledby="topics-title">
+      <section className="topics-section" id="topics" aria-labelledby="topics-title">
         <div className="shell section-intro">
           <p className="section-index">Signature topics</p>
           <div>
@@ -166,34 +279,9 @@ export function SpeakingPage() {
         </div>
       </section>
 
-      <section className="record-section" aria-labelledby="record-title">
-        <div className="shell record-grid">
-          <div>
-            <p className="section-index">Selected settings</p>
-            <h2 id="record-title">From classrooms to public forums.</h2>
-          </div>
-          <div>
-            <p>
-              The record spans medical education, healthcare, university
-              strategy, workforce, and public policy. Selected photographs and
-              additional recordings will be added as permissions and source
-              details are confirmed.
-            </p>
-            <div className="venue-list">
-              {speakingRecordVenues.map((venue) => (
-                <span key={venue}>{venue}</span>
-              ))}
-            </div>
-            <a className="text-link" href={siteIdentity.email}>
-              Request a bio, headshot, or talk information <span aria-hidden="true">↗</span>
-            </a>
-          </div>
-        </div>
-      </section>
-
       <section
         className="speaker-kit-section"
-        id="speaker-materials"
+        id="contact"
         aria-labelledby="speaker-kit-title"
       >
         <div className="shell speaker-kit-grid">
@@ -209,12 +297,13 @@ export function SpeakingPage() {
             <figcaption>Current speaker headshot</figcaption>
           </figure>
           <div className="speaker-kit-copy">
-            <p className="section-index">Speaker materials</p>
+            <p className="section-index">About / Speaker materials</p>
             <h2 id="speaker-kit-title">For event organizers.</h2>
             <p>
-              Download the current headshot here. Short and extended bios,
-              talk descriptions, and additional event information are
-              available by email.
+              Tama Thé is a pediatric emergency physician and medical educator
+              working across healthcare, education, public systems, and AI.
+              Download the current headshot here; short and extended bios and
+              talk information are available by email.
             </p>
             <div className="speaker-kit-actions">
               <a

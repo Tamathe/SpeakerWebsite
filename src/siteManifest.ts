@@ -1,75 +1,33 @@
-export type RouteId =
-  | "home"
-  | "healthcare"
-  | "medical-education"
-  | "incubator"
-  | "ai-literacy"
-  | "speaking"
-  | "not-found";
+export type RouteId = "home" | "not-found";
 
 export type RouteDefinition = {
   id: RouteId;
   path: string;
-  navLabel?: string;
   title: string;
   description: string;
 };
 
-export const routes: RouteDefinition[] = [
-  {
-    id: "home",
-    path: "/",
-    title: "Tama Thé, MD | Physician, Educator, Builder",
-    description:
-      "Tama Thé works across healthcare, medical education, public health, and practical artificial intelligence in Kentucky.",
-  },
-  {
-    id: "healthcare",
-    path: "/healthcare",
-    navLabel: "Healthcare",
-    title: "AI in Healthcare | Tama Thé, MD",
-    description:
-      "Healthcare AI initiatives spanning cancer screening, diabetic retinopathy, rural access, and whole-blood drone delivery.",
-  },
-  {
-    id: "medical-education",
-    path: "/medical-education",
-    navLabel: "Medical Education",
-    title: "AI in Medical Education | Tama Thé, MD",
-    description:
-      "Research and practical work on clinical reasoning, assessment, SEEF, and formative clinical-performance evaluation.",
-  },
-  {
-    id: "incubator",
-    path: "/incubator",
-    navLabel: "AI Incubator",
-    title: "AI Incubator | Tama Thé, MD",
-    description:
-      "A brief introduction to the University of Kentucky AI Incubator and Tama Thé's role in building the cross-campus community.",
-  },
-  {
-    id: "ai-literacy",
-    path: "/ai-literacy",
-    navLabel: "AI Literacy",
-    title: "AI Literacy | Tama Thé, MD",
-    description:
-      "Practice-based AI literacy for clinicians, educators, staff, students, and institutions learning to test output, recognize limits, and use AI with judgment.",
-  },
-  {
-    id: "speaking",
-    path: "/speaking",
-    navLabel: "Speaking",
-    title: "Speaking | Tama Thé, MD",
-    description:
-      "Selected talks, workshops, and public conversations about useful AI in healthcare, medical education, and Kentucky.",
-  },
-];
+export const homeRoute: RouteDefinition = {
+  id: "home",
+  path: "/",
+  title: "Tama Thé, MD | Physician, Educator, Builder, Speaker",
+  description:
+    "Talks, teaching, and public work from Tama Thé on useful AI in healthcare, education, and Kentucky.",
+};
 
 export const notFoundRoute: RouteDefinition = {
   id: "not-found",
   path: "/404",
   title: "Page not found | Tama Thé, MD",
   description: "The requested page could not be found.",
+};
+
+export const legacyRedirects: Record<string, string> = {
+  "/speaking": "/#featured-talk",
+  "/healthcare": "/#featured-talk",
+  "/medical-education": "/#tek100",
+  "/incubator": "/#incubator",
+  "/ai-literacy": "/#tek100",
 };
 
 export function normalizePath(pathname: string) {
@@ -79,7 +37,7 @@ export function normalizePath(pathname: string) {
 
 export function resolveRoute(pathname: string) {
   const normalized = normalizePath(pathname);
-  return routes.find((route) => route.path === normalized) ?? notFoundRoute;
+  return normalized === "/" || normalized in legacyRedirects
+    ? homeRoute
+    : notFoundRoute;
 }
-
-export const primaryRoutes = routes.filter((route) => route.navLabel);

@@ -1,34 +1,15 @@
-const routeMetadata = {
-  "/": {
-    title: "Tama Thé, MD | Physician, Educator, Builder",
-    description:
-      "Tama Thé works across healthcare, medical education, public health, and practical artificial intelligence in Kentucky.",
-  },
-  "/healthcare": {
-    title: "AI in Healthcare | Tama Thé, MD",
-    description:
-      "Healthcare AI initiatives spanning cancer screening, diabetic retinopathy, rural access, and whole-blood drone delivery.",
-  },
-  "/medical-education": {
-    title: "AI in Medical Education | Tama Thé, MD",
-    description:
-      "Research and practical work on clinical reasoning, assessment, SEEF, and formative clinical-performance evaluation.",
-  },
-  "/incubator": {
-    title: "AI Incubator | Tama Thé, MD",
-    description:
-      "A brief introduction to the University of Kentucky AI Incubator and Tama Thé's role in building the cross-campus community.",
-  },
-  "/ai-literacy": {
-    title: "AI Literacy | Tama Thé, MD",
-    description:
-      "Practice-based AI literacy for clinicians, educators, staff, students, and institutions learning to test output, recognize limits, and use AI with judgment.",
-  },
-  "/speaking": {
-    title: "Speaking | Tama Thé, MD",
-    description:
-      "Selected talks, workshops, and public conversations about useful AI in healthcare, medical education, and Kentucky.",
-  },
+const siteMetadata = {
+  title: "Tama Thé, MD | Physician, Educator, Builder, Speaker",
+  description:
+    "Talks, teaching, and public work from Tama Thé on useful AI in healthcare, education, and Kentucky.",
+};
+
+const legacyRedirects = {
+  "/speaking": "/#featured-talk",
+  "/healthcare": "/#featured-talk",
+  "/medical-education": "/#tek100",
+  "/incubator": "/#incubator",
+  "/ai-literacy": "/#tek100",
 };
 
 function normalizePath(pathname) {
@@ -68,6 +49,14 @@ class TitleHandler {
 
 export default {
   async fetch(request, env) {
+    const url = new URL(request.url);
+    const pathname = normalizePath(url.pathname);
+    const redirectTarget = legacyRedirects[pathname];
+
+    if (redirectTarget) {
+      return Response.redirect(new URL(redirectTarget, url.origin), 301);
+    }
+
     const response = await env.ASSETS.fetch(request);
     const contentType = response.headers.get("content-type") ?? "";
 
@@ -75,18 +64,19 @@ export default {
       return response;
     }
 
-    const url = new URL(request.url);
-    const pathname = normalizePath(url.pathname);
-    const metadata = routeMetadata[pathname] ?? {
-      title: "Page not found | Tama Thé, MD",
-      description: "The requested page could not be found.",
-    };
-    const canonicalUrl = `${url.origin}${pathname}`;
+    const isHome = pathname === "/";
+    const metadata = isHome
+      ? siteMetadata
+      : {
+          title: "Page not found | Tama Thé, MD",
+          description: "The requested page could not be found.",
+        };
+    const canonicalUrl = isHome ? `${url.origin}/` : `${url.origin}${pathname}`;
     const socialImageUrl = `${url.origin}/og.png`;
     const htmlResponse = new Response(response.body, {
       headers: response.headers,
-      status: routeMetadata[pathname] ? response.status : 404,
-      statusText: routeMetadata[pathname] ? response.statusText : "Not Found",
+      status: isHome ? response.status : 404,
+      statusText: isHome ? response.statusText : "Not Found",
     });
 
     return new HTMLRewriter()

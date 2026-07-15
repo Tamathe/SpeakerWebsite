@@ -1,8 +1,15 @@
 import type { ReactNode } from "react";
-import { primaryRoutes, type RouteDefinition } from "../siteManifest";
 import { siteIdentity } from "../siteContent";
 
-function SiteHeader({ route }: { route: RouteDefinition }) {
+const navigation = [
+  { label: "Featured", href: "/#featured-talk" },
+  { label: "Incubator", href: "/#incubator" },
+  { label: "TEK 100", href: "/#tek100" },
+  { label: "Talks", href: "/#engagements" },
+  { label: "Contact", href: "/#contact" },
+];
+
+function SiteHeader() {
   return (
     <header className="site-header">
       <a className="site-brand" href="/">
@@ -11,13 +18,9 @@ function SiteHeader({ route }: { route: RouteDefinition }) {
       </a>
 
       <nav className="primary-nav" aria-label="Primary navigation">
-        {primaryRoutes.map((item) => (
-          <a
-            href={item.path}
-            key={item.id}
-            aria-current={route.id === item.id ? "page" : undefined}
-          >
-            {item.navLabel}
+        {navigation.map((item) => (
+          <a href={item.href} key={item.href}>
+            {item.label}
           </a>
         ))}
       </nav>
@@ -52,10 +55,8 @@ function SiteFooter() {
 }
 
 export function SiteShell({
-  route,
   children,
 }: {
-  route: RouteDefinition;
   children: ReactNode;
 }) {
   return (
@@ -63,7 +64,7 @@ export function SiteShell({
       <a className="skip-link" href="#main-content">
         Skip to main content
       </a>
-      <SiteHeader route={route} />
+      <SiteHeader />
       <main id="main-content">{children}</main>
       <SiteFooter />
     </div>

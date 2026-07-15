@@ -1,33 +1,25 @@
-import { useEffect, type ComponentType } from "react";
+import { useEffect } from "react";
 import { SiteShell } from "./components/SiteShell";
-import { AiLiteracyPage } from "./pages/AiLiteracyPage";
-import { HealthcarePage } from "./pages/HealthcarePage";
-import { HomePage } from "./pages/HomePage";
-import { IncubatorPage } from "./pages/IncubatorPage";
-import { MedicalEducationPage } from "./pages/MedicalEducationPage";
 import { NotFoundPage } from "./pages/NotFoundPage";
 import { SpeakingPage } from "./pages/SpeakingPage";
-import { resolveRoute, type RouteId } from "./siteManifest";
-
-const pages: Record<RouteId, ComponentType> = {
-  home: HomePage,
-  healthcare: HealthcarePage,
-  "medical-education": MedicalEducationPage,
-  incubator: IncubatorPage,
-  "ai-literacy": AiLiteracyPage,
-  speaking: SpeakingPage,
-  "not-found": NotFoundPage,
-};
+import { legacyRedirects, normalizePath, resolveRoute } from "./siteManifest";
 
 function setMeta(selector: string, content: string) {
   document.querySelector<HTMLMetaElement>(selector)?.setAttribute("content", content);
 }
 
 function App() {
-  const route = resolveRoute(window.location.pathname);
-  const Page = pages[route.id];
+  const normalizedPath = normalizePath(window.location.pathname);
+  const route = resolveRoute(normalizedPath);
+  const Page = route.id === "home" ? SpeakingPage : NotFoundPage;
 
   useEffect(() => {
+    const redirectTarget = legacyRedirects[normalizedPath];
+
+    if (redirectTarget) {
+      window.history.replaceState(null, "", redirectTarget);
+    }
+
     const canonicalPath = route.id === "not-found" ? window.location.pathname : route.path;
     const canonicalUrl = `${window.location.origin}${canonicalPath}`;
 
@@ -43,10 +35,10 @@ function App() {
     document
       .querySelector<HTMLLinkElement>('link[rel="canonical"]')
       ?.setAttribute("href", canonicalUrl);
-  }, [route]);
+  }, [normalizedPath, route]);
 
   return (
-    <SiteShell route={route}>
+    <SiteShell>
       <Page />
     </SiteShell>
   );
