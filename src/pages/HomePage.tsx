@@ -1,4 +1,3 @@
-import { AmbientSpeakerVideo } from "../components/AmbientSpeakerVideo";
 import { credentials, homePathways, siteIdentity } from "../siteContent";
 
 export function HomePage() {
@@ -23,13 +22,17 @@ export function HomePage() {
           <a
             className="home-speaker-media"
             href="/speaking#featured-talk"
-            aria-label="Watch Tama Thé speak at NBME NICE 2026"
+            aria-label="Watch Tama Thé present to the Kentucky General Assembly"
           >
-            <AmbientSpeakerVideo className="home-speaker-video" />
+            <img
+              className="home-speaker-video"
+              src="/media/speaking/kentucky-legislature.jpg"
+              alt="Tama Thé and Hubert Ballard presenting AI at UK to the Kentucky General Assembly Artificial Intelligence Task Force"
+            />
             <span className="home-speaker-shade" aria-hidden="true" />
             <span className="home-speaker-meta">
               <span>On stage</span>
-              <strong>NBME NICE 2026</strong>
+              <strong>Kentucky General Assembly</strong>
             </span>
             <span className="home-speaker-prompt">
               Watch Tama speak <i aria-hidden="true">→</i>

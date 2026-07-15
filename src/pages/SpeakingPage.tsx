@@ -1,4 +1,3 @@
-import { AmbientSpeakerVideo } from "../components/AmbientSpeakerVideo";
 import { EngagementList } from "../components/EngagementList";
 import { LegislatureVideo } from "../components/LegislatureVideo";
 import {
@@ -41,12 +40,16 @@ export function SpeakingPage() {
 
           <figure className="speaking-hero-media">
             <div className="speaking-hero-frame">
-              <AmbientSpeakerVideo className="speaking-hero-video" />
+              <img
+                className="speaking-hero-video"
+                src="/media/speaking/kentucky-legislature.jpg"
+                alt="Tama Thé and Hubert Ballard presenting to the Kentucky General Assembly Artificial Intelligence Task Force"
+              />
               <span className="speaking-hero-vignette" aria-hidden="true" />
             </div>
             <figcaption className="speaking-reel-caption">
-              <span>Selected appearances / Kentucky and beyond</span>
-              <span>30-second ambient reel</span>
+              <span>Kentucky General Assembly / September 2025</span>
+              <span>Official recording</span>
             </figcaption>
           </figure>
         </div>
@@ -59,54 +62,35 @@ export function SpeakingPage() {
       >
         <div className="shell featured-talk-grid">
           <div className="featured-talk-copy">
-            <p className="section-index">Featured talk / NBME NICE 2026</p>
+            <p className="section-index">
+              Featured talk / Kentucky General Assembly
+            </p>
             <h2 id="featured-talk-title">
-              What if healthcare AI were shared infrastructure?
+              Artificial Intelligence at the University of Kentucky
             </h2>
             <p>
-              In this excerpt, Tama makes the case for moving beyond
-              disconnected tools and building an intelligence layer that can
-              help public systems find people who need care and connect them to
-              the next step.
+              A presentation to the Kentucky General Assembly Artificial
+              Intelligence Task Force on AI work across the university and UK
+              HealthCare, presented with Hubert Ballard, MD.
             </p>
             <div className="featured-talk-details" aria-label="Video details">
-              <span>1:23 excerpt</span>
-              <span>English captions</span>
-              <span>Produced by NBME</span>
+              <span>Kentucky General Assembly</span>
+              <span>September 11, 2025</span>
+              <span>With Hubert Ballard, MD</span>
             </div>
             <a
               className="text-link"
-              href="https://f.io/AWtTiZWu"
+              href="https://www.youtube.com/watch?v=v1aHwVq0dLI&t=4664s"
               target="_blank"
               rel="noreferrer"
-              data-analytics-id="nbme-full-presentation"
+              data-analytics-id="legislature-official-recording"
             >
-              Watch the full NBME presentation <span aria-hidden="true">↗</span>
+              Open the official recording <span aria-hidden="true">↗</span>
             </a>
           </div>
           <div className="featured-talk-player">
-            <video
-              controls
-              playsInline
-              preload="metadata"
-              poster="/media/speaking/nbme-stage-poster.jpg"
-              data-analytics-video-id="nbme-excerpt"
-            >
-              <source
-                src="/media/speaking/nbme-nice-2026-healthcare-ai-excerpt.mp4"
-                type="video/mp4"
-              />
-              <track
-                kind="captions"
-                src="/media/speaking/nbme-nice-2026-healthcare-ai.en.vtt"
-                srcLang="en"
-                label="English"
-                default
-              />
-              Your browser does not support embedded video. You can watch the
-              full presentation using the link beside this player.
-            </video>
-            <p>NBME NICE 2026 · Presentation excerpt</p>
+            <LegislatureVideo />
+            <p>Official recording · KY LRC Committee Meetings</p>
           </div>
         </div>
       </section>
@@ -222,53 +206,6 @@ export function SpeakingPage() {
               Your browser does not support embedded video.
             </video>
             <p>TEK 100 · Course excerpt</p>
-          </div>
-        </div>
-      </section>
-
-      <section
-        className="legislature-section"
-        id="legislature"
-        aria-labelledby="legislature-title"
-      >
-        <div className="shell legislature-grid">
-          <div className="legislature-media">
-            <LegislatureVideo />
-            <p>Official recording · KY LRC Committee Meetings</p>
-          </div>
-          <div className="legislature-copy">
-            <p className="section-index">Public leadership / Kentucky</p>
-            <h2 id="legislature-title">
-              Artificial Intelligence at the University of Kentucky
-            </h2>
-            <p>
-              A presentation to the Kentucky General Assembly Artificial
-              Intelligence Task Force on AI work across the university and UK
-              HealthCare, presented with Hubert Ballard, MD.
-            </p>
-            <dl className="legislature-details">
-              <div>
-                <dt>Venue</dt>
-                <dd>Kentucky General Assembly</dd>
-              </div>
-              <div>
-                <dt>Date</dt>
-                <dd>September 11, 2025</dd>
-              </div>
-              <div>
-                <dt>Recording</dt>
-                <dd>Presentation begins at 1:17:44</dd>
-              </div>
-            </dl>
-            <a
-              className="text-link"
-              href="https://www.youtube.com/watch?v=v1aHwVq0dLI&t=4664s"
-              target="_blank"
-              rel="noreferrer"
-              data-analytics-id="legislature-official-recording"
-            >
-              Open the official recording <span aria-hidden="true">↗</span>
-            </a>
           </div>
         </div>
       </section>
