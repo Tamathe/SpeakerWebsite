@@ -10,7 +10,7 @@ export type RouteDefinition = {
 export const homeRoute: RouteDefinition = {
   id: "home",
   path: "/",
-  title: "Tama Thé, MD | Physician, Educator, Builder, Speaker",
+  title: "Tama Thé, MD | Making AI useful in healthcare",
   description:
     "Talks, teaching, and public work from Tama Thé on useful AI in healthcare, education, and Kentucky.",
 };

@@ -9,7 +9,6 @@ export function HomePage() {
           <div className="home-hero-copy">
             <p className="page-kicker">Tama Thé, MD / Kentucky</p>
             <h1 id="home-title">{siteIdentity.thesis}</h1>
-            <p className="hero-descriptor">{siteIdentity.descriptor}</p>
             <p className="hero-bio">{siteIdentity.bio}</p>
             <div className="hero-actions">
               <a className="button button-primary" href="/speaking#featured-talk">

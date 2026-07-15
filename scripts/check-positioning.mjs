@@ -15,7 +15,6 @@ const source = [
 
 const requiredSignals = [
   "Tama Thé",
-  "Physician · Educator · Builder",
   "Making AI useful in healthcare.",
   "KY-AHEAD",
   "Rural Diabetic Retinopathy Screening",

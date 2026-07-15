@@ -5,7 +5,7 @@ const siteOrigin = "https://tamathe.com";
 const outputDirectory = resolve("dist", "client");
 const templatePath = resolve(outputDirectory, "index.html");
 const metadata = {
-  title: "Tama Thé, MD | Physician, Educator, Builder, Speaker",
+  title: "Tama Thé, MD | Making AI useful in healthcare",
   description:
     "Talks, teaching, and public work from Tama Thé on useful AI in healthcare, education, and Kentucky.",
 };

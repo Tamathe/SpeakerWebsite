@@ -1,5 +1,7 @@
+import { handleAnalyticsRequest } from "./analytics.js";
+
 const siteMetadata = {
-  title: "Tama Thé, MD | Physician, Educator, Builder, Speaker",
+  title: "Tama Thé, MD | Making AI useful in healthcare",
   description:
     "Talks, teaching, and public work from Tama Thé on useful AI in healthcare, education, and Kentucky.",
 };
@@ -52,6 +54,10 @@ export default {
     const url = new URL(request.url);
     const pathname = normalizePath(url.pathname);
     const redirectTarget = legacyRedirects[pathname];
+
+    if (pathname === "/api/analytics") {
+      return handleAnalyticsRequest(request, env);
+    }
 
     if (redirectTarget) {
       return Response.redirect(new URL(redirectTarget, url.origin), 301);

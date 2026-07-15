@@ -7,5 +7,11 @@
   "assets": {
     "binding": "ASSETS",
     "not_found_handling": "single-page-application"
-  }
+  },
+  "analytics_engine_datasets": [
+    {
+      "binding": "SITE_ANALYTICS",
+      "dataset": "speaker_site_events_v1"
+    }
+  ]
 }

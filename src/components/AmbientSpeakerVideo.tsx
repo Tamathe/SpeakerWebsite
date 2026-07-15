@@ -50,11 +50,15 @@ export function AmbientSpeakerVideo({ className }: AmbientSpeakerVideoProps) {
       loop
       playsInline
       preload="metadata"
-      poster="/media/speaking/nbme-stage-poster.jpg"
+      poster="/media/speaking/speaker-compilation-poster.jpg"
       aria-hidden="true"
       tabIndex={-1}
+      data-analytics-ignore="true"
     >
-      <source src="/media/speaking/nbme-stage-loop.mp4" type="video/mp4" />
+      <source
+        src="/media/speaking/speaker-compilation-loop.mp4?v=proof-cut-final"
+        type="video/mp4"
+      />
     </video>
   );
 }

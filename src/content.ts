@@ -23,7 +23,7 @@ export const signalNodes: SignalNode[] = [
     humanGuardrail:
       "Someone still has to answer questions, help with scheduling, and make sure the referral is completed.",
     evidence:
-      "I lead AHEAD, a state-funded partnership with Kentucky CHFS focused on cancer-screening gaps.",
+      "I am helping develop KY-AHEAD, a University of Kentucky collaboration with Kentucky CHFS focused on cancer-screening gaps.",
     sourceLabel: "AHEAD",
     keywords: [
       "cancer",
@@ -303,7 +303,7 @@ export const credentials: CredentialItem[] = [
   },
   {
     label: "Public health",
-    detail: "Principal investigator, state-funded AHEAD project",
+    detail: "KY-AHEAD collaboration with Kentucky CHFS",
   },
   {
     label: "Research",
@@ -316,4 +316,4 @@ export const credentials: CredentialItem[] = [
 ];
 
 export const contactEmail =
-  "mailto:tsthe2@uky.edu?subject=Healthcare%20AI%20conversation";
+  "mailto:Tama.the@uky.edu?subject=Healthcare%20AI%20conversation";

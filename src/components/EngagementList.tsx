@@ -25,7 +25,11 @@ export function EngagementList({ engagements }: { engagements: Engagement[] }) {
               ))}
             </div>
             {engagement.href && (
-              <a href={engagement.href} aria-label={`Open ${engagement.title}`}>
+              <a
+                href={engagement.href}
+                aria-label={`Open ${engagement.title}`}
+                data-analytics-id={`engagement-${engagement.id}`}
+              >
                 Open <span aria-hidden="true">↗</span>
               </a>
             )}

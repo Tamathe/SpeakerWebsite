@@ -829,7 +829,6 @@ export function WorkWall() {
       <header className="wall-header">
         <a className="wall-brand" href="#field" onClick={(event) => { event.preventDefault(); centerItem(START_ITEM); }}>
           <strong>TAMA THÉ</strong>
-          <span>PHYSICIAN · EDUCATOR · BUILDER</span>
         </a>
         <div className="wall-now" aria-live="polite">
           <span>{String(activeIndex + 1).padStart(2, "0")} / {String(wallItems.length).padStart(2, "0")}</span>
@@ -838,7 +837,7 @@ export function WorkWall() {
         <nav aria-label="Wall controls">
           <button type="button" onClick={() => openPanel("finder")}>FIND</button>
           <button type="button" onClick={() => openPanel("index")}>INDEX</button>
-          <a href="mailto:tsthe2@uky.edu?subject=Healthcare%20AI%20conversation">EMAIL ME ↗</a>
+          <a href="mailto:Tama.the@uky.edu?subject=Healthcare%20AI%20conversation">EMAIL ME ↗</a>
         </nav>
       </header>
 

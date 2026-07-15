@@ -1,4 +1,6 @@
 .superpowers/
+.venv-transcription/
+__pycache__/
 /Media/
 node_modules/
 dist/
@@ -7,4 +9,5 @@ dist/
 .env
 .env.*
 !.env.example
+outputs/analytics/
 

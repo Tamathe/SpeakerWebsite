@@ -13,24 +13,42 @@ export function SpeakingPage() {
   return (
     <>
       <header className="speaking-hero">
-        <AmbientSpeakerVideo className="speaking-hero-video" />
-        <div className="speaking-shade" aria-hidden="true" />
-        <div className="shell speaking-hero-content">
-          <p className="page-kicker">Physician / Educator / Builder / Speaker</p>
-          <h1>Start with the work, not with a tour of AI tools.</h1>
-          <p>
-            I speak about AI through the problems people are already trying to
-            solve—in healthcare, medical education, universities, public
-            systems, and Kentucky communities.
-          </p>
-          <div className="hero-actions">
-            <a className="button button-primary" href="#featured-talk">
-              Watch the featured talk <span aria-hidden="true">↓</span>
-            </a>
-            <a className="button button-outline" href={siteIdentity.email}>
-              Invite Tama to speak <span aria-hidden="true">↗</span>
-            </a>
+        <div className="shell speaking-hero-grid">
+          <div className="speaking-hero-content">
+            <h1>Start with the work, not with a tour of AI tools.</h1>
+            <p>
+              I speak about AI through the problems people are already trying to
+              solve—in healthcare, medical education, universities, public
+              systems, and Kentucky communities.
+            </p>
+            <div className="hero-actions">
+              <a
+                className="button button-primary"
+                href="#featured-talk"
+                data-analytics-id="hero-watch-featured"
+              >
+                Watch the featured talk <span aria-hidden="true">↓</span>
+              </a>
+              <a
+                className="button button-outline"
+                href={siteIdentity.email}
+                data-analytics-id="hero-invite-email"
+              >
+                Invite Tama to speak <span aria-hidden="true">↗</span>
+              </a>
+            </div>
           </div>
+
+          <figure className="speaking-hero-media">
+            <div className="speaking-hero-frame">
+              <AmbientSpeakerVideo className="speaking-hero-video" />
+              <span className="speaking-hero-vignette" aria-hidden="true" />
+            </div>
+            <figcaption className="speaking-reel-caption">
+              <span>Selected appearances / Kentucky and beyond</span>
+              <span>30-second ambient reel</span>
+            </figcaption>
+          </figure>
         </div>
       </header>
 
@@ -61,6 +79,7 @@ export function SpeakingPage() {
               href="https://f.io/AWtTiZWu"
               target="_blank"
               rel="noreferrer"
+              data-analytics-id="nbme-full-presentation"
             >
               Watch the full NBME presentation <span aria-hidden="true">↗</span>
             </a>
@@ -71,6 +90,7 @@ export function SpeakingPage() {
               playsInline
               preload="metadata"
               poster="/media/speaking/nbme-stage-poster.jpg"
+              data-analytics-video-id="nbme-excerpt"
             >
               <source
                 src="/media/speaking/nbme-nice-2026-healthcare-ai-excerpt.mp4"
@@ -118,6 +138,7 @@ export function SpeakingPage() {
               href={incubatorSiteUrl}
               target="_blank"
               rel="noreferrer"
+              data-analytics-id="incubator-site"
             >
               Visit the AI Incubator <span aria-hidden="true">↗</span>
             </a>
@@ -128,6 +149,7 @@ export function SpeakingPage() {
               playsInline
               preload="metadata"
               poster="/media/speaking/ai-incubator-commercial-poster.jpg"
+              data-analytics-video-id="incubator-film"
             >
               <source
                 src="/media/speaking/ai-incubator-commercial.mp4"
@@ -184,6 +206,7 @@ export function SpeakingPage() {
               playsInline
               preload="metadata"
               poster="/media/speaking/tek100-tech-agnostic-poster.jpg"
+              data-analytics-video-id="tek100-excerpt"
             >
               <source
                 src="/media/speaking/tek100-tech-agnostic-excerpt.mp4"
@@ -203,7 +226,11 @@ export function SpeakingPage() {
         </div>
       </section>
 
-      <section className="legislature-section" aria-labelledby="legislature-title">
+      <section
+        className="legislature-section"
+        id="legislature"
+        aria-labelledby="legislature-title"
+      >
         <div className="shell legislature-grid">
           <div className="legislature-media">
             <LegislatureVideo />
@@ -238,6 +265,7 @@ export function SpeakingPage() {
               href="https://www.youtube.com/watch?v=v1aHwVq0dLI&t=4664s"
               target="_blank"
               rel="noreferrer"
+              data-analytics-id="legislature-official-recording"
             >
               Open the official recording <span aria-hidden="true">↗</span>
             </a>
@@ -310,10 +338,15 @@ export function SpeakingPage() {
                 className="button button-primary"
                 href="/media/speaking/tama-headshot.png"
                 download
+                data-analytics-id="speaker-headshot-download"
               >
                 Download headshot <span aria-hidden="true">↓</span>
               </a>
-              <a className="button button-outline" href={siteIdentity.email}>
+              <a
+                className="button button-outline"
+                href={siteIdentity.email}
+                data-analytics-id="speaker-kit-email"
+              >
                 Email Tama.the@uky.edu <span aria-hidden="true">↗</span>
               </a>
             </div>

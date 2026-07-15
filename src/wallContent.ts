@@ -528,7 +528,7 @@ export const wallItems: WallItem[] = [
     h: 250,
     theme: "acid",
     media: { kind: "text" },
-    href: "mailto:tsthe2@uky.edu?subject=Healthcare%20AI%20conversation",
+    href: "mailto:Tama.the@uky.edu?subject=Healthcare%20AI%20conversation",
     linkLabel: "Email me",
   },
 ];

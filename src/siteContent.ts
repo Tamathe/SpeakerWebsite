@@ -47,7 +47,6 @@ export type Engagement = {
 
 export const siteIdentity = {
   name: "Tama Thé, MD",
-  descriptor: "Physician · Educator · Builder",
   thesis: "Making AI useful in healthcare.",
   bio:
     "I am a pediatric emergency physician and medical educator working where medicine, public health, education, and AI keep running into one another. My work focuses on the part after the model: how people understand it, how it fits into real work, and who owns what happens next.",
@@ -64,12 +63,12 @@ export const credentials = [
   {
     label: "Public health",
     detail:
-      "Principal investigator on a state-funded university partnership using AI to close cancer-screening gaps",
+      "University of Kentucky collaboration with Kentucky CHFS focused on cancer-screening gaps",
   },
   {
     label: "AI literacy",
     detail:
-      "Foundational, hands-on courses available to 70,000+ students, faculty, and staff",
+      "Foundational, hands-on courses available across the university to students, faculty, and staff",
   },
   {
     label: "Teaching",
@@ -174,9 +173,9 @@ export const healthcareInitiatives: Initiative[] = [
     question:
       "How do we help more people get the cancer screening they are due for?",
     summary:
-      "KY-AHEAD uses data and AI-assisted review to identify Kentuckians who may be due for colorectal, cervical, or lung cancer screening. Care teams remain responsible for outreach, navigation, and scheduling.",
+      "KY-AHEAD is designed to use data and AI-assisted review to identify Kentuckians who may be due for colorectal, cervical, or lung cancer screening. Care teams remain responsible for outreach, navigation, and scheduling.",
     focus:
-      "A state-funded partnership with Kentucky CHFS focused on closing cancer-screening gaps without treating identification as the endpoint.",
+      "A University of Kentucky collaboration with Kentucky CHFS focused on closing cancer-screening gaps without treating identification as the endpoint.",
     image: "/images/studio/ai-for-ky.png",
     imageAlt:
       "AI for Kentucky public-health concept visualization with an accurate relief map covered in dense cobalt and white pushpins",
