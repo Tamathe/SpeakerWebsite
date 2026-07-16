@@ -49,7 +49,7 @@ export const siteIdentity = {
   name: "Tama Thé, MD",
   thesis: "Making AI useful means connecting information to action.",
   bio:
-    "I am a pediatric emergency physician and medical educator working across healthcare, public systems, education, and AI. I focus on the handoff between a useful signal and a completed next step: who receives it, who acts, and whether it changes what happens.",
+    "I am a pediatric emergency physician and medical educator. My work includes cancer-screening systems, rural diabetic-retinopathy screening, clinical assessment research, AI literacy, and the UK AI Incubator. Across those projects, I focus on how information reaches the person responsible for the next step.",
   email: "mailto:Tama.the@uky.edu?subject=Healthcare%20AI%20conversation",
 };
 
@@ -171,11 +171,11 @@ export const healthcareInitiatives: Initiative[] = [
     area: "Population health / Oncology",
     stage: "Pre-launch workflow design",
     question:
-      "How do we help more people get the cancer screening they are due for?",
+      "How can care teams identify people due for cancer screening and help them complete it?",
     summary:
       "KY-AHEAD is designed to use data and AI-assisted review to identify Kentuckians who may be due for colorectal, cervical, or lung cancer screening. Care teams remain responsible for outreach, navigation, and scheduling.",
     focus:
-      "A University of Kentucky collaboration with Kentucky CHFS focused on closing cancer-screening gaps without treating identification as the endpoint.",
+      "A University of Kentucky collaboration with Kentucky CHFS focused on linking identification to outreach, navigation, scheduling, and completed care.",
     image: "/images/studio/ai-for-ky.png",
     imageAlt:
       "AI for Kentucky public-health concept visualization with an accurate relief map covered in dense cobalt and white pushpins",
@@ -194,11 +194,11 @@ export const healthcareInitiatives: Initiative[] = [
     area: "Rural health / Ophthalmology",
     stage: "Defining a bounded pilot",
     question:
-      "How do we catch preventable vision loss before it changes a life?",
+      "Can rural screening identify diabetic retinopathy early enough for patients to receive follow-up care?",
     summary:
       "The proposed pilot would connect retinal cameras and AI-assisted triage in rural primary care with specialist review, referral, patient navigation, and documentation of completed follow-up.",
     focus:
-      "The current work is defining the pilot and mapping the care loop: who receives the referral, what can be handled locally, and who helps the patient reach follow-up care.",
+      "The current work is defining who receives each referral, what can be handled locally, and who helps the patient reach follow-up care.",
     image: "/images/studio/retinopathy.png",
     imageAlt:
       "Conceptual studio visualization of a portable retinal camera, lenses, and a retinal image on a small monitor",
@@ -211,7 +211,7 @@ export const healthcareInitiatives: Initiative[] = [
     area: "Trauma / Aerospace",
     stage: "Phase 1 feasibility design",
     question:
-      "Can blood travel by drone and still arrive ready for emergency use?",
+      "Can whole-blood units travel by drone and still meet the requirements for emergency use?",
     summary:
       "The proposed nonclinical Phase 1 study would test whether a lightweight drone system can carry whole-blood units while preserving temperature and laboratory integrity.",
     focus:
