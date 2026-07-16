@@ -3,8 +3,8 @@ import { siteIdentity } from "../siteContent";
 import { AnalyticsTracker } from "./AnalyticsTracker";
 
 const navigation = [
-  { label: "Purpose", href: "/#mission" },
   { label: "Work", href: "/#work" },
+  { label: "Education", href: "/#tek100" },
   { label: "Speaking", href: "/#speaking" },
   { label: "Contact", href: "/#contact" },
 ];
@@ -37,13 +37,13 @@ function SiteFooter() {
     <footer className="site-footer">
       <div className="shell footer-grid">
         <div>
-          <p className="section-index">Contact / Collaboration</p>
-          <h2>Start with the problem that crosses the lines.</h2>
+          <p className="section-index">Contact</p>
+          <h2>Questions about the work?</h2>
         </div>
         <div className="footer-copy">
           <p>
-            If useful information is getting stuck between systems, roles, or
-            institutions, that is probably where we should start.
+            I welcome conversations about healthcare AI projects, medical
+            education, public-sector collaboration, and speaking.
           </p>
           <a
             className="text-link"
