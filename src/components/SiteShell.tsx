@@ -3,9 +3,8 @@ import { siteIdentity } from "../siteContent";
 import { AnalyticsTracker } from "./AnalyticsTracker";
 
 const navigation = [
-  { label: "Mission", href: "/#mission" },
+  { label: "Purpose", href: "/#mission" },
   { label: "Work", href: "/#work" },
-  { label: "Films", href: "/#featured-talk" },
   { label: "Speaking", href: "/#speaking" },
   { label: "Contact", href: "/#contact" },
 ];
@@ -39,12 +38,12 @@ function SiteFooter() {
       <div className="shell footer-grid">
         <div>
           <p className="section-index">Contact / Collaboration</p>
-          <h2>Bring me the messy version.</h2>
+          <h2>Start with the problem that crosses the lines.</h2>
         </div>
         <div className="footer-copy">
           <p>
-            If the problem crosses institutions, data systems, clinical work,
-            and community care, that is probably where we should start.
+            If useful information is getting stuck between systems, roles, or
+            institutions, that is probably where we should start.
           </p>
           <a
             className="text-link"
@@ -71,7 +70,7 @@ function SiteFooter() {
       </details>
       <div className="shell footer-base">
         <span>© {new Date().getFullYear()} Tama Thé, MD</span>
-        <span>Kentucky / Healthcare / Infrastructure / AI</span>
+        <span>Kentucky / Healthcare / Education / Public systems</span>
       </div>
     </footer>
   );

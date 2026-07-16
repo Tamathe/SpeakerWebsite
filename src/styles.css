@@ -1272,7 +1272,7 @@ a {
 
 .video-led-hero-stage {
   position: relative;
-  height: clamp(380px, 58svh, 680px);
+  height: clamp(300px, 43svh, 520px);
   overflow: hidden;
   background: #020202;
 }
@@ -1360,19 +1360,19 @@ a {
 }
 
 .video-led-hero-message {
-  min-height: 360px;
+  min-height: 300px;
   display: grid;
   grid-template-columns: minmax(560px, 1.3fr) minmax(340px, 0.7fr);
   gap: clamp(56px, 8vw, 132px);
   align-items: end;
-  padding-top: 58px;
-  padding-bottom: 68px;
+  padding-top: 40px;
+  padding-bottom: 46px;
 }
 
 .video-led-hero-message h1 {
-  max-width: 11.5ch;
+  max-width: 15ch;
   margin: 22px 0 0;
-  font-size: clamp(68px, 7vw, 108px);
+  font-size: clamp(58px, 5.5vw, 88px);
   line-height: 0.9;
   font-weight: 620;
   letter-spacing: -0.055em;
@@ -2676,7 +2676,7 @@ a {
   }
 
   .video-led-hero-message h1 {
-    font-size: clamp(50px, 15vw, 68px);
+    font-size: clamp(46px, 13vw, 58px);
   }
 
   .video-led-hero-summary > p {

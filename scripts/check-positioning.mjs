@@ -6,32 +6,26 @@ const source = [
   readFileSync("src/siteManifest.ts", "utf8"),
   readFileSync("src/components/SiteShell.tsx", "utf8"),
   readFileSync("src/components/AmbientSpeakerVideo.tsx", "utf8"),
-  readFileSync("src/pages/HomePage.tsx", "utf8"),
-  readFileSync("src/pages/HealthcarePage.tsx", "utf8"),
-  readFileSync("src/pages/MedicalEducationPage.tsx", "utf8"),
-  readFileSync("src/pages/IncubatorPage.tsx", "utf8"),
-  readFileSync("src/pages/AiLiteracyPage.tsx", "utf8"),
   readFileSync("src/pages/SpeakingPage.tsx", "utf8"),
 ].join("\n");
 
 const requiredSignals = [
   "Tama Thé",
-  "Build the connections that turn information into care.",
+  "Making AI useful means connecting information to action.",
   "speaker-compilation-loop.mp4",
   "video-led-hero",
   "Watch the argument",
-  "Finding risk earlier is not enough.",
-  "The last mile is the whole point.",
+  "The output is not the outcome.",
+  "Connect the signal to the next step.",
   "mission-case-visual",
   "/images/studio/ai-for-ky.png",
   "KY-AHEAD",
   "Rural Diabetic Retinopathy Screening",
   "Whole-Blood Drone Delivery",
-  "Entrustable Professional AI",
   "AI Incubator",
-  "People need practice, not another AI webinar.",
+  "People need practice turning AI output into a decision.",
   "Speaking",
-  "Bring me the messy version.",
+  "Start with the problem that crosses the lines.",
 ];
 
 const rejectedSignals = [

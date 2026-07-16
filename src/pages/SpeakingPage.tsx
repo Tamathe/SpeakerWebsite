@@ -24,29 +24,29 @@ export function SpeakingPage() {
 
         <div className="shell video-led-hero-message">
           <div>
-            <p className="page-kicker">Kentucky / Healthcare / AI</p>
+            <p className="page-kicker">Healthcare / Education / Public systems</p>
             <h1>{siteIdentity.thesis}</h1>
           </div>
           <div className="video-led-hero-summary">
             <p>
-              Kentucky already has many of the clinical signals that could help
-              us identify risk earlier. The work is connecting them across
-              institutions and carrying the result all the way to care.
+              AI becomes useful when information reaches the people who can act
+              on it—and when the next step actually happens. My work connects
+              healthcare, education, and public systems around that problem.
             </p>
             <div className="hero-actions">
               <a
                 className="button button-primary"
-                href="#featured-talk"
+                href="#mission"
                 data-analytics-id="hero-watch-argument"
               >
-                Watch the argument <span aria-hidden="true">↓</span>
+                See the throughline <span aria-hidden="true">↓</span>
               </a>
               <a
                 className="button button-outline"
-                href="#mission"
+                href="#featured-talk"
                 data-analytics-id="hero-read-mission"
               >
-                Read the mission
+                Watch the argument
               </a>
             </div>
           </div>
@@ -60,14 +60,13 @@ export function SpeakingPage() {
       >
         <div className="shell mission-case-grid">
           <div className="mission-case-copy">
-            <p className="section-index">The mission</p>
-            <h2 id="mission-title">Finding risk earlier is not enough.</h2>
+            <p className="section-index">The throughline</p>
+            <h2 id="mission-title">The output is not the outcome.</h2>
             <p>
-              Kentucky already has many of the signals. The missing piece is
-              carrying them across organizations, through outreach and
-              referral, and all the way to completed care. That requires the
-              state, universities, health systems, payers, and community
-              providers to build the connections together.
+              A prediction, score, or polished answer can still leave the real
+              problem untouched. The work is designing what happens next: who
+              receives the information, what decision it changes, who owns the
+              follow-through, and how we learn whether it helped.
             </p>
           </div>
 
@@ -79,8 +78,8 @@ export function SpeakingPage() {
               decoding="async"
             />
             <figcaption>
-              <span>The last mile is the whole point.</span>
-              <span>One state / Many systems / Shared responsibility</span>
+              <span>Connect the signal to the next step.</span>
+              <span>Information / Judgment / Action</span>
             </figcaption>
           </figure>
         </div>
@@ -93,15 +92,15 @@ export function SpeakingPage() {
       >
         <div className="shell featured-talk-grid">
           <div className="featured-talk-copy">
-            <p className="section-index">The argument in public / NBME NICE 2026</p>
+            <p className="section-index">One public case / NBME NICE 2026</p>
             <h2 id="featured-talk-title">
-              What if healthcare AI were shared infrastructure?
+              Shared information should produce a useful next step.
             </h2>
             <p>
               In this excerpt, I make the case for governed connections across
-              existing systems—not one giant database or one institution
-              owning every record. The test is whether the network returns a
-              useful next step to the person responsible for care.
+              existing healthcare systems. The goal is not one giant database.
+              It is a network that returns something useful to the person
+              responsible for the next step in care.
             </p>
             <div className="featured-talk-details" aria-label="Video details">
               <span>1:23 excerpt</span>
@@ -147,13 +146,13 @@ export function SpeakingPage() {
 
       <section className="mission-work" id="work" aria-labelledby="work-title">
         <div className="shell section-intro">
-          <p className="section-index">The work</p>
+          <p className="section-index">Healthcare / From signal to care</p>
           <div>
-            <h2 id="work-title">The same problem, seen from different places.</h2>
+            <h2 id="work-title">Three projects. One operating question.</h2>
             <p>
-              These projects begin with different clinical needs. Each one asks
-              what has to happen between identifying a possibility, completing
-              the next step, and learning where people are still being missed.
+              What has to happen after useful information becomes available?
+              Each project connects a signal to a decision, a responsible
+              person, and a way to see whether the next step was completed.
             </p>
           </div>
         </div>
@@ -200,14 +199,13 @@ export function SpeakingPage() {
       >
         <div className="shell story-grid">
           <div className="story-copy">
-            <p className="section-index">Building capacity / TEK 100</p>
-            <h2 id="tek100-title">Teach the principles that survive the next tool.</h2>
+            <p className="section-index">Education / Build the judgment</p>
+            <h2 id="tek100-title">People need practice turning AI output into a decision.</h2>
             <p>
-              Shared infrastructure is not only technical. People across the
-              system need enough practical understanding to test AI, recognize
-              its limits, and decide when it belongs in the work. TEK 100 is a
-              foundational, hands-on AI literacy course co-created for
-              University of Kentucky students.
+              Connecting information to action requires people who can test AI,
+              recognize its limits, and decide when it belongs in the work.
+              TEK 100 gives University of Kentucky students that practice
+              through foundational, hands-on AI literacy.
             </p>
             <div className="featured-talk-details" aria-label="Video details">
               <span>0:31 excerpt</span>
@@ -248,14 +246,13 @@ export function SpeakingPage() {
       >
         <div className="shell story-grid story-grid-media-first">
           <div className="story-copy">
-            <p className="section-index">Building relationships / AI Incubator</p>
-            <h2 id="incubator-feature-title">Give unfinished ideas somewhere to go.</h2>
+            <p className="section-index">Community / Put ideas to work</p>
+            <h2 id="incubator-feature-title">Give unfinished ideas a path to action.</h2>
             <p>
               The AI Incubator gives students, faculty, and staff a place to
-              test ideas with people outside their usual lanes. It is one way
-              to build the relationships this mission requires: bring the
-              problem into the room, find the missing expertise, and move
-              toward a small, testable next step.
+              bring a real problem into the room, find the missing expertise,
+              and move toward a small, testable next step. The community is how
+              ideas cross the disciplinary lines that usually keep them stuck.
             </p>
             <div className="featured-talk-details" aria-label="Video details">
               <span>0:58 film</span>
@@ -310,14 +307,15 @@ export function SpeakingPage() {
             <p>Official recording · KY LRC Committee Meetings</p>
           </div>
           <div className="legislature-copy">
-            <p className="section-index">Public leadership / Kentucky</p>
+            <p className="section-index">Public systems / Build shared direction</p>
             <h2 id="legislature-title">
               Artificial Intelligence at the University of Kentucky
             </h2>
             <p>
-              A presentation to the Kentucky General Assembly Artificial
-              Intelligence Task Force on AI work across the university and UK
-              HealthCare, presented with Hubert Ballard, MD.
+              Presented with Hubert Ballard, MD, this briefing to the Kentucky
+              General Assembly Artificial Intelligence Task Force connected AI
+              work across the university and UK HealthCare to a larger question:
+              what Kentucky needs in order to act together.
             </p>
             <dl className="legislature-details">
               <div>
@@ -352,18 +350,18 @@ export function SpeakingPage() {
         aria-labelledby="engagements-title"
       >
         <div className="shell section-intro">
-          <p className="section-index">Speaking / Selected engagements</p>
+          <p className="section-index">Speaking / Testing the work in public</p>
           <div>
-            <h2 id="engagements-title">Take the argument into the room.</h2>
+            <h2 id="engagements-title">Take the hard part into the room.</h2>
             <p>
-              Talks, workshops, and public conversations are one way I test
-              these ideas with the people who have to build, govern, teach, and
-              use the systems in practice.
+              I use talks, workshops, and public conversations to test these
+              ideas with the people who have to build, govern, teach, and use
+              the systems in practice.
             </p>
           </div>
         </div>
         <div className="shell">
-          <EngagementList engagements={engagements} />
+          <EngagementList engagements={engagements.slice(0, 6)} />
         </div>
       </section>
 
@@ -386,11 +384,11 @@ export function SpeakingPage() {
           </figure>
           <div className="speaker-kit-copy">
             <p className="section-index">Collaboration / Speaking</p>
-            <h2 id="speaker-kit-title">Bring me the part that does not fit neatly.</h2>
+            <h2 id="speaker-kit-title">Start with the problem that crosses the lines.</h2>
             <p>
-              {siteIdentity.bio} I work with people who are trying to connect
-              the technical possibility to the institutional and human work
-              required to make it useful.
+              {siteIdentity.bio} I work with people who need to connect a
+              technical possibility to the institutional and human work that
+              makes it useful.
             </p>
             <div className="speaker-kit-actions">
               <a
