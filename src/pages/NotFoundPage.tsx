@@ -2,7 +2,6 @@ export function NotFoundPage() {
   return (
     <section className="not-found" aria-labelledby="not-found-title">
       <div className="shell">
-        <p className="page-kicker">404 / Page not found</p>
         <h1 id="not-found-title">This path does not lead to a project.</h1>
         <p>The page may have moved as the site was reorganized.</p>
         <a className="button button-primary" href="/">

@@ -37,7 +37,6 @@ function SiteFooter() {
     <footer className="site-footer">
       <div className="shell footer-grid">
         <div>
-          <p className="section-index">Contact</p>
           <h2>Questions about the work?</h2>
         </div>
         <div className="footer-copy">

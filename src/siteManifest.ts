@@ -10,9 +10,9 @@ export type RouteDefinition = {
 export const homeRoute: RouteDefinition = {
   id: "home",
   path: "/",
-  title: "Tama Thé, MD | Making AI useful",
+  title: "Tama Thé, MD | Data-driven precision",
   description:
-    "Tama Thé connects information to action across healthcare, education, and public systems in Kentucky.",
+    "Tama Thé connects data to action across healthcare, education, and public systems.",
 };
 
 export const notFoundRoute: RouteDefinition = {

@@ -47,7 +47,7 @@ export type Engagement = {
 
 export const siteIdentity = {
   name: "Tama Thé, MD",
-  thesis: "Making AI useful means connecting information to action.",
+  thesis: "Solving problems with data-driven precision.",
   bio:
     "I am a pediatric emergency physician and medical educator. My work includes cancer-screening systems, rural diabetic-retinopathy screening, clinical assessment research, AI literacy, and the UK AI Incubator. Across those projects, I focus on how information reaches the person responsible for the next step.",
   email: "mailto:Tama.the@uky.edu?subject=Healthcare%20AI%20conversation",
