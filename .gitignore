@@ -11,3 +11,8 @@ dist/
 !.env.example
 outputs/analytics/
 
+# Local source downloads and disposable review/transcription work
+downloads/
+tmp/
+vlc-help.txt
+

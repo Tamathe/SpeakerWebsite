@@ -38,7 +38,8 @@ type PrivacyWindow = Window & {
   doNotTrack?: string;
 };
 
-const ANALYTICS_ENDPOINT = "/api/analytics";
+const ANALYTICS_ENDPOINT = "https://analytics.tamathe.com/api/analytics";
+const ANALYTICS_CONTENT_TYPE = "text/plain;charset=UTF-8";
 const LOCAL_HOSTS = new Set(["localhost", "127.0.0.1", "[::1]"]);
 const sentOnce = new Set<string>();
 
@@ -141,7 +142,7 @@ export function trackAnalytics(
     if (typeof navigator.sendBeacon === "function") {
       const queued = navigator.sendBeacon(
         ANALYTICS_ENDPOINT,
-        new Blob([body], { type: "application/json" }),
+        new Blob([body], { type: ANALYTICS_CONTENT_TYPE }),
       );
       if (queued) return;
     }
@@ -149,9 +150,10 @@ export function trackAnalytics(
     void fetch(ANALYTICS_ENDPOINT, {
       method: "POST",
       body,
-      headers: { "content-type": "application/json" },
-      credentials: "same-origin",
+      headers: { "content-type": ANALYTICS_CONTENT_TYPE },
+      credentials: "omit",
       keepalive: true,
+      mode: "no-cors",
     }).catch(() => undefined);
   } catch {
     // Analytics must never interfere with the site experience.

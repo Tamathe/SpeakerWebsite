@@ -1,0 +1,997 @@
+﻿[01:17:44.719 | local 00:00:00.719] >> Thank you so much technology. Uh I uh my
+[01:17:47.840 | local 00:00:03.840] name is Thomas. I'm an AI research
+[01:17:49.280 | local 00:00:05.280] fellow at the National Board of Medical
+[01:17:50.560 | local 00:00:06.560] Education. Uh this is Hubie Ballard.
+[01:17:52.480 | local 00:00:08.480] He's my partner in all of this. Uh we
+[01:17:54.320 | local 00:00:10.320] know that your time is super valuable
+[01:17:55.760 | local 00:00:11.760] and we're running short. So, I'm going
+[01:17:56.960 | local 00:00:12.960] to be a little bit quicker as we walk
+[01:17:58.880 | local 00:00:14.880] through some of the things, but we are
+[01:18:00.560 | local 00:00:16.560] so grateful. Thank you all so much for
+[01:18:02.480 | local 00:00:18.480] for your invitation and letting us talk
+[01:18:04.560 | local 00:00:20.560] to you about the things that we're doing
+[01:18:05.679 | local 00:00:21.679] at UK. Uh, I it is it has never been
+[01:18:08.480 | local 00:00:24.480] more exciting and dynamic and we are all
+[01:18:11.600 | local 00:00:27.600] leaning into AI just like you all are as
+[01:18:14.159 | local 00:00:30.159] we're trying to figure out how do we
+[01:18:15.600 | local 00:00:31.600] integrate this into the way that we
+[01:18:17.040 | local 00:00:33.040] teach, the way that we learn, the way
+[01:18:18.400 | local 00:00:34.400] that we train the workforce of Kentucky.
+[01:18:20.640 | local 00:00:36.640] uh and uh so I am teaching a course uh
+[01:18:24.000 | local 00:00:40.000] in October so up one month from now uh
+[01:18:26.960 | local 00:00:42.960] about the fundamentals of artificial
+[01:18:28.640 | local 00:00:44.640] intelligence and the idea is that we
+[01:18:30.560 | local 00:00:46.560] expect that every single one of our
+[01:18:32.560 | local 00:00:48.560] students who walks through the door is
+[01:18:34.480 | local 00:00:50.480] going to be touching AI in some way
+[01:18:36.719 | local 00:00:52.719] right whether that is science in
+[01:18:38.880 | local 00:00:54.880] medicine and technology uh every single
+[01:18:40.960 | local 00:00:56.960] one of them are going to need to
+[01:18:42.080 | local 00:00:58.080] understand the fundamentals of how to
+[01:18:43.520 | local 00:00:59.520] use it um this is a logo that I created
+[01:18:45.520 | local 00:01:01.520] for that uh course uh I created it on my
+[01:18:48.560 | local 00:01:04.560] own it would took me about an hour and a
+[01:18:50.560 | local 00:01:06.560] And you think about this kind of
+[01:18:52.400 | local 00:01:08.400] technology and power behind every single
+[01:18:55.120 | local 00:01:11.120] student, behind every single project
+[01:18:57.040 | local 00:01:13.040] that they work on, all the companies
+[01:18:58.640 | local 00:01:14.640] that they're going to build. Um, we
+[01:19:00.480 | local 00:01:16.480] expect that it is our responsibility to
+[01:19:03.280 | local 00:01:19.280] train those students to make sure that
+[01:19:04.800 | local 00:01:20.800] they understand the fundamental concepts
+[01:19:06.880 | local 00:01:22.880] and we're starting that with tech 100.
+[01:19:09.040 | local 00:01:25.040] So this is that course. Uh, we call it
+[01:19:10.719 | local 00:01:26.719] collaborative intelligence. It's
+[01:19:12.000 | local 00:01:28.000] understanding and using modern AI. Uh
+[01:19:14.080 | local 00:01:30.080] and the idea is that we want to inspire
+[01:19:16.880 | local 00:01:32.880] students to be active users of
+[01:19:19.199 | local 00:01:35.199] artificial intelligence, not just
+[01:19:21.199 | local 00:01:37.199] designing models and things like that,
+[01:19:22.880 | local 00:01:38.880] but using it for their their life, their
+[01:19:25.040 | local 00:01:41.040] workforce, their the way that they
+[01:19:26.640 | local 00:01:42.640] learn. Uh and so it's a 10m module
+[01:19:29.199 | local 00:01:45.199] course that builds on hands-on
+[01:19:31.600 | local 00:01:47.600] activities that starts with just basic
+[01:19:33.520 | local 00:01:49.520] prompt engineering through agent design
+[01:19:35.520 | local 00:01:51.520] and then finally by the end of it
+[01:19:36.880 | local 00:01:52.880] they're doing things that with AI that
+[01:19:38.800 | local 00:01:54.800] they couldn't otherwise do without it.
+[01:19:40.320 | local 00:01:56.320] Um the uh final proposal is a proposal
+[01:19:43.360 | local 00:01:59.360] where they want to use AI to solve some
+[01:19:46.080 | local 00:02:02.080] problem in a community that they care
+[01:19:47.679 | local 00:02:03.679] about. Whether that is their hometown,
+[01:19:50.159 | local 00:02:06.159] whether that's Kentucky as a whole,
+[01:19:51.520 | local 00:02:07.520] whether that's their dodgeball team. Uh
+[01:19:53.520 | local 00:02:09.520] the expectation is that they use their
+[01:19:56.159 | local 00:02:12.159] no code techniques to figure out how can
+[01:19:58.159 | local 00:02:14.159] they make their community better. Uh
+[01:20:00.000 | local 00:02:16.000] this is Katie Thompson. She is my
+[01:20:01.840 | local 00:02:17.840] co-lead in this course and she's also
+[01:20:03.360 | local 00:02:19.360] the founder and the principal
+[01:20:04.719 | local 00:02:20.719] investigator of the AI machine learning
+[01:20:06.960 | local 00:02:22.960] hub. uh this is the connective tissue at
+[01:20:09.679 | local 00:02:25.679] UK that brings people together. Uh we
+[01:20:12.800 | local 00:02:28.800] are uh pediatricians, we're physicians
+[01:20:15.440 | local 00:02:31.440] uh and she is a statistician and the
+[01:20:18.159 | local 00:02:34.159] projects that we're working on need
+[01:20:19.600 | local 00:02:35.600] people from all over campus in order to
+[01:20:21.760 | local 00:02:37.760] lean into this technology because we
+[01:20:24.000 | local 00:02:40.000] know what we know, she knows what she
+[01:20:25.440 | local 00:02:41.440] knows and boy bringing these people
+[01:20:27.120 | local 00:02:43.120] together is really where the power of
+[01:20:29.280 | local 00:02:45.280] the university network comes from. uh in
+[01:20:32.159 | local 00:02:48.159] her hub she has 350 people from across
+[01:20:35.199 | local 00:02:51.199] campus from 11 different colleges. She
+[01:20:37.360 | local 00:02:53.360] can rattle off the numbers better than I
+[01:20:38.800 | local 00:02:54.800] can but the short story is that we are
+[01:20:41.520 | local 00:02:57.520] having symposiums and having
+[01:20:43.040 | local 00:02:59.040] conversations just like this as we try
+[01:20:45.120 | local 00:03:01.120] to figure out what are the problems that
+[01:20:46.640 | local 00:03:02.640] we can solve with the technology that
+[01:20:48.320 | local 00:03:04.320] already exists. On the right side of the
+[01:20:50.480 | local 00:03:06.480] screen there is a picture of some grass.
+[01:20:52.239 | local 00:03:08.239] Um, this was a student project where
+[01:20:54.000 | local 00:03:10.000] they're using a machine learning
+[01:20:55.520 | local 00:03:11.520] computer vision model where they take
+[01:20:57.280 | local 00:03:13.280] pictures of grass to identify grass that
+[01:20:59.440 | local 00:03:15.440] is toxic to pregnant horses. Uh, and
+[01:21:02.159 | local 00:03:18.159] that is super cool and it's just one of
+[01:21:04.159 | local 00:03:20.159] the many things that they are working
+[01:21:05.760 | local 00:03:21.760] on. Um, thinking about not just students
+[01:21:08.400 | local 00:03:24.400] but our faculty. Uh, this is Trey
+[01:21:10.560 | local 00:03:26.560] Katzer. He's our assistant provost for
+[01:21:12.400 | local 00:03:28.400] teaching and learning and runs our SELt
+[01:21:14.320 | local 00:03:30.320] which is the enhancement in learning and
+[01:21:15.840 | local 00:03:31.840] teaching. Uh the short story is that it
+[01:21:17.679 | local 00:03:33.679] fell to him to figure out how to use
+[01:21:20.000 | local 00:03:36.000] artificial intelligence in our teaching.
+[01:21:22.159 | local 00:03:38.159] And when everyone else across the
+[01:21:23.920 | local 00:03:39.920] country at universities were saying that
+[01:21:26.000 | local 00:03:42.000] AI is going to make students cheat and
+[01:21:28.000 | local 00:03:44.000] we don't know how to grade them anymore
+[01:21:29.360 | local 00:03:45.360] because they're writing essays using
+[01:21:30.719 | local 00:03:46.719] chatbt, he was figuring out the
+[01:21:33.120 | local 00:03:49.120] fundamentals of how to integrate AI into
+[01:21:35.840 | local 00:03:51.840] the way that we teach and assess our
+[01:21:37.760 | local 00:03:53.760] students. Uh and so he is running
+[01:21:39.760 | local 00:03:55.760] workshops and events on AI skills and
+[01:21:42.159 | local 00:03:58.159] ethics and tools and applications. Um
+[01:21:44.560 | local 00:04:00.560] and he is not just a resource for us at
+[01:21:46.960 | local 00:04:02.960] the university. He's become a resource
+[01:21:49.120 | local 00:04:05.120] uh at the state uh and at the national
+[01:21:51.360 | local 00:04:07.360] level. Uh moving in talking about kind
+[01:21:54.719 | local 00:04:10.719] of the national level, I wanted to talk
+[01:21:56.320 | local 00:04:12.320] quickly about our center for
+[01:21:58.239 | local 00:04:14.239] computational sciences. Uh and so this
+[01:22:00.719 | local 00:04:16.719] is Jim Griffin. He's in charge of our
+[01:22:02.400 | local 00:04:18.400] CCS in Vicram Gazula. Um to make a long
+[01:22:05.199 | local 00:04:21.199] story short, they're doing a whole lot
+[01:22:06.560 | local 00:04:22.560] of things including workshops and
+[01:22:08.159 | local 00:04:24.159] trainings. uh but specifically they are
+[01:22:10.480 | local 00:04:26.480] providing national scale AI support and
+[01:22:13.600 | local 00:04:29.600] tools for the National Science
+[01:22:14.960 | local 00:04:30.960] Foundation. So they the the NSF has an
+[01:22:17.600 | local 00:04:33.600] access supercomputing program that just
+[01:22:19.840 | local 00:04:35.840] launched and every single question from
+[01:22:22.239 | local 00:04:38.239] researchers around the country whether
+[01:22:23.760 | local 00:04:39.760] you're at MIT or Stanford. Every single
+[01:22:25.840 | local 00:04:41.840] one of those questions gets routed
+[01:22:27.120 | local 00:04:43.120] through Lexington and answered by our
+[01:22:29.600 | local 00:04:45.600] team here and then routed back because
+[01:22:31.679 | local 00:04:47.679] we're using language models uh and it's
+[01:22:34.400 | local 00:04:50.400] powering the underlying research that is
+[01:22:36.560 | local 00:04:52.560] going into artificial intelligence
+[01:22:38.159 | local 00:04:54.159] around the country. They also have two
+[01:22:40.080 | local 00:04:56.080] other projects that I'm not super
+[01:22:41.600 | local 00:04:57.600] familiar with because because I to be
+[01:22:43.520 | local 00:04:59.520] honest with you, it's a little bit above
+[01:22:44.880 | local 00:05:00.880] my head. Uh but one of them is with the
+[01:22:48.480 | local 00:05:04.480] uh National Artificial Intelligence
+[01:22:50.239 | local 00:05:06.239] Research Resource Pilot Program that was
+[01:22:52.800 | local 00:05:08.800] one of the White House's new AI action
+[01:22:55.520 | local 00:05:11.520] plan agendas. Uh they are one of I think
+[01:22:58.880 | local 00:05:14.880] six or eight partner uh we are one of
+[01:23:01.840 | local 00:05:17.840] six or eight partner institutions uh
+[01:23:03.760 | local 00:05:19.760] that are providing services for that
+[01:23:05.679 | local 00:05:21.679] one. Uh, and then there's another one
+[01:23:07.120 | local 00:05:23.120] that I just truly don't understand
+[01:23:08.880 | local 00:05:24.880] because it's above my head. Uh, but
+[01:23:11.360 | local 00:05:27.360] thinking about going from kind of the
+[01:23:12.880 | local 00:05:28.880] above my head to to the to the ground
+[01:23:14.639 | local 00:05:30.639] level, how can we improve the lives of
+[01:23:16.960 | local 00:05:32.960] Kuckians? I wanted to to tell you about
+[01:23:18.960 | local 00:05:34.960] Jay Miller. Um, so he is the dean of the
+[01:23:21.840 | local 00:05:37.840] college of social work and he is already
+[01:23:24.480 | local 00:05:40.480] well known for using technology in
+[01:23:27.360 | local 00:05:43.360] social work and pushing the limits of
+[01:23:29.199 | local 00:05:45.199] how we're using virtual reality and
+[01:23:30.960 | local 00:05:46.960] artificial intelligence. That's an
+[01:23:32.480 | local 00:05:48.480] article in Fortune magazine from 2023.
+[01:23:35.040 | local 00:05:51.040] uh but he has built tools that not just
+[01:23:37.840 | local 00:05:53.840] connect patients with resources but also
+[01:23:40.639 | local 00:05:56.639] uh foster care children. There's a whole
+[01:23:43.280 | local 00:05:59.280] bunch of tools that if I had maybe a
+[01:23:46.080 | local 00:06:02.080] couple more hours I could tell you about
+[01:23:47.520 | local 00:06:03.520] all the things that he's doing but he is
+[01:23:49.760 | local 00:06:05.760] not just using AI to make his work and
+[01:23:53.120 | local 00:06:09.120] his social workers more effective but
+[01:23:54.880 | local 00:06:10.880] also on the back end he's doing a whole
+[01:23:56.639 | local 00:06:12.639] bunch of the administrative things that
+[01:23:58.000 | local 00:06:14.000] you keep hearing about where people are
+[01:23:59.679 | local 00:06:15.679] saying that it's going to streamline
+[01:24:01.040 | local 00:06:17.040] something. He's doing budget
+[01:24:02.719 | local 00:06:18.719] reconciliations. He's doing all sorts of
+[01:24:04.639 | local 00:06:20.639] things that uh that are the promise of
+[01:24:06.960 | local 00:06:22.960] AI, but he's leaning into them and
+[01:24:08.960 | local 00:06:24.960] investing the time and the effort into
+[01:24:11.840 | local 00:06:27.840] making sure that every single one of the
+[01:24:13.600 | local 00:06:29.600] social worker students that pass through
+[01:24:15.679 | local 00:06:31.679] his college are equipped with the
+[01:24:18.320 | local 00:06:34.320] ability to use these things to make
+[01:24:20.080 | local 00:06:36.080] themselves more effective and efficient
+[01:24:22.000 | local 00:06:38.000] so that we don't so that those social
+[01:24:24.719 | local 00:06:40.719] workers can have more impact on the
+[01:24:27.040 | local 00:06:43.040] ground talking to families instead of
+[01:24:28.960 | local 00:06:44.960] spending time in their offices filling
+[01:24:31.360 | local 00:06:47.360] out paperwork. Um and then so going from
+[01:24:34.880 | local 00:06:50.880] the college of social work to now to
+[01:24:36.880 | local 00:06:52.880] design. Uh this is Joe Brewer. He's the
+[01:24:38.880 | local 00:06:54.880] de director of technology at the UK
+[01:24:41.120 | local 00:06:57.120] College of Design. Um this is the
+[01:24:42.800 | local 00:06:58.800] college that houses architecture and
+[01:24:44.320 | local 00:07:00.320] interior design, some landscape
+[01:24:46.159 | local 00:07:02.159] architecture and things like that. Um
+[01:24:48.239 | local 00:07:04.239] the he is doing some incredible stuff on
+[01:24:50.960 | local 00:07:06.960] both the education and just where they
+[01:24:53.199 | local 00:07:09.199] work. That is the the gray design
+[01:24:54.880 | local 00:07:10.880] building that was just very briefly
+[01:24:56.159 | local 00:07:12.159] shown. Um they has thousands of sensors
+[01:24:59.280 | local 00:07:15.280] uh for their HVAC system. um he's got
+[01:25:01.679 | local 00:07:17.679] something like 80 geothermal wells in
+[01:25:03.840 | local 00:07:19.840] the parking lot and all of these things
+[01:25:05.760 | local 00:07:21.760] are connected by AI in order to make us
+[01:25:08.239 | local 00:07:24.239] more efficient and effective. So over
+[01:25:10.239 | local 00:07:26.239] the two months over the summertime when
+[01:25:12.000 | local 00:07:28.000] nobody was going through the the classes
+[01:25:13.760 | local 00:07:29.760] because they were on summer break um
+[01:25:15.360 | local 00:07:31.360] some of those classrooms got up to 110
+[01:25:17.120 | local 00:07:33.120] degrees because they weren't detecting
+[01:25:18.719 | local 00:07:34.719] people and so they weren't chilling the
+[01:25:21.760 | local 00:07:37.760] offices. Uh and that's the kind of
+[01:25:23.600 | local 00:07:39.600] efficiency that we can gain using a
+[01:25:26.320 | local 00:07:42.320] little bit more data. Um similarly those
+[01:25:29.520 | local 00:07:45.520] uh those fabrication labs that he showed
+[01:25:32.480 | local 00:07:48.480] at the very beginning some of those
+[01:25:34.000 | local 00:07:50.000] plants um use artificial intelligence to
+[01:25:37.679 | local 00:07:53.679] model the structures that students are
+[01:25:40.320 | local 00:07:56.320] making. you know, when you make whether
+[01:25:41.840 | local 00:07:57.840] it is an architectural design for a
+[01:25:43.840 | local 00:07:59.840] building or you're designing a shoe, um
+[01:25:46.159 | local 00:08:02.159] when you're designing them in your
+[01:25:47.600 | local 00:08:03.600] basement, in your classroom, uh there
+[01:25:49.840 | local 00:08:05.840] are a lot of little subtleties that you
+[01:25:52.719 | local 00:08:08.719] don't realize in three dimension until
+[01:25:54.880 | local 00:08:10.880] you actually produce it with a
+[01:25:56.080 | local 00:08:12.080] fabrication plant. And so they're using
+[01:25:58.080 | local 00:08:14.080] AI to model those things. So they're not
+[01:26:00.560 | local 00:08:16.560] printing the first draft, they're
+[01:26:01.840 | local 00:08:17.840] printing the fourth or the fifth draft.
+[01:26:03.600 | local 00:08:19.600] And that way we're saving time, we're
+[01:26:05.520 | local 00:08:21.520] becoming more efficient, and that way
+[01:26:07.440 | local 00:08:23.440] we're making actually better products.
+[01:26:10.400 | local 00:08:26.400] Uh this is a slide from Cody
+[01:26:12.480 | local 00:08:28.480] Bombgartner. He is our director for
+[01:26:14.159 | local 00:08:30.159] center for applied AI. He is a friend of
+[01:26:16.400 | local 00:08:32.400] this committee. Um he wanted to us to
+[01:26:19.199 | local 00:08:35.199] highlight the change over time over the
+[01:26:22.000 | local 00:08:38.000] past year uh of work that they've been
+[01:26:24.000 | local 00:08:40.000] doing. Um this very impressive pie chart
+[01:26:26.560 | local 00:08:42.560] on the right side uh gives me a glimpse
+[01:26:29.679 | local 00:08:45.679] into the number of people and the number
+[01:26:32.080 | local 00:08:48.080] of organizations and committees that his
+[01:26:34.960 | local 00:08:50.960] group is touching. He's going all across
+[01:26:37.920 | local 00:08:53.920] the campus because it represents every
+[01:26:40.639 | local 00:08:56.639] single one of those slices represents
+[01:26:42.239 | local 00:08:58.239] somebody who is interested in using
+[01:26:44.080 | local 00:09:00.080] artificial intelligence to expand
+[01:26:46.159 | local 00:09:02.159] whatever work they're doing whether
+[01:26:47.679 | local 00:09:03.679] that's in medicine whether that's in
+[01:26:49.280 | local 00:09:05.280] libraries or whether that is in whatever
+[01:26:51.440 | local 00:09:07.440] their their study of discipline is. Um
+[01:26:53.520 | local 00:09:09.520] this is just one of those examples. This
+[01:26:55.600 | local 00:09:11.600] is aggreg um so this was a partnership
+[01:26:58.320 | local 00:09:14.320] between the center for applied AI and
+[01:27:00.400 | local 00:09:16.400] the college of agriculture food and
+[01:27:02.800 | local 00:09:18.800] environment. The the short story is that
+[01:27:05.840 | local 00:09:21.840] they have trained and fine-tuned a
+[01:27:08.560 | local 00:09:24.560] language model just based on Kentucky
+[01:27:10.960 | local 00:09:26.960] data, Kentucky research about Kentucky
+[01:27:13.440 | local 00:09:29.440] farmlands. Uh, and they have essentially
+[01:27:15.840 | local 00:09:31.840] given it away. Um, there's a website
+[01:27:17.920 | local 00:09:33.920] that you can go and you can ask it
+[01:27:19.280 | local 00:09:35.280] questions. Uh, my sister had a fungus
+[01:27:21.120 | local 00:09:37.120] growing in one of her plants. Uh, and we
+[01:27:22.960 | local 00:09:38.960] thought we needed to get rid of it. We
+[01:27:24.480 | local 00:09:40.480] asked Aggreg and it turns out this is a
+[01:27:26.239 | local 00:09:42.239] friendly fungus. Uh but any person can
+[01:27:28.639 | local 00:09:44.639] go on there and talk about invasive
+[01:27:30.400 | local 00:09:46.400] species and fertilizers and uh
+[01:27:32.880 | local 00:09:48.880] strategies and soil testing and those
+[01:27:35.120 | local 00:09:51.120] kinds of things. Uh it's really cool
+[01:27:37.120 | local 00:09:53.120] stuff. Um and and I wish we had more
+[01:27:39.280 | local 00:09:55.280] time to to tell you about it.
+[01:27:41.920 | local 00:09:57.920] But we think that this is where the
+[01:27:43.120 | local 00:09:59.120] rubber hits the road. Um so these are
+[01:27:44.960 | local 00:10:00.960] the students. So HuB a couple of years
+[01:27:47.040 | local 00:10:03.040] ago started the Innovators in Medicine
+[01:27:49.199 | local 00:10:05.199] Club. Um this is a group of now 265
+[01:27:52.560 | local 00:10:08.560] people from across campus who are all
+[01:27:54.880 | local 00:10:10.880] focused on solving problems in
+[01:27:57.360 | local 00:10:13.360] healthcare using technology and
+[01:27:59.280 | local 00:10:15.280] artificial intelligence. That top
+[01:28:01.040 | local 00:10:17.040] picture was from our meeting back in at
+[01:28:03.360 | local 00:10:19.360] the end of August. So this was just a
+[01:28:04.880 | local 00:10:20.880] couple of weeks ago. Um the short story
+[01:28:07.120 | local 00:10:23.120] are is that these are the students who
+[01:28:09.520 | local 00:10:25.520] are leaning into AI. They are hungry for
+[01:28:11.679 | local 00:10:27.679] it. And and this pocket of students is
+[01:28:14.000 | local 00:10:30.000] just in healthcare and medicine, but
+[01:28:15.920 | local 00:10:31.920] we're building innovators in all
+[01:28:17.840 | local 00:10:33.840] disciplines, whether that's fine arts or
+[01:28:19.760 | local 00:10:35.760] communication, whatever it is, where
+[01:28:22.000 | local 00:10:38.000] students want to get together and share
+[01:28:24.000 | local 00:10:40.000] ideas and technology and design
+[01:28:26.239 | local 00:10:42.239] solutions to problems that otherwise
+[01:28:28.639 | local 00:10:44.639] couldn't be solved. Uh the when you
+[01:28:31.760 | local 00:10:47.760] think about chat GBT for us is like
+[01:28:34.080 | local 00:10:50.080] brand new technology, right? We barely
+[01:28:35.920 | local 00:10:51.920] understand it. But for these students,
+[01:28:38.080 | local 00:10:54.080] some of them, they've had it for the for
+[01:28:39.920 | local 00:10:55.920] three years now. They've had it the
+[01:28:41.280 | local 00:10:57.280] majority of their high school time. And
+[01:28:42.880 | local 00:10:58.880] so now they're walking onto campus and
+[01:28:44.400 | local 00:11:00.400] they're expecting to learn what is the
+[01:28:46.320 | local 00:11:02.320] next step. How do I use this technology
+[01:28:48.880 | local 00:11:04.880] to make the next Amazon, to make the
+[01:28:51.199 | local 00:11:07.199] next Facebook? You know, Mark Zuckerberg
+[01:28:52.960 | local 00:11:08.960] and Jeff Bezos were their age when they
+[01:28:54.960 | local 00:11:10.960] started those companies. And now we
+[01:28:56.719 | local 00:11:12.719] think that with this technology they can
+[01:28:58.639 | local 00:11:14.639] take it so much further because you
+[01:29:00.639 | local 00:11:16.639] don't you you you you essentially have
+[01:29:03.760 | local 00:11:19.760] in your pocket somebody who can give you
+[01:29:06.400 | local 00:11:22.400] feedback and recommendations and nudges
+[01:29:08.719 | local 00:11:24.719] and oh did you know that they were
+[01:29:10.000 | local 00:11:26.000] already doing this this way in Kansas or
+[01:29:12.080 | local 00:11:28.080] whatever. Uh and and so we think that
+[01:29:14.320 | local 00:11:30.320] the students is is really going to be
+[01:29:16.560 | local 00:11:32.560] the lifeblood of this because we also
+[01:29:18.320 | local 00:11:34.320] know that at the University of Kentucky
+[01:29:20.080 | local 00:11:36.080] the majority of our students stay in
+[01:29:21.520 | local 00:11:37.520] Kentucky, right? And so we have the
+[01:29:23.280 | local 00:11:39.280] expectation that that we feel the
+[01:29:25.920 | local 00:11:41.920] obligation to train up the workforce of
+[01:29:28.320 | local 00:11:44.320] Kentucky so that they can use artificial
+[01:29:30.080 | local 00:11:46.080] intelligence. And so this is why we're
+[01:29:32.080 | local 00:11:48.080] leaning in.
+[01:29:34.000 | local 00:11:50.000] This is one of their projects. Um so
+[01:29:35.600 | local 00:11:51.600] this was put together by Hunter Coulson
+[01:29:37.360 | local 00:11:53.360] and Matthew Bernard. Um they are we've a
+[01:29:41.280 | local 00:11:57.280] lot of people have talked about how AI
+[01:29:43.199 | local 00:11:59.199] and personalized tutors is going to
+[01:29:44.800 | local 00:12:00.800] change the way that we learn, right? Um,
+[01:29:47.040 | local 00:12:03.040] and what they found in real life that a
+[01:29:50.320 | local 00:12:06.320] small subset of students in the medical
+[01:29:52.560 | local 00:12:08.560] school could use that technology well.
+[01:29:54.639 | local 00:12:10.639] If you had a background in engineering
+[01:29:56.000 | local 00:12:12.000] or computer science, this was awesome
+[01:29:57.600 | local 00:12:13.600] and it blew the doors off of how how you
+[01:29:59.760 | local 00:12:15.760] learn. Uh, but for the rest of us, we
+[01:30:02.480 | local 00:12:18.480] weren't using it as much. Uh, and so
+[01:30:04.719 | local 00:12:20.719] they built this system. We call it the
+[01:30:06.800 | local 00:12:22.800] Socratic Tutor. It's a personalized
+[01:30:08.719 | local 00:12:24.719] precision education platform that keeps
+[01:30:10.800 | local 00:12:26.800] track of every single question that you
+[01:30:12.400 | local 00:12:28.400] ask, every single question that you miss
+[01:30:14.400 | local 00:12:30.400] on the questions that it generates. Uh,
+[01:30:16.560 | local 00:12:32.560] and it tracks your your your development
+[01:30:18.960 | local 00:12:34.960] over the course of the entire medical
+[01:30:21.040 | local 00:12:37.040] school career. Um, similarly, from an
+[01:30:23.679 | local 00:12:39.679] administrator's perspective, we're able
+[01:30:25.280 | local 00:12:41.280] to train our course material, our
+[01:30:28.239 | local 00:12:44.239] specific UK course material, that was a
+[01:30:30.000 | local 00:12:46.000] PowerPoint from one of ours, uh, our
+[01:30:32.239 | local 00:12:48.239] specific UK course material on there to
+[01:30:34.320 | local 00:12:50.320] map our curriculum so we understand
+[01:30:36.000 | local 00:12:52.000] where students are starting to lag
+[01:30:37.440 | local 00:12:53.440] behind. We can pick up when students are
+[01:30:39.600 | local 00:12:55.600] starting to fail earlier. And this
+[01:30:42.480 | local 00:12:58.480] technology is mind-blowing and they're
+[01:30:45.120 | local 00:13:01.120] giving it away to all the students at
+[01:30:46.719 | local 00:13:02.719] the College of Medicine. It's not like
+[01:30:48.239 | local 00:13:04.239] they're looking to make a buck off of
+[01:30:49.600 | local 00:13:05.600] this, right? We are putting together a
+[01:30:51.679 | local 00:13:07.679] study with the faculty where we are
+[01:30:54.800 | local 00:13:10.800] looking to see whether or not deploying
+[01:30:57.040 | local 00:13:13.040] this for every student does that change
+[01:30:58.960 | local 00:13:14.960] your board exam scores. You know, does
+[01:31:00.560 | local 00:13:16.560] that decrease the amount of time that
+[01:31:02.080 | local 00:13:18.080] you need to study because it makes you
+[01:31:03.920 | local 00:13:19.920] more efficient.
+[01:31:05.840 | local 00:13:21.840] Uh this is Brent Harrison. He's at the
+[01:31:08.800 | local 00:13:24.800] uh director of undergraduate studies in
+[01:31:10.480 | local 00:13:26.480] computer science. Um he is the one of
+[01:31:12.480 | local 00:13:28.480] the the people putting together the new
+[01:31:14.080 | local 00:13:30.080] bachelors in artificial intelligence.
+[01:31:16.320 | local 00:13:32.320] So, if you if all you want to do is
+[01:31:18.159 | local 00:13:34.159] learn about how I can use AI and that is
+[01:31:21.120 | local 00:13:37.120] what your goal is coming into college,
+[01:31:23.360 | local 00:13:39.360] um he's the guy for you. Um he also is
+[01:31:25.920 | local 00:13:41.920] offering a new certificate for people
+[01:31:27.840 | local 00:13:43.840] outside of CS. Let's say you're a
+[01:31:29.440 | local 00:13:45.440] communications major but want to make an
+[01:31:31.520 | local 00:13:47.520] effort to integrate AI more and get
+[01:31:33.840 | local 00:13:49.840] recognition from the workforce that you
+[01:31:35.679 | local 00:13:51.679] have this extra training. That's what
+[01:31:37.199 | local 00:13:53.199] that certificate is for. He's also doing
+[01:31:39.600 | local 00:13:55.600] a lot more courses on things that I
+[01:31:41.440 | local 00:13:57.440] still am working on understanding like
+[01:31:43.440 | local 00:13:59.440] machine learning and and building those
+[01:31:45.120 | local 00:14:01.120] models. Uh if you if anyone is
+[01:31:47.199 | local 00:14:03.199] interested this is just a quick personal
+[01:31:49.760 | local 00:14:05.760] story. Um so this is GBE. Uh she
+[01:31:53.280 | local 00:14:09.280] essentially is using artificial
+[01:31:54.719 | local 00:14:10.719] intelligence in looking at EEGs to
+[01:31:58.239 | local 00:14:14.239] understand where in the brain people who
+[01:32:00.719 | local 00:14:16.719] have epilepsy have disease. Uh it's
+[01:32:03.840 | local 00:14:19.840] incredible stuff. I I find it super
+[01:32:06.000 | local 00:14:22.000] fascinating. And the only reason I know
+[01:32:08.000 | local 00:14:24.000] about her work uh is because our kids
+[01:32:10.560 | local 00:14:26.560] are friends at daycare. uh and it and it
+[01:32:13.280 | local 00:14:29.280] it kind of represents the the vast
+[01:32:15.600 | local 00:14:31.600] number of people who are working on AI
+[01:32:17.840 | local 00:14:33.840] in all kinds of different ways and we as
+[01:32:20.159 | local 00:14:36.159] a university are working to try to bring
+[01:32:22.320 | local 00:14:38.320] that all of these people under one
+[01:32:24.560 | local 00:14:40.560] umbrella so that if if I am designing a
+[01:32:26.880 | local 00:14:42.880] chatbot to teach students how to deliver
+[01:32:29.840 | local 00:14:45.840] bad news about a patient's child or
+[01:32:32.159 | local 00:14:48.159] something like that then maybe the law
+[01:32:33.679 | local 00:14:49.679] school can take that exact same
+[01:32:34.880 | local 00:14:50.880] technology change it a little bit for
+[01:32:36.480 | local 00:14:52.480] cross- examinations we are working on a
+[01:32:38.639 | local 00:14:54.639] way to centralize all of those things
+[01:32:39.920 | local 00:14:55.920] and we're hoping to have more about that
+[01:32:42.080 | local 00:14:58.080] soon.
+[01:32:43.840 | local 00:14:59.840] But all of this, everything that we've
+[01:32:45.679 | local 00:15:01.679] been talking about is essentially
+[01:32:47.760 | local 00:15:03.760] working towards making lives better in
+[01:32:50.400 | local 00:15:06.400] Kentucky. That's the underlying goal for
+[01:32:52.239 | local 00:15:08.239] all of this. Huie and I represent a
+[01:32:54.560 | local 00:15:10.560] group of a growing group of physicians
+[01:32:56.480 | local 00:15:12.480] who believe that artificial intelligence
+[01:32:58.639 | local 00:15:14.639] can improve patient outcomes, can
+[01:33:00.639 | local 00:15:16.639] improve the physician shortage in
+[01:33:02.320 | local 00:15:18.320] Kentucky, can improve access to Eastern
+[01:33:04.639 | local 00:15:20.639] Kentucky, can make health care more
+[01:33:06.960 | local 00:15:22.960] efficient, more effective. We can we can
+[01:33:09.520 | local 00:15:25.520] be better. We can be better because now
+[01:33:11.440 | local 00:15:27.440] we have technology that didn't exist 10
+[01:33:13.360 | local 00:15:29.360] years ago and it's up to us to figure
+[01:33:15.360 | local 00:15:31.360] out how to deploy that across the state.
+[01:33:18.159 | local 00:15:34.159] One quick example is we think about
+[01:33:19.840 | local 00:15:35.840] sepsis. Sepsis is a killer all around
+[01:33:22.480 | local 00:15:38.480] the world, right? A lot of people die of
+[01:33:24.560 | local 00:15:40.560] sepsis. In Kentucky in 2023, there were
+[01:33:27.280 | local 00:15:43.280] 37,000 patients who were admitted to
+[01:33:29.600 | local 00:15:45.600] hospitals
+[01:33:31.199 | local 00:15:47.199] because of sepsis. That's all hospitals,
+[01:33:33.199 | local 00:15:49.199] not just at UK. Uh of those 37,000, it
+[01:33:36.560 | local 00:15:52.560] attributed $2.4 4 billion worth of cost
+[01:33:40.159 | local 00:15:56.159] uh to insurance companies and 81% of
+[01:33:42.880 | local 00:15:58.880] those students students 81% of those
+[01:33:45.120 | local 00:16:01.120] patients with sepsis were covered by
+[01:33:46.560 | local 00:16:02.560] Medicare or Medicaid and so we
+[01:33:48.960 | local 00:16:04.960] understand the vast responsibility that
+[01:33:52.400 | local 00:16:08.400] we have to be a little bit more
+[01:33:54.560 | local 00:16:10.560] efficient to be more effective and when
+[01:33:56.639 | local 00:16:12.639] you think about sepsis every single hour
+[01:33:58.800 | local 00:16:14.800] that goes by without diagnosing and
+[01:34:01.040 | local 00:16:17.040] treating somebody for sepsis the risk of
+[01:34:02.719 | local 00:16:18.719] mortality increases by 9%. So, this
+[01:34:05.120 | local 00:16:21.120] isn't just a number of dollars. This is
+[01:34:07.280 | local 00:16:23.280] real people's lives. And what if we had
+[01:34:09.679 | local 00:16:25.679] an AI system in the background looking
+[01:34:11.600 | local 00:16:27.600] at every single one of your vital signs,
+[01:34:13.360 | local 00:16:29.360] all of the your inputs, your outputs,
+[01:34:15.280 | local 00:16:31.280] your allergies. Does it know that you
+[01:34:17.199 | local 00:16:33.199] had colon cancer? Did it know that you
+[01:34:18.960 | local 00:16:34.960] have chemotherapy? It looks at the
+[01:34:21.040 | local 00:16:37.040] demographics of all of the people who
+[01:34:22.719 | local 00:16:38.719] are similar to you to identify the
+[01:34:24.800 | local 00:16:40.800] people who are going to become septic a
+[01:34:26.719 | local 00:16:42.719] little bit earlier. Even if it was just
+[01:34:28.320 | local 00:16:44.320] 1 hour earlier, that would be a
+[01:34:30.080 | local 00:16:46.080] substantial difference. And what if we
+[01:34:31.920 | local 00:16:47.920] had a system like that? And the reality
+[01:34:34.080 | local 00:16:50.080] is we do. We have that AI system and we
+[01:34:36.719 | local 00:16:52.719] initially took one of the off-the-shelf
+[01:34:38.480 | local 00:16:54.480] Epic models and deployed it at the
+[01:34:40.000 | local 00:16:56.000] hospital and it didn't work. And we were
+[01:34:42.960 | local 00:16:58.960] pretty bummed about it because we
+[01:34:44.000 | local 00:17:00.000] thought we could get away easy. Uh but
+[01:34:45.600 | local 00:17:01.600] it didn't work. And it didn't work
+[01:34:46.800 | local 00:17:02.800] because Kentucky is different. It's
+[01:34:49.199 | local 00:17:05.199] Kentucky is different from California
+[01:34:50.960 | local 00:17:06.960] and New York and the patients are
+[01:34:52.400 | local 00:17:08.400] different from Brazil and London. And
+[01:34:54.719 | local 00:17:10.719] the model is built on 400 million
+[01:34:57.199 | local 00:17:13.199] patients all across the world. And what
+[01:34:59.360 | local 00:17:15.360] we needed was we needed a model built on
+[01:35:01.679 | local 00:17:17.679] Kentucky patients with Kentucky data
+[01:35:03.600 | local 00:17:19.600] with Kentucky problems. And so we built
+[01:35:06.480 | local 00:17:22.480] that. We didn't build that. The the
+[01:35:08.000 | local 00:17:24.000] people at UK healthcare built that. Uh
+[01:35:10.080 | local 00:17:26.080] but they built essent they built and
+[01:35:11.760 | local 00:17:27.760] trained a model based on the healthcare
+[01:35:14.000 | local 00:17:30.000] data that they had. And it's not
+[01:35:16.880 | local 00:17:32.880] perfect. It's better, but it's it's not
+[01:35:18.960 | local 00:17:34.960] perfect, but it's getting better every
+[01:35:20.480 | local 00:17:36.480] single year because we're getting more
+[01:35:22.239 | local 00:17:38.239] data and we're understanding how the
+[01:35:23.920 | local 00:17:39.920] model works. and we're able to change
+[01:35:25.600 | local 00:17:41.600] the weights and we're able to get more
+[01:35:28.080 | local 00:17:44.080] fine-tuned, better quality data. Now, we
+[01:35:30.719 | local 00:17:46.719] have these microphones that listen to
+[01:35:32.320 | local 00:17:48.320] every single conversation. And we're
+[01:35:34.000 | local 00:17:50.000] using it right now for to make uh
+[01:35:36.639 | local 00:17:52.639] documentation a little bit easier so
+[01:35:38.480 | local 00:17:54.480] that physicians can have more
+[01:35:40.080 | local 00:17:56.080] face-toface time. But what if we took
+[01:35:41.920 | local 00:17:57.920] that exact same data and we used it to
+[01:35:44.480 | local 00:18:00.480] identify how do Kentucky people talk
+[01:35:46.719 | local 00:18:02.719] about Kentucky problems? The the
+[01:35:48.719 | local 00:18:04.719] vernacular that we use is different from
+[01:35:50.800 | local 00:18:06.800] anywhere else. and can we figure out
+[01:35:52.800 | local 00:18:08.800] ways that we can link that the the words
+[01:35:56.159 | local 00:18:12.159] that we use in Kentucky to the diseases
+[01:35:58.480 | local 00:18:14.480] that affect Kentucky. Those are the
+[01:36:00.400 | local 00:18:16.400] kinds of things that we think when we
+[01:36:01.840 | local 00:18:17.840] think about the future of healthcare. We
+[01:36:03.199 | local 00:18:19.199] think about precision medicine. We don't
+[01:36:05.040 | local 00:18:21.040] think about taking the models that
+[01:36:06.719 | local 00:18:22.719] everyone else is using everywhere else.
+[01:36:08.320 | local 00:18:24.320] We think about using models that we
+[01:36:10.239 | local 00:18:26.239] build ourselves for us because we I was
+[01:36:13.520 | local 00:18:29.520] born here. I grew up here. My son is you
+[01:36:15.760 | local 00:18:31.760] saw him, right? These are the tools that
+[01:36:18.000 | local 00:18:34.000] are going to affect our lives just as
+[01:36:20.480 | local 00:18:36.480] much as everyone else across the state.
+[01:36:23.360 | local 00:18:39.360] And so there there are three projects
+[01:36:24.960 | local 00:18:40.960] that we the the Cabinet for Health and
+[01:36:26.960 | local 00:18:42.960] Family Services has a state university
+[01:36:28.800 | local 00:18:44.800] partnership where every three years you
+[01:36:30.639 | local 00:18:46.639] can propose getting access to state
+[01:36:33.199 | local 00:18:49.199] data, super valuable data. And just a
+[01:36:35.280 | local 00:18:51.280] quick um blurb for them, the Kentucky
+[01:36:39.199 | local 00:18:55.199] healthcare data is actually really good.
+[01:36:41.360 | local 00:18:57.360] And it's something that I don't think we
+[01:36:43.040 | local 00:18:59.040] recognize or talk about a lot, but when
+[01:36:44.800 | local 00:19:00.800] you talk to Massachusetts in New York
+[01:36:46.719 | local 00:19:02.719] about how long does it take for you to
+[01:36:48.400 | local 00:19:04.400] get and use data from a state
+[01:36:50.239 | local 00:19:06.239] perspective, it takes 18 to 24 months.
+[01:36:52.719 | local 00:19:08.719] Here it takes like 6 months. That's you
+[01:36:56.000 | local 00:19:12.000] all did that and and so thank you so
+[01:36:57.679 | local 00:19:13.679] much. And now it's up to us to figure
+[01:36:59.040 | local 00:19:15.040] out how do we use that data to make
+[01:37:00.639 | local 00:19:16.639] healthcare better. Uh and so we we put
+[01:37:02.560 | local 00:19:18.560] together three proposals. Um the first
+[01:37:04.560 | local 00:19:20.560] one is to try to figure out how do we
+[01:37:06.719 | local 00:19:22.719] decrease the risk of readmission for
+[01:37:09.360 | local 00:19:25.360] patients with congestive heart failure.
+[01:37:11.199 | local 00:19:27.199] Um this is a ser heart failure is a
+[01:37:12.960 | local 00:19:28.960] serious disease that affects a lot of
+[01:37:14.239 | local 00:19:30.239] people in Kentucky. Uh and it is a very
+[01:37:17.440 | local 00:19:33.440] expensive admission because patients
+[01:37:19.360 | local 00:19:35.360] will often be admitted for days if not
+[01:37:22.239 | local 00:19:38.239] weeks at a time as their heart improves.
+[01:37:25.199 | local 00:19:41.199] And so what we want to do is we want to
+[01:37:27.840 | local 00:19:43.840] get a hold of Medicaid claims data and
+[01:37:30.239 | local 00:19:46.239] combine it with our UK healthcare data
+[01:37:32.719 | local 00:19:48.719] to to design a predictive model to
+[01:37:36.719 | local 00:19:52.719] identify patients who are at very high
+[01:37:38.320 | local 00:19:54.320] risk of coming back into the hospital
+[01:37:40.719 | local 00:19:56.719] and intervening on those patients and in
+[01:37:43.280 | local 00:19:59.280] figuring out how do we be more tailored
+[01:37:45.520 | local 00:20:01.520] and more precise with our education. How
+[01:37:48.080 | local 00:20:04.080] do we, you know, have like a step down
+[01:37:50.159 | local 00:20:06.159] clinic? Do we visit them at their homes
+[01:37:51.840 | local 00:20:07.840] in order to make sure that they don't
+[01:37:53.040 | local 00:20:09.040] bounce back to the hospital? Um that's
+[01:37:55.199 | local 00:20:11.199] just one uh of the projects. This is
+[01:37:57.520 | local 00:20:13.520] part of the advancing Kentucky uh
+[01:37:59.840 | local 00:20:15.840] together network. Um which is a
+[01:38:01.920 | local 00:20:17.920] strategic initiative that essentially
+[01:38:03.600 | local 00:20:19.600] looks at how can the university work on
+[01:38:06.159 | local 00:20:22.159] these four pillars to make life in
+[01:38:08.560 | local 00:20:24.560] Kentucky a little bit better. And the
+[01:38:10.000 | local 00:20:26.000] the places that that we're focusing on
+[01:38:11.760 | local 00:20:27.760] for this are healthcare, education, the
+[01:38:13.679 | local 00:20:29.679] workforce, and just the community at
+[01:38:15.440 | local 00:20:31.440] large. And we're convinced that AI is
+[01:38:17.520 | local 00:20:33.520] going to play into every single one of
+[01:38:18.880 | local 00:20:34.880] those pillars.
+[01:38:20.960 | local 00:20:36.960] The second project is for hepatitis C,
+[01:38:22.800 | local 00:20:38.800] medication compliance. Hepatiti, we
+[01:38:24.639 | local 00:20:40.639] cured hepatitis C. We didn't uh but but
+[01:38:27.119 | local 00:20:43.119] people have cured hepatitis C. It is 98%
+[01:38:30.400 | local 00:20:46.400] curable if you take your medicines the
+[01:38:32.480 | local 00:20:48.480] right way. And there are populations in
+[01:38:34.159 | local 00:20:50.159] Kentucky who have hepatitis C that we
+[01:38:36.080 | local 00:20:52.080] have data on that our curate is about
+[01:38:38.159 | local 00:20:54.159] 60%. Because people just don't take
+[01:38:40.639 | local 00:20:56.639] their medicine. And so can we use AI to
+[01:38:43.280 | local 00:20:59.280] get people to take their medicine
+[01:38:44.560 | local 00:21:00.560] better? And this is the details for it,
+[01:38:46.639 | local 00:21:02.639] but the short story is that this
+[01:38:48.239 | local 00:21:04.239] technology exists. There are smart pill
+[01:38:50.480 | local 00:21:06.480] bottles that every time you pop the top,
+[01:38:51.920 | local 00:21:07.920] it sends out a cellular signal. We're
+[01:38:54.000 | local 00:21:10.000] working on building an AI system that
+[01:38:56.239 | local 00:21:12.239] every night at 9:00 p.m. it scrolls
+[01:38:58.000 | local 00:21:14.000] through the list of patients who haven't
+[01:38:59.440 | local 00:21:15.440] popped the top on their bottle. Uh, and
+[01:39:01.280 | local 00:21:17.280] then another AI system that just gives
+[01:39:03.440 | local 00:21:19.440] them a nudge. Whether that is a text
+[01:39:05.199 | local 00:21:21.199] message, a phone call that just says,
+[01:39:06.719 | local 00:21:22.719] "Hey, I know you're busy. Don't forget
+[01:39:08.159 | local 00:21:24.159] to take your meds tonight." That's it.
+[01:39:10.080 | local 00:21:26.080] Maybe that works, maybe it doesn't. If
+[01:39:11.920 | local 00:21:27.920] it doesn't work, great. We'll try
+[01:39:13.119 | local 00:21:29.119] something else. But if it does, then
+[01:39:14.960 | local 00:21:30.960] that decreases cerosis in Kentucky,
+[01:39:17.760 | local 00:21:33.760] liver cancer in Kentucky. a communicable
+[01:39:19.920 | local 00:21:35.920] disease, right? And and it's the
+[01:39:22.639 | local 00:21:38.639] software itself is is simple. It's
+[01:39:25.119 | local 00:21:41.119] basic. We could probably write it in a
+[01:39:26.880 | local 00:21:42.880] couple of weeks. We're already working
+[01:39:28.320 | local 00:21:44.320] on it. Uh and we have a pretty good
+[01:39:30.239 | local 00:21:46.239] working prototype. If only we had a
+[01:39:32.800 | local 00:21:48.800] little bit more access to data, which is
+[01:39:34.800 | local 00:21:50.800] which thank goodness for for the for the
+[01:39:36.880 | local 00:21:52.880] cabinet getting us some of that data.
+[01:39:39.280 | local 00:21:55.280] The final one is essentially cancer
+[01:39:40.719 | local 00:21:56.719] screening. Um what the proposal here is
+[01:39:43.520 | local 00:21:59.520] can we get a hold of Medicaid claims
+[01:39:45.119 | local 00:22:01.119] data identify patients who are eligible
+[01:39:47.520 | local 00:22:03.520] for screenings whether it's colon cancer
+[01:39:49.199 | local 00:22:05.199] lung cancer cervical cancer finding
+[01:39:51.119 | local 00:22:07.119] those patients and then deploying that
+[01:39:53.040 | local 00:22:09.040] similar software to reach out to them
+[01:39:55.679 | local 00:22:11.679] and then can we take it a little bit
+[01:39:57.199 | local 00:22:13.199] further this is a stretch on us can we
+[01:39:59.199 | local 00:22:15.199] take it a little bit further integrate
+[01:40:00.719 | local 00:22:16.719] this AI system into our epic scheduling
+[01:40:04.080 | local 00:22:20.080] system so that you're just going about
+[01:40:05.920 | local 00:22:21.920] your day you get this phone call you
+[01:40:07.440 | local 00:22:23.440] learn that oh I am due for colon cancer
+[01:40:09.520 | local 00:22:25.520] screening what is colon cancer Why am I
+[01:40:11.679 | local 00:22:27.679] at risk for this? What are the side
+[01:40:13.520 | local 00:22:29.520] effects? Okay, great. I want to get this
+[01:40:15.199 | local 00:22:31.199] colonoscopy. How do I do that? And we
+[01:40:18.080 | local 00:22:34.080] think that we can design an AI agent
+[01:40:20.159 | local 00:22:36.159] that walks you through the process and
+[01:40:21.760 | local 00:22:37.760] schedules you for your appointment all
+[01:40:23.360 | local 00:22:39.360] at the same time so that you don't then
+[01:40:25.520 | local 00:22:41.520] have to take the onus on yourself of
+[01:40:27.199 | local 00:22:43.199] calling your doctor and trying to get a
+[01:40:28.880 | local 00:22:44.880] colonoscopy. That we can just do it
+[01:40:30.639 | local 00:22:46.639] automatically, bring you in, and make
+[01:40:32.400 | local 00:22:48.400] sure that we are caring for the people
+[01:40:33.920 | local 00:22:49.920] of Kentucky.
+[01:40:36.560 | local 00:22:52.560] This was kind of a lot of stuff because
+[01:40:37.760 | local 00:22:53.760] I know that that we were running over um
+[01:40:39.520 | local 00:22:55.520] but but we do think that this is the
+[01:40:41.600 | local 00:22:57.600] most important part of our presentation
+[01:40:43.520 | local 00:22:59.520] is this conversation back and forth. We
+[01:40:45.119 | local 00:23:01.119] hope that this is kind of the beginning
+[01:40:46.639 | local 00:23:02.639] of of a conversation because we have a
+[01:40:49.119 | local 00:23:05.119] lot of ideas. We've got a stack of about
+[01:40:50.639 | local 00:23:06.639] 32 pages worth of proposals that we want
+[01:40:52.320 | local 00:23:08.320] to do. Uh and but we want to understand
+[01:40:55.920 | local 00:23:11.920] where the state thinks that we should be
+[01:40:57.840 | local 00:23:13.840] putting our time and attention. We've
+[01:40:59.600 | local 00:23:15.600] got dozens of students who are champing
+[01:41:02.320 | local 00:23:18.320] at the bit to make the next big thing to
+[01:41:05.280 | local 00:23:21.280] to do something impressive to change the
+[01:41:07.760 | local 00:23:23.760] lives of the people in their hometowns.
+[01:41:09.920 | local 00:23:25.920] Um, and so we we want to know what's
+[01:41:12.159 | local 00:23:28.159] interesting to you. Um, again, thank you
+[01:41:14.159 | local 00:23:30.159] all so much for your time and for
+[01:41:15.760 | local 00:23:31.760] allowing us to come and present today.
+[01:41:18.000 | local 00:23:34.000] >> Oh, Dr. Tom, I could give you a couple
+[01:41:20.159 | local 00:23:36.159] hours and I would sit here, I think most
+[01:41:23.360 | local 00:23:39.360] of us would, and and just listen. Um,
+[01:41:26.239 | local 00:23:42.239] and we've so enjoyed just listening to
+[01:41:27.840 | local 00:23:43.840] the last couple months of what you all
+[01:41:29.520 | local 00:23:45.520] are doing at UK. And I think what you've
+[01:41:31.520 | local 00:23:47.520] articulated there is what gets me most
+[01:41:33.840 | local 00:23:49.840] excited, I think, about AI and
+[01:41:35.199 | local 00:23:51.199] healthcare, which is changing the lives
+[01:41:36.400 | local 00:23:52.400] of Kuckians and moving the needle past
+[01:41:38.800 | local 00:23:54.800] just are we talking about diagnosis, are
+[01:41:40.639 | local 00:23:56.639] we talking about spending money, are we
+[01:41:42.239 | local 00:23:58.239] getting people to the hospital, that's
+[01:41:43.679 | local 00:23:59.679] great. But if we're not changing their
+[01:41:45.360 | local 00:24:01.360] life and moving them to being actually
+[01:41:47.760 | local 00:24:03.760] better in health, we're not really
+[01:41:49.199 | local 00:24:05.199] moving the needle. Um, so I'm really
+[01:41:51.119 | local 00:24:07.119] excited about some of the things you're
+[01:41:52.239 | local 00:24:08.239] talking about. I can't wait to read all
+[01:41:53.440 | local 00:24:09.440] the proposals. Um, does anybody have any
+[01:41:56.400 | local 00:24:12.400] specific I'm sorry, uh, Representative
+[01:41:58.320 | local 00:24:14.320] Miles, we'll start with you.
+[01:42:02.480 | local 00:24:18.480] >> Hello.
+[01:42:04.000 | local 00:24:20.000] Um, thank you, Chairman. And this is not
+[01:42:06.560 | local 00:24:22.560] the first time that um, we have
+[01:42:08.719 | local 00:24:24.719] encountered Dr. Tay. So, thank you so
+[01:42:11.040 | local 00:24:27.040] much for your presentation today, but
+[01:42:13.840 | local 00:24:29.840] um, I'm really curious what Dr. Ballard,
+[01:42:16.159 | local 00:24:32.159] I don't know if you all rolled over here
+[01:42:17.679 | local 00:24:33.679] together, but what type of conversation
+[01:42:20.080 | local 00:24:36.080] takes place in the car with Dr. going
+[01:42:23.280 | local 00:24:39.280] somewhere because I mean I quite frankly
+[01:42:26.719 | local 00:24:42.719] I' I would rather see you than a play or
+[01:42:29.119 | local 00:24:45.119] a dramatic theater whatever because so
+[01:42:33.040 | local 00:24:49.040] much information but um so fascinating
+[01:42:36.560 | local 00:24:52.560] so excited to see what's next and and
+[01:42:39.600 | local 00:24:55.600] what you all have to bring to us but
+[01:42:41.440 | local 00:24:57.440] what type of conversation takes place in
+[01:42:43.520 | local 00:24:59.520] the car with him?
+[01:42:44.719 | local 00:25:00.719] >> Uh Representative Miles, uh thank you
+[01:42:47.119 | local 00:25:03.119] for the question. Uh it's kind of it's
+[01:42:49.679 | local 00:25:05.679] kind of akin to the guy that rides
+[01:42:51.520 | local 00:25:07.520] around with Superman and gets his cape
+[01:42:53.280 | local 00:25:09.280] ready and stuff. That's what I would
+[01:42:54.960 | local 00:25:10.960] tell. No, in all sincerity, we're
+[01:42:56.880 | local 00:25:12.880] actually talking about uh power usage of
+[01:42:59.440 | local 00:25:15.440] data centers the entire way over here
+[01:43:01.679 | local 00:25:17.679] and stuff. And I I would so this is
+[01:43:04.320 | local 00:25:20.320] regarding uh Mr. Cleland's talk. You
+[01:43:07.040 | local 00:25:23.040] know, I would actually give you the
+[01:43:08.320 | local 00:25:24.320] analogy that when you look at the data
+[01:43:11.040 | local 00:25:27.040] centers that if you look at the Nvidia
+[01:43:13.520 | local 00:25:29.520] chips, the uh DGX chip, which has eight
+[01:43:16.960 | local 00:25:32.960] uh graphics processing units, and I was
+[01:43:18.880 | local 00:25:34.880] an electro engineer before I went to
+[01:43:20.480 | local 00:25:36.480] medical school, by the way, and so um if
+[01:43:23.119 | local 00:25:39.119] you look at one of those chips, it uses
+[01:43:25.280 | local 00:25:41.280] about the same amount of power as around
+[01:43:27.520 | local 00:25:43.520] 8 to 10 households in a year. And those
+[01:43:30.320 | local 00:25:46.320] data centers have, you know, anywhere
+[01:43:32.639 | local 00:25:48.639] from 20 to 50,000, you know, large data
+[01:43:36.239 | local 00:25:52.239] centers have 100 thousands of those, you
+[01:43:38.639 | local 00:25:54.639] know, those servers in them and stuff.
+[01:43:40.719 | local 00:25:56.719] So it's equivalent to a small city and
+[01:43:44.080 | local 00:26:00.080] stuff with 200,000 people in them and
+[01:43:46.480 | local 00:26:02.480] stuff is is then. So that's what we were
+[01:43:48.960 | local 00:26:04.960] talking about on the way over here is
+[01:43:50.400 | local 00:26:06.400] the answer to your question. So
+[01:43:52.560 | local 00:26:08.560] >> thank you for being in Kentucky, both of
+[01:43:54.560 | local 00:26:10.560] you. Thank you for being here,
+[01:43:56.880 | local 00:26:12.880] >> Coach Bray.
+[01:43:59.440 | local 00:26:15.440] Thank you. Um, always feel like a
+[01:44:02.719 | local 00:26:18.719] toddler after I listen to you all talk.
+[01:44:05.760 | local 00:26:21.760] Um, so thanks for that. Um,
+[01:44:11.119 | local 00:26:27.119] very impressed with everything you're
+[01:44:12.639 | local 00:26:28.639] doing and so super excited that it's
+[01:44:14.639 | local 00:26:30.639] it's not only happening, you know,
+[01:44:17.679 | local 00:26:33.679] happening at all, but it's happening
+[01:44:18.960 | local 00:26:34.960] here in Kentucky. Um, you know, you
+[01:44:22.000 | local 00:26:38.000] asked for our feedback on what what you
+[01:44:24.560 | local 00:26:40.560] all need to be focusing on. I mean, it
+[01:44:27.199 | local 00:26:43.199] sounds like you're doing an excellent
+[01:44:28.560 | local 00:26:44.560] job without our feedback because
+[01:44:31.600 | local 00:26:47.600] everything you you've talked about
+[01:44:33.040 | local 00:26:49.040] extremely important and and if you get
+[01:44:35.119 | local 00:26:51.119] it right or let me rephrase that, when
+[01:44:37.760 | local 00:26:53.760] you get it right, it's going to save the
+[01:44:39.600 | local 00:26:55.600] state a ton of money just through the
+[01:44:41.760 | local 00:26:57.760] Medicaid system. And so, we're extremely
+[01:44:45.040 | local 00:27:01.040] fortunate that you all are have taken
+[01:44:46.960 | local 00:27:02.960] the onus upon yourself to do the
+[01:44:48.480 | local 00:27:04.480] research. I guess my question to you is
+[01:44:51.280 | local 00:27:07.280] because you're the experts in all of
+[01:44:53.199 | local 00:27:09.199] this. I mean, I'm like a, like I said,
+[01:44:55.440 | local 00:27:11.440] like a toddler up here. What do we need
+[01:44:58.159 | local 00:27:14.159] to be focused on? What What can we do to
+[01:45:01.440 | local 00:27:17.440] help you all? What can where can we go?
+[01:45:04.320 | local 00:27:20.320] What do we need to be looking at?
+[01:45:05.600 | local 00:27:21.600] Because you're the boots on the ground.
+[01:45:06.960 | local 00:27:22.960] You see this, you you're you're training
+[01:45:08.719 | local 00:27:24.719] the students. You've got the the
+[01:45:10.880 | local 00:27:26.880] feedback from the people that are that
+[01:45:12.560 | local 00:27:28.560] are developing the systems and you know
+[01:45:14.159 | local 00:27:30.159] what direction it's going better than we
+[01:45:15.760 | local 00:27:31.760] do. I mean, I would love to just hear
+[01:45:19.119 | local 00:27:35.119] any advice or where do we need to be
+[01:45:21.119 | local 00:27:37.119] looking or how can we help?
+[01:45:23.760 | local 00:27:39.760] >> Uh, so Thomas said this a couple times
+[01:45:26.480 | local 00:27:42.480] during his presentation. Uh, in our
+[01:45:29.360 | local 00:27:45.360] space, it's all about so uh,
+[01:45:31.600 | local 00:27:47.600] Representative Bra, thank you for the
+[01:45:33.199 | local 00:27:49.199] question. So, the answer is it's all
+[01:45:34.960 | local 00:27:50.960] about access to data. And so for uh for
+[01:45:38.320 | local 00:27:54.320] all of these different models that are
+[01:45:40.239 | local 00:27:56.239] decreasing you know readmission to the
+[01:45:42.159 | local 00:27:58.159] hospital for heart failure recognizing
+[01:45:43.679 | local 00:27:59.679] sepsis that you know people are using in
+[01:45:45.760 | local 00:28:01.760] California and you know that are is
+[01:45:48.480 | local 00:28:04.480] saving money they have access to good
+[01:45:52.639 | local 00:28:08.639] data and you know and Tama pointed out
+[01:45:56.239 | local 00:28:12.239] the importance of in Kentucky we need
+[01:45:59.840 | local 00:28:15.840] Kucky's data regarding you look at
+[01:46:02.400 | local 00:28:18.400] Medicine Medicaid claims you look at the
+[01:46:05.119 | local 00:28:21.119] vaccine registry
+[01:46:06.480 | local 00:28:22.480] those types of things. That's how we can
+[01:46:08.400 | local 00:28:24.400] make a difference because for our models
+[01:46:11.119 | local 00:28:27.119] to work, we need access. We Katie
+[01:46:14.400 | local 00:28:30.400] Thompson is an expert in data lakes is
+[01:46:17.280 | local 00:28:33.280] what I would term it in terms of large
+[01:46:19.440 | local 00:28:35.440] data sets and in putting them into the
+[01:46:22.239 | local 00:28:38.239] software that does the machine learning
+[01:46:24.320 | local 00:28:40.320] and helps improve and recognize, you
+[01:46:26.960 | local 00:28:42.960] know, the patients that we can most
+[01:46:29.600 | local 00:28:45.600] benefit. And for for us, it's access to
+[01:46:33.119 | local 00:28:49.119] data. And I think you know the next
+[01:46:36.000 | local 00:28:52.000] question should be um you know how do we
+[01:46:39.679 | local 00:28:55.679] access that data and maintain security?
+[01:46:42.480 | local 00:28:58.480] You know we're both physicians. We know
+[01:46:44.080 | local 00:29:00.080] a lot about HIPPA and so uh you know
+[01:46:47.280 | local 00:29:03.280] making sure uh so part of what we're
+[01:46:50.560 | local 00:29:06.560] doing is within EPIC. Epic the
+[01:46:52.560 | local 00:29:08.560] environment is very secure. It's well
+[01:46:55.360 | local 00:29:11.360] beyond what's needed for HIPPA uh
+[01:46:57.520 | local 00:29:13.520] compliance. And the other thing for uh
+[01:47:00.400 | local 00:29:16.400] Dr. Thompson Katie um you know she has
+[01:47:03.760 | local 00:29:19.760] her own HIPPA uh protected servers that
+[01:47:06.880 | local 00:29:22.880] she utilizes for the data. She's
+[01:47:08.639 | local 00:29:24.639] actually utilize Medicaid data
+[01:47:10.560 | local 00:29:26.560] previously uh from the cabinet for uh
+[01:47:13.920 | local 00:29:29.920] and so you know this is uh you know
+[01:47:17.040 | local 00:29:33.040] that's that's the next steps.
+[01:47:21.040 | local 00:29:37.040] >> So just if I may follow up um your all's
+[01:47:25.679 | local 00:29:41.679] access to data you said it takes about
+[01:47:27.119 | local 00:29:43.119] six months and that's a lot better than
+[01:47:29.040 | local 00:29:45.040] other states. Um, can we streamline that
+[01:47:32.320 | local 00:29:48.320] and get it to you quicker, make it
+[01:47:33.840 | local 00:29:49.840] easier? Because I mean it
+[01:47:37.920 | local 00:29:53.920] the onus is on us not only to improve
+[01:47:41.280 | local 00:29:57.280] the health outcomes for Kuckians and
+[01:47:45.040 | local 00:30:01.040] it's it's clear that what you're doing
+[01:47:46.960 | local 00:30:02.960] will improve that health outcomes on for
+[01:47:49.600 | local 00:30:05.600] Kuckians
+[01:47:52.080 | local 00:30:08.080] and we need to make sure that if you
+[01:47:55.119 | local 00:30:11.119] know six months is great but it'd be
+[01:47:56.800 | local 00:30:12.800] even better if we could do it in three.
+[01:47:59.600 | local 00:30:15.600] um
+[01:48:01.360 | local 00:30:17.360] >> more direct access or or you know it it
+[01:48:05.520 | local 00:30:21.520] sounds like we need to be putting some
+[01:48:07.360 | local 00:30:23.360] effort in in looking at how we can
+[01:48:09.360 | local 00:30:25.360] improve that um for you all.
+[01:48:11.440 | local 00:30:27.440] >> I I can't tell you how grateful I am
+[01:48:14.239 | local 00:30:30.239] that that was your comment um about how
+[01:48:16.719 | local 00:30:32.719] can we streamline it, how can we not
+[01:48:18.320 | local 00:30:34.320] accept 6 months as as the as the
+[01:48:21.119 | local 00:30:37.119] benchmark. Um I think you're you're
+[01:48:23.520 | local 00:30:39.520] right. I think that there is a lot of
+[01:48:24.880 | local 00:30:40.880] opportunity. I think we at UK are also
+[01:48:27.679 | local 00:30:43.679] still trying to figure out how to get
+[01:48:29.360 | local 00:30:45.360] data in and out of places and make sure
+[01:48:31.520 | local 00:30:47.520] things are secure. Um, and it and I do
+[01:48:35.199 | local 00:30:51.199] want to just say that like he said, data
+[01:48:37.520 | local 00:30:53.520] privacy is is our fundamental. We need
+[01:48:39.520 | local 00:30:55.520] to make sure that that's important. But
+[01:48:41.199 | local 00:30:57.199] we do think that there is a lot of
+[01:48:43.040 | local 00:30:59.040] things with remote patient monitoring
+[01:48:44.960 | local 00:31:00.960] with these predictive analytics. There's
+[01:48:46.639 | local 00:31:02.639] a lot more things that we can be doing.
+[01:48:49.280 | local 00:31:05.280] um you know and and I won't go into kind
+[01:48:51.520 | local 00:31:07.520] of those details, but the truth of the
+[01:48:53.600 | local 00:31:09.600] matter is that this technology is so
+[01:48:55.679 | local 00:31:11.679] fresh and new that that I'm not entirely
+[01:48:57.520 | local 00:31:13.520] sure I know what questions to to ask for
+[01:48:59.679 | local 00:31:15.679] right now. Like I don't know I can't we
+[01:49:03.040 | local 00:31:19.040] didn't think that we would have this
+[01:49:04.400 | local 00:31:20.400] opportunity to ask for something here.
+[01:49:07.119 | local 00:31:23.119] Um but if we if you don't mind I'll come
+[01:49:10.000 | local 00:31:26.000] back to you as as this goes on. Um
+[01:49:12.560 | local 00:31:28.560] because I anticipate over the next 6 to
+[01:49:14.880 | local 00:31:30.880] 12 months we we're going to have more
+[01:49:17.360 | local 00:31:33.360] sophisticated understanding of truly the
+[01:49:19.679 | local 00:31:35.679] things that we can pull off um and if
+[01:49:22.400 | local 00:31:38.400] you are able to work with us u that we
+[01:49:25.440 | local 00:31:41.440] would love that. I I can I add to that
+[01:49:29.199 | local 00:31:45.199] just quickly. I think making this a
+[01:49:31.679 | local 00:31:47.679] dynamic conversation that as we
+[01:49:34.639 | local 00:31:50.639] encounter uh opportunities uh where we
+[01:49:37.840 | local 00:31:53.840] think we can make a difference if we can
+[01:49:39.840 | local 00:31:55.840] reach back out to you guys. Madam Chair,
+[01:49:43.440 | local 00:31:59.440] >> 100%. I think Representative Brace or
+[01:49:45.440 | local 00:32:01.440] the question I was going to ask is what
+[01:49:46.800 | local 00:32:02.800] do you need from us? I remember Cody
+[01:49:48.639 | local 00:32:04.639] Bumgard testified last year and talked
+[01:49:50.480 | local 00:32:06.480] about how important Kucky's data was
+[01:49:52.239 | local 00:32:08.239] that we don't want California, we don't
+[01:49:54.159 | local 00:32:10.159] want New York, we want Kucky's data so
+[01:49:56.880 | local 00:32:12.880] we can better impact Kuckians. And so we
+[01:49:59.520 | local 00:32:15.520] we want this to be a dynamic
+[01:50:01.119 | local 00:32:17.119] conversation where you're talking to us
+[01:50:02.800 | local 00:32:18.800] about what we can do to streamline
+[01:50:04.320 | local 00:32:20.320] provide better act access to data more
+[01:50:06.400 | local 00:32:22.400] quickly. Whatever we need to do on our
+[01:50:08.560 | local 00:32:24.560] side, I think we want to be a good
+[01:50:09.760 | local 00:32:25.760] partner because time is money. And if we
+[01:50:12.000 | local 00:32:28.000] can provide better care for people and
+[01:50:13.520 | local 00:32:29.520] extend their life earlier while also
+[01:50:15.199 | local 00:32:31.199] reducing costs, that is something we are
+[01:50:16.960 | local 00:32:32.960] very much interested in and being a
+[01:50:19.119 | local 00:32:35.119] front leader I think on those
+[01:50:20.239 | local 00:32:36.239] conversations because of a research
+[01:50:22.320 | local 00:32:38.320] capacity that we have is is really
+[01:50:24.000 | local 00:32:40.000] exciting. I mean especially if we have
+[01:50:25.840 | local 00:32:41.840] doctors who are going willing to stay
+[01:50:27.199 | local 00:32:43.199] here. That's what we want. We don't want
+[01:50:28.960 | local 00:32:44.960] them going to New York.
+[01:50:31.280 | local 00:32:47.280] So, you've definitely have a willing
+[01:50:32.480 | local 00:32:48.480] partner and the the conversation is
+[01:50:34.000 | local 00:32:50.000] always open. Representative Layman, did
+[01:50:35.840 | local 00:32:51.840] you have a question?
+[01:50:37.280 | local 00:32:53.280] >> Yes. Thanks, Madam Chair. Quick question
+[01:50:38.800 | local 00:32:54.800] just with I I hear a lot of it. There's
+[01:50:40.719 | local 00:32:56.719] been a lot of federal cuts, NIH funding,
+[01:50:42.639 | local 00:32:58.639] other federal fundings and grants. How's
+[01:50:45.199 | local 00:33:01.199] your financial situation? And again,
+[01:50:47.679 | local 00:33:03.679] talking about keeping people here in
+[01:50:49.280 | local 00:33:05.280] Kentucky. It's going to be a budget
+[01:50:51.360 | local 00:33:07.360] year. I'm sure you have requests, but
+[01:50:53.520 | local 00:33:09.520] can you just let us know how that's
+[01:50:54.639 | local 00:33:10.639] going financially?
+[01:50:58.560 | local 00:33:14.560] Yeah, I I would say that you know that's
+[01:51:02.560 | local 00:33:18.560] uh uh thank you for the question,
+[01:51:04.719 | local 00:33:20.719] Representative Layman. Uh you uh the
+[01:51:07.920 | local 00:33:23.920] budget um in terms of what we're doing
+[01:51:10.960 | local 00:33:26.960] with these projects is we have
+[01:51:13.600 | local 00:33:29.600] everything we need to succeed is is is
+[01:51:16.880 | local 00:33:32.880] our perspective on the budget at the
+[01:51:18.719 | local 00:33:34.719] university level. that's beyond, you
+[01:51:20.400 | local 00:33:36.400] know, I was actually on the board last
+[01:51:22.080 | local 00:33:38.080] year and stuff and like the budget's
+[01:51:24.239 | local 00:33:40.239] been approved and uh I would I would
+[01:51:26.560 | local 00:33:42.560] tell you that our fiscal uh perspective
+[01:51:30.080 | local 00:33:46.080] at the university is you know we're
+[01:51:33.520 | local 00:33:49.520] always concerned given that the federal
+[01:51:35.920 | local 00:33:51.920] government has said in over the next 10
+[01:51:37.599 | local 00:33:53.599] years it's going to be what is it 900
+[01:51:39.840 | local 00:33:55.840] billion in cuts. you know, that
+[01:51:43.280 | local 00:33:59.280] definitely catches your attention and
+[01:51:45.199 | local 00:34:01.199] you know, it's a part of our onus for
+[01:51:47.520 | local 00:34:03.520] wanting to address these uh, you know,
+[01:51:50.400 | local 00:34:06.400] Medicaid costs and helping more Kuckians
+[01:51:53.520 | local 00:34:09.520] because we can save the state money and
+[01:51:55.920 | local 00:34:11.920] help everyone's budget. And so, for us,
+[01:51:58.800 | local 00:34:14.800] it's truly what fuels us in terms of
+[01:52:01.440 | local 00:34:17.440] trying to make a difference.
+[01:52:04.719 | local 00:34:20.719] >> Thank you. Can I just ask a followup? I
+[01:52:06.159 | local 00:34:22.159] I guess I'm more specific on do do you
+[01:52:08.480 | local 00:34:24.480] have federal grants that help subsidize
+[01:52:11.520 | local 00:34:27.520] some of the work you're doing or some of
+[01:52:13.199 | local 00:34:29.199] your research or
+[01:52:15.760 | local 00:34:31.760] >> have you lost those grant? I'm just
+[01:52:17.119 | local 00:34:33.119] trying to understand if there's holes
+[01:52:19.360 | local 00:34:35.360] that need to be filled.
+[01:52:20.880 | local 00:34:36.880] >> Uh so the answer is no. We do we have
+[01:52:24.320 | local 00:34:40.320] not lost uh uh uh funding for anything
+[01:52:27.920 | local 00:34:43.920] that we're doing. We have internal
+[01:52:29.520 | local 00:34:45.520] grants and you know that's was frankly a
+[01:52:33.040 | local 00:34:49.040] part of our uh the significance of
+[01:52:36.719 | local 00:34:52.719] submitting to the state university
+[01:52:38.159 | local 00:34:54.159] partnership is it's matching funds and
+[01:52:41.679 | local 00:34:57.679] that's the intent of us working towards
+[01:52:44.080 | local 00:35:00.080] that.
+[01:52:44.639 | local 00:35:00.639] >> Okay. Thank you.
+[01:52:46.800 | local 00:35:02.800] >> Thank you. And I think um just to
+[01:52:49.040 | local 00:35:05.040] maximize on that budget requests are
+[01:52:50.800 | local 00:35:06.800] important and what we can do to help um
+[01:52:53.520 | local 00:35:09.520] do some match funding or take on more
+[01:52:55.599 | local 00:35:11.599] research. which I think that's really
+[01:52:56.639 | local 00:35:12.639] important especially on the healthcare
+[01:52:58.719 | local 00:35:14.719] side. So I'll just mention at the end
+[01:53:00.400 | local 00:35:16.400] thank you all for coming and giving us
+[01:53:02.000 | local 00:35:18.000] some things to think about. I hope
+[01:53:03.119 | local 00:35:19.119] you'll continue the conversation with us
+[01:53:05.360 | local 00:35:21.360] as we go into next year. And then lastly
+[01:53:07.520 | local 00:35:23.520] I just want to know if we can also take
+[01:53:08.960 | local 00:35:24.960] that tech 100 class.
+[01:53:13.360 | local 00:35:29.360] >> I I'm somewhat getting somewhat on I I
+[01:53:16.080 | local 00:35:32.080] think that we are working on how do we
+[01:53:18.560 | local 00:35:34.560] get this out to people. Um, you know,
+[01:53:21.440 | local 00:35:37.440] we, like I said at the beginning of all
+[01:53:23.040 | local 00:35:39.040] this, we we do accept that
+[01:53:24.239 | local 00:35:40.239] responsibility that we are the ones who
+[01:53:26.880 | local 00:35:42.880] have the people around who can build
+[01:53:28.960 | local 00:35:44.960] things like this. And so we want to get
+[01:53:30.719 | local 00:35:46.719] it out. We want to get it out to our
+[01:53:32.239 | local 00:35:48.239] faculty, to our staff, and then out to
+[01:53:34.080 | local 00:35:50.080] the community at large. Um, and so we'll
+[01:53:35.840 | local 00:35:51.840] we'll keep you posted on that one.
+[01:53:37.199 | local 00:35:53.199] >> Awesome. Thank you both very much for
+[01:53:39.119 | local 00:35:55.119] coming today and talking and for your
+[01:53:40.800 | local 00:35:56.800] time. And then lastly, we have one more
+[01:53:43.440 | local 00:35:59.440] item on our agenda and that is um
+[01:53:45.280 | local 00:36:01.280] Senator Williams, if you want to talk a
+[01:53:46.639 | local 00:36:02.639] little bit about um protecting personal
+[01:53:48.400 | local 00:36:04.400] information from AI scraping, you're
+[01:53:49.840 | local 00:36:05.840] welcome to do it from here or at the
+[01:53:51.840 | local 00:36:07.840] table.

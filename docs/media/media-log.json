@@ -1,0 +1,1650 @@
+{
+  "version": 1,
+  "updatedAt": "2026-07-15T07:20:46.223Z",
+  "archiveRoot": "Media",
+  "scope": "Primary audio and video masters held in the project Media archive. Artwork, captions, transcripts, metadata, and receipts are derivatives of those primary items.",
+  "storage": {
+    "mediaArchiveTrackedByGit": false,
+    "catalogTrackedByGit": true,
+    "pathPolicy": "Repository-relative paths only; private absolute paths and expiring signed URLs are omitted."
+  },
+  "transcriptPolicy": "Project transcripts are machine-generated and hash-verified, not human-certified. Verify quotations, names, and publication captions against the audio.",
+  "collections": [
+    {
+      "id": "the-mdm",
+      "title": "The MDM",
+      "type": "podcast",
+      "spotifyUrl": "https://open.spotify.com/show/1wTFtEIvYvBS8uJJ8nryC8",
+      "canonicalUrl": "https://themdm.buzzsprout.com/",
+      "rssUrl": "https://rss.buzzsprout.com/2371946.rss",
+      "archiveManifestPath": "Media/The MDM/The-MDM.show.json"
+    }
+  ],
+  "relatedCollections": [
+    {
+      "id": "sony-camera-collection",
+      "title": "Sony camera collection",
+      "status": "referenced_external_collection_currently_offline",
+      "itemCount": 23,
+      "sourceRootAlias": "camera_clip_root",
+      "curatedIndexPath": "docs/media/curated-index.json",
+      "notes": "Editorial curation exists, but the separate source volume and private generated inventory were unavailable when this log was generated."
+    }
+  ],
+  "summary": {
+    "primaryItems": 19,
+    "videos": 8,
+    "audioEpisodes": 11,
+    "primaryBytes": 9593787139,
+    "totalDurationSeconds": 44242.002,
+    "completeTranscripts": 11,
+    "captionSidecarsOnly": 3,
+    "withoutTranscriptOrCaptions": 5
+  },
+  "items": [
+    {
+      "id": "video-ojM1aUBIE0g",
+      "type": "video",
+      "title": "UK x Microsoft: CATS AI in Action",
+      "series": "CATS AI in Action",
+      "publisher": "University of Kentucky",
+      "publishedDate": "2026-02-27",
+      "source": {
+        "inputUrl": "https://www.youtube.com/watch?v=ojM1aUBIE0g",
+        "canonicalUrl": "https://www.youtube.com/watch?v=ojM1aUBIE0g",
+        "platform": "youtube",
+        "sourceId": "ojM1aUBIE0g",
+        "retrievedAt": "2026-07-15T05:43:11.990Z",
+        "sourceDurationSeconds": 2115,
+        "notes": null
+      },
+      "archive": {
+        "mediaPath": "Media/UK-x-Microsoft-CATS-AI-in-Action-2026.mp4",
+        "metadataPath": "Media/UK-x-Microsoft-CATS-AI-in-Action-2026.info.json",
+        "bytes": 271722489,
+        "sha256": "DD39EE8EA32E0EA911D9AA8AF67C1D3261F5ABE0F331342986575F2D180FF9B0",
+        "acquiredAt": "2026-07-15T05:43:11.990Z"
+      },
+      "technical": {
+        "durationSeconds": 2115.014,
+        "width": 1280,
+        "height": 720,
+        "resolution": "1280x720",
+        "container": "mov,mp4,m4a,3gp,3g2,mj2",
+        "videoCodec": "h264",
+        "audioCodec": "opus",
+        "fps": 30,
+        "bitRate": 1027785,
+        "sampleRate": 48000,
+        "channels": 2
+      },
+      "derivatives": [
+        {
+          "role": "source_metadata",
+          "path": "Media/UK-x-Microsoft-CATS-AI-in-Action-2026.info.json",
+          "bytes": 515373,
+          "sha256": "4DBD940916A9E69C6CAB59BBDFE11CB409E55E90DE68A2CAEA6316EC1C9FDC13",
+          "format": "json",
+          "origin": "download_tool",
+          "status": "archived"
+        }
+      ],
+      "processing": {
+        "downloadStatus": "complete",
+        "integrityStatus": "verified_by_hash_and_probe",
+        "transcriptionStatus": "not_started",
+        "captionStatus": "none",
+        "processedAt": "2026-07-15T07:20:45.975Z",
+        "notes": null
+      },
+      "rights": {
+        "reuseStatus": "not_assessed",
+        "notes": "Confirm publication and participant permissions before reuse."
+      }
+    },
+    {
+      "id": "video-8837c78e-d1ec-48d0-a9ca-f5735f8ab0f1",
+      "type": "video",
+      "title": "UK partners with Microsoft for first AI conference on campus",
+      "series": null,
+      "publisher": "WKYT",
+      "publishedDate": "2026-02-26",
+      "source": {
+        "inputUrl": "https://www.wkyt.com/video/2026/02/27/uk-partners-with-microsoft-first-ai-conference-campus/",
+        "canonicalUrl": "https://www.wkyt.com/video/2026/02/27/uk-partners-with-microsoft-first-ai-conference-campus/",
+        "platform": "wkyt_arc_publishing",
+        "sourceId": "8837c78e-d1ec-48d0-a9ca-f5735f8ab0f1",
+        "retrievedAt": "2026-07-15T05:43:55.251Z",
+        "sourceDurationSeconds": 1396,
+        "notes": "Source metadata duration differs from the downloaded news clip; local technical facts describe the archived file."
+      },
+      "archive": {
+        "mediaPath": "Media/WKYT-UK-Partners-with-Microsoft-First-AI-Conference-2026.mp4",
+        "metadataPath": "Media/WKYT-UK-Partners-with-Microsoft-First-AI-Conference-2026.info.json",
+        "bytes": 55957557,
+        "sha256": "BA3EF002439EF4827EE4ECD2BB8937DA867ACD225158E38D6DCA3EE9C2A0AA94",
+        "acquiredAt": "2026-07-15T05:43:55.251Z"
+      },
+      "technical": {
+        "durationSeconds": 139.74,
+        "width": 1280,
+        "height": 720,
+        "resolution": "1280x720",
+        "container": "mov,mp4,m4a,3gp,3g2,mj2",
+        "videoCodec": "h264",
+        "audioCodec": "aac",
+        "fps": 29.97,
+        "bitRate": 3203533,
+        "sampleRate": 44100,
+        "channels": 2
+      },
+      "derivatives": [
+        {
+          "role": "source_metadata",
+          "path": "Media/WKYT-UK-Partners-with-Microsoft-First-AI-Conference-2026.info.json",
+          "bytes": 12575,
+          "sha256": "C81A27A39ADC43C8C3D38BF740D862BF01B8584DDCB3686763B902B0BCDDE2F5",
+          "format": "json",
+          "origin": "download_tool",
+          "status": "archived"
+        }
+      ],
+      "processing": {
+        "downloadStatus": "complete",
+        "integrityStatus": "verified_by_hash_and_probe",
+        "transcriptionStatus": "not_started",
+        "captionStatus": "none",
+        "processedAt": "2026-07-15T07:20:46.153Z",
+        "notes": "Source metadata reports 1396 seconds; archived file probes at 139.74 seconds."
+      },
+      "rights": {
+        "reuseStatus": "not_assessed",
+        "notes": "Confirm publication and participant permissions before reuse."
+      }
+    },
+    {
+      "id": "video-tama-the-nice-2026",
+      "type": "video",
+      "title": "Tama The - The NICE 2026",
+      "series": "The NICE",
+      "publisher": "Frame.io delivery",
+      "publishedDate": "2026",
+      "source": {
+        "inputUrl": null,
+        "canonicalUrl": null,
+        "platform": "frame.io",
+        "sourceId": null,
+        "retrievedAt": "2026-07-02T18:54:34.060Z",
+        "sourceDurationSeconds": null,
+        "notes": "Archived from a delivered Frame.io master; expiring signed delivery URL intentionally omitted."
+      },
+      "archive": {
+        "mediaPath": "Media/Tama-The_NICE-2026.mp4",
+        "metadataPath": null,
+        "bytes": 1409085028,
+        "sha256": "6184562C2B9DE935D45BF854300DD53A97B0C9E2608EA37718453ADC096651D7",
+        "acquiredAt": "2026-07-02T18:54:34.060Z"
+      },
+      "technical": {
+        "durationSeconds": 855.772,
+        "width": 1920,
+        "height": 1080,
+        "resolution": "1920x1080",
+        "container": "mov,mp4,m4a,3gp,3g2,mj2",
+        "videoCodec": "h264",
+        "audioCodec": "aac",
+        "fps": 23.976,
+        "bitRate": 13172533,
+        "sampleRate": 48000,
+        "channels": 2
+      },
+      "derivatives": [],
+      "processing": {
+        "downloadStatus": "complete",
+        "integrityStatus": "verified_by_hash_and_probe",
+        "transcriptionStatus": "not_started",
+        "captionStatus": "none",
+        "processedAt": "2026-07-15T07:20:45.506Z",
+        "notes": null
+      },
+      "rights": {
+        "reuseStatus": "not_assessed",
+        "notes": "Confirm publication and participant permissions before reuse."
+      }
+    },
+    {
+      "id": "video-1147809904",
+      "type": "video",
+      "title": "AI for Assessment and Evaluation in Medical Education : AI for Medical Educators",
+      "series": "AI for Medical Educators",
+      "publisher": "AAMC",
+      "publishedDate": "2025-12-18",
+      "source": {
+        "inputUrl": "https://vimeo.com/1147809904",
+        "canonicalUrl": "https://vimeo.com/1147809904",
+        "platform": "vimeo",
+        "sourceId": "1147809904",
+        "retrievedAt": "2026-07-15T06:09:32.928Z",
+        "sourceDurationSeconds": 3640,
+        "notes": null
+      },
+      "archive": {
+        "mediaPath": "Media/AAMC-AI-for-Assessment-and-Evaluation-in-Medical-Education-2025.mp4",
+        "metadataPath": "Media/AAMC-AI-for-Assessment-and-Evaluation-in-Medical-Education-2025.info.json",
+        "bytes": 765247412,
+        "sha256": "C279E97C021D040C6A7AB3B9A971052901A5299D4742D40F2E088D896DBB2E89",
+        "acquiredAt": "2026-07-15T06:09:32.928Z"
+      },
+      "technical": {
+        "durationSeconds": 3640.32,
+        "width": 2560,
+        "height": 1320,
+        "resolution": "2560x1320",
+        "container": "mov,mp4,m4a,3gp,3g2,mj2",
+        "videoCodec": "h264",
+        "audioCodec": "aac",
+        "fps": 25,
+        "bitRate": 1681714,
+        "sampleRate": 48000,
+        "channels": 2
+      },
+      "derivatives": [
+        {
+          "role": "source_metadata",
+          "path": "Media/AAMC-AI-for-Assessment-and-Evaluation-in-Medical-Education-2025.info.json",
+          "bytes": 954289,
+          "sha256": "AF78FCE24CD1219D6063D04CEEC0B241B16B36B42B4D587F9BD9DE647C7FBE8E",
+          "format": "json",
+          "origin": "download_tool",
+          "status": "archived"
+        },
+        {
+          "role": "captions",
+          "path": "Media/AAMC-AI-for-Assessment-and-Evaluation-in-Medical-Education-2025.en-x-autogen.vtt",
+          "bytes": 106698,
+          "sha256": "7CD92CB3EFA589AFAAC9482DB59315C4ACA2D10A09C53DD5B4ECAA8BE0623C0E",
+          "language": "en-x-autogen",
+          "format": "webvtt",
+          "origin": "source_platform",
+          "status": "archived_unreviewed"
+        }
+      ],
+      "processing": {
+        "downloadStatus": "complete",
+        "integrityStatus": "verified_by_hash_and_probe",
+        "transcriptionStatus": "caption_sidecar_only",
+        "captionStatus": "archived_unreviewed",
+        "processedAt": "2026-07-15T07:20:35.639Z",
+        "notes": null
+      },
+      "rights": {
+        "reuseStatus": "not_assessed",
+        "notes": "Confirm publication and participant permissions before reuse."
+      }
+    },
+    {
+      "id": "video-1139081412",
+      "type": "video",
+      "title": "Personalizing Learning with AI | GEA Webinar Series: AI for Medical Educators:",
+      "series": "AI for Medical Educators",
+      "publisher": "AAMC",
+      "publishedDate": "2025-11-20",
+      "source": {
+        "inputUrl": "https://vimeo.com/1139081412",
+        "canonicalUrl": "https://vimeo.com/1139081412",
+        "platform": "vimeo",
+        "sourceId": "1139081412",
+        "retrievedAt": "2026-07-15T06:08:39.749Z",
+        "sourceDurationSeconds": 3598,
+        "notes": null
+      },
+      "archive": {
+        "mediaPath": "Media/AAMC-Personalizing-Learning-with-AI-2025.mp4",
+        "metadataPath": "Media/AAMC-Personalizing-Learning-with-AI-2025.info.json",
+        "bytes": 1272748328,
+        "sha256": "BE33CD70174D43484A3E8036A498E61E4191B8E9705D8A79E68FC00EEB8D64C5",
+        "acquiredAt": "2026-07-15T06:08:39.749Z"
+      },
+      "technical": {
+        "durationSeconds": 3597.803,
+        "width": 3840,
+        "height": 2160,
+        "resolution": "3840x2160",
+        "container": "mov,mp4,m4a,3gp,3g2,mj2",
+        "videoCodec": "h264",
+        "audioCodec": "aac",
+        "fps": 25,
+        "bitRate": 2830056,
+        "sampleRate": 48000,
+        "channels": 2
+      },
+      "derivatives": [
+        {
+          "role": "source_metadata",
+          "path": "Media/AAMC-Personalizing-Learning-with-AI-2025.info.json",
+          "bytes": 1084898,
+          "sha256": "6AEC21792ECE97492FD62EAA1E6F48C6ABF952397E56BF5362468368FA4E8497",
+          "format": "json",
+          "origin": "download_tool",
+          "status": "archived"
+        },
+        {
+          "role": "captions",
+          "path": "Media/AAMC-Personalizing-Learning-with-AI-2025.en-x-autogen.vtt",
+          "bytes": 107557,
+          "sha256": "F20175CEF7C6F77F5D5C55D634BC69683577F2236C6F0EC4930A77D975D58663",
+          "language": "en-x-autogen",
+          "format": "webvtt",
+          "origin": "source_platform",
+          "status": "archived_unreviewed"
+        }
+      ],
+      "processing": {
+        "downloadStatus": "complete",
+        "integrityStatus": "verified_by_hash_and_probe",
+        "transcriptionStatus": "caption_sidecar_only",
+        "captionStatus": "archived_unreviewed",
+        "processedAt": "2026-07-15T07:20:37.317Z",
+        "notes": null
+      },
+      "rights": {
+        "reuseStatus": "not_assessed",
+        "notes": "Confirm publication and participant permissions before reuse."
+      }
+    },
+    {
+      "id": "video-v1aHwVq0dLI",
+      "type": "video",
+      "title": "Artificial Intelligence Task Force 2025 - AI at UK section",
+      "series": "Kentucky Artificial Intelligence Task Force",
+      "publisher": "Kentucky Legislative Research Commission",
+      "publishedDate": "2025-09-12",
+      "source": {
+        "inputUrl": "https://www.youtube.com/watch?v=v1aHwVq0dLI",
+        "canonicalUrl": "https://www.youtube.com/watch?v=v1aHwVq0dLI",
+        "platform": "youtube",
+        "sourceId": "v1aHwVq0dLI",
+        "retrievedAt": "2026-07-14T22:06:51.179Z",
+        "sourceDurationSeconds": 7167,
+        "notes": "The archived file is a selected section of the longer source recording."
+      },
+      "archive": {
+        "mediaPath": "Media/Kentucky-Legislature-AI-at-UK-2025.mp4",
+        "metadataPath": "Media/Kentucky-Legislature-AI-at-UK-2025.info.json",
+        "bytes": 143601433,
+        "sha256": "FDB5CD55B8DB20CEA9482E93232B371968430AA866A07CB99AB9ABB772ECEC1A",
+        "acquiredAt": "2026-07-14T22:06:51.179Z"
+      },
+      "technical": {
+        "durationSeconds": 2182.333,
+        "width": 1280,
+        "height": 720,
+        "resolution": "1280x720",
+        "container": "mov,mp4,m4a,3gp,3g2,mj2",
+        "videoCodec": "h264",
+        "audioCodec": "aac",
+        "fps": 30,
+        "bitRate": 526414,
+        "sampleRate": 44100,
+        "channels": 2
+      },
+      "derivatives": [
+        {
+          "role": "source_metadata",
+          "path": "Media/Kentucky-Legislature-AI-at-UK-2025.info.json",
+          "bytes": 576359,
+          "sha256": "859D040BDC8759FE91B106BAC51EE958F22A5DCD4988C2D84780E4B4577A23F3",
+          "format": "json",
+          "origin": "download_tool",
+          "status": "archived"
+        }
+      ],
+      "processing": {
+        "downloadStatus": "complete",
+        "integrityStatus": "verified_by_hash_and_probe",
+        "transcriptionStatus": "not_started",
+        "captionStatus": "none",
+        "processedAt": "2026-07-15T07:20:43.151Z",
+        "notes": "Source metadata reports 7167 seconds; archived file probes at 2182.333 seconds."
+      },
+      "rights": {
+        "reuseStatus": "not_assessed",
+        "notes": "Confirm publication and participant permissions before reuse."
+      }
+    },
+    {
+      "id": "video-15RmTpRTUyE",
+      "type": "video",
+      "title": "The Dawn of AI in Medical Education",
+      "series": "SAEM",
+      "publisher": "SAEM",
+      "publishedDate": "2025-06-04",
+      "source": {
+        "inputUrl": "https://www.youtube.com/watch?v=15RmTpRTUyE",
+        "canonicalUrl": "https://www.youtube.com/watch?v=15RmTpRTUyE",
+        "platform": "youtube",
+        "sourceId": "15RmTpRTUyE",
+        "retrievedAt": "2026-07-15T06:01:18.844Z",
+        "sourceDurationSeconds": 2151,
+        "notes": null
+      },
+      "archive": {
+        "mediaPath": "Media/SAEM-The-Dawn-of-AI-in-Medical-Education-2025.mp4",
+        "metadataPath": "Media/SAEM-The-Dawn-of-AI-in-Medical-Education-2025.info.json",
+        "bytes": 269888337,
+        "sha256": "D90A8D43F27BC37B71FD6E2F6153063DE1C4344EE4433FA1D927EEC167E11B87",
+        "acquiredAt": "2026-07-15T06:01:18.844Z"
+      },
+      "technical": {
+        "durationSeconds": 2150.563,
+        "width": 1920,
+        "height": 1080,
+        "resolution": "1920x1080",
+        "container": "mov,mp4,m4a,3gp,3g2,mj2",
+        "videoCodec": "h264",
+        "audioCodec": "aac",
+        "fps": 25,
+        "bitRate": 1003972,
+        "sampleRate": 44100,
+        "channels": 2
+      },
+      "derivatives": [
+        {
+          "role": "source_metadata",
+          "path": "Media/SAEM-The-Dawn-of-AI-in-Medical-Education-2025.info.json",
+          "bytes": 684913,
+          "sha256": "28927D1EBCB6780C129EF21978F4FDBDB6B523B48A21DF5A14C54C149E63D943",
+          "format": "json",
+          "origin": "download_tool",
+          "status": "archived"
+        },
+        {
+          "role": "captions",
+          "path": "Media/SAEM-The-Dawn-of-AI-in-Medical-Education-2025.en.vtt",
+          "bytes": 362603,
+          "sha256": "7A7A11BBEA735C0A2B9CE32D2352A87F05097260C69B50A6B85141C95F131015",
+          "language": "en",
+          "format": "webvtt",
+          "origin": "source_platform",
+          "status": "archived_unreviewed"
+        }
+      ],
+      "processing": {
+        "downloadStatus": "complete",
+        "integrityStatus": "verified_by_hash_and_probe",
+        "transcriptionStatus": "caption_sidecar_only",
+        "captionStatus": "archived_unreviewed",
+        "processedAt": "2026-07-15T07:20:43.554Z",
+        "notes": null
+      },
+      "rights": {
+        "reuseStatus": "not_assessed",
+        "notes": "Confirm publication and participant permissions before reuse."
+      }
+    },
+    {
+      "id": "buzzsprout-17120586",
+      "type": "audio",
+      "title": "The Ultimate Service | Hubie Ballard",
+      "series": "The MDM",
+      "publisher": "Tama Thé",
+      "publishedDate": "2025-05-08",
+      "episode": {
+        "season": 3,
+        "number": 2,
+        "guid": "Buzzsprout-17120586"
+      },
+      "source": {
+        "inputUrl": "https://open.spotify.com/show/1wTFtEIvYvBS8uJJ8nryC8",
+        "canonicalUrl": "",
+        "mediaUrl": "https://www.buzzsprout.com/2371946/episodes/17120586-the-ultimate-service-hubie-ballard.mp3",
+        "platform": "buzzsprout_rss",
+        "sourceId": "17120586",
+        "retrievedAt": "2026-07-15T06:42:50.0929804+00:00",
+        "sourceDurationSeconds": 2492,
+        "notes": null
+      },
+      "archive": {
+        "mediaPath": "Media/The MDM/2025-05-08 - The Ultimate Service - Hubie Ballard (BS-17120586).mp3",
+        "metadataPath": "Media/The MDM/2025-05-08 - The Ultimate Service - Hubie Ballard (BS-17120586).info.json",
+        "bytes": 29963096,
+        "sha256": "C012BC9DD8A65B8C5D3546F6EB3148C3859C6DC84880C4665691506282B1AA73",
+        "acquiredAt": "2026-07-15T06:42:50.0929804+00:00"
+      },
+      "technical": {
+        "durationSeconds": 2492.589,
+        "width": null,
+        "height": null,
+        "resolution": null,
+        "container": "mp3",
+        "videoCodec": null,
+        "audioCodec": "mp3",
+        "fps": null,
+        "bitRate": 96166,
+        "sampleRate": 44100,
+        "channels": 1
+      },
+      "derivatives": [
+        {
+          "role": "source_metadata",
+          "path": "Media/The MDM/2025-05-08 - The Ultimate Service - Hubie Ballard (BS-17120586).info.json",
+          "bytes": 4745,
+          "sha256": "C22797A8A1E226D6522D31EE7248D19EF799B9A810FA17AA7B402DD0173274EE",
+          "format": "json",
+          "origin": "rss_archive",
+          "status": "archived"
+        },
+        {
+          "role": "artwork",
+          "path": "Media/The MDM/2025-05-08 - The Ultimate Service - Hubie Ballard (BS-17120586).artwork.jpg",
+          "bytes": 162452,
+          "sha256": "9044DBB03AA05CED1649597AB3026A60E81ACF5CE60864691A19F9BB47403729",
+          "format": "jpeg",
+          "origin": "publisher",
+          "status": "archived"
+        },
+        {
+          "role": "transcript",
+          "path": "Media/The MDM/2025-05-08 - The Ultimate Service - Hubie Ballard (BS-17120586).txt",
+          "bytes": 51182,
+          "sha256": "467FDD2A0C1E582B60EAB2E03F008C414A0EA7AA5FCB188B7C1A55F0C5219B38",
+          "language": "en",
+          "format": "text",
+          "origin": "project_transcription_pipeline",
+          "status": "hash_verified_unreviewed"
+        },
+        {
+          "role": "transcription_receipt",
+          "path": "Media/The MDM/_Codex/receipts/2025-05-08 - The Ultimate Service - Hubie Ballard (BS-17120586).receipt.json",
+          "bytes": 49206,
+          "sha256": "24D248A744EE61004C221898AB20AD43AAF296F5D237DBD392B91A00DF6B65DD",
+          "format": "json",
+          "origin": "project_transcription_pipeline",
+          "status": "hash_verified"
+        }
+      ],
+      "processing": {
+        "downloadStatus": "complete",
+        "integrityStatus": "verified_by_feed_length_hash_and_probe",
+        "transcriptionStatus": "complete",
+        "captionStatus": "not_applicable",
+        "processedAt": "2026-07-15T07:20:46.159Z",
+        "notes": null
+      },
+      "rights": {
+        "reuseStatus": "not_assessed",
+        "notes": "Publicly distributed podcast; confirm any downstream reuse beyond private archival and research."
+      }
+    },
+    {
+      "id": "buzzsprout-16986106",
+      "type": "audio",
+      "title": "Doing Time | Sameer Desai, Chris Belcher, Blake Davidson",
+      "series": "The MDM",
+      "publisher": "Tama Thé",
+      "publishedDate": "2025-04-15",
+      "episode": {
+        "season": 3,
+        "number": 1,
+        "guid": "Buzzsprout-16986106"
+      },
+      "source": {
+        "inputUrl": "https://open.spotify.com/show/1wTFtEIvYvBS8uJJ8nryC8",
+        "canonicalUrl": "",
+        "mediaUrl": "https://www.buzzsprout.com/2371946/episodes/16986106-doing-time-sameer-desai-chris-belcher-blake-davidson.mp3",
+        "platform": "buzzsprout_rss",
+        "sourceId": "16986106",
+        "retrievedAt": "2026-07-15T06:42:50.0929804+00:00",
+        "sourceDurationSeconds": 2373,
+        "notes": null
+      },
+      "archive": {
+        "mediaPath": "Media/The MDM/2025-04-15 - Doing Time - Sameer Desai, Chris Belcher, Blake Davidson (BS-16986106).mp3",
+        "metadataPath": "Media/The MDM/2025-04-15 - Doing Time - Sameer Desai, Chris Belcher, Blake Davidson (BS-16986106).info.json",
+        "bytes": 28528628,
+        "sha256": "8534B3314E16EE43C77D37E7A9A9CF4C105147BF936DE9D5D191CF2D2938F5AD",
+        "acquiredAt": "2026-07-15T06:42:50.0929804+00:00"
+      },
+      "technical": {
+        "durationSeconds": 2373.627,
+        "width": null,
+        "height": null,
+        "resolution": null,
+        "container": "mp3",
+        "videoCodec": null,
+        "audioCodec": "mp3",
+        "fps": null,
+        "bitRate": 96152,
+        "sampleRate": 44100,
+        "channels": 1
+      },
+      "derivatives": [
+        {
+          "role": "source_metadata",
+          "path": "Media/The MDM/2025-04-15 - Doing Time - Sameer Desai, Chris Belcher, Blake Davidson (BS-16986106).info.json",
+          "bytes": 5405,
+          "sha256": "7B756EAA1C80E4AA384EB3F1FA8E29391E1B62D19F66E7D2F08F4F6B221D11BC",
+          "format": "json",
+          "origin": "rss_archive",
+          "status": "archived"
+        },
+        {
+          "role": "artwork",
+          "path": "Media/The MDM/2025-04-15 - Doing Time - Sameer Desai, Chris Belcher, Blake Davidson (BS-16986106).artwork.jpg",
+          "bytes": 141519,
+          "sha256": "466D20BC58D02DAB19409BC5B8714E5E584BE0D437C46B53C0B696209854310F",
+          "format": "jpeg",
+          "origin": "publisher",
+          "status": "archived"
+        },
+        {
+          "role": "publisher_transcript",
+          "path": "Media/The MDM/2025-04-15 - Doing Time - Sameer Desai, Chris Belcher, Blake Davidson (BS-16986106).publisher-transcript.txt",
+          "bytes": 47297,
+          "sha256": "C32AE44AE25F01397898F3622F0D449D3F3688F3EB9031ADC5318353992B295F",
+          "language": "en",
+          "format": "text",
+          "origin": "publisher",
+          "status": "archived_unreviewed"
+        },
+        {
+          "role": "publisher_transcript_source",
+          "path": "Media/The MDM/2025-04-15 - Doing Time - Sameer Desai, Chris Belcher, Blake Davidson (BS-16986106).publisher-transcript.html",
+          "bytes": 48187,
+          "sha256": "D7FD50E9C70F289482EF1E9BE2CE0A31549CEC24822306EBA9511A8F2D997DE4",
+          "language": "en",
+          "format": "html",
+          "origin": "publisher",
+          "status": "archived"
+        },
+        {
+          "role": "transcript",
+          "path": "Media/The MDM/2025-04-15 - Doing Time - Sameer Desai, Chris Belcher, Blake Davidson (BS-16986106).txt",
+          "bytes": 55081,
+          "sha256": "F0E99A800F5E6CB8B115A40983E3779B2D367E3C182D983F59E4150BC17A6757",
+          "language": "en",
+          "format": "text",
+          "origin": "project_transcription_pipeline",
+          "status": "hash_verified_unreviewed"
+        },
+        {
+          "role": "transcription_receipt",
+          "path": "Media/The MDM/_Codex/receipts/2025-04-15 - Doing Time - Sameer Desai, Chris Belcher, Blake Davidson (BS-16986106).receipt.json",
+          "bytes": 52744,
+          "sha256": "D40857905775FE87CD68272BBD10304331C97023F5F43B147B8CAE52BF115248",
+          "format": "json",
+          "origin": "project_transcription_pipeline",
+          "status": "hash_verified"
+        }
+      ],
+      "processing": {
+        "downloadStatus": "complete",
+        "integrityStatus": "verified_by_feed_length_hash_and_probe",
+        "transcriptionStatus": "complete",
+        "captionStatus": "not_applicable",
+        "processedAt": "2026-07-15T07:20:46.166Z",
+        "notes": "Publisher transcript preserved in addition to the project transcript."
+      },
+      "rights": {
+        "reuseStatus": "not_assessed",
+        "notes": "Publicly distributed podcast; confirm any downstream reuse beyond private archival and research."
+      }
+    },
+    {
+      "id": "buzzsprout-16566164",
+      "type": "audio",
+      "title": "The Dawn of AI in Medical Education | Chris Nash MD, EdM",
+      "series": "The MDM",
+      "publisher": "Tama Thé",
+      "publishedDate": "2025-02-05",
+      "episode": {
+        "season": 2,
+        "number": 4,
+        "guid": "Buzzsprout-16566164"
+      },
+      "source": {
+        "inputUrl": "https://open.spotify.com/show/1wTFtEIvYvBS8uJJ8nryC8",
+        "canonicalUrl": "",
+        "mediaUrl": "https://www.buzzsprout.com/2371946/episodes/16566164-the-dawn-of-ai-in-medical-education-chris-nash-md-edm.mp3",
+        "platform": "buzzsprout_rss",
+        "sourceId": "16566164",
+        "retrievedAt": "2026-07-15T06:42:50.0929804+00:00",
+        "sourceDurationSeconds": 1935,
+        "notes": null
+      },
+      "archive": {
+        "mediaPath": "Media/The MDM/2025-02-05 - The Dawn of AI in Medical Education - Chris Nash MD, EdM (BS-16566164).mp3",
+        "metadataPath": "Media/The MDM/2025-02-05 - The Dawn of AI in Medical Education - Chris Nash MD, EdM (BS-16566164).info.json",
+        "bytes": 23285343,
+        "sha256": "11FAA469F163F1CDA32AACE3B037263C67EFE9F5BA8684561D4E6C91E13E1427",
+        "acquiredAt": "2026-07-15T06:42:50.0929804+00:00"
+      },
+      "technical": {
+        "durationSeconds": 1935.371,
+        "width": null,
+        "height": null,
+        "resolution": null,
+        "container": "mp3",
+        "videoCodec": null,
+        "audioCodec": "mp3",
+        "fps": null,
+        "bitRate": 96251,
+        "sampleRate": 44100,
+        "channels": 1
+      },
+      "derivatives": [
+        {
+          "role": "source_metadata",
+          "path": "Media/The MDM/2025-02-05 - The Dawn of AI in Medical Education - Chris Nash MD, EdM (BS-16566164).info.json",
+          "bytes": 4545,
+          "sha256": "B459796954C169FE2D733369DBBA7FF11CB9DAF424423AACD3BCB998F8053D89",
+          "format": "json",
+          "origin": "rss_archive",
+          "status": "archived"
+        },
+        {
+          "role": "artwork",
+          "path": "Media/The MDM/2025-02-05 - The Dawn of AI in Medical Education - Chris Nash MD, EdM (BS-16566164).artwork.jpg",
+          "bytes": 165150,
+          "sha256": "27A50F60FC8139DADBC484E730396BAC90F331FEF44FB1235A679553C9EA09FF",
+          "format": "jpeg",
+          "origin": "publisher",
+          "status": "archived"
+        },
+        {
+          "role": "transcript",
+          "path": "Media/The MDM/2025-02-05 - The Dawn of AI in Medical Education - Chris Nash MD, EdM (BS-16566164).txt",
+          "bytes": 47475,
+          "sha256": "DDAFD101BED3469C95928C1F7F70D82E294186C810037083A592DCB8830649B4",
+          "language": "en",
+          "format": "text",
+          "origin": "project_transcription_pipeline",
+          "status": "hash_verified_unreviewed"
+        },
+        {
+          "role": "transcription_receipt",
+          "path": "Media/The MDM/_Codex/receipts/2025-02-05 - The Dawn of AI in Medical Education - Chris Nash MD, EdM (BS-16566164).receipt.json",
+          "bytes": 44305,
+          "sha256": "C9BB102EB949BBD7016CD6C5813C12FC54F63732A6E6B4D3D3D0BD607C2D396B",
+          "format": "json",
+          "origin": "project_transcription_pipeline",
+          "status": "hash_verified"
+        }
+      ],
+      "processing": {
+        "downloadStatus": "complete",
+        "integrityStatus": "verified_by_feed_length_hash_and_probe",
+        "transcriptionStatus": "complete",
+        "captionStatus": "not_applicable",
+        "processedAt": "2026-07-15T07:20:46.171Z",
+        "notes": null
+      },
+      "rights": {
+        "reuseStatus": "not_assessed",
+        "notes": "Publicly distributed podcast; confirm any downstream reuse beyond private archival and research."
+      }
+    },
+    {
+      "id": "buzzsprout-15898882",
+      "type": "audio",
+      "title": "Are We Getting Softer or Smarter? A Retrospective on Duty Hour Reform | Andy White, MD",
+      "series": "The MDM",
+      "publisher": "Tama Thé",
+      "publishedDate": "2024-10-09",
+      "episode": {
+        "season": 2,
+        "number": 2,
+        "guid": "Buzzsprout-15898882"
+      },
+      "source": {
+        "inputUrl": "https://open.spotify.com/show/1wTFtEIvYvBS8uJJ8nryC8",
+        "canonicalUrl": "",
+        "mediaUrl": "https://www.buzzsprout.com/2371946/episodes/15898882-are-we-getting-softer-or-smarter-a-retrospective-on-duty-hour-reform-andy-white-md.mp3",
+        "platform": "buzzsprout_rss",
+        "sourceId": "15898882",
+        "retrievedAt": "2026-07-15T06:42:50.0929804+00:00",
+        "sourceDurationSeconds": 3122,
+        "notes": null
+      },
+      "archive": {
+        "mediaPath": "Media/The MDM/2024-10-09 - Are We Getting Softer or Smarter- A Retrospective on Duty Hour Reform - Andy White, MD (BS-15898882).mp3",
+        "metadataPath": "Media/The MDM/2024-10-09 - Are We Getting Softer or Smarter- A Retrospective on Duty Hour Reform - Andy White, MD (BS-15898882).info.json",
+        "bytes": 37508923,
+        "sha256": "4EAFA1FF803B1EE4ED5585463A5A9FFE109BB4A5E3B465E7B355D1AED465E482",
+        "acquiredAt": "2026-07-15T06:42:50.0929804+00:00"
+      },
+      "technical": {
+        "durationSeconds": 3122.192,
+        "width": null,
+        "height": null,
+        "resolution": null,
+        "container": "mp3",
+        "videoCodec": null,
+        "audioCodec": "mp3",
+        "fps": null,
+        "bitRate": 96109,
+        "sampleRate": 44100,
+        "channels": 1
+      },
+      "derivatives": [
+        {
+          "role": "source_metadata",
+          "path": "Media/The MDM/2024-10-09 - Are We Getting Softer or Smarter- A Retrospective on Duty Hour Reform - Andy White, MD (BS-15898882).info.json",
+          "bytes": 4887,
+          "sha256": "E51EC6A1EA066950AD74CAA79B04B290C9C0E9D2C6C6DE3541AFB2C5913A1099",
+          "format": "json",
+          "origin": "rss_archive",
+          "status": "archived"
+        },
+        {
+          "role": "artwork",
+          "path": "Media/The MDM/2024-10-09 - Are We Getting Softer or Smarter- A Retrospective on Duty Hour Reform - Andy White, MD (BS-15898882).artwork.jpg",
+          "bytes": 94394,
+          "sha256": "C78A58EC744C1B210B1C64B0FDE5F78912682B539F2B0BD0E205D8E30C3BF9C0",
+          "format": "jpeg",
+          "origin": "publisher",
+          "status": "archived"
+        },
+        {
+          "role": "publisher_transcript",
+          "path": "Media/The MDM/2024-10-09 - Are We Getting Softer or Smarter- A Retrospective on Duty Hour Reform - Andy White, MD (BS-15898882).publisher-transcript.txt",
+          "bytes": 50968,
+          "sha256": "DA2BAD3B2D48BB4A20E03CBC45AE414B82CF2341D83F89F97B6F162DA1219051",
+          "language": "en",
+          "format": "text",
+          "origin": "publisher",
+          "status": "archived_unreviewed"
+        },
+        {
+          "role": "publisher_transcript_source",
+          "path": "Media/The MDM/2024-10-09 - Are We Getting Softer or Smarter- A Retrospective on Duty Hour Reform - Andy White, MD (BS-15898882).publisher-transcript.html",
+          "bytes": 50992,
+          "sha256": "C52828171E0D754F151D24107E460F314F9EC92EB33D6C77120BA0D51AA70295",
+          "language": "en",
+          "format": "html",
+          "origin": "publisher",
+          "status": "archived"
+        },
+        {
+          "role": "transcript",
+          "path": "Media/The MDM/2024-10-09 - Are We Getting Softer or Smarter- A Retrospective on Duty Hour Reform - Andy White, MD (BS-15898882).txt",
+          "bytes": 64680,
+          "sha256": "8FD9E5DC8CFBCA6C0F6CF58B06D1A37B44122749CB200A94F966FC05C7A13737",
+          "language": "en",
+          "format": "text",
+          "origin": "project_transcription_pipeline",
+          "status": "hash_verified_unreviewed"
+        },
+        {
+          "role": "transcription_receipt",
+          "path": "Media/The MDM/_Codex/receipts/2024-10-09 - Are We Getting Softer or Smarter- A Retrospective on Duty Hour Reform - Andy White, MD (BS-15898882).receipt.json",
+          "bytes": 60570,
+          "sha256": "F35F63FC99BAF6D34EDFE71813479A7699527B018AC26EB0694C12D62433EFE0",
+          "format": "json",
+          "origin": "project_transcription_pipeline",
+          "status": "hash_verified"
+        }
+      ],
+      "processing": {
+        "downloadStatus": "complete",
+        "integrityStatus": "verified_by_feed_length_hash_and_probe",
+        "transcriptionStatus": "complete",
+        "captionStatus": "not_applicable",
+        "processedAt": "2026-07-15T07:20:46.176Z",
+        "notes": "Publisher transcript preserved in addition to the project transcript."
+      },
+      "rights": {
+        "reuseStatus": "not_assessed",
+        "notes": "Publicly distributed podcast; confirm any downstream reuse beyond private archival and research."
+      }
+    },
+    {
+      "id": "buzzsprout-15785365",
+      "type": "audio",
+      "title": "Inside the Buffalo Resident Strike with Lauren Lucente and Amanda Duggan",
+      "series": "The MDM",
+      "publisher": "Tama Thé",
+      "publishedDate": "2024-09-20",
+      "episode": {
+        "season": 2,
+        "number": 1,
+        "guid": "Buzzsprout-15785365"
+      },
+      "source": {
+        "inputUrl": "https://open.spotify.com/show/1wTFtEIvYvBS8uJJ8nryC8",
+        "canonicalUrl": "",
+        "mediaUrl": "https://www.buzzsprout.com/2371946/episodes/15785365-inside-the-buffalo-resident-strike-with-lauren-lucente-and-amanda-duggan.mp3",
+        "platform": "buzzsprout_rss",
+        "sourceId": "15785365",
+        "retrievedAt": "2026-07-15T06:42:50.0929804+00:00",
+        "sourceDurationSeconds": 2612,
+        "notes": null
+      },
+      "archive": {
+        "mediaPath": "Media/The MDM/2024-09-20 - Inside the Buffalo Resident Strike with Lauren Lucente and Amanda Duggan (BS-15785365).mp3",
+        "metadataPath": "Media/The MDM/2024-09-20 - Inside the Buffalo Resident Strike with Lauren Lucente and Amanda Duggan (BS-15785365).info.json",
+        "bytes": 31425959,
+        "sha256": "9D4ECC2B38E48022FFEB9EB93F43983F8CDDFB0994F70CB2045FAB5A09B7FBA1",
+        "acquiredAt": "2026-07-15T06:42:50.0929804+00:00"
+      },
+      "technical": {
+        "durationSeconds": 2612.438,
+        "width": null,
+        "height": null,
+        "resolution": null,
+        "container": "mp3",
+        "videoCodec": null,
+        "audioCodec": "mp3",
+        "fps": null,
+        "bitRate": 96234,
+        "sampleRate": 44100,
+        "channels": 1
+      },
+      "derivatives": [
+        {
+          "role": "source_metadata",
+          "path": "Media/The MDM/2024-09-20 - Inside the Buffalo Resident Strike with Lauren Lucente and Amanda Duggan (BS-15785365).info.json",
+          "bytes": 4731,
+          "sha256": "749DFA4B88628CBAC72B07EA8D79776B0898BF579CEA5D319220A4DFFA4266D9",
+          "format": "json",
+          "origin": "rss_archive",
+          "status": "archived"
+        },
+        {
+          "role": "artwork",
+          "path": "Media/The MDM/2024-09-20 - Inside the Buffalo Resident Strike with Lauren Lucente and Amanda Duggan (BS-15785365).artwork.jpg",
+          "bytes": 186527,
+          "sha256": "52AA4DDE91CE513366D6D3B63B3DDD5074FD481A28D2F02E8F444FA5E4EFA16B",
+          "format": "jpeg",
+          "origin": "publisher",
+          "status": "archived"
+        },
+        {
+          "role": "publisher_transcript",
+          "path": "Media/The MDM/2024-09-20 - Inside the Buffalo Resident Strike with Lauren Lucente and Amanda Duggan (BS-15785365).publisher-transcript.txt",
+          "bytes": 42546,
+          "sha256": "263FFDAB2A91DCE05F7DE3EC25A622C48C6DCAA4F7C79B3D0B3D3E80806CDC55",
+          "language": "en",
+          "format": "text",
+          "origin": "publisher",
+          "status": "archived_unreviewed"
+        },
+        {
+          "role": "publisher_transcript_source",
+          "path": "Media/The MDM/2024-09-20 - Inside the Buffalo Resident Strike with Lauren Lucente and Amanda Duggan (BS-15785365).publisher-transcript.html",
+          "bytes": 42570,
+          "sha256": "F29484085D8F584A4F5D52FF88A313BE86B304BE4C39258F3796D2808A7FBADF",
+          "language": "en",
+          "format": "html",
+          "origin": "publisher",
+          "status": "archived"
+        },
+        {
+          "role": "transcript",
+          "path": "Media/The MDM/2024-09-20 - Inside the Buffalo Resident Strike with Lauren Lucente and Amanda Duggan (BS-15785365).txt",
+          "bytes": 58976,
+          "sha256": "EB74C20139660CB19F7DA04B0D28643462C576FEA5171C7BAFD0DEA4DED06ECE",
+          "language": "en",
+          "format": "text",
+          "origin": "project_transcription_pipeline",
+          "status": "hash_verified_unreviewed"
+        },
+        {
+          "role": "transcription_receipt",
+          "path": "Media/The MDM/_Codex/receipts/2024-09-20 - Inside the Buffalo Resident Strike with Lauren Lucente and Amanda Duggan (BS-15785365).receipt.json",
+          "bytes": 54047,
+          "sha256": "F893A96C6DE42DB7F4988508424CC22E11892DC486904E1493BDEBD19A7EC913",
+          "format": "json",
+          "origin": "project_transcription_pipeline",
+          "status": "hash_verified"
+        }
+      ],
+      "processing": {
+        "downloadStatus": "complete",
+        "integrityStatus": "verified_by_feed_length_hash_and_probe",
+        "transcriptionStatus": "complete",
+        "captionStatus": "not_applicable",
+        "processedAt": "2026-07-15T07:20:46.182Z",
+        "notes": "Publisher transcript preserved in addition to the project transcript."
+      },
+      "rights": {
+        "reuseStatus": "not_assessed",
+        "notes": "Publicly distributed podcast; confirm any downstream reuse beyond private archival and research."
+      }
+    },
+    {
+      "id": "buzzsprout-15665116",
+      "type": "audio",
+      "title": "Innovation and the Future of Medicine with John Morgan, Medical Lead at Waymark and former Chief Clinical Innovation Officer for Virginia Medicaid",
+      "series": "The MDM",
+      "publisher": "Tama Thé",
+      "publishedDate": "2024-08-29",
+      "episode": {
+        "season": 1,
+        "number": 6,
+        "guid": "Buzzsprout-15665116"
+      },
+      "source": {
+        "inputUrl": "https://open.spotify.com/show/1wTFtEIvYvBS8uJJ8nryC8",
+        "canonicalUrl": "",
+        "mediaUrl": "https://www.buzzsprout.com/2371946/episodes/15665116-innovation-and-the-future-of-medicine-with-john-morgan-medical-lead-at-waymark-and-former-chief-clinical-innovation-officer-for-virginia-medicaid.mp3",
+        "platform": "buzzsprout_rss",
+        "sourceId": "15665116",
+        "retrievedAt": "2026-07-15T06:42:50.0929804+00:00",
+        "sourceDurationSeconds": 2969,
+        "notes": null
+      },
+      "archive": {
+        "mediaPath": "Media/The MDM/2024-08-29 - Innovation and the Future of Medicine with John Morgan, Medical Lead at Waymark and former Chief Clinical Innovation O (BS-15665116).mp3",
+        "metadataPath": "Media/The MDM/2024-08-29 - Innovation and the Future of Medicine with John Morgan, Medical Lead at Waymark and former Chief Clinical Innovation O (BS-15665116).info.json",
+        "bytes": 35683680,
+        "sha256": "96E1363A599589AA7BE4F02DA55925B6BBF3DD2927F939F6F7B4A833E4FB03BC",
+        "acquiredAt": "2026-07-15T06:42:50.0929804+00:00"
+      },
+      "technical": {
+        "durationSeconds": 2969.349,
+        "width": null,
+        "height": null,
+        "resolution": null,
+        "container": "mp3",
+        "videoCodec": null,
+        "audioCodec": "mp3",
+        "fps": null,
+        "bitRate": 96138,
+        "sampleRate": 44100,
+        "channels": 1
+      },
+      "derivatives": [
+        {
+          "role": "source_metadata",
+          "path": "Media/The MDM/2024-08-29 - Innovation and the Future of Medicine with John Morgan, Medical Lead at Waymark and former Chief Clinical Innovation O (BS-15665116).info.json",
+          "bytes": 4940,
+          "sha256": "C0B514F4C0F9A370B7EC9A1629492E046D1DD1ED46CAF9B30C41BAD24DF89F0B",
+          "format": "json",
+          "origin": "rss_archive",
+          "status": "archived"
+        },
+        {
+          "role": "artwork",
+          "path": "Media/The MDM/2024-08-29 - Innovation and the Future of Medicine with John Morgan, Medical Lead at Waymark and former Chief Clinical Innovation O (BS-15665116).artwork.jpg",
+          "bytes": 120691,
+          "sha256": "58815CBF49B0229CF02B07A3B29BBDFF51842DA570B7A87068FA45C9C14A049F",
+          "format": "jpeg",
+          "origin": "publisher",
+          "status": "archived"
+        },
+        {
+          "role": "transcript",
+          "path": "Media/The MDM/2024-08-29 - Innovation and the Future of Medicine with John Morgan, Medical Lead at Waymark and former Chief Clinical Innovation O (BS-15665116).txt",
+          "bytes": 63903,
+          "sha256": "E99BF50D810CF81D44E9D3C36ACB60917B0ACEBBD756644E0EEBCDDCBDC7768D",
+          "language": "en",
+          "format": "text",
+          "origin": "project_transcription_pipeline",
+          "status": "hash_verified_unreviewed"
+        },
+        {
+          "role": "transcription_receipt",
+          "path": "Media/The MDM/_Codex/receipts/2024-08-29 - Innovation and the Future of Medicine with John Morgan, Medical Lead at Waymark and former Chief Clinical Innovation O (BS-15665116).receipt.json",
+          "bytes": 60652,
+          "sha256": "4C1126649277094F766B18B38BE0FDC70169862CCB44F6AC4E8C4CC52227B247",
+          "format": "json",
+          "origin": "project_transcription_pipeline",
+          "status": "hash_verified"
+        }
+      ],
+      "processing": {
+        "downloadStatus": "complete",
+        "integrityStatus": "verified_by_feed_length_hash_and_probe",
+        "transcriptionStatus": "complete",
+        "captionStatus": "not_applicable",
+        "processedAt": "2026-07-15T07:20:46.186Z",
+        "notes": null
+      },
+      "rights": {
+        "reuseStatus": "not_assessed",
+        "notes": "Publicly distributed podcast; confirm any downstream reuse beyond private archival and research."
+      }
+    },
+    {
+      "id": "buzzsprout-15554850",
+      "type": "audio",
+      "title": "Miscarriage Politics with Jessica Adkins and Melissa Puffenbarger",
+      "series": "The MDM",
+      "publisher": "Tama Thé",
+      "publishedDate": "2024-08-08",
+      "episode": {
+        "season": 1,
+        "number": 5,
+        "guid": "Buzzsprout-15554850"
+      },
+      "source": {
+        "inputUrl": "https://open.spotify.com/show/1wTFtEIvYvBS8uJJ8nryC8",
+        "canonicalUrl": "",
+        "mediaUrl": "https://www.buzzsprout.com/2371946/episodes/15554850-miscarriage-politics-with-jessica-adkins-and-melissa-puffenbarger.mp3",
+        "platform": "buzzsprout_rss",
+        "sourceId": "15554850",
+        "retrievedAt": "2026-07-15T06:42:50.0929804+00:00",
+        "sourceDurationSeconds": 2682,
+        "notes": null
+      },
+      "archive": {
+        "mediaPath": "Media/The MDM/2024-08-08 - Miscarriage Politics with Jessica Adkins and Melissa Puffenbarger (BS-15554850).mp3",
+        "metadataPath": "Media/The MDM/2024-08-08 - Miscarriage Politics with Jessica Adkins and Melissa Puffenbarger (BS-15554850).info.json",
+        "bytes": 32247002,
+        "sha256": "95913AA6A9EA61FB52AB6EE90261523D836DAF39EBF51489F6EEC2CBEBD0261A",
+        "acquiredAt": "2026-07-15T06:42:50.0929804+00:00"
+      },
+      "technical": {
+        "durationSeconds": 2682.238,
+        "width": null,
+        "height": null,
+        "resolution": null,
+        "container": "mp3",
+        "videoCodec": null,
+        "audioCodec": "mp3",
+        "fps": null,
+        "bitRate": 96179,
+        "sampleRate": 44100,
+        "channels": 1
+      },
+      "derivatives": [
+        {
+          "role": "source_metadata",
+          "path": "Media/The MDM/2024-08-08 - Miscarriage Politics with Jessica Adkins and Melissa Puffenbarger (BS-15554850).info.json",
+          "bytes": 3993,
+          "sha256": "12EF9FE7B1B329D9DF92BCA13CA4C2B9B619144924B54853DC0E66C7D5AEE92D",
+          "format": "json",
+          "origin": "rss_archive",
+          "status": "archived"
+        },
+        {
+          "role": "artwork",
+          "path": "Media/The MDM/2024-08-08 - Miscarriage Politics with Jessica Adkins and Melissa Puffenbarger (BS-15554850).artwork.jpg",
+          "bytes": 155732,
+          "sha256": "5D9FF6282E4DC4EB9FDC4F1335FB9949698477EFB857867804524997A59022CA",
+          "format": "jpeg",
+          "origin": "publisher",
+          "status": "archived"
+        },
+        {
+          "role": "transcript",
+          "path": "Media/The MDM/2024-08-08 - Miscarriage Politics with Jessica Adkins and Melissa Puffenbarger (BS-15554850).txt",
+          "bytes": 59474,
+          "sha256": "CB8A455BE117BABCBEA6E45AF57588A9F769698707BF36E1F4FA5C4E46EBC1BE",
+          "language": "en",
+          "format": "text",
+          "origin": "project_transcription_pipeline",
+          "status": "hash_verified_unreviewed"
+        },
+        {
+          "role": "transcription_receipt",
+          "path": "Media/The MDM/_Codex/receipts/2024-08-08 - Miscarriage Politics with Jessica Adkins and Melissa Puffenbarger (BS-15554850).receipt.json",
+          "bytes": 52806,
+          "sha256": "219EE1FD5E19B929E21F905F5FEECAD9DF3053EFF5E47838F6724552AB883F9D",
+          "format": "json",
+          "origin": "project_transcription_pipeline",
+          "status": "hash_verified"
+        }
+      ],
+      "processing": {
+        "downloadStatus": "complete",
+        "integrityStatus": "verified_by_feed_length_hash_and_probe",
+        "transcriptionStatus": "complete",
+        "captionStatus": "not_applicable",
+        "processedAt": "2026-07-15T07:20:46.190Z",
+        "notes": null
+      },
+      "rights": {
+        "reuseStatus": "not_assessed",
+        "notes": "Publicly distributed podcast; confirm any downstream reuse beyond private archival and research."
+      }
+    },
+    {
+      "id": "buzzsprout-15470268",
+      "type": "audio",
+      "title": "Joe Finney - How do you know when to stop?",
+      "series": "The MDM",
+      "publisher": "Tama Thé",
+      "publishedDate": "2024-07-24",
+      "episode": {
+        "season": 1,
+        "number": 4,
+        "guid": "Buzzsprout-15470268"
+      },
+      "source": {
+        "inputUrl": "https://open.spotify.com/show/1wTFtEIvYvBS8uJJ8nryC8",
+        "canonicalUrl": "",
+        "mediaUrl": "https://www.buzzsprout.com/2371946/episodes/15470268-joe-finney-how-do-you-know-when-to-stop.mp3",
+        "platform": "buzzsprout_rss",
+        "sourceId": "15470268",
+        "retrievedAt": "2026-07-15T06:42:50.0929804+00:00",
+        "sourceDurationSeconds": 2401,
+        "notes": null
+      },
+      "archive": {
+        "mediaPath": "Media/The MDM/2024-07-24 - Joe Finney - How do you know when to stop (BS-15470268).mp3",
+        "metadataPath": "Media/The MDM/2024-07-24 - Joe Finney - How do you know when to stop (BS-15470268).info.json",
+        "bytes": 28872397,
+        "sha256": "A688679F04A8CB27E3D0DDB49D8E1838E6A4548ABFBA6E99B2A7CBD642BABAA4",
+        "acquiredAt": "2026-07-15T06:42:50.0929804+00:00"
+      },
+      "technical": {
+        "durationSeconds": 2401.63,
+        "width": null,
+        "height": null,
+        "resolution": null,
+        "container": "mp3",
+        "videoCodec": null,
+        "audioCodec": "mp3",
+        "fps": null,
+        "bitRate": 96175,
+        "sampleRate": 44100,
+        "channels": 1
+      },
+      "derivatives": [
+        {
+          "role": "source_metadata",
+          "path": "Media/The MDM/2024-07-24 - Joe Finney - How do you know when to stop (BS-15470268).info.json",
+          "bytes": 3984,
+          "sha256": "6E3CD9AC00986B14E0C8BF2BEDEA10784AAA2712E790005A5D78763F921BC670",
+          "format": "json",
+          "origin": "rss_archive",
+          "status": "archived"
+        },
+        {
+          "role": "artwork",
+          "path": "Media/The MDM/2024-07-24 - Joe Finney - How do you know when to stop (BS-15470268).artwork.jpg",
+          "bytes": 140176,
+          "sha256": "FCF9A1FDE88A79EADF0DEEB3DBE38B4458D0A09D1C87B704D9C4C5D26D37502D",
+          "format": "jpeg",
+          "origin": "publisher",
+          "status": "archived"
+        },
+        {
+          "role": "publisher_transcript",
+          "path": "Media/The MDM/2024-07-24 - Joe Finney - How do you know when to stop (BS-15470268).publisher-transcript.txt",
+          "bytes": 44632,
+          "sha256": "58EDC6437BC0E60E1BD2D197917F3A2FEDBE210E5D234EAE5544C540300BF636",
+          "language": "en",
+          "format": "text",
+          "origin": "publisher",
+          "status": "archived_unreviewed"
+        },
+        {
+          "role": "publisher_transcript_source",
+          "path": "Media/The MDM/2024-07-24 - Joe Finney - How do you know when to stop (BS-15470268).publisher-transcript.html",
+          "bytes": 44652,
+          "sha256": "E11A072C69F9FB9B64BB01718275F704E93ACE5E4CBE99C255796FC0EA7A2056",
+          "language": "en",
+          "format": "html",
+          "origin": "publisher",
+          "status": "archived"
+        },
+        {
+          "role": "transcript",
+          "path": "Media/The MDM/2024-07-24 - Joe Finney - How do you know when to stop (BS-15470268).txt",
+          "bytes": 56014,
+          "sha256": "324E711832F1C2887C2C014B94C2A441BDAAD066AD5BEC6BBAAA8F96B0951718",
+          "language": "en",
+          "format": "text",
+          "origin": "project_transcription_pipeline",
+          "status": "hash_verified_unreviewed"
+        },
+        {
+          "role": "transcription_receipt",
+          "path": "Media/The MDM/_Codex/receipts/2024-07-24 - Joe Finney - How do you know when to stop (BS-15470268).receipt.json",
+          "bytes": 49917,
+          "sha256": "9FDE9E45EC463884FD44E667E1F50C9655895CADA5DBA2F926854D666D109C49",
+          "format": "json",
+          "origin": "project_transcription_pipeline",
+          "status": "hash_verified"
+        }
+      ],
+      "processing": {
+        "downloadStatus": "complete",
+        "integrityStatus": "verified_by_feed_length_hash_and_probe",
+        "transcriptionStatus": "complete",
+        "captionStatus": "not_applicable",
+        "processedAt": "2026-07-15T07:20:46.196Z",
+        "notes": "Publisher transcript preserved in addition to the project transcript."
+      },
+      "rights": {
+        "reuseStatus": "not_assessed",
+        "notes": "Publicly distributed podcast; confirm any downstream reuse beyond private archival and research."
+      }
+    },
+    {
+      "id": "buzzsprout-15380404",
+      "type": "audio",
+      "title": "Deepa Mokshagundam - We have to do something!",
+      "series": "The MDM",
+      "publisher": "Tama Thé",
+      "publishedDate": "2024-07-08",
+      "episode": {
+        "season": 1,
+        "number": 3,
+        "guid": "Buzzsprout-15380404"
+      },
+      "source": {
+        "inputUrl": "https://open.spotify.com/show/1wTFtEIvYvBS8uJJ8nryC8",
+        "canonicalUrl": "",
+        "mediaUrl": "https://www.buzzsprout.com/2371946/episodes/15380404-deepa-mokshagundam-we-have-to-do-something.mp3",
+        "platform": "buzzsprout_rss",
+        "sourceId": "15380404",
+        "retrievedAt": "2026-07-15T06:42:50.0929804+00:00",
+        "sourceDurationSeconds": 2334,
+        "notes": null
+      },
+      "archive": {
+        "mediaPath": "Media/The MDM/2024-07-08 - Deepa Mokshagundam - We have to do something! (BS-15380404).mp3",
+        "metadataPath": "Media/The MDM/2024-07-08 - Deepa Mokshagundam - We have to do something! (BS-15380404).info.json",
+        "bytes": 28067237,
+        "sha256": "40CFF0A06D24C007077866B95CFC499793956B9D96ED249861787D1AB78D920B",
+        "acquiredAt": "2026-07-15T06:42:50.0929804+00:00"
+      },
+      "technical": {
+        "durationSeconds": 2334.339,
+        "width": null,
+        "height": null,
+        "resolution": null,
+        "container": "mp3",
+        "videoCodec": null,
+        "audioCodec": "mp3",
+        "fps": null,
+        "bitRate": 96189,
+        "sampleRate": 44100,
+        "channels": 1
+      },
+      "derivatives": [
+        {
+          "role": "source_metadata",
+          "path": "Media/The MDM/2024-07-08 - Deepa Mokshagundam - We have to do something! (BS-15380404).info.json",
+          "bytes": 3863,
+          "sha256": "C7F2F648467FA115530AE605ABAAA03B006BB8BCC0295738EDC3E1075CFCD6F7",
+          "format": "json",
+          "origin": "rss_archive",
+          "status": "archived"
+        },
+        {
+          "role": "artwork",
+          "path": "Media/The MDM/2024-07-08 - Deepa Mokshagundam - We have to do something! (BS-15380404).artwork.jpg",
+          "bytes": 130410,
+          "sha256": "E697BE77B5D62DDA860AD551DE1BFD7340CF406E378D456AB6DE34912C4F3F78",
+          "format": "jpeg",
+          "origin": "publisher",
+          "status": "archived"
+        },
+        {
+          "role": "transcript",
+          "path": "Media/The MDM/2024-07-08 - Deepa Mokshagundam - We have to do something! (BS-15380404).txt",
+          "bytes": 53173,
+          "sha256": "12AF4C066CF863FC0476BE1525865E98049B424045FB11C9316E988CF6B601DF",
+          "language": "en",
+          "format": "text",
+          "origin": "project_transcription_pipeline",
+          "status": "hash_verified_unreviewed"
+        },
+        {
+          "role": "transcription_receipt",
+          "path": "Media/The MDM/_Codex/receipts/2024-07-08 - Deepa Mokshagundam - We have to do something! (BS-15380404).receipt.json",
+          "bytes": 53630,
+          "sha256": "56D8A56BE08AAE09B4502CF2578470B0B47CCE3B72AE9769DD4C9E432AEE5A06",
+          "format": "json",
+          "origin": "project_transcription_pipeline",
+          "status": "hash_verified"
+        }
+      ],
+      "processing": {
+        "downloadStatus": "complete",
+        "integrityStatus": "verified_by_feed_length_hash_and_probe",
+        "transcriptionStatus": "complete",
+        "captionStatus": "not_applicable",
+        "processedAt": "2026-07-15T07:20:46.199Z",
+        "notes": null
+      },
+      "rights": {
+        "reuseStatus": "not_assessed",
+        "notes": "Publicly distributed podcast; confirm any downstream reuse beyond private archival and research."
+      }
+    },
+    {
+      "id": "buzzsprout-15293870",
+      "type": "audio",
+      "title": "Bryan Sisk - AI and Prejudice: The Ethics of AI in Medicine",
+      "series": "The MDM",
+      "publisher": "Tama Thé",
+      "publishedDate": "2024-06-22",
+      "episode": {
+        "season": 1,
+        "number": 2,
+        "guid": "Buzzsprout-15293870"
+      },
+      "source": {
+        "inputUrl": "https://open.spotify.com/show/1wTFtEIvYvBS8uJJ8nryC8",
+        "canonicalUrl": "",
+        "mediaUrl": "https://www.buzzsprout.com/2371946/episodes/15293870-bryan-sisk-ai-and-prejudice-the-ethics-of-ai-in-medicine.mp3",
+        "platform": "buzzsprout_rss",
+        "sourceId": "15293870",
+        "retrievedAt": "2026-07-15T06:42:50.0929804+00:00",
+        "sourceDurationSeconds": 1688,
+        "notes": null
+      },
+      "archive": {
+        "mediaPath": "Media/The MDM/2024-06-22 - Bryan Sisk - AI and Prejudice- The Ethics of AI in Medicine (BS-15293870).mp3",
+        "metadataPath": "Media/The MDM/2024-06-22 - Bryan Sisk - AI and Prejudice- The Ethics of AI in Medicine (BS-15293870).info.json",
+        "bytes": 20334005,
+        "sha256": "48261D5CD4219CE183AC791D345143A82EB4FF355BD943F55B0469D4FE4D7C3D",
+        "acquiredAt": "2026-07-15T06:42:50.0929804+00:00"
+      },
+      "technical": {
+        "durationSeconds": 1688.122,
+        "width": null,
+        "height": null,
+        "resolution": null,
+        "container": "mp3",
+        "videoCodec": null,
+        "audioCodec": "mp3",
+        "fps": null,
+        "bitRate": 96362,
+        "sampleRate": 44100,
+        "channels": 1
+      },
+      "derivatives": [
+        {
+          "role": "source_metadata",
+          "path": "Media/The MDM/2024-06-22 - Bryan Sisk - AI and Prejudice- The Ethics of AI in Medicine (BS-15293870).info.json",
+          "bytes": 4596,
+          "sha256": "A52CE9FE2DBC828D71BFC665B28F4C38337C2933AC644DE732E041F5F5B3B993",
+          "format": "json",
+          "origin": "rss_archive",
+          "status": "archived"
+        },
+        {
+          "role": "artwork",
+          "path": "Media/The MDM/2024-06-22 - Bryan Sisk - AI and Prejudice- The Ethics of AI in Medicine (BS-15293870).artwork.jpg",
+          "bytes": 210634,
+          "sha256": "2BD4466FAF8FE7C9BE0E64D5CBA9BF353786834DCD0FA7B9FA2A3167A72067B4",
+          "format": "jpeg",
+          "origin": "publisher",
+          "status": "archived"
+        },
+        {
+          "role": "transcript",
+          "path": "Media/The MDM/2024-06-22 - Bryan Sisk - AI and Prejudice- The Ethics of AI in Medicine (BS-15293870).txt",
+          "bytes": 40822,
+          "sha256": "61F2E9ED53D82D2E0FCDBD83D77C4E9E28B2BCF7F5E4C4F547BD6E7E5BF4CA2F",
+          "language": "en",
+          "format": "text",
+          "origin": "project_transcription_pipeline",
+          "status": "hash_verified_unreviewed"
+        },
+        {
+          "role": "transcription_receipt",
+          "path": "Media/The MDM/_Codex/receipts/2024-06-22 - Bryan Sisk - AI and Prejudice- The Ethics of AI in Medicine (BS-15293870).receipt.json",
+          "bytes": 40085,
+          "sha256": "DF91E349E8B63A9ACA7D329BC0FDC85B98DC991F2A51200519DB2050C1F02F1C",
+          "format": "json",
+          "origin": "project_transcription_pipeline",
+          "status": "hash_verified"
+        }
+      ],
+      "processing": {
+        "downloadStatus": "complete",
+        "integrityStatus": "verified_by_feed_length_hash_and_probe",
+        "transcriptionStatus": "complete",
+        "captionStatus": "not_applicable",
+        "processedAt": "2026-07-15T07:20:46.204Z",
+        "notes": null
+      },
+      "rights": {
+        "reuseStatus": "not_assessed",
+        "notes": "Publicly distributed podcast; confirm any downstream reuse beyond private archival and research."
+      }
+    },
+    {
+      "id": "buzzsprout-15186479",
+      "type": "audio",
+      "title": "Amy Holthouser - Are Pass/Fail classes failing our medical students?",
+      "series": "The MDM",
+      "publisher": "Tama Thé",
+      "publishedDate": "2024-06-08",
+      "episode": {
+        "season": 1,
+        "number": 1,
+        "guid": "Buzzsprout-15186479"
+      },
+      "source": {
+        "inputUrl": "https://open.spotify.com/show/1wTFtEIvYvBS8uJJ8nryC8",
+        "canonicalUrl": "",
+        "mediaUrl": "https://www.buzzsprout.com/2371946/episodes/15186479-amy-holthouser-are-pass-fail-classes-failing-our-medical-students.mp3",
+        "platform": "buzzsprout_rss",
+        "sourceId": "15186479",
+        "retrievedAt": "2026-07-15T06:42:50.0929804+00:00",
+        "sourceDurationSeconds": 2807,
+        "notes": null
+      },
+      "archive": {
+        "mediaPath": "Media/The MDM/2024-06-08 - Amy Holthouser - Are Pass-Fail classes failing our medical students (BS-15186479).mp3",
+        "metadataPath": "Media/The MDM/2024-06-08 - Amy Holthouser - Are Pass-Fail classes failing our medical students (BS-15186479).info.json",
+        "bytes": 33750442,
+        "sha256": "AD749C88BD9A20EEE6C0B720594542C9747D7C60D15B16E4A40DC7904ED03FE6",
+        "acquiredAt": "2026-07-15T06:42:50.0929804+00:00"
+      },
+      "technical": {
+        "durationSeconds": 2807.39,
+        "width": null,
+        "height": null,
+        "resolution": null,
+        "container": "mp3",
+        "videoCodec": null,
+        "audioCodec": "mp3",
+        "fps": null,
+        "bitRate": 96175,
+        "sampleRate": 44100,
+        "channels": 1
+      },
+      "derivatives": [
+        {
+          "role": "source_metadata",
+          "path": "Media/The MDM/2024-06-08 - Amy Holthouser - Are Pass-Fail classes failing our medical students (BS-15186479).info.json",
+          "bytes": 4167,
+          "sha256": "56A59D233366219ADA5AE54A729B85C82BC48C9B06A49A520B2639336851A5DB",
+          "format": "json",
+          "origin": "rss_archive",
+          "status": "archived"
+        },
+        {
+          "role": "artwork",
+          "path": "Media/The MDM/2024-06-08 - Amy Holthouser - Are Pass-Fail classes failing our medical students (BS-15186479).artwork.jpg",
+          "bytes": 134237,
+          "sha256": "724B1E067DAEECA9E218DADC55305A42E50F715E028AEA77F95A4990B07F97FF",
+          "format": "jpeg",
+          "origin": "publisher",
+          "status": "archived"
+        },
+        {
+          "role": "transcript",
+          "path": "Media/The MDM/2024-06-08 - Amy Holthouser - Are Pass-Fail classes failing our medical students (BS-15186479).txt",
+          "bytes": 63040,
+          "sha256": "685E31EEC2C7488AA815ED03EFD08E59CE69FEECB13A8686A90800917CBBF6EB",
+          "language": "en",
+          "format": "text",
+          "origin": "project_transcription_pipeline",
+          "status": "hash_verified_unreviewed"
+        },
+        {
+          "role": "transcription_receipt",
+          "path": "Media/The MDM/_Codex/receipts/2024-06-08 - Amy Holthouser - Are Pass-Fail classes failing our medical students (BS-15186479).receipt.json",
+          "bytes": 54895,
+          "sha256": "B74012EA311F5D41DB2E4A06D935AB137DB50D0A4EF77717629FA857CEEA82A8",
+          "format": "json",
+          "origin": "project_transcription_pipeline",
+          "status": "hash_verified"
+        }
+      ],
+      "processing": {
+        "downloadStatus": "complete",
+        "integrityStatus": "verified_by_feed_length_hash_and_probe",
+        "transcriptionStatus": "complete",
+        "captionStatus": "not_applicable",
+        "processedAt": "2026-07-15T07:20:46.214Z",
+        "notes": null
+      },
+      "rights": {
+        "reuseStatus": "not_assessed",
+        "notes": "Publicly distributed podcast; confirm any downstream reuse beyond private archival and research."
+      }
+    },
+    {
+      "id": "video-ai-osce-grader",
+      "type": "video",
+      "title": "AI OSCE Grader",
+      "series": null,
+      "publisher": "User-provided recording",
+      "publishedDate": null,
+      "source": {
+        "inputUrl": null,
+        "canonicalUrl": null,
+        "platform": "local_file",
+        "sourceId": null,
+        "retrievedAt": "2026-07-15T05:50:21.642Z",
+        "sourceDurationSeconds": null,
+        "notes": "Copied from the user-provided local master; its former Downloads path is intentionally omitted."
+      },
+      "archive": {
+        "mediaPath": "Media/AI-OSCE-Grader.mp4",
+        "metadataPath": null,
+        "bytes": 5075869843,
+        "sha256": "6B676244288BBC4EDDA330A93E0BC474AA2078B608328A1A6B813AA355AA4370",
+        "acquiredAt": "2026-07-15T05:50:21.642Z"
+      },
+      "technical": {
+        "durationSeconds": 2141.172,
+        "width": 1920,
+        "height": 1080,
+        "resolution": "1920x1080",
+        "container": "mov,mp4,m4a,3gp,3g2,mj2",
+        "videoCodec": "h264",
+        "audioCodec": "aac",
+        "fps": 29.97,
+        "bitRate": 18964824,
+        "sampleRate": 48000,
+        "channels": 2
+      },
+      "derivatives": [],
+      "processing": {
+        "downloadStatus": "complete",
+        "integrityStatus": "verified_by_hash_and_probe",
+        "transcriptionStatus": "not_started",
+        "captionStatus": "none",
+        "processedAt": "2026-07-15T07:20:42.819Z",
+        "notes": null
+      },
+      "rights": {
+        "reuseStatus": "not_assessed",
+        "notes": "Confirm publication and participant permissions before reuse."
+      }
+    }
+  ]
+}

@@ -47,9 +47,9 @@ export type Engagement = {
 
 export const siteIdentity = {
   name: "Tama Thé, MD",
-  thesis: "Making AI useful in healthcare.",
+  thesis: "Making AI useful means connecting information to action.",
   bio:
-    "I am a pediatric emergency physician and medical educator working where medicine, public health, education, and AI keep running into one another. My work focuses on the part after the model: how people understand it, how it fits into real work, and who owns what happens next.",
+    "I am a pediatric emergency physician and medical educator working across healthcare, public systems, education, and AI. I focus on the handoff between a useful signal and a completed next step: who receives it, who acts, and whether it changes what happens.",
   email: "mailto:Tama.the@uky.edu?subject=Healthcare%20AI%20conversation",
 };
 
@@ -169,7 +169,7 @@ export const healthcareInitiatives: Initiative[] = [
     number: "01",
     title: "KY-AHEAD",
     area: "Population health / Oncology",
-    stage: "Finding overdue patients",
+    stage: "Pre-launch workflow design",
     question:
       "How do we help more people get the cancer screening they are due for?",
     summary:
@@ -192,13 +192,13 @@ export const healthcareInitiatives: Initiative[] = [
     number: "02",
     title: "Rural Diabetic Retinopathy Screening",
     area: "Rural health / Ophthalmology",
-    stage: "Screening closer to home",
+    stage: "Defining a bounded pilot",
     question:
       "How do we catch preventable vision loss before it changes a life?",
     summary:
-      "The project is testing retinal cameras, AI-assisted triage, specialist review, and patient navigation in rural Kentucky so screening can happen closer to primary care.",
+      "The proposed pilot would connect retinal cameras and AI-assisted triage in rural primary care with specialist review, referral, patient navigation, and documentation of completed follow-up.",
     focus:
-      "The difficult part is the connection: who receives the referral, what can be handled locally, and who helps the patient reach follow-up care.",
+      "The current work is defining the pilot and mapping the care loop: who receives the referral, what can be handled locally, and who helps the patient reach follow-up care.",
     image: "/images/studio/retinopathy.png",
     imageAlt:
       "Conceptual studio visualization of a portable retinal camera, lenses, and a retinal image on a small monitor",
@@ -209,13 +209,13 @@ export const healthcareInitiatives: Initiative[] = [
     number: "03",
     title: "Whole-Blood Drone Delivery",
     area: "Trauma / Aerospace",
-    stage: "Testing rural trauma logistics",
+    stage: "Phase 1 feasibility design",
     question:
       "Can blood travel by drone and still arrive ready for emergency use?",
     summary:
-      "This pre-clinical initiative tests whether drones can carry whole-blood units while preserving temperature and laboratory integrity before any patient-facing use.",
+      "The proposed nonclinical Phase 1 study would test whether a lightweight drone system can carry whole-blood units while preserving temperature and laboratory integrity.",
     focus:
-      "The early work centers on packaging, cold-chain performance, flight conditions, and the practical constraints of rural trauma care.",
+      "The current work centers on the protocol, packaging, cold-chain performance, flight conditions, and the evidence required before any later rural field simulation.",
     image: "/images/studio/blood-drone.png",
     imageAlt:
       "Conceptual studio visualization of a large drone carrying an insulated container beside testing instruments and packaging materials",
@@ -437,27 +437,27 @@ export const engagements: Engagement[] = [
 export const signatureTopics = [
   {
     number: "01",
-    title: "Making AI useful in healthcare",
+    title: "Find the signal",
     summary:
-      "A practical framework for moving from model performance to workflow, trust, ownership, and follow-through.",
+      "Use the information already present across healthcare and public systems to identify risk and opportunity earlier.",
   },
   {
     number: "02",
-    title: "AI in medical education",
+    title: "Connect the systems",
     summary:
-      "What changes when a plausible answer is always one prompt away—and how teaching and assessment can respond.",
+      "Build governed connections across institutions without requiring one organization to own every record or every function.",
   },
   {
     number: "03",
-    title: "Learning to work with AI",
+    title: "Own the next step",
     summary:
-      "Practice-based AI literacy for universities, health systems, faculty communities, and public-sector leaders.",
+      "Return something useful to the person responsible for outreach, referral, treatment, teaching, or follow-up.",
   },
   {
     number: "04",
-    title: "Building for Kentucky",
+    title: "Learn across the network",
     summary:
-      "AI, rural access, workforce, public health, and the infrastructure required to connect an insight to real care.",
+      "Measure what happened, see where people are still being missed, and improve the system without losing local context.",
   },
 ];
 

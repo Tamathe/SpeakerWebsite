@@ -25,12 +25,12 @@ function makeRequest({
   headers = {},
   cf = { country: "US", regionCode: "KY" },
 } = {}) {
-  const request = new Request("https://tama.example/api/analytics", {
+  const request = new Request("https://analytics.tamathe.com/api/analytics", {
     method,
     headers: {
-      "content-type": "application/json",
-      origin: "https://tama.example",
-      "sec-fetch-site": "same-origin",
+      "content-type": "text/plain;charset=UTF-8",
+      origin: "https://tamathe.com",
+      "sec-fetch-site": "same-site",
       "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
       ...headers,
     },
@@ -110,12 +110,39 @@ test("rejects methods other than POST", async () => {
 test("rejects cross-origin browser submissions", async () => {
   const { env, points } = captureEnvironment();
   const response = await handleAnalyticsRequest(
-    makeRequest({ headers: { origin: "https://attacker.example" } }),
+    makeRequest({
+      headers: {
+        origin: "https://attacker.example",
+        "sec-fetch-site": "cross-site",
+      },
+    }),
     env,
   );
 
   assert.equal(response.status, 403);
   assert.equal(points.length, 0);
+});
+
+test("rejects submissions without a production Origin header", async () => {
+  const { env, points } = captureEnvironment();
+  const response = await handleAnalyticsRequest(
+    makeRequest({ headers: { origin: "" } }),
+    env,
+  );
+
+  assert.equal(response.status, 403);
+  assert.equal(points.length, 0);
+});
+
+test("accepts the www production origin", async () => {
+  const { env, points } = captureEnvironment();
+  const response = await handleAnalyticsRequest(
+    makeRequest({ headers: { origin: "https://www.tamathe.com" } }),
+    env,
+  );
+
+  assert.equal(response.status, 204);
+  assert.equal(points.length, 1);
 });
 
 test("rejects unknown events and invalid page-view identifiers", async () => {

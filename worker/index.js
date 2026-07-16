@@ -1,9 +1,9 @@
 import { handleAnalyticsRequest } from "./analytics.js";
 
 const siteMetadata = {
-  title: "Tama Thé, MD | Making AI useful in healthcare",
+  title: "Tama Thé, MD | Turning information into care",
   description:
-    "Talks, teaching, and public work from Tama Thé on useful AI in healthcare, education, and Kentucky.",
+    "Tama Thé's work to build the connections that turn health information and AI into completed care across Kentucky.",
 };
 
 const legacyRedirects = {

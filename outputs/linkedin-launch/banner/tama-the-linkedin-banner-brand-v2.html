@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1584, initial-scale=1" />
+    <title>Tama Thé LinkedIn banner — brand v2</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500;600&display=swap");
+
+      :root {
+        color-scheme: dark;
+        font-family: "Geist", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        background: #030303;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        width: 1584px;
+        height: 396px;
+        margin: 0;
+        overflow: hidden;
+        background: #030303;
+      }
+
+      .banner {
+        position: relative;
+        width: 1584px;
+        height: 396px;
+        overflow: hidden;
+        isolation: isolate;
+        background:
+          radial-gradient(circle at 82% 42%, rgba(23, 105, 224, 0.24), transparent 30%),
+          linear-gradient(90deg, #030303 0%, #050505 59%, #070912 100%);
+      }
+
+      .grid {
+        position: absolute;
+        inset: 0;
+        z-index: -3;
+        opacity: 0.62;
+        background-image:
+          linear-gradient(rgba(255, 255, 255, 0.028) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(255, 255, 255, 0.028) 1px, transparent 1px);
+        background-size: 72px 72px;
+        mask-image: linear-gradient(90deg, #000 0%, #000 67%, transparent 91%);
+      }
+
+      .source-window {
+        position: absolute;
+        z-index: -2;
+        top: 0;
+        right: 0;
+        width: 584px;
+        height: 396px;
+        overflow: hidden;
+      }
+
+      .source-art {
+        position: absolute;
+        top: -35px;
+        right: 100px;
+        width: 1000px;
+        height: 525px;
+        object-fit: cover;
+        object-position: right center;
+        filter: contrast(1.04) saturate(1.04);
+        opacity: 0.96;
+      }
+
+      .veil {
+        position: absolute;
+        inset: 0;
+        z-index: -1;
+        background:
+          linear-gradient(90deg, #030303 0%, rgba(3, 3, 3, 0.98) 36%, rgba(3, 3, 3, 0.83) 55%, rgba(3, 3, 3, 0.1) 80%, transparent 100%),
+          linear-gradient(180deg, rgba(3, 3, 3, 0.06), rgba(3, 3, 3, 0.34));
+      }
+
+      .top-rule,
+      .bottom-rule {
+        position: absolute;
+        left: 32px;
+        right: 32px;
+        height: 1px;
+        background: rgba(255, 255, 255, 0.14);
+      }
+
+      .top-rule {
+        top: 29px;
+      }
+
+      .bottom-rule {
+        bottom: 29px;
+      }
+
+      .accent-rail {
+        position: absolute;
+        top: 29px;
+        bottom: 29px;
+        left: 420px;
+        width: 3px;
+        background: #1769e0;
+        box-shadow: 0 0 24px rgba(23, 105, 224, 0.35);
+      }
+
+      .identity {
+        position: absolute;
+        top: 62px;
+        left: 454px;
+        display: flex;
+        align-items: center;
+        gap: 13px;
+        color: #82b3ff;
+        font-family: "Geist Mono", Consolas, monospace;
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: 0.085em;
+        line-height: 1;
+        text-transform: uppercase;
+      }
+
+      .identity::before {
+        width: 8px;
+        height: 8px;
+        content: "";
+        background: #1769e0;
+        box-shadow: 0 0 18px rgba(23, 105, 224, 0.68);
+      }
+
+      h1 {
+        position: absolute;
+        top: 94px;
+        left: 450px;
+        width: 665px;
+        margin: 0;
+        color: #fff;
+        font-size: 58px;
+        font-weight: 500;
+        letter-spacing: -0.048em;
+        line-height: 0.98;
+        text-wrap: balance;
+      }
+
+      .system-label {
+        position: absolute;
+        right: 42px;
+        bottom: 51px;
+        width: 230px;
+        color: rgba(255, 255, 255, 0.5);
+        font-family: "Geist Mono", Consolas, monospace;
+        font-size: 10px;
+        letter-spacing: 0.1em;
+        line-height: 1.5;
+        text-align: right;
+        text-transform: uppercase;
+      }
+
+      .system-label strong {
+        display: block;
+        color: rgba(130, 179, 255, 0.9);
+        font-weight: 500;
+      }
+
+    </style>
+  </head>
+  <body>
+    <main class="banner" aria-label="Tama Thé LinkedIn banner">
+      <div class="grid" aria-hidden="true"></div>
+      <div class="source-window" aria-hidden="true">
+        <img class="source-art" src="../../../public/og.png?v=20260715-ky-flair-v2" alt="" />
+      </div>
+      <div class="veil" aria-hidden="true"></div>
+      <div class="top-rule" aria-hidden="true"></div>
+      <div class="bottom-rule" aria-hidden="true"></div>
+      <div class="accent-rail" aria-hidden="true"></div>
+      <p class="identity">Tama Thé, MD / Kentucky</p>
+      <h1>Making AI useful<br />in healthcare.</h1>
+
+      <p class="system-label">
+        <strong>Signal → care</strong>
+        Practical AI / public systems
+      </p>
+    </main>
+  </body>
+</html>

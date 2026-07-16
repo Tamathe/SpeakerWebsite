@@ -132,6 +132,10 @@ const OUTBOUND_HOSTS = new Set([
 
 const MAX_BODY_BYTES = 2048;
 const NO_STORE_HEADERS = { "cache-control": "no-store" };
+const PUBLIC_SITE_ORIGINS = new Set([
+  "https://tamathe.com",
+  "https://www.tamathe.com",
+]);
 const BOT_USER_AGENT =
   /(?:bot|crawler|spider|slurp|bingpreview|facebookexternalhit|linkedinbot|whatsapp)/i;
 
@@ -194,9 +198,14 @@ function coarseDevice(request) {
   return "unknown";
 }
 
-function requestIsSameOrigin(request, url) {
+function requestHasAllowedOrigin(request) {
   const fetchSite = request.headers.get("sec-fetch-site");
-  if (fetchSite && fetchSite !== "same-origin" && fetchSite !== "none") {
+  if (
+    fetchSite &&
+    fetchSite !== "same-origin" &&
+    fetchSite !== "same-site" &&
+    fetchSite !== "none"
+  ) {
     return false;
   }
 
@@ -204,10 +213,11 @@ function requestIsSameOrigin(request, url) {
   if (fetchDestination && fetchDestination !== "empty") return false;
 
   const origin = request.headers.get("origin");
-  if (!origin) return true;
+  if (!origin) return false;
 
   try {
-    return new URL(origin).origin === url.origin;
+    const requestOrigin = new URL(origin).origin;
+    return PUBLIC_SITE_ORIGINS.has(requestOrigin);
   } catch {
     return false;
   }
@@ -305,8 +315,13 @@ async function readPayload(request) {
   const contentEncoding = request.headers.get("content-encoding");
   if (contentEncoding && contentEncoding !== "identity") return { error: 415 };
 
-  const contentType = request.headers.get("content-type") || "";
-  if (!contentType.startsWith("application/json")) return { error: 415 };
+  const contentType = (request.headers.get("content-type") || "")
+    .split(";", 1)[0]
+    .trim()
+    .toLowerCase();
+  if (contentType !== "application/json" && contentType !== "text/plain") {
+    return { error: 415 };
+  }
 
   const text = await request.text();
   if (new TextEncoder().encode(text).byteLength > MAX_BODY_BYTES) {
@@ -332,8 +347,7 @@ export async function handleAnalyticsRequest(request, env) {
     return emptyResponse(405, { allow: "POST" });
   }
 
-  const url = new URL(request.url);
-  if (!requestIsSameOrigin(request, url)) return emptyResponse(403);
+  if (!requestHasAllowedOrigin(request)) return emptyResponse(403);
   if (privacySignalEnabled(request) || requestIsBot(request)) {
     return emptyResponse();
   }
