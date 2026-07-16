@@ -15,7 +15,9 @@ const source = [
 
 const requiredSignals = [
   "Tama Thé",
-  "Making AI useful in healthcare.",
+  "Build the connections that turn information into care.",
+  "Finding risk earlier is not enough.",
+  "The last mile is the whole point.",
   "KY-AHEAD",
   "Rural Diabetic Retinopathy Screening",
   "Whole-Blood Drone Delivery",
@@ -29,6 +31,7 @@ const requiredSignals = [
 const rejectedSignals = [
   "Academic AI Speaker",
   "Watch featured talk",
+  "Invite Tama to speak",
   "Proof points",
   "Invite Dr.",
   "paid keynote work",

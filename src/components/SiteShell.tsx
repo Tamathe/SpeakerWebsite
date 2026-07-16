@@ -3,10 +3,10 @@ import { siteIdentity } from "../siteContent";
 import { AnalyticsTracker } from "./AnalyticsTracker";
 
 const navigation = [
-  { label: "Featured", href: "/#featured-talk" },
-  { label: "Incubator", href: "/#incubator" },
-  { label: "TEK 100", href: "/#tek100" },
-  { label: "Talks", href: "/#engagements" },
+  { label: "Mission", href: "/#mission" },
+  { label: "Work", href: "/#work" },
+  { label: "Ideas", href: "/#featured-talk" },
+  { label: "Speaking", href: "/#speaking" },
   { label: "Contact", href: "/#contact" },
 ];
 
@@ -43,8 +43,8 @@ function SiteFooter() {
         </div>
         <div className="footer-copy">
           <p>
-            If the problem crosses medicine, public health, education, and AI,
-            that is probably the interesting part.
+            If the problem crosses institutions, data systems, clinical work,
+            and community care, that is probably where we should start.
           </p>
           <a
             className="text-link"
@@ -71,7 +71,7 @@ function SiteFooter() {
       </details>
       <div className="shell footer-base">
         <span>© {new Date().getFullYear()} Tama Thé, MD</span>
-        <span>Kentucky / Healthcare / Education / AI</span>
+        <span>Kentucky / Healthcare / Infrastructure / AI</span>
       </div>
     </footer>
   );

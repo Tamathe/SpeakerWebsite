@@ -1,9 +1,9 @@
-import { AmbientSpeakerVideo } from "../components/AmbientSpeakerVideo";
 import { EngagementList } from "../components/EngagementList";
 import { LegislatureVideo } from "../components/LegislatureVideo";
 import {
   credentials,
   engagements,
+  healthcareInitiatives,
   incubatorSiteUrl,
   signatureTopics,
   siteIdentity,
@@ -12,45 +12,165 @@ import {
 export function SpeakingPage() {
   return (
     <>
-      <header className="speaking-hero">
+      <header className="speaking-hero mission-hero">
         <div className="shell speaking-hero-grid">
           <div className="speaking-hero-content">
-            <h1>Start with the work, not with a tour of AI tools.</h1>
+            <p className="page-kicker">Kentucky / Healthcare / AI</p>
+            <h1>{siteIdentity.thesis}</h1>
             <p>
-              I speak about AI through the problems people are already trying to
-              solve—in healthcare, medical education, universities, public
-              systems, and Kentucky communities.
+              Kentucky already has many of the clinical signals that could help
+              us identify risk earlier. The work is connecting them across
+              institutions and carrying the result all the way to care.
             </p>
             <div className="hero-actions">
               <a
                 className="button button-primary"
-                href="#featured-talk"
-                data-analytics-id="hero-watch-featured"
+                href="#mission"
+                data-analytics-id="hero-read-mission"
               >
-                Watch the featured talk <span aria-hidden="true">↓</span>
+                Read the case <span aria-hidden="true">↓</span>
               </a>
               <a
                 className="button button-outline"
-                href={siteIdentity.email}
-                data-analytics-id="hero-invite-email"
+                href="#work"
+                data-analytics-id="hero-explore-work"
               >
-                Invite Tama to speak <span aria-hidden="true">↗</span>
+                Explore the work
               </a>
             </div>
           </div>
 
-          <figure className="speaking-hero-media">
-            <div className="speaking-hero-frame">
-              <AmbientSpeakerVideo className="speaking-hero-video" />
-              <span className="speaking-hero-vignette" aria-hidden="true" />
+          <figure className="mission-hero-media">
+            <div className="mission-hero-frame">
+              <img
+                src="/images/studio/ai-for-ky.png"
+                alt="Concept visualization of Kentucky covered in connected markers"
+              />
+              <span className="mission-hero-vignette" aria-hidden="true" />
+              <span className="mission-hero-coordinate" aria-hidden="true">
+                37.8393° N / 84.2700° W
+              </span>
             </div>
             <figcaption className="speaking-reel-caption">
-              <span>Talks, classrooms, and public work / Kentucky and beyond</span>
-              <span>40-second montage</span>
+              <span>One state / Many systems / A shared responsibility</span>
+              <span>Concept visualization</span>
             </figcaption>
           </figure>
         </div>
       </header>
+
+      <section
+        className="mission-case"
+        id="mission"
+        aria-labelledby="mission-title"
+      >
+        <div className="shell mission-case-grid">
+          <div className="mission-case-copy">
+            <p className="section-index">The mission</p>
+            <h2 id="mission-title">Finding risk earlier is not enough.</h2>
+            <p>
+              Kentucky already has a great deal of the data and clinical
+              information that could help us improve health outcomes. The
+              problem is that it sits in different systems, under different
+              organizations, and no one institution can connect and use all of
+              it statewide on its own.
+            </p>
+            <p>
+              If we want to understand what is happening across populations,
+              identify people who may need help, and make sure they receive
+              follow-up care, the state, universities, health systems, payers,
+              and community providers will have to build the connections
+              together.
+            </p>
+          </div>
+
+          <aside className="mission-last-mile" aria-label="Guiding principle">
+            <p className="section-index">Guiding principle</p>
+            <h3>The last mile is the whole point.</h3>
+            <p>
+              A signal is only useful if it reaches someone who can act on it.
+              The referral needs a destination. The next step needs an owner.
+              The system needs to know whether care was completed.
+            </p>
+          </aside>
+        </div>
+
+        <div className="shell service-layer">
+          <div className="service-layer-intro">
+            <p className="section-index">Shared infrastructure</p>
+            <h3>
+              Connect what already exists. Govern who can use it. Return
+              something useful.
+            </h3>
+            <p>
+              This does not mean one giant database or unrestricted access to
+              patient records. It means a governed service layer that can
+              connect existing systems, give each participant the information
+              needed for its role, analyze signals across the network, and
+              return a useful next step to the people responsible for care.
+            </p>
+          </div>
+          <ol className="service-layer-steps">
+            {signatureTopics.map((topic) => (
+              <li key={topic.number}>
+                <span>{topic.number}</span>
+                <div>
+                  <h4>{topic.title}</h4>
+                  <p>{topic.summary}</p>
+                </div>
+              </li>
+            ))}
+          </ol>
+        </div>
+      </section>
+
+      <section className="mission-work" id="work" aria-labelledby="work-title">
+        <div className="shell section-intro">
+          <p className="section-index">The work</p>
+          <div>
+            <h2 id="work-title">The same problem, seen from different places.</h2>
+            <p>
+              These projects begin with different clinical needs. Each one asks
+              what has to happen between identifying a possibility and
+              delivering something useful.
+            </p>
+          </div>
+        </div>
+
+        <div className="shell mission-project-grid">
+          {healthcareInitiatives.map((initiative) => (
+            <article className="mission-project" key={initiative.id}>
+              <figure>
+                <img
+                  src={initiative.image}
+                  alt={initiative.imageAlt}
+                  loading="lazy"
+                  decoding="async"
+                />
+                <figcaption>{initiative.imageCaption}</figcaption>
+              </figure>
+              <div className="mission-project-heading">
+                <span>{initiative.number}</span>
+                <p>{initiative.area}</p>
+              </div>
+              <h3>{initiative.title}</h3>
+              <p className="mission-project-stage">{initiative.stage}</p>
+              <p className="mission-project-question">{initiative.question}</p>
+              <p className="mission-project-summary">{initiative.summary}</p>
+              <p className="mission-project-focus">{initiative.focus}</p>
+            </article>
+          ))}
+        </div>
+      </section>
+
+      <section className="hero-facts proof-strip" aria-label="Selected experience">
+        {credentials.map((credential) => (
+          <span key={credential.label}>
+            <small>{credential.label}</small>
+            <strong>{credential.detail}</strong>
+          </span>
+        ))}
+      </section>
 
       <section
         className="featured-talk-section"
@@ -59,15 +179,15 @@ export function SpeakingPage() {
       >
         <div className="shell featured-talk-grid">
           <div className="featured-talk-copy">
-            <p className="section-index">Featured talk / NBME NICE 2026</p>
+            <p className="section-index">The argument in public / NBME NICE 2026</p>
             <h2 id="featured-talk-title">
               What if healthcare AI were shared infrastructure?
             </h2>
             <p>
-              In this excerpt, Tama makes the case for moving beyond
-              disconnected tools and building an intelligence layer that can
-              help public systems find people who need care and connect them to
-              the next step.
+              In this excerpt, I make the case for moving beyond disconnected
+              tools and building an intelligence layer that can help public
+              systems find people who need care and connect them to the next
+              step.
             </p>
             <div className="featured-talk-details" aria-label="Video details">
               <span>1:23 excerpt</span>
@@ -112,18 +232,68 @@ export function SpeakingPage() {
       </section>
 
       <section
+        className="story-section story-section-tek100"
+        id="tek100"
+        aria-labelledby="tek100-title"
+      >
+        <div className="shell story-grid">
+          <div className="story-copy">
+            <p className="section-index">Building capacity / TEK 100</p>
+            <h2 id="tek100-title">Teach the principles that survive the next tool.</h2>
+            <p>
+              Shared infrastructure is not only technical. People across the
+              system need enough practical understanding to test AI, recognize
+              its limits, and decide when it belongs in the work. TEK 100 is a
+              foundational, hands-on AI literacy course co-created for
+              University of Kentucky students.
+            </p>
+            <div className="featured-talk-details" aria-label="Video details">
+              <span>0:31 excerpt</span>
+              <span>English captions</span>
+              <span>Foundational AI literacy</span>
+            </div>
+          </div>
+          <div className="story-player">
+            <video
+              controls
+              playsInline
+              preload="metadata"
+              poster="/media/speaking/tek100-tech-agnostic-poster.jpg"
+              data-analytics-video-id="tek100-excerpt"
+            >
+              <source
+                src="/media/speaking/tek100-tech-agnostic-excerpt.mp4"
+                type="video/mp4"
+              />
+              <track
+                kind="captions"
+                src="/media/speaking/tek100-tech-agnostic-excerpt.en.vtt"
+                srcLang="en"
+                label="English"
+                default
+              />
+              Your browser does not support embedded video.
+            </video>
+            <p>TEK 100 · Course excerpt</p>
+          </div>
+        </div>
+      </section>
+
+      <section
         className="story-section story-section-incubator"
         id="incubator"
         aria-labelledby="incubator-feature-title"
       >
         <div className="shell story-grid story-grid-media-first">
           <div className="story-copy">
-            <h2 id="incubator-feature-title">Join the AI Incubator at UK.</h2>
+            <p className="section-index">Building relationships / AI Incubator</p>
+            <h2 id="incubator-feature-title">Give unfinished ideas somewhere to go.</h2>
             <p>
-              The AI Incubator gives students, faculty, and staff a place to test
-              ideas and work with people outside their usual lanes. People bring
-              unfinished work, find collaborators, and move promising ideas
-              toward small, testable projects.
+              The AI Incubator gives students, faculty, and staff a place to
+              test ideas with people outside their usual lanes. It is one way
+              to build the relationships this mission requires: bring the
+              problem into the room, find the missing expertise, and move
+              toward a small, testable next step.
             </p>
             <div className="featured-talk-details" aria-label="Video details">
               <span>0:58 film</span>
@@ -164,95 +334,6 @@ export function SpeakingPage() {
             </video>
             <p>UK AI Incubator · Community film</p>
           </div>
-        </div>
-      </section>
-
-      <section className="hero-facts proof-strip" aria-label="Selected experience">
-        {credentials.map((credential) => (
-          <span key={credential.label}>
-            <small>{credential.label}</small>
-            <strong>{credential.detail}</strong>
-          </span>
-        ))}
-      </section>
-
-      <section
-        className="story-section story-section-tek100"
-        id="tek100"
-        aria-labelledby="tek100-title"
-      >
-        <div className="shell story-grid">
-          <div className="story-copy">
-            <p className="section-index">Teaching / TEK 100</p>
-            <h2 id="tek100-title">Teach the principles that survive the next tool.</h2>
-            <p>
-              A moment from TEK 100, the foundational, hands-on AI literacy
-              course co-created for University of Kentucky students. The aim is
-              not fluency in one product. It is the judgment to approach any AI
-              tool thoughtfully.
-            </p>
-            <div className="featured-talk-details" aria-label="Video details">
-              <span>0:31 excerpt</span>
-              <span>English captions</span>
-              <span>Foundational AI literacy</span>
-            </div>
-          </div>
-          <div className="story-player">
-            <video
-              controls
-              playsInline
-              preload="metadata"
-              poster="/media/speaking/tek100-tech-agnostic-poster.jpg"
-              data-analytics-video-id="tek100-excerpt"
-            >
-              <source
-                src="/media/speaking/tek100-tech-agnostic-excerpt.mp4"
-                type="video/mp4"
-              />
-              <track
-                kind="captions"
-                src="/media/speaking/tek100-tech-agnostic-excerpt.en.vtt"
-                srcLang="en"
-                label="English"
-                default
-              />
-              Your browser does not support embedded video.
-            </video>
-            <p>TEK 100 · Course excerpt</p>
-          </div>
-        </div>
-      </section>
-
-      <section className="topics-section" id="topics" aria-labelledby="topics-title">
-        <div className="shell section-intro section-intro-no-eyebrow">
-          <div>
-            <h2 id="topics-title">What does it take to make AI useful in real systems?</h2>
-          </div>
-        </div>
-        <div className="shell topic-grid">
-          {signatureTopics.map((topic) => (
-            <article key={topic.number}>
-              <span>{topic.number}</span>
-              <h3>{topic.title}</h3>
-              <p>{topic.summary}</p>
-            </article>
-          ))}
-        </div>
-      </section>
-
-      <section className="engagements-section" id="engagements" aria-labelledby="engagements-title">
-        <div className="shell section-intro">
-          <p className="section-index">Selected engagements</p>
-          <div>
-            <h2 id="engagements-title">A growing record of talks and public conversations.</h2>
-            <p>
-              The archive links to full events and recordings where a stable
-              public source is available.
-            </p>
-          </div>
-        </div>
-        <div className="shell">
-          <EngagementList engagements={engagements} />
         </div>
       </section>
 
@@ -304,6 +385,27 @@ export function SpeakingPage() {
       </section>
 
       <section
+        className="engagements-section"
+        id="speaking"
+        aria-labelledby="engagements-title"
+      >
+        <div className="shell section-intro">
+          <p className="section-index">Speaking / Selected engagements</p>
+          <div>
+            <h2 id="engagements-title">Take the argument into the room.</h2>
+            <p>
+              Talks, workshops, and public conversations are one way I test
+              these ideas with the people who have to build, govern, teach, and
+              use the systems in practice.
+            </p>
+          </div>
+        </div>
+        <div className="shell">
+          <EngagementList engagements={engagements} />
+        </div>
+      </section>
+
+      <section
         className="speaker-kit-section"
         id="contact"
         aria-labelledby="speaker-kit-title"
@@ -318,32 +420,31 @@ export function SpeakingPage() {
               loading="lazy"
               decoding="async"
             />
-            <figcaption>Current speaker headshot</figcaption>
+            <figcaption>Current headshot</figcaption>
           </figure>
           <div className="speaker-kit-copy">
-            <p className="section-index">About / Speaker materials</p>
-            <h2 id="speaker-kit-title">For event organizers.</h2>
+            <p className="section-index">Collaboration / Speaking</p>
+            <h2 id="speaker-kit-title">Bring me the part that does not fit neatly.</h2>
             <p>
-              Tama Thé is a pediatric emergency physician and medical educator
-              working across healthcare, education, public systems, and AI.
-              Download the current headshot here; short and extended bios and
-              talk information are available by email.
+              {siteIdentity.bio} I work with people who are trying to connect
+              the technical possibility to the institutional and human work
+              required to make it useful.
             </p>
             <div className="speaker-kit-actions">
               <a
                 className="button button-primary"
+                href={siteIdentity.email}
+                data-analytics-id="collaboration-email"
+              >
+                Start a conversation <span aria-hidden="true">↗</span>
+              </a>
+              <a
+                className="button button-outline"
                 href="/media/speaking/tama-headshot.png"
                 download
                 data-analytics-id="speaker-headshot-download"
               >
                 Download headshot <span aria-hidden="true">↓</span>
-              </a>
-              <a
-                className="button button-outline"
-                href={siteIdentity.email}
-                data-analytics-id="speaker-kit-email"
-              >
-                Email Tama.the@uky.edu <span aria-hidden="true">↗</span>
               </a>
             </div>
           </div>
