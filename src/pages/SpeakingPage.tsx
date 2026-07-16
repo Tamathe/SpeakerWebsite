@@ -1,3 +1,4 @@
+import { AmbientSpeakerVideo } from "../components/AmbientSpeakerVideo";
 import { EngagementList } from "../components/EngagementList";
 import { LegislatureVideo } from "../components/LegislatureVideo";
 import {
@@ -40,16 +41,12 @@ export function SpeakingPage() {
 
           <figure className="speaking-hero-media">
             <div className="speaking-hero-frame">
-              <img
-                className="speaking-hero-video"
-                src="/media/speaking/kentucky-legislature.jpg"
-                alt="Tama Thé and Hubert Ballard presenting to the Kentucky General Assembly Artificial Intelligence Task Force"
-              />
+              <AmbientSpeakerVideo className="speaking-hero-video" />
               <span className="speaking-hero-vignette" aria-hidden="true" />
             </div>
             <figcaption className="speaking-reel-caption">
-              <span>Kentucky General Assembly / September 2025</span>
-              <span>Official recording</span>
+              <span>Talks, classrooms, and public work / Kentucky and beyond</span>
+              <span>30-second montage</span>
             </figcaption>
           </figure>
         </div>
@@ -62,35 +59,54 @@ export function SpeakingPage() {
       >
         <div className="shell featured-talk-grid">
           <div className="featured-talk-copy">
-            <p className="section-index">
-              Featured talk / Kentucky General Assembly
-            </p>
+            <p className="section-index">Featured talk / NBME NICE 2026</p>
             <h2 id="featured-talk-title">
-              Artificial Intelligence at the University of Kentucky
+              What if healthcare AI were shared infrastructure?
             </h2>
             <p>
-              A presentation to the Kentucky General Assembly Artificial
-              Intelligence Task Force on AI work across the university and UK
-              HealthCare, presented with Hubert Ballard, MD.
+              In this excerpt, Tama makes the case for moving beyond
+              disconnected tools and building an intelligence layer that can
+              help public systems find people who need care and connect them to
+              the next step.
             </p>
             <div className="featured-talk-details" aria-label="Video details">
-              <span>Kentucky General Assembly</span>
-              <span>September 11, 2025</span>
-              <span>With Hubert Ballard, MD</span>
+              <span>1:23 excerpt</span>
+              <span>English captions</span>
+              <span>Produced by NBME</span>
             </div>
             <a
               className="text-link"
-              href="https://www.youtube.com/watch?v=v1aHwVq0dLI&t=4664s"
+              href="https://f.io/AWtTiZWu"
               target="_blank"
               rel="noreferrer"
-              data-analytics-id="legislature-official-recording"
+              data-analytics-id="nbme-full-presentation"
             >
-              Open the official recording <span aria-hidden="true">↗</span>
+              Watch the full NBME presentation <span aria-hidden="true">↗</span>
             </a>
           </div>
           <div className="featured-talk-player">
-            <LegislatureVideo />
-            <p>Official recording · KY LRC Committee Meetings</p>
+            <video
+              controls
+              playsInline
+              preload="metadata"
+              poster="/media/speaking/nbme-stage-poster.jpg"
+              data-analytics-video-id="nbme-excerpt"
+            >
+              <source
+                src="/media/speaking/nbme-nice-2026-healthcare-ai-excerpt.mp4"
+                type="video/mp4"
+              />
+              <track
+                kind="captions"
+                src="/media/speaking/nbme-nice-2026-healthcare-ai.en.vtt"
+                srcLang="en"
+                label="English"
+                default
+              />
+              Your browser does not support embedded video. You can watch the
+              full presentation using the link beside this player.
+            </video>
+            <p>NBME NICE 2026 · Presentation excerpt</p>
           </div>
         </div>
       </section>
@@ -102,15 +118,12 @@ export function SpeakingPage() {
       >
         <div className="shell story-grid story-grid-media-first">
           <div className="story-copy">
-            <p className="section-index">Build in public / UK AI Incubator</p>
-            <h2 id="incubator-feature-title">
-              People in a room, building the future together.
-            </h2>
+            <h2 id="incubator-feature-title">Join the AI Incubator at UK.</h2>
             <p>
-              The AI Incubator brings students, faculty, and staff together to
-              test tools, pitch ambitious ideas, and solve real problems. It is
-              a community built around curiosity, practical work, and learning
-              in public.
+              The AI Incubator gives students, faculty, and staff a place to test
+              ideas and work with people outside their usual lanes. People bring
+              unfinished work, find collaborators, and move promising ideas
+              toward small, testable projects.
             </p>
             <div className="featured-talk-details" aria-label="Video details">
               <span>0:58 film</span>
@@ -211,10 +224,9 @@ export function SpeakingPage() {
       </section>
 
       <section className="topics-section" id="topics" aria-labelledby="topics-title">
-        <div className="shell section-intro">
-          <p className="section-index">Signature topics</p>
+        <div className="shell section-intro section-intro-no-eyebrow">
           <div>
-            <h2 id="topics-title">Practical, candid, and grounded in current work.</h2>
+            <h2 id="topics-title">What does it take to make AI useful in real systems?</h2>
           </div>
         </div>
         <div className="shell topic-grid">
@@ -241,6 +253,53 @@ export function SpeakingPage() {
         </div>
         <div className="shell">
           <EngagementList engagements={engagements} />
+        </div>
+      </section>
+
+      <section
+        className="legislature-section"
+        id="legislature"
+        aria-labelledby="legislature-title"
+      >
+        <div className="shell legislature-grid">
+          <div className="legislature-media">
+            <LegislatureVideo />
+            <p>Official recording · KY LRC Committee Meetings</p>
+          </div>
+          <div className="legislature-copy">
+            <p className="section-index">Public leadership / Kentucky</p>
+            <h2 id="legislature-title">
+              Artificial Intelligence at the University of Kentucky
+            </h2>
+            <p>
+              A presentation to the Kentucky General Assembly Artificial
+              Intelligence Task Force on AI work across the university and UK
+              HealthCare, presented with Hubert Ballard, MD.
+            </p>
+            <dl className="legislature-details">
+              <div>
+                <dt>Venue</dt>
+                <dd>Kentucky General Assembly</dd>
+              </div>
+              <div>
+                <dt>Date</dt>
+                <dd>September 11, 2025</dd>
+              </div>
+              <div>
+                <dt>Recording</dt>
+                <dd>Presentation begins at 1:17:44</dd>
+              </div>
+            </dl>
+            <a
+              className="text-link"
+              href="https://www.youtube.com/watch?v=v1aHwVq0dLI&t=4664s"
+              target="_blank"
+              rel="noreferrer"
+              data-analytics-id="legislature-official-recording"
+            >
+              Open the official recording <span aria-hidden="true">↗</span>
+            </a>
+          </div>
         </div>
       </section>
 

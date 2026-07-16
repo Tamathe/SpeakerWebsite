@@ -414,6 +414,14 @@ a {
   align-items: start;
 }
 
+.section-intro-no-eyebrow {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.section-intro-no-eyebrow h2 {
+  max-width: 20ch;
+}
+
 .section-intro h2,
 .principle-grid h2,
 .thesis-grid h2,
@@ -1370,6 +1378,10 @@ a {
   font-weight: 600;
   letter-spacing: -0.04em;
   text-wrap: balance;
+}
+
+.story-copy > h2:first-child {
+  margin-top: 0;
 }
 
 .story-copy > p:not(.section-index) {
