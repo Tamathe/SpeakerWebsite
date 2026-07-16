@@ -8,6 +8,7 @@
     "build": "node scripts/clean-dist.mjs && tsc --noEmit && vite build && node scripts/create-route-fallbacks.mjs",
     "check:positioning": "node scripts/check-positioning.mjs",
     "analytics:report": "node scripts/analytics-report.mjs",
+    "deploy:analytics": "wrangler deploy --config wrangler.analytics.jsonc",
     "test": "node --test tests/*.test.mjs",
     "test:analytics:smoke": "node scripts/smoke-analytics-endpoint.mjs",
     "preview": "vite preview --host 127.0.0.1"

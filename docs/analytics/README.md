@@ -52,7 +52,9 @@ collector remains necessary.
 
 These steps require the Cloudflare account that owns the public deployment:
 
-1. Deploy the current Worker configuration. The Analytics Engine dataset is
+1. Deploy the analytics-only Worker with `npm run deploy:analytics`. The public
+   site remains hosted by Sites; privacy-minimized events are sent to
+   `analytics.tamathe.com/api/analytics`. The Analytics Engine dataset is
    created automatically when the first production event is written.
 2. In Cloudflare, open **Analytics & Logs → Web Analytics**, add or select the
    public hostname, and enable automatic setup. A hostname proxied through

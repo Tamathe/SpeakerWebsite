@@ -1,0 +1,113 @@
+1
+00:00:02,500 --> 00:00:05,100
+It didn't work because
+Kentucky is different.
+
+2
+00:00:05,100 --> 00:00:09,200
+Kentucky is different from California
+and New York. The patients are different...
+
+3
+00:00:09,200 --> 00:00:13,500
+...from Brazil and London. The model was built
+on 400 million patients across the world.
+
+4
+00:00:13,500 --> 00:00:17,400
+What we needed was a model built
+on Kentucky patients...
+
+5
+00:00:17,400 --> 00:00:21,141
+...with Kentucky data,
+with Kentucky problems.
+
+6
+00:00:21,141 --> 00:00:25,500
+The Cabinet for Health and Family Services
+has a state-university partnership...
+
+7
+00:00:25,500 --> 00:00:30,001
+...where you can propose getting access
+to state data - super valuable data.
+
+8
+00:00:30,001 --> 00:00:33,461
+Now it's up to us to figure out how to use
+that data to make healthcare better.
+
+9
+00:00:33,461 --> 00:00:36,500
+The final one is essentially
+cancer screening.
+
+10
+00:00:36,500 --> 00:00:40,500
+Can we get ahold of Medicaid claims data
+and identify patients eligible for screening...
+
+11
+00:00:40,500 --> 00:00:44,800
+...whether it's colon cancer, lung cancer,
+or cervical cancer...
+
+12
+00:00:44,800 --> 00:00:49,621
+...find those patients, and deploy
+similar software to reach out to them?
+
+13
+00:00:49,621 --> 00:00:53,000
+We think we can design an AI agent
+that walks you through the process...
+
+14
+00:00:53,000 --> 00:00:56,600
+...and schedules your appointment
+at the same time...
+
+15
+00:00:56,600 --> 00:01:00,400
+...so you don't have to take the onus
+on yourself of calling your doctor...
+
+16
+00:01:00,400 --> 00:01:03,600
+...and trying to get a colonoscopy.
+We can do it automatically...
+
+17
+00:01:03,600 --> 00:01:06,041
+...bring you in, and make sure we are caring
+for the people of Kentucky.
+
+18
+00:01:06,041 --> 00:01:09,300
+We don't want California.
+We don't want New York.
+
+19
+00:01:09,300 --> 00:01:12,500
+We want Kentucky's data
+so we can better impact Kentuckians.
+
+20
+00:01:12,500 --> 00:01:15,700
+We want this to be
+a dynamic conversation...
+
+21
+00:01:15,700 --> 00:01:18,600
+...about what we can do to streamline
+and provide better access to data...
+
+22
+00:01:18,600 --> 00:01:21,300
+...more quickly. Whatever we need to do
+on our side...
+
+23
+00:01:21,300 --> 00:01:23,841
+...we want to be a good partner.

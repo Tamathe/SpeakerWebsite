@@ -2,6 +2,8 @@
 
 Updated: 2026-07-10
 
+For the project-wide inventory of archived source media, see [`MEDIA_LOG.md`](MEDIA_LOG.md) and the canonical machine-readable [`media-log.json`](media-log.json). This document remains the editorial curation guide for the separate Sony camera collection.
+
 This index covers the Sony camera folder supplied for the speaker-site and AI Incubator-site work. It is a curation layer, not a copy of the source media.
 
 ## Inventory

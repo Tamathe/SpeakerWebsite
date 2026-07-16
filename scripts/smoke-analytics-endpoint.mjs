@@ -1,5 +1,5 @@
 const baseUrl = new URL(process.argv[2] || "http://127.0.0.1:4175/");
-const endpoint = new URL("/api/analytics", baseUrl);
+const endpoint = new URL(process.argv[3] || "/api/analytics", baseUrl);
 const body = JSON.stringify({
   version: 1,
   event: "page_view",
@@ -14,7 +14,7 @@ function post(origin, fetchSite) {
   return fetch(endpoint, {
     method: "POST",
     headers: {
-      "content-type": "application/json",
+      "content-type": "text/plain;charset=UTF-8",
       origin,
       "sec-fetch-site": fetchSite,
       "sec-fetch-dest": "empty",
@@ -24,7 +24,7 @@ function post(origin, fetchSite) {
 }
 
 const [valid, crossOrigin, wrongMethod, home] = await Promise.all([
-  post(baseUrl.origin, "same-origin"),
+  post(baseUrl.origin, endpoint.origin === baseUrl.origin ? "same-origin" : "same-site"),
   post("https://attacker.example", "cross-site"),
   fetch(endpoint),
   fetch(new URL("/?analytics_debug=1&utm_source=linkedin&utm_campaign=site-launch", baseUrl)),
