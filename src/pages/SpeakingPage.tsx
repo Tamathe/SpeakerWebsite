@@ -2,7 +2,6 @@ import { AmbientSpeakerVideo } from "../components/AmbientSpeakerVideo";
 import { EngagementList } from "../components/EngagementList";
 import { LegislatureVideo } from "../components/LegislatureVideo";
 import {
-  credentials,
   engagements,
   healthcareInitiatives,
   incubatorSiteUrl,
@@ -62,11 +61,8 @@ export function SpeakingPage() {
               Connecting healthcare information across Kentucky.
             </h2>
             <p>
-              Kentucky risks repeating the fragmented rollout of electronic
-              medical records. This excerpt argues for shared statewide AI
-              infrastructure that uses existing health-information-exchange
-              data to identify patients at risk and reconnect them with care,
-              especially where hospitals cannot build those systems themselves.
+              A shared statewide data infrastructure will identify patients at
+              risk and connect them with care.
             </p>
             <div className="featured-talk-details" aria-label="Video details">
               <span>1:23 excerpt</span>
@@ -74,7 +70,7 @@ export function SpeakingPage() {
               <span>Produced by NBME</span>
             </div>
             <a
-              className="text-link"
+              className="button button-primary featured-talk-cta"
               href="https://f.io/AWtTiZWu"
               target="_blank"
               rel="noreferrer"
@@ -105,7 +101,13 @@ export function SpeakingPage() {
               Your browser does not support embedded video. You can watch the
               full presentation using the link beside this player.
             </video>
-            <p>NBME NICE 2026 · Presentation excerpt</p>
+            <p>
+              <strong>
+                <em>
+                  NBME Invitational Conference for Educators (NICE) - June 2026
+                </em>
+              </strong>
+            </p>
           </div>
         </div>
       </section>
@@ -149,15 +151,6 @@ export function SpeakingPage() {
         </div>
       </section>
 
-      <section className="hero-facts proof-strip" aria-label="Selected experience">
-        {credentials.map((credential) => (
-          <span key={credential.label}>
-            <small>{credential.label}</small>
-            <strong>{credential.detail}</strong>
-          </span>
-        ))}
-      </section>
-
       <section
         className="story-section story-section-tek100"
         id="tek100"
@@ -173,7 +166,7 @@ export function SpeakingPage() {
               belongs in the work.
             </p>
             <div className="featured-talk-details" aria-label="Video details">
-              <span>0:31 excerpt</span>
+              <span>1:11 excerpt</span>
               <span>English captions</span>
               <span>Foundational AI literacy</span>
             </div>
@@ -183,16 +176,16 @@ export function SpeakingPage() {
               controls
               playsInline
               preload="metadata"
-              poster="/media/speaking/tek100-tech-agnostic-poster.jpg"
+              poster="/media/speaking/tek100-tama-poster.jpg"
               data-analytics-video-id="tek100-excerpt"
             >
               <source
-                src="/media/speaking/tek100-tech-agnostic-excerpt.mp4"
+                src="/media/speaking/tek100-tama-excerpt.mp4"
                 type="video/mp4"
               />
               <track
                 kind="captions"
-                src="/media/speaking/tek100-tech-agnostic-excerpt.en.vtt"
+                src="/media/speaking/tek100-tama-excerpt.en.vtt"
                 srcLang="en"
                 label="English"
                 default
