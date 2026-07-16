@@ -15,13 +15,10 @@ export function SpeakingPage() {
       <header className="video-led-hero">
         <div className="shell video-led-hero-layout">
           <div className="video-led-hero-copy">
-            <p className="page-kicker">Healthcare / Education / Public systems</p>
             <h1>{siteIdentity.thesis}</h1>
             <p>
-              My work focuses on what happens after an AI system produces an
-              answer: who receives the information, what decision it changes,
-              and whether the next step is completed. I work on that problem
-              across healthcare, education, and public systems in Kentucky.
+              Making AI useful means connecting data to action. Whether that is
+              in healthcare, education, or public systems.
             </p>
             <div className="hero-actions">
               <a
@@ -61,15 +58,15 @@ export function SpeakingPage() {
       >
         <div className="shell featured-talk-grid">
           <div className="featured-talk-copy">
-            <p className="section-index">Featured presentation / NBME NICE 2026</p>
             <h2 id="featured-talk-title">
               Connecting healthcare information across Kentucky.
             </h2>
             <p>
-              This excerpt describes governed connections across existing
-              healthcare systems. The goal is not one statewide database. It is
-              to return useful information to the person responsible for the
-              next step in care.
+              Kentucky risks repeating the fragmented rollout of electronic
+              medical records. This excerpt argues for shared statewide AI
+              infrastructure that uses existing health-information-exchange
+              data to identify patients at risk and reconnect them with care,
+              especially where hospitals cannot build those systems themselves.
             </p>
             <div className="featured-talk-details" aria-label="Video details">
               <span>1:23 excerpt</span>
@@ -114,8 +111,7 @@ export function SpeakingPage() {
       </section>
 
       <section className="mission-work" id="work" aria-labelledby="work-title">
-        <div className="shell section-intro">
-          <p className="section-index">Healthcare projects</p>
+        <div className="shell section-intro section-intro-no-eyebrow">
           <div>
             <h2 id="work-title">Current work in healthcare.</h2>
             <p>
@@ -169,7 +165,6 @@ export function SpeakingPage() {
       >
         <div className="shell story-grid">
           <div className="story-copy">
-            <p className="section-index">AI literacy / TEK 100</p>
             <h2 id="tek100-title">AI literacy at the University of Kentucky.</h2>
             <p>
               TEK 100 is a foundational, hands-on AI literacy course co-created
@@ -216,7 +211,6 @@ export function SpeakingPage() {
       >
         <div className="shell story-grid story-grid-media-first">
           <div className="story-copy">
-            <p className="section-index">University of Kentucky / AI Incubator</p>
             <h2 id="incubator-feature-title">The UK AI Incubator.</h2>
             <p>
               I founded the UK AI Incubator as an open cross-campus community
@@ -277,9 +271,6 @@ export function SpeakingPage() {
             <p>Official recording · KY LRC Committee Meetings</p>
           </div>
           <div className="legislature-copy">
-            <p className="section-index">
-              Kentucky General Assembly / September 11, 2025
-            </p>
             <h2 id="legislature-title">
               Artificial Intelligence at the University of Kentucky
             </h2>
@@ -321,8 +312,7 @@ export function SpeakingPage() {
         id="speaking"
         aria-labelledby="engagements-title"
       >
-        <div className="shell section-intro">
-          <p className="section-index">Speaking</p>
+        <div className="shell section-intro section-intro-no-eyebrow">
           <div>
             <h2 id="engagements-title">Selected talks and public presentations.</h2>
             <p>
@@ -355,7 +345,6 @@ export function SpeakingPage() {
             <figcaption>Current headshot</figcaption>
           </figure>
           <div className="speaker-kit-copy">
-            <p className="section-index">About / Collaboration</p>
             <h2 id="speaker-kit-title">
               I work across healthcare, education, and public systems.
             </h2>
