@@ -1,4 +1,5 @@
 import { EngagementList } from "../components/EngagementList";
+import { AmbientSpeakerVideo } from "../components/AmbientSpeakerVideo";
 import { LegislatureVideo } from "../components/LegislatureVideo";
 import {
   credentials,
@@ -12,11 +13,22 @@ import {
 export function SpeakingPage() {
   return (
     <>
-      <header className="speaking-hero mission-hero">
-        <div className="shell speaking-hero-grid">
-          <div className="speaking-hero-content">
+      <header className="video-led-hero">
+        <div className="video-led-hero-stage">
+          <AmbientSpeakerVideo className="video-led-hero-reel" />
+          <span className="video-led-hero-vignette" aria-hidden="true" />
+          <div className="shell video-led-hero-caption" aria-hidden="true">
+            <span>Field reel / Kentucky</span>
+            <span>Healthcare / Education / Public systems</span>
+          </div>
+        </div>
+
+        <div className="shell video-led-hero-message">
+          <div>
             <p className="page-kicker">Kentucky / Healthcare / AI</p>
             <h1>{siteIdentity.thesis}</h1>
+          </div>
+          <div className="video-led-hero-summary">
             <p>
               Kentucky already has many of the clinical signals that could help
               us identify risk earlier. The work is connecting them across
@@ -25,37 +37,20 @@ export function SpeakingPage() {
             <div className="hero-actions">
               <a
                 className="button button-primary"
-                href="#mission"
-                data-analytics-id="hero-read-mission"
+                href="#featured-talk"
+                data-analytics-id="hero-watch-argument"
               >
-                Read the case <span aria-hidden="true">↓</span>
+                Watch the argument <span aria-hidden="true">↓</span>
               </a>
               <a
                 className="button button-outline"
-                href="#work"
-                data-analytics-id="hero-explore-work"
+                href="#mission"
+                data-analytics-id="hero-read-mission"
               >
-                Explore the work
+                Read the mission
               </a>
             </div>
           </div>
-
-          <figure className="mission-hero-media">
-            <div className="mission-hero-frame">
-              <img
-                src="/images/studio/ai-for-ky.png"
-                alt="Concept visualization of Kentucky covered in connected markers"
-              />
-              <span className="mission-hero-vignette" aria-hidden="true" />
-              <span className="mission-hero-coordinate" aria-hidden="true">
-                37.8393° N / 84.2700° W
-              </span>
-            </div>
-            <figcaption className="speaking-reel-caption">
-              <span>One state / Many systems / A shared responsibility</span>
-              <span>Concept visualization</span>
-            </figcaption>
-          </figure>
         </div>
       </header>
 
@@ -95,81 +90,6 @@ export function SpeakingPage() {
           </aside>
         </div>
 
-        <div className="shell service-layer">
-          <div className="service-layer-intro">
-            <p className="section-index">Shared infrastructure</p>
-            <h3>
-              Connect what already exists. Govern who can use it. Return
-              something useful.
-            </h3>
-            <p>
-              This does not mean one giant database or unrestricted access to
-              patient records. It means a governed service layer that can
-              connect existing systems, give each participant the information
-              needed for its role, analyze signals across the network, and
-              return a useful next step to the people responsible for care.
-            </p>
-          </div>
-          <ol className="service-layer-steps">
-            {signatureTopics.map((topic) => (
-              <li key={topic.number}>
-                <span>{topic.number}</span>
-                <div>
-                  <h4>{topic.title}</h4>
-                  <p>{topic.summary}</p>
-                </div>
-              </li>
-            ))}
-          </ol>
-        </div>
-      </section>
-
-      <section className="mission-work" id="work" aria-labelledby="work-title">
-        <div className="shell section-intro">
-          <p className="section-index">The work</p>
-          <div>
-            <h2 id="work-title">The same problem, seen from different places.</h2>
-            <p>
-              These projects begin with different clinical needs. Each one asks
-              what has to happen between identifying a possibility and
-              delivering something useful.
-            </p>
-          </div>
-        </div>
-
-        <div className="shell mission-project-grid">
-          {healthcareInitiatives.map((initiative) => (
-            <article className="mission-project" key={initiative.id}>
-              <figure>
-                <img
-                  src={initiative.image}
-                  alt={initiative.imageAlt}
-                  loading="lazy"
-                  decoding="async"
-                />
-                <figcaption>{initiative.imageCaption}</figcaption>
-              </figure>
-              <div className="mission-project-heading">
-                <span>{initiative.number}</span>
-                <p>{initiative.area}</p>
-              </div>
-              <h3>{initiative.title}</h3>
-              <p className="mission-project-stage">{initiative.stage}</p>
-              <p className="mission-project-question">{initiative.question}</p>
-              <p className="mission-project-summary">{initiative.summary}</p>
-              <p className="mission-project-focus">{initiative.focus}</p>
-            </article>
-          ))}
-        </div>
-      </section>
-
-      <section className="hero-facts proof-strip" aria-label="Selected experience">
-        {credentials.map((credential) => (
-          <span key={credential.label}>
-            <small>{credential.label}</small>
-            <strong>{credential.detail}</strong>
-          </span>
-        ))}
       </section>
 
       <section
@@ -229,6 +149,54 @@ export function SpeakingPage() {
             <p>NBME NICE 2026 · Presentation excerpt</p>
           </div>
         </div>
+      </section>
+
+      <section className="mission-work" id="work" aria-labelledby="work-title">
+        <div className="shell section-intro">
+          <p className="section-index">The work</p>
+          <div>
+            <h2 id="work-title">The same problem, seen from different places.</h2>
+            <p>
+              These projects begin with different clinical needs. Each one asks
+              what has to happen between identifying a possibility and
+              delivering something useful.
+            </p>
+          </div>
+        </div>
+
+        <div className="shell mission-project-grid">
+          {healthcareInitiatives.map((initiative) => (
+            <article className="mission-project" key={initiative.id}>
+              <figure>
+                <img
+                  src={initiative.image}
+                  alt={initiative.imageAlt}
+                  loading="lazy"
+                  decoding="async"
+                />
+                <figcaption>{initiative.imageCaption}</figcaption>
+              </figure>
+              <div className="mission-project-heading">
+                <span>{initiative.number}</span>
+                <p>{initiative.area}</p>
+              </div>
+              <h3>{initiative.title}</h3>
+              <p className="mission-project-stage">{initiative.stage}</p>
+              <p className="mission-project-question">{initiative.question}</p>
+              <p className="mission-project-summary">{initiative.summary}</p>
+              <p className="mission-project-focus">{initiative.focus}</p>
+            </article>
+          ))}
+        </div>
+      </section>
+
+      <section className="hero-facts proof-strip" aria-label="Selected experience">
+        {credentials.map((credential) => (
+          <span key={credential.label}>
+            <small>{credential.label}</small>
+            <strong>{credential.detail}</strong>
+          </span>
+        ))}
       </section>
 
       <section
@@ -334,6 +302,40 @@ export function SpeakingPage() {
             </video>
             <p>UK AI Incubator · Community film</p>
           </div>
+        </div>
+      </section>
+
+      <section
+        className="mission-infrastructure"
+        id="infrastructure"
+        aria-labelledby="infrastructure-title"
+      >
+        <div className="shell service-layer">
+          <div className="service-layer-intro">
+            <p className="section-index">Shared infrastructure</p>
+            <h2 id="infrastructure-title">
+              Connect what already exists. Govern who can use it. Return
+              something useful.
+            </h2>
+            <p>
+              This does not mean one giant database or unrestricted access to
+              patient records. It means a governed service layer that can
+              connect existing systems, give each participant the information
+              needed for its role, analyze signals across the network, and
+              return a useful next step to the people responsible for care.
+            </p>
+          </div>
+          <ol className="service-layer-steps">
+            {signatureTopics.map((topic) => (
+              <li key={topic.number}>
+                <span>{topic.number}</span>
+                <div>
+                  <h3>{topic.title}</h3>
+                  <p>{topic.summary}</p>
+                </div>
+              </li>
+            ))}
+          </ol>
         </div>
       </section>
 

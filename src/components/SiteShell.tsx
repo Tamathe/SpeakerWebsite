@@ -5,7 +5,7 @@ import { AnalyticsTracker } from "./AnalyticsTracker";
 const navigation = [
   { label: "Mission", href: "/#mission" },
   { label: "Work", href: "/#work" },
-  { label: "Ideas", href: "/#featured-talk" },
+  { label: "Films", href: "/#featured-talk" },
   { label: "Speaking", href: "/#speaking" },
   { label: "Contact", href: "/#contact" },
 ];

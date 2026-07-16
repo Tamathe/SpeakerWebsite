@@ -5,6 +5,7 @@ const source = [
   readFileSync("src/siteContent.ts", "utf8"),
   readFileSync("src/siteManifest.ts", "utf8"),
   readFileSync("src/components/SiteShell.tsx", "utf8"),
+  readFileSync("src/components/AmbientSpeakerVideo.tsx", "utf8"),
   readFileSync("src/pages/HomePage.tsx", "utf8"),
   readFileSync("src/pages/HealthcarePage.tsx", "utf8"),
   readFileSync("src/pages/MedicalEducationPage.tsx", "utf8"),
@@ -16,6 +17,9 @@ const source = [
 const requiredSignals = [
   "Tama Thé",
   "Build the connections that turn information into care.",
+  "speaker-compilation-loop.mp4",
+  "video-led-hero",
+  "Watch the argument",
   "Finding risk earlier is not enough.",
   "The last mile is the whole point.",
   "KY-AHEAD",
