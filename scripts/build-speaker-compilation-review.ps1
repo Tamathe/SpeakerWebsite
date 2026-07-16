@@ -21,12 +21,11 @@ $module7 = Join-Path $incubatorMedia "Module 7 intro.mp4"
 $markey = Join-Path $incubatorMedia "C0029.MP4"
 $nice = Join-Path $site "Media\Tama-The_NICE-2026.mp4"
 $expo = Join-Path $incubatorMedia "C0040.MP4"
-$innovators = Join-Path $incubatorMedia "Innovators presentation Sept 2024.mp4"
 $lrc = Join-Path $site "Media\Kentucky-Legislature-AI-at-UK-2025.mp4"
 
 # This edit deliberately omits the Microsoft logo, mannequin montage, and the
-# earlier Markey/chair and laptop-table shots. The NICE lung-cancer clip plays
-# at its natural speed, and an LRC moment replaces the laptop-table footage.
+# earlier Markey/chair and both laptop-table shots. The NICE lung-cancer clip
+# plays at its natural speed, and an LRC moment replaces the table footage.
 # Source starts avoid the brief baked-in transition flashes in the campus,
 # balcony, and seated-conversation footage.
 $clips = @(
@@ -42,7 +41,6 @@ $clips = @(
   [pscustomobject]@{ Label = "Table collaboration"; Start = 100.50; Duration = 1.50; Source = $microsoft },
   [pscustomobject]@{ Label = "NICE - lung cancer slide and stage"; Start = 542.29; Duration = 1.59; Source = $nice },
   [pscustomobject]@{ Label = "Kentucky Legislature - AI at UK"; Start = 1405.00; Duration = 3.00; Source = $lrc },
-  [pscustomobject]@{ Label = "Animated lectern presentation"; Start = 1198.00; Duration = 3.00; Source = $innovators },
   [pscustomobject]@{ Label = "Beach composite"; Start = 54.20; Duration = 1.50; Source = $module7 },
   [pscustomobject]@{ Label = "NICE - Kentucky Precision Health"; Start = 642.25; Duration = 3.00; Source = $nice },
   [pscustomobject]@{ Label = "Seated conversation - after transition"; Start = 152.90; Duration = 1.50; Source = $microsoft },
