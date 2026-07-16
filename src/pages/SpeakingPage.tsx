@@ -46,7 +46,7 @@ export function SpeakingPage() {
             </div>
             <figcaption className="speaking-reel-caption">
               <span>Talks, classrooms, and public work / Kentucky and beyond</span>
-              <span>30-second montage</span>
+              <span>40-second montage</span>
             </figcaption>
           </figure>
         </div>
