@@ -6,7 +6,6 @@ import {
   engagements,
   healthcareInitiatives,
   incubatorSiteUrl,
-  signatureTopics,
   siteIdentity,
 } from "../siteContent";
 
@@ -64,32 +63,27 @@ export function SpeakingPage() {
             <p className="section-index">The mission</p>
             <h2 id="mission-title">Finding risk earlier is not enough.</h2>
             <p>
-              Kentucky already has a great deal of the data and clinical
-              information that could help us improve health outcomes. The
-              problem is that it sits in different systems, under different
-              organizations, and no one institution can connect and use all of
-              it statewide on its own.
-            </p>
-            <p>
-              If we want to understand what is happening across populations,
-              identify people who may need help, and make sure they receive
-              follow-up care, the state, universities, health systems, payers,
-              and community providers will have to build the connections
-              together.
+              Kentucky already has many of the signals. The missing piece is
+              carrying them across organizations, through outreach and
+              referral, and all the way to completed care. That requires the
+              state, universities, health systems, payers, and community
+              providers to build the connections together.
             </p>
           </div>
 
-          <aside className="mission-last-mile" aria-label="Guiding principle">
-            <p className="section-index">Guiding principle</p>
-            <h3>The last mile is the whole point.</h3>
-            <p>
-              A signal is only useful if it reaches someone who can act on it.
-              The referral needs a destination. The next step needs an owner.
-              The system needs to know whether care was completed.
-            </p>
-          </aside>
+          <figure className="mission-case-visual">
+            <img
+              src="/images/studio/ai-for-ky.png"
+              alt="A map of Kentucky marked with connected locations across the state"
+              loading="lazy"
+              decoding="async"
+            />
+            <figcaption>
+              <span>The last mile is the whole point.</span>
+              <span>One state / Many systems / Shared responsibility</span>
+            </figcaption>
+          </figure>
         </div>
-
       </section>
 
       <section
@@ -104,10 +98,10 @@ export function SpeakingPage() {
               What if healthcare AI were shared infrastructure?
             </h2>
             <p>
-              In this excerpt, I make the case for moving beyond disconnected
-              tools and building an intelligence layer that can help public
-              systems find people who need care and connect them to the next
-              step.
+              In this excerpt, I make the case for governed connections across
+              existing systems—not one giant database or one institution
+              owning every record. The test is whether the network returns a
+              useful next step to the person responsible for care.
             </p>
             <div className="featured-talk-details" aria-label="Video details">
               <span>1:23 excerpt</span>
@@ -158,8 +152,8 @@ export function SpeakingPage() {
             <h2 id="work-title">The same problem, seen from different places.</h2>
             <p>
               These projects begin with different clinical needs. Each one asks
-              what has to happen between identifying a possibility and
-              delivering something useful.
+              what has to happen between identifying a possibility, completing
+              the next step, and learning where people are still being missed.
             </p>
           </div>
         </div>
@@ -302,40 +296,6 @@ export function SpeakingPage() {
             </video>
             <p>UK AI Incubator · Community film</p>
           </div>
-        </div>
-      </section>
-
-      <section
-        className="mission-infrastructure"
-        id="infrastructure"
-        aria-labelledby="infrastructure-title"
-      >
-        <div className="shell service-layer">
-          <div className="service-layer-intro">
-            <p className="section-index">Shared infrastructure</p>
-            <h2 id="infrastructure-title">
-              Connect what already exists. Govern who can use it. Return
-              something useful.
-            </h2>
-            <p>
-              This does not mean one giant database or unrestricted access to
-              patient records. It means a governed service layer that can
-              connect existing systems, give each participant the information
-              needed for its role, analyze signals across the network, and
-              return a useful next step to the people responsible for care.
-            </p>
-          </div>
-          <ol className="service-layer-steps">
-            {signatureTopics.map((topic) => (
-              <li key={topic.number}>
-                <span>{topic.number}</span>
-                <div>
-                  <h3>{topic.title}</h3>
-                  <p>{topic.summary}</p>
-                </div>
-              </li>
-            ))}
-          </ol>
         </div>
       </section>
 
