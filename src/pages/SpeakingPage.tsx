@@ -16,25 +16,9 @@ export function SpeakingPage() {
           <div className="video-led-hero-copy">
             <h1>{siteIdentity.thesis}</h1>
             <p>
-              Making AI useful means connecting data to action. Whether that is
-              in healthcare, education, or public systems.
+              Making AI Useful means connecting data to action in healthcare,
+              education, and public systems.
             </p>
-            <div className="hero-actions">
-              <a
-                className="button button-primary"
-                href="#work"
-                data-analytics-id="hero-current-work"
-              >
-                View current work <span aria-hidden="true">↓</span>
-              </a>
-              <a
-                className="button button-outline"
-                href="#featured-talk"
-                data-analytics-id="hero-featured-presentation"
-              >
-                Featured presentation
-              </a>
-            </div>
           </div>
 
           <figure className="video-led-hero-media">
