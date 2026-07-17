@@ -91,45 +91,6 @@ export function SpeakingPage() {
         </div>
       </section>
 
-      <section className="mission-work" id="work" aria-labelledby="work-title">
-        <div className="shell section-intro section-intro-no-eyebrow">
-          <div>
-            <h2 id="work-title">Current work in healthcare.</h2>
-            <p>
-              These projects address cancer screening, diabetic retinopathy,
-              and blood delivery. In each, the technical system is one part of
-              the work. The rest is referral, navigation, scheduling, clinical
-              responsibility, and follow-up.
-            </p>
-          </div>
-        </div>
-
-        <div className="shell mission-project-grid">
-          {healthcareInitiatives.map((initiative) => (
-            <article className="mission-project" key={initiative.id}>
-              <figure>
-                <img
-                  src={initiative.image}
-                  alt={initiative.imageAlt}
-                  loading="lazy"
-                  decoding="async"
-                />
-                <figcaption>{initiative.imageCaption}</figcaption>
-              </figure>
-              <div className="mission-project-heading">
-                <span>{initiative.number}</span>
-                <p>{initiative.area}</p>
-              </div>
-              <h3>{initiative.title}</h3>
-              <p className="mission-project-stage">{initiative.stage}</p>
-              <p className="mission-project-question">{initiative.question}</p>
-              <p className="mission-project-summary">{initiative.summary}</p>
-              <p className="mission-project-focus">{initiative.focus}</p>
-            </article>
-          ))}
-        </div>
-      </section>
-
       <section
         className="story-section story-section-tek100"
         id="tek100"
@@ -266,6 +227,45 @@ export function SpeakingPage() {
               Open the official recording <span aria-hidden="true">↗</span>
             </a>
           </div>
+        </div>
+      </section>
+
+      <section className="mission-work" id="work" aria-labelledby="work-title">
+        <div className="shell section-intro section-intro-no-eyebrow">
+          <div>
+            <h2 id="work-title">Current work in healthcare.</h2>
+            <p>
+              These projects address cancer screening, diabetic retinopathy,
+              and blood delivery. In each, the technical system is one part of
+              the work. The rest is referral, navigation, scheduling, clinical
+              responsibility, and follow-up.
+            </p>
+          </div>
+        </div>
+
+        <div className="shell mission-project-grid">
+          {healthcareInitiatives.map((initiative) => (
+            <article className="mission-project" key={initiative.id}>
+              <figure>
+                <img
+                  src={initiative.image}
+                  alt={initiative.imageAlt}
+                  loading="lazy"
+                  decoding="async"
+                />
+                <figcaption>{initiative.imageCaption}</figcaption>
+              </figure>
+              <div className="mission-project-heading">
+                <span>{initiative.number}</span>
+                <p>{initiative.area}</p>
+              </div>
+              <h3>{initiative.title}</h3>
+              <p className="mission-project-stage">{initiative.stage}</p>
+              <p className="mission-project-question">{initiative.question}</p>
+              <p className="mission-project-summary">{initiative.summary}</p>
+              <p className="mission-project-focus">{initiative.focus}</p>
+            </article>
+          ))}
         </div>
       </section>
 
