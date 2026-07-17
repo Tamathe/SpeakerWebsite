@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "status": "transcribed",
+  "sourcePath": "C:\\AA Code\\SpeakerWebsitre\\outputs\\tek100-module4-transcript\\tek100-tama-module4-preview.mp4",
+  "sourceBytes": 15690327,
+  "sourceSha256": "AEB9A249C97893B99CC4A210BE5E794768478407064ABDD8151059CBE39BFE21",
+  "sourceDurationSeconds": 71.34,
+  "completeness": "transcribed_from_readable_container",
+  "transcriptPath": "C:\\AA Code\\SpeakerWebsitre\\outputs\\tek100-module4-transcript\\clip-transcript\\tek100-tama-module4-preview.txt",
+  "transcriptSha256": "6EF2C8AC187DE092B7D2995C422A5B18E1E958658BE20D1D35911BB5FDC63614",
+  "generatedAt": "2026-07-17T02:25:03.562200Z",
+  "model": "faster-whisper/distil-large-v3",
+  "engine": "faster-whisper",
+  "device": "cuda",
+  "computeType": "float16",
+  "language": "en",
+  "languageProbability": 1,
+  "elapsedSeconds": 3.576,
+  "chunkSeconds": null,
+  "extractionExitCode": 0,
+  "extractionWarning": null,
+  "segments": [
+    {
+      "index": 1,
+      "startSeconds": 0.0,
+      "endSeconds": 6.54,
+      "characters": 114
+    },
+    {
+      "index": 2,
+      "startSeconds": 7.04,
+      "endSeconds": 11.24,
+      "characters": 71
+    },
+    {
+      "index": 3,
+      "startSeconds": 11.24,
+      "endSeconds": 17.94,
+      "characters": 126
+    },
+    {
+      "index": 4,
+      "startSeconds": 18.24,
+      "endSeconds": 24.12,
+      "characters": 92
+    },
+    {
+      "index": 5,
+      "startSeconds": 24.12,
+      "endSeconds": 29.06,
+      "characters": 94
+    },
+    {
+      "index": 6,
+      "startSeconds": 29.06,
+      "endSeconds": 34.44,
+      "characters": 95
+    },
+    {
+      "index": 7,
+      "startSeconds": 34.74,
+      "endSeconds": 42.7,
+      "characters": 128
+    },
+    {
+      "index": 8,
+      "startSeconds": 42.7,
+      "endSeconds": 48.96,
+      "characters": 113
+    },
+    {
+      "index": 9,
+      "startSeconds": 48.96,
+      "endSeconds": 54.44,
+      "characters": 100
+    },
+    {
+      "index": 10,
+      "startSeconds": 54.44,
+      "endSeconds": 59.04,
+      "characters": 86
+    },
+    {
+      "index": 11,
+      "startSeconds": 59.06,
+      "endSeconds": 71.3,
+      "characters": 256
+    }
+  ]
+}

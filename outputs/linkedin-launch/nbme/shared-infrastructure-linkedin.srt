@@ -1,0 +1,69 @@
+1
+00:00:03,500 --> 00:00:05,040
+If AI is going to
+revolutionize healthcare...
+
+2
+00:00:05,300 --> 00:00:05,960
+...who does it for them?
+
+3
+00:00:06,360 --> 00:00:07,820
+Because they can barely
+keep the lights on.
+
+4
+00:00:07,820 --> 00:00:09,680
+So let's do it for them, right?
+
+5
+00:00:10,380 --> 00:00:12,780
+What if we provided healthcare AI
+as a service?
+
+6
+00:00:12,780 --> 00:00:15,140
+We find all of those cancers.
+We bring them in.
+
+7
+00:00:15,440 --> 00:00:17,060
+All of your A1Cs greater than nine...
+
+8
+00:00:17,060 --> 00:00:19,060
+...who haven't followed up
+with their primary care doctor...
+
+9
+00:00:19,060 --> 00:00:21,260
+...in a year, two years -
+bring them back in.
+
+10
+00:00:21,260 --> 00:00:22,860
+All of that health data exists...
+
+11
+00:00:22,860 --> 00:00:24,360
+...on your health
+information exchange.
+
+12
+00:00:24,820 --> 00:00:26,620
+What if we build
+an intelligence layer...
+
+13
+00:00:26,620 --> 00:00:28,000
+...that sat over the top of that...
+
+14
+00:00:28,320 --> 00:00:30,240
+...constantly crawling
+through that data...
+
+15
+00:00:30,660 --> 00:00:33,120
+...looking for signals,
+looking for ways to make you better?

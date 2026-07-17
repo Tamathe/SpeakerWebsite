@@ -4,21 +4,13 @@ These are working drafts in Tama's intended voice: earnest, specific, a little p
 
 ## July 28 — the shared-infrastructure idea
 
-**Asset:** NBME clip beginning with `So let's do it for them` and ending with the intelligence-layer pitch.
+**Asset:** `outputs/linkedin-launch/nbme/shared-infrastructure-linkedin-captioned.mp4`
 
-There are a lot of very smart people building healthcare AI models.
+Healthcare AI cannot become one more thing every hospital is expected to build alone. Some of the hospitals that could benefit most can barely keep the lights on. Telling each one to buy another model and figure out how to connect it to everything they already use is not a plan.
 
-That is not the part I lose sleep over.
+At NBME NICE, I argued for treating healthcare AI as shared infrastructure: use the data we already have to find an actionable signal—a missed cancer screening, an A1C that has gone too long without follow-up—and connect it to care. The model is only the beginning. The real work is the system around it: data access, outreach, navigation, scheduling, and a closed loop so we know whether the patient actually received care. This is the work I am pushing forward in Kentucky. If your group is wrestling with the same problem, bring me into the room. I would love to compare notes.
 
-I lose sleep over what happens after a model finds something important. Who receives the signal? Who calls the patient? Can the patient actually get there? And who notices when the whole thing quietly stops working?
-
-At NBME NICE, I made a pitch that has been following me around ever since: what if healthcare AI were shared infrastructure instead of one more disconnected tool every hospital has to buy, connect, and maintain?
-
-An intelligence layer over the data we already have could keep looking for useful signals—a missed screening, an A1C that needs follow-up, a patient falling through a crack—and connect each one to an actual next step.
-
-The model is usually the easy part. The hard part is the system around it.
-
-That is the work I want to keep pushing in Kentucky. If your group is wrestling with the same problem, bring me into the room. I would love to compare notes.
+The complete upload package, source ranges, and publication hold are in `outputs/linkedin-launch/nbme/POST.md`.
 
 ## August 4 — moving care upstream
 

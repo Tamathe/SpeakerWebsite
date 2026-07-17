@@ -1,0 +1,46 @@
+# Recording Transcript
+
+Source: C:\AA Code\SpeakerWebsitre\outputs\tek100-module4-transcript\tek100-tama-module4-preview.mp4
+Source SHA-256: AEB9A249C97893B99CC4A210BE5E794768478407064ABDD8151059CBE39BFE21
+Source duration: 71.340 seconds
+Completeness: transcribed_from_readable_container
+Generated: 2026-07-17T02:25:03.562200Z
+Transcription model: faster-whisper/distil-large-v3
+Transcription device: cuda (float16)
+Detected language: en (1.0000)
+Speaker attribution: not inferred
+
+## Transcript
+
+[00:00:00 - 00:00:07]
+So when we think about hallucinations, there are two major places where we can intervene as the human in the loop.
+
+[00:00:07 - 00:00:11]
+So the first is the input side, and then the second is the output side.
+
+[00:00:11 - 00:00:18]
+And we're going to talk through some strategies for evaluating your outputs for hallucinations, but it starts with your input.
+
+[00:00:18 - 00:00:24]
+If you are cognizant and thoughtful about the things that you're asking, the way that you're
+
+[00:00:24 - 00:00:29]
+prompting the large language model, then you can mitigate the vast majority of hallucinations.
+
+[00:00:29 - 00:00:34]
+And so some of the strategies and phrases that you can use in order to mitigate these are like,
+
+[00:00:35 - 00:00:43]
+provide citations for the claim. Can you link me to the original study? List three reputable sources that support this statement
+
+[00:00:43 - 00:00:49]
+and then quote the specific sentence from your source that contains this information. All of these are strategies
+
+[00:00:49 - 00:00:54]
+that we're going to use in different ways going forward. But if you build them in from the beginning
+
+[00:00:54 - 00:00:59]
+and force the language model to not just say, yeah, William Shakespeare said this, but
+
+[00:00:59 - 00:01:11]
+But also to say, where did he say it? What was the context that he said it? Can you give me other sources for what William Shakespeare said about video games? Then eventually it's going to say, oh, he didn't actually say anything else. It admits the truth.

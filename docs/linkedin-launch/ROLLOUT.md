@@ -37,7 +37,7 @@ No public post occurs in this phase.
 
 ## Phase 2 — establish the idea before the launch, July 28–August 7
 
-- **July 28:** NBME clip and post introducing shared health-AI infrastructure. Rights must be cleared first.
+- **July 28:** NBME clip and post introducing shared health-AI infrastructure. The complete 38-second post package is ready in `outputs/linkedin-launch/nbme`; rights must be cleared first.
 - **August 4:** A human story about why moving care upstream matters. Use no partner tag unless directly relevant and cleared.
 - Reply personally to substantive comments. Codex prepares a short list of the comments worth Tama's time and drafts possible replies.
 - Connect selectively with Kentucky policymakers, university leaders, health-system operators, rural-health leaders, and conveners. Add a real note when context exists; do not send a generic launch pitch.

@@ -1,0 +1,808 @@
+# Recording Transcript
+
+Source: C:\AA Code\Incubator website\AI-INcubator-source-6e4e7e5\AI-INcubator\Media\Module 4 lecture.mp4
+Source SHA-256: BB3E49EB5A2C90311410351002886E294AC48270765333D7A2F5D8E61C453296
+Source duration: 1395.861 seconds
+Completeness: transcribed_from_readable_container
+Generated: 2026-07-17T02:20:24.411457Z
+Transcription model: faster-whisper/distil-large-v3
+Transcription device: cuda (float16)
+Detected language: en (1.0000)
+Speaker attribution: not inferred
+
+## Transcript
+
+[00:00:00 - 00:00:10]
+So, Tom, I know that before you moved all into this AI space that you taught in medical school, can you talk a little bit about how you saw chat GPT in that space?
+
+[00:00:10 - 00:00:11]
+Yeah, it was really interesting.
+
+[00:00:12 - 00:00:20]
+Just like everyone else around the country, whenever chat GPT came out, we started seeing our students were using large language models to answer questions.
+
+[00:00:20 - 00:00:26]
+And there is a very precise structure when you write orders for admission to the hospital.
+
+[00:00:26 - 00:00:29]
+So let's say somebody comes in, they have a heart attack, they're sick, they have a stroke.
+
+[00:00:29 - 00:00:34]
+every single thing that happens to that patient needs to have an order.
+
+[00:00:34 - 00:00:40]
+And so it's not just their medicines or their sedation, but it's also like, what are they going to eat?
+
+[00:00:41 - 00:00:42]
+How often should you check on their vital signs?
+
+[00:00:43 - 00:00:45]
+How often should you wake them up and make sure that their brain is working?
+
+[00:00:45 - 00:00:48]
+And so all of those things are admission orders.
+
+[00:00:49 - 00:00:54]
+And so we gave our students a fake patient where they needed to read through the patient and write their admission orders.
+
+[00:00:54 - 00:00:56]
+And it was a basic patient with pneumonia.
+
+[00:00:56 - 00:00:59]
+And this is what one of our students submitted as.
+
+[00:00:59 - 00:01:05]
+their assignment. And it looks like it has the typical structure of an admission order set. It goes
+
+[00:01:05 - 00:01:12]
+through the admission, the diagnosis, their condition, the activity, etc., etc. But then you start to see,
+
+[00:01:12 - 00:01:17]
+and I've highlighted it, you start to see where things are a little bit abnormal. In the vital sign section,
+
+[00:01:17 - 00:01:22]
+it talks about temperature and heart rate and blood pressure, and then it goes into some notification
+
+[00:01:22 - 00:01:28]
+parameters. So in this case, it's temperature greater than 100.4, heart rate greater than 90, respiratory
+
+[00:01:28 - 00:01:34]
+rate greater than 20, and then white blood cell count greater than 12,000 or any altered mental status,
+
+[00:01:34 - 00:01:41]
+neither of which are vital signs. This is a hallucination by the large language model, and I have some
+
+[00:01:41 - 00:01:49]
+ideas about why it hallucinated this way. One idea is that the student essentially one-shoted this,
+
+[00:01:49 - 00:01:54]
+and so instead of using chain of thought prompting and breaking it down into steps, they essentially
+
+[00:01:54 - 00:01:58]
+said, write these admission orders. And so on the one hand, it's
+
+[00:01:58 - 00:02:04]
+makes it very difficult for the language model to keep track of all of the different moving parts,
+
+[00:02:04 - 00:02:08]
+in this case, all of the different sections that go into your admission orders.
+
+[00:02:08 - 00:02:17]
+There's another side to this particular example where the models themselves are probably not getting a lot of training data on admissions orders.
+
+[00:02:17 - 00:02:22]
+I don't know where that would be found on the space of all of the text and information used to train these models.
+
+[00:02:23 - 00:02:26]
+So outside of that, do you have any other favorite examples of hallucinations?
+
+[00:02:27 - 00:02:28]
+Yeah, I think it's important.
+
+[00:02:28 - 00:02:30]
+And some of these are going to sound somewhat silly.
+
+[00:02:31 - 00:02:38]
+But I think it's good to have these examples of hallucinations so that you know what to expect from your language models.
+
+[00:02:38 - 00:02:40]
+You know when they're going to fall apart.
+
+[00:02:40 - 00:02:42]
+And my absolute favorite one, it came from about a year ago.
+
+[00:02:43 - 00:02:46]
+They included an AI mode in Google search.
+
+[00:02:47 - 00:02:52]
+An early hallucination that it gave, somebody asked Google, cheese not sticking to pizza.
+
+[00:02:52 - 00:02:53]
+They just Googled that.
+
+[00:02:53 - 00:02:58]
+And the output was, ah, your cheese is sliding off because maybe there's too much sauce.
+
+[00:02:58 - 00:03:00]
+Maybe you have too much cheese, right?
+
+[00:03:00 - 00:03:01]
+Fair, fair.
+
+[00:03:01 - 00:03:05]
+One of the recommendations to make sure that your cheese sticks to the pizza
+
+[00:03:05 - 00:03:07]
+is you could include an eighth of a cup of non-toxic glue,
+
+[00:03:08 - 00:03:10]
+and this is going to help make it more tacky, right?
+
+[00:03:10 - 00:03:12]
+And so obviously that's not right.
+
+[00:03:12 - 00:03:14]
+It's not right, but it would work?
+
+[00:03:14 - 00:03:15]
+It's non-toxic.
+
+[00:03:16 - 00:03:20]
+You probably won't die, but it probably won't be nice, you know, some Elmer's glue.
+
+[00:03:20 - 00:03:24]
+And so this comes from this Reddit post from 11 years ago
+
+[00:03:24 - 00:03:26]
+where somebody trolling the Internet essentially said,
+
+[00:03:26 - 00:03:30]
+hey, to help your cheese stick to the pizza, because somebody asked the question on Reddit,
+
+[00:03:30 - 00:03:33]
+you should think about mixing an eighth of a cup of Elmer's glue.
+
+[00:03:34 - 00:03:37]
+The way that these language models are trained, because this is in their training data,
+
+[00:03:38 - 00:03:40]
+it took this as gospel.
+
+[00:03:40 - 00:03:46]
+This was just as accurate as though somebody asked a top chef how to make your cheese stick to the pizza.
+
+[00:03:47 - 00:03:47]
+All right.
+
+[00:03:47 - 00:03:52]
+So now that we've demonstrated AI hallucinating, and we'll see a few more examples of that,
+
+[00:03:52 - 00:03:56]
+let's think a little bit more carefully about why AI might suggest that you,
+
+[00:03:56 - 00:04:04]
+glue to stick your cheese back on your pizza. So keep in mind, AI tools are trained on examples, not context and logic.
+
+[00:04:05 - 00:04:15]
+They are trained on thinking about basically one word at a time. So my one of my other nephews, I've got a lot of nieces and nephews.
+
+[00:04:15 - 00:04:22]
+One of my other nephews, when he was about 18 months old, he had one of those plastic house toys.
+
+[00:04:23 - 00:04:26]
+And this particular one had some sort of Elmo character.
+
+[00:04:26 - 00:04:32]
+at the top. And you could feed these plastic pieces to the Elmo character. And they were like plastic
+
+[00:04:32 - 00:04:40]
+rectangles. So he used to love this house as toddlers do, and he would feed the plastic tools to Elmo. So his mom at some point
+
+[00:04:40 - 00:04:45]
+loses her cell phone. Okay, no problem. And a few days later, she goes to pick up the Sesame Street tool,
+
+[00:04:46 - 00:04:53]
+the Sesame Street toy area, looks behind where the letters or the plastic things go in and finds her cell phone.
+
+[00:04:53 - 00:04:56]
+So it turns out that my nephew was feeding.
+
+[00:04:56 - 00:05:01]
+these plastic rectangles to Elmo, and it was like, here's a rectangle and fed it to Elmo.
+
+[00:05:02 - 00:05:09]
+From that perspective, without logic or context, it actually makes sense, right? Like, I'm feeding all these
+
+[00:05:09 - 00:05:13]
+plastic things to Elmo. Here's another thing that looks like a plastic rectangle. I'm going to feed it to
+
+[00:05:13 - 00:05:20]
+Elmo. That's how AI, one way AI hallucinations can happen. It just doesn't know how to distinguish a cell phone
+
+[00:05:20 - 00:05:26]
+from another plastic rectangle. At the beginning of that story, which, for the record, I think the most
+
+[00:05:26 - 00:05:34]
+astonishing thing about that story is that somebody went several days without their stuff. I agree. I agree. But you mentioned that these
+
+[00:05:34 - 00:05:43]
+are probabilistic, word-by-word prediction generators. And so the ways that these models are trained is that they look into their
+
+[00:05:43 - 00:05:49]
+training data and see what they think the next word is going to be. Let's say that you asked a large language model,
+
+[00:05:49 - 00:05:55]
+fill in the blank, four score and seven years ago. Because most of the time when you have that opening sentence,
+
+[00:05:55 - 00:05:59]
+you want to talk about your forefathers. He's going to say, he, the large language,
+
+[00:05:59 - 00:06:08]
+he is going to put the output as our forefathers brought forth, right? Because most of the time that
+
+[00:06:08 - 00:06:13]
+people use that first phrase, they come up with the second phrase. And so you can think of this like
+
+[00:06:13 - 00:06:19]
+the autocomplete on your cell phone. And so typically speaking, because most of the time when people
+
+[00:06:19 - 00:06:25]
+use the words, I'm on my blank in a text message, most of them are saying, I'm on my way.
+
+[00:06:25 - 00:06:38]
+And so your predictive text might give you that recommendation of, I'm on my way, when in reality, what you really want to say is, I'm on my last slice of glue pizza, and I think I need to go to the hospital.
+
+[00:06:39 - 00:06:40]
+Okay, thank you.
+
+[00:06:40 - 00:06:44]
+So, there's lots of sources for hallucination.
+
+[00:06:44 - 00:06:50]
+Having a lack of similar or appropriate training data, maybe in the case of glue pizza, is also a case.
+
+[00:06:50 - 00:06:55]
+So I'm sure many of us have either made pizza, dough, sauce,
+
+[00:06:55 - 00:07:00]
+etc., or baked a frozen pizza, right? So most of us may know how to put a pizza in an oven.
+
+[00:07:00 - 00:07:06]
+If not, it's a great trick for a quick dinner, so try that out. But we all, like, as you're thinking
+
+[00:07:06 - 00:07:09]
+about putting a pizza into an oven, I know how to do that really well. I can go to my friend's house
+
+[00:07:09 - 00:07:15]
+with a different oven and put the pizza in the oven, and I can make pizza. Great. Now think about
+
+[00:07:15 - 00:07:22]
+I've got all of that training, and then I go work somewhere with a woodfire pizza oven. So one
+
+[00:07:22 - 00:07:25]
+of the, like, stone kind of structures where there's flame.
+
+[00:07:25 - 00:07:29]
+and you put the pizza in, let it bake, or let it cook, and then bring it back out.
+
+[00:07:29 - 00:07:34]
+That experience is not going to translate very well, because I haven't had the proper training on a wood-fired
+
+[00:07:34 - 00:07:38]
+pizza oven, even though it's still a pizza oven in some sense.
+
+[00:07:39 - 00:07:43]
+That's right. At the end of the day, these hallucinations aren't lies.
+
+[00:07:43 - 00:07:49]
+You know, people will constantly say, why is it lying to me? Why is it making things up?
+
+[00:07:49 - 00:07:55]
+When in reality, there's no intention behind it. The language model is just,
+
+[00:07:55 - 00:07:58]
+trying to, at the end of the day, answer your question.
+
+[00:07:58 - 00:08:05]
+And when Chachapitif was first launched in 2022, there wasn't the same guardrails that exist right now
+
+[00:08:05 - 00:08:09]
+to say, if this does not exist in your training data, do not confabulate, do not make something
+
+[00:08:09 - 00:08:15]
+up, all of those things now are typically built into the mainstream models that you're
+
+[00:08:15 - 00:08:25]
+interacting with. And so things like Jatchabit, GPD5, Gemini's 2.5, Pro, all of those have built-in reasoning.
+
+[00:08:25 - 00:08:28]
+And what the reasoning does is essentially it says, okay, stop.
+
+[00:08:28 - 00:08:33]
+Before you output this to the user, go in and see if all of this is correct.
+
+[00:08:33 - 00:08:34]
+Fact check yourself.
+
+[00:08:35 - 00:08:40]
+That being said, if you're using these local language models, if you're using like a deep seek,
+
+[00:08:40 - 00:08:43]
+those don't have these structures in place.
+
+[00:08:43 - 00:08:46]
+And so it's still important for you to understand how these things work.
+
+[00:08:47 - 00:08:50]
+The current generation of language models, though, will instead reason through it.
+
+[00:08:50 - 00:08:53]
+This was an example that I gave it for this course.
+
+[00:08:54 - 00:08:55]
+The question that I asked,
+
+[00:08:55 - 00:09:01]
+was, what Shakespeare write about video games. And this is what Gemini did. So Gemini, before it gave me
+
+[00:09:01 - 00:09:08]
+the output, fought through the whole thing and starts by addressing the implausibility. I'm now zeroing in on the
+
+[00:09:08 - 00:09:14]
+inherent impossibility of Shakespeare having written about video games. My analysis is that he's trying
+
+[00:09:14 - 00:09:19]
+to bait me. And it actually kind of sounds like he's proud of himself. You know, he's like,
+
+[00:09:19 - 00:09:24]
+I've meticulously analyzed the user's question, recognizing its inherent anachronistic nature. And it goes for
+
+[00:09:24 - 00:09:30]
+several paragraphs about how I'm trying to bait him and he's crafting a response to analyze the anomaly.
+
+[00:09:30 - 00:09:39]
+And then what comes out is William Shakespeare wrote nothing about video games. He lived in 1514, or 1564, sorry. That was my own
+
+[00:09:39 - 00:09:47]
+hallucination. And then interestingly, because it knew that I am building this course, the response
+
+[00:09:47 - 00:09:51]
+that it gave me, and this was a new window, the response it gave me was, this type of question is an excellent
+
+[00:09:51 - 00:09:56]
+an excellent example of a prompt that could be used in the guided lab, the hallucination hunt for Module 4.
+
+[00:09:57 - 00:10:04]
+And so, knowing the context and knowing the context around my question, it gave me the correct answer.
+
+[00:10:04 - 00:10:10]
+However, if I go to Deepseek, or if I go to a language model that doesn't have a reasoning system built into it,
+
+[00:10:10 - 00:10:15]
+it will probably just make something up about, because I am giving it the premise,
+
+[00:10:15 - 00:10:21]
+what did Shakespeare write about video games, the other models do not have the capacity
+
+[00:10:21 - 00:10:25]
+to say, wait, did Shakespeare right about video games?
+
+[00:10:26 - 00:10:33]
+Very fair. Very fair. You know, I think one of the interesting things about that is that it's a hallucination
+
+[00:10:33 - 00:10:40]
+where it's picking up on this lack of realistic possibility to what you're asking about. But that also
+
+[00:10:40 - 00:10:45]
+goes back to your prompt being incredibly clear. So if your prompt is not clear, that's another way
+
+[00:10:45 - 00:10:49]
+hallucinations can happen. So I remember back to, gosh, it must have been our freshman New York college
+
+[00:10:49 - 00:10:51]
+right when we all moved to town. And someone was trying to try to be.
+
+[00:10:51 - 00:10:57]
+trying to go to Manawar Lane, and it took them to a place called Manawar Lane, which is actually down
+
+[00:10:57 - 00:11:01]
+off of sort of Cooper and South Broadway, that area, instead of Manawar Boulevard, which is like where
+
+[00:11:01 - 00:11:06]
+Hamburg is, sort of the bigger circle around our city. And so just not being specific can give
+
+[00:11:06 - 00:11:11]
+completely irrelevant results. That's right. Be specific in what you're asking for. So when we
+
+[00:11:11 - 00:11:17]
+think about hallucinations, there are two major places where we can intervene as the human in the
+
+[00:11:17 - 00:11:21]
+loop. So the first is the input side. And then the second is the output.
+
+[00:11:21 - 00:11:25]
+side. And we're going to talk through some strategies for evaluating your outputs
+
+[00:11:25 - 00:11:33]
+for hallucinations. But it starts with your input. If you are cognizant and thoughtful about the things
+
+[00:11:33 - 00:11:38]
+that you're asking, the way that you're prompting the large language model, then you can mitigate the vast
+
+[00:11:38 - 00:11:44]
+majority of hallucinations. And so some of the strategies and phrases that you can use in order to
+
+[00:11:44 - 00:11:51]
+mitigate these are like, provide citations for the claim. Can you link me to the original study? List three
+
+[00:11:51 - 00:11:57]
+reputable sources that support this statement and then quote the specific sentence from your source that
+
+[00:11:57 - 00:12:03]
+contains this information. All of these are strategies that we're going to use in different ways going forward,
+
+[00:12:03 - 00:12:09]
+but if you build them in from the beginning and force the language model to not just say, yeah, William Shakespeare said this,
+
+[00:12:10 - 00:12:15]
+but also to say, where did he say it? What was the context that he said it? Can you give me other sources for what
+
+[00:12:15 - 00:12:20]
+William Shakespeare said about video games? Then eventually it's going to say, oh, he didn't actually say anything about he is.
+
+[00:12:21 - 00:12:22]
+admits the truth.
+
+[00:12:22 - 00:12:22]
+That's right.
+
+[00:12:23 - 00:12:32]
+So in a case of, I didn't follow those wonderful guidances from our course, I was in a meeting recently
+
+[00:12:32 - 00:12:36]
+with a group of faculty, and we were looking at a syllabus for a course.
+
+[00:12:36 - 00:12:41]
+And the syllabus for the course had said something like, students must write 4,500 words over the
+
+[00:12:41 - 00:12:42]
+course of the semester.
+
+[00:12:43 - 00:12:46]
+Well, we're statisticians, and that sounded like a lot of words to write.
+
+[00:12:46 - 00:12:50]
+So somebody said, how many pages is 4,500 words?
+
+[00:12:50 - 00:12:55]
+So I open up my laptop and I Google, how many pages is 4,500 words?
+
+[00:12:55 - 00:12:56]
+And this is what pops up.
+
+[00:12:57 - 00:13:05]
+4,500 words is approximately 18 pages single-spaced, or nine pages double-spaced.
+
+[00:13:06 - 00:13:11]
+It takes this even a step further when it says, here's a breakdown based on common formatting standards.
+
+[00:13:11 - 00:13:15]
+A double-spaced paper would be about 250 words per page.
+
+[00:13:15 - 00:13:18]
+The single-space paper has 500 words per page.
+
+[00:13:19 - 00:13:20]
+That makes sense.
+
+[00:13:20 - 00:13:27]
+But if you take 9 times 250 for the total number of words, that's 2250 words, if I'm doing that math
+
+[00:13:27 - 00:13:34]
+right off the top of my head. Maybe I need an abacus. So it's not actually producing a result to the
+
+[00:13:34 - 00:13:43]
+question that I asked in a deterministic setting. By deterministic, I mean, 4,500 words is not the same as
+
+[00:13:43 - 00:13:50]
+2,250 words. Thoughts? Why did that happen? I love that example because,
+
+[00:13:50 - 00:14:19]
+I think there are a lot of reasons, but one of the things that we found with large language models is that they are language models, and they're not math models. They're not large math models. They're not large math models. Not calculators. And whenever you use a language model to do mathematics, in general, either it will do it poorly or it'll outsource that to some code. It'll just write code that'll say, hey, add 13 and 15 because I can't do it. It's too complicated.
+
+[00:14:20 - 00:14:27]
+Keep in mind that AI models also include predictive models, which are going to be more based on programming and code and more calculation-based.
+
+[00:14:27 - 00:14:36]
+So it does come down to what is your goal for your current task and what type of AI method do you want to use in each of those spaces.
+
+[00:14:36 - 00:14:41]
+There is a famous case that I know that you're a fan of with lawyers.
+
+[00:14:43 - 00:14:49]
+Yes. Lawyers were using generative AI tools to generate basically legal documents.
+
+[00:14:49 - 00:15:00]
+So when this happened, there was a lawyer who turned something like that into the courts, and it turned out that none of the cases that the document had referenced were actually real cases.
+
+[00:15:00 - 00:15:04]
+And the lawyer got in, like, a lot of trouble for that, which is fair.
+
+[00:15:04 - 00:15:19]
+And so, you know, as AI is growing so fast, this is where having that critical eye, checking the citations that come back, checking that the things really exist within your output is so crucial moving forward.
+
+[00:15:19 - 00:15:26]
+So I did that with this next hallucination example. So this was a famous hallucination on the internet. Somebody
+
+[00:15:26 - 00:15:33]
+Googled, how many rocks shall I eat? First, not grammatically correct. Google points that out, good for them.
+
+[00:15:33 - 00:15:40]
+But so fundamentally, that's a flawed question, right? Because it's implying the premise that you should eat some
+
+[00:15:40 - 00:15:48]
+number of rocks. How many shall I eat? Again, should I eat? And then the AI overview that's produced by Gemini responds
+
+[00:15:48 - 00:15:54]
+this way. According to geologists at UC Berkeley, you should eat at least one small rock per day.
+
+[00:15:54 - 00:15:58]
+They say that rocks are a vital source of minerals and vitamins that are important for digestive health.
+
+[00:15:59 - 00:16:04]
+Dr. Joseph Granger suggests eating a serving of gravel geodes or pebbles with each meal or hiding rocks
+
+[00:16:04 - 00:16:11]
+and foods like ice cream or peanut butter. Right. All of that is not true. And so then the question
+
+[00:16:11 - 00:16:18]
+becomes, as we're thinking about what happened here, did the AI just invent this quote in
+
+[00:16:18 - 00:16:24]
+attribute it to Joseph Granger? Was it because the person asked the question that way that it just
+
+[00:16:24 - 00:16:31]
+it felt like it needed to give some kind of an answer to explain why you should be eating rocks? And the answer
+
+[00:16:31 - 00:16:37]
+is actually a little bit more simple. This was published in the onion. Essentially all of those words
+
+[00:16:37 - 00:16:42]
+published in the onion. And if you don't know the onion, the onion is a satirical magazine that
+
+[00:16:42 - 00:16:48]
+essentially just makes a bunch of stuff up. And it's funny. It's good. But it's also considered
+
+[00:16:48 - 00:16:51]
+part of the training data data for these language models.
+
+[00:16:51 - 00:16:56]
+And so when it's, when the language model search through its database to figure out,
+
+[00:16:56 - 00:16:59]
+is like, all right, I know that you're supposed to eat rocks.
+
+[00:16:59 - 00:17:00]
+How many rocks are you supposed to eat?
+
+[00:17:01 - 00:17:05]
+The only source that it found about how many rocks you should eat came from the onion.
+
+[00:17:05 - 00:17:07]
+And so it was like, great, this is the answer.
+
+[00:17:07 - 00:17:08]
+Yeah, yeah, makes sense.
+
+[00:17:09 - 00:17:14]
+It's actually also corroborated in a, some, somebody else also reposted this
+
+[00:17:14 - 00:17:18]
+in some kind of like a geological journal as, as supposed.
+
+[00:17:18 - 00:17:22]
+supposed to be funny. So it used that as reinforcement as like, oh, I have two sources that said the same
+
+[00:17:22 - 00:17:27]
+thing. Which is interesting because large language models, we talked about them not having logical,
+
+[00:17:28 - 00:17:35]
+logic or context. So it doesn't have the context to understand satire versus fact, right, or funny
+
+[00:17:35 - 00:17:40]
+versus fact. And so, you know, it's like talking to someone who knows nothing about technology,
+
+[00:17:40 - 00:17:46]
+about technology. I'm sure you could say all sorts of stuff. Like, yeah, technology can do X, Y, and Z.
+
+[00:17:46 - 00:17:54]
+technology can make my refrigerator tell Kroger that I need more milk and Kroger will send someone with milk to my refrigerator.
+
+[00:17:54 - 00:17:56]
+Maybe that's where AI will take us the next few years. I don't know.
+
+[00:17:57 - 00:18:05]
+But if you don't have any context for something, you don't have any way to evaluate whether something is right or wrong.
+
+[00:18:05 - 00:18:07]
+And that's the space that AI actually operates in.
+
+[00:18:07 - 00:18:16]
+Yeah. And not knowing what is right and wrong, I think that's going to be more and more important as the years go on.
+
+[00:18:16 - 00:18:21]
+was a recent report that said more text has been generated in the past three years
+
+[00:18:21 - 00:18:28]
+than since the beginning of writing, which means that artificial intelligence is putting out
+
+[00:18:28 - 00:18:33]
+just reams and reams and reams of text and information. And most of that is ending up in the
+
+[00:18:33 - 00:18:39]
+internet, which means that most of that is being used to train future models, which means that
+
+[00:18:39 - 00:18:45]
+all of the different biases and all of the incorrect factual errors that we are producing and putting
+
+[00:18:45 - 00:18:51]
+on the internet right now, are going to continue to be elevated and adapted and multiplied.
+
+[00:18:52 - 00:19:00]
+And over the course of the next several years, it's going to be very important for us to all figure out what is real and what is not real.
+
+[00:19:00 - 00:19:09]
+So it's really important to know and understand not just that AI can hallucinate its sources, but also that it can produce perfectly
+
+[00:19:09 - 00:19:14]
+formatted citations that actually don't exist. It can give you links that lead to nowhere.
+
+[00:19:15 - 00:19:22]
+So asking for sources isn't just where you end your work with AI. It's actually where you start.
+
+[00:19:23 - 00:19:32]
+So once you have that claim or source, then there's some techniques that really mastering will help prevent pitfalls along the way.
+
+[00:19:32 - 00:19:36]
+So we're going to run through, it looks like six. We're going to run through six techniques.
+
+[00:19:36 - 00:19:41]
+So first one is to be a skeptic. Think critically. Adopt a critical mindset.
+
+[00:19:42 - 00:19:45]
+AI is output really should be treated as a first.
+
+[00:19:45 - 00:19:49]
+draft and not a final answer for everything that you're putting in.
+
+[00:19:49 - 00:19:53]
+Remember, AI is classically that overconfident friend.
+
+[00:19:53 - 00:19:58]
+That's right. The second one is be thinking about hallucinations before they happen.
+
+[00:19:58 - 00:20:05]
+And so build into your inputs, into your prompts, things like asking for receipts,
+
+[00:20:05 - 00:20:06]
+asking for your sources.
+
+[00:20:07 - 00:20:11]
+In terms of asking for receipts, check those receipts, vet the source.
+
+[00:20:11 - 00:20:15]
+See if it's something that's from a news article, from a news organization.
+
+[00:20:15 - 00:20:22]
+that you know, see if it's something from a peer-reviewed journal article, see if it's a blog post or a Reddit post that
+
+[00:20:22 - 00:20:29]
+says, yes, put glue on that piece of pizza. The fourth one is to read laterally. So we talk about people
+
+[00:20:29 - 00:20:36]
+reading deeply into a concept and getting more deep into the weeds. Reading laterally means reading
+
+[00:20:36 - 00:20:42]
+about a specific topic from multiple perspectives and from multiple sources. And the idea there is that
+
+[00:20:42 - 00:20:45]
+you may have one very confident source, but if you're not,
+
+[00:20:45 - 00:20:49]
+seeing other people saying that you should put glue on your pizza, you probably shouldn't put glue on your pizza.
+
+[00:20:49 - 00:20:58]
+Also, BAI's guide. Help it work through complex tasks by giving it step-by-step instructions. So think about if you're a brand-new
+
+[00:20:58 - 00:21:05]
+hiker and your friend says you should go hiking, your friend is not logically going to send you on some two-day backpack the
+
+[00:21:05 - 00:21:09]
+Appalachian Trail hike. They're going to say, oh, Raven's Run is down the road. They have some nice one-mile
+
+[00:21:09 - 00:21:15]
+loops. Start with that one-mile loop. Or here, let me go with you and show you the ropes on this.
+
+[00:21:15 - 00:21:20]
+So breaking those big, complex tasks down into smaller steps will help prevent hallucinations
+
+[00:21:20 - 00:21:26]
+and also give you opportunities to course correct before something much, much worse happens.
+
+[00:21:26 - 00:21:29]
+And then the last one is to make sure you're using the right tool.
+
+[00:21:29 - 00:21:33]
+So what we have right now is very narrow artificial intelligence,
+
+[00:21:33 - 00:21:41]
+where these systems can do one specific task very well, like if you ask ChatGPT to give you a haiku,
+
+[00:21:41 - 00:21:45]
+but then you ask it to add three and three and it completely collapses.
+
+[00:21:45 - 00:21:53]
+And so understanding the capabilities of the tools that you're using and understanding the broad spectrum of things that are out there are both going to be helpful.
+
+[00:21:54 - 00:22:15]
+All right. So for the assignment for this module, we are going to do exactly that. We're going to be hallucination detectives on things that have come out of AI. And we really want to hear your experiences. If you have a funny hallucination or you see something pop up on your phone, screenshot it. We'd love to see it on a discussion board and try to understand better the scope of hallucination.
+
+[00:22:15 - 00:22:16]
+within AI.
+
+[00:22:16 - 00:22:16]
+That's right.
+
+[00:22:17 - 00:22:22]
+And for the assignment, essentially what we're going to do is you are going to choose from a long list of
+
+[00:22:22 - 00:22:23]
+different topics.
+
+[00:22:23 - 00:22:28]
+And the topics will range from finance all the way to Taylor Swift.
+
+[00:22:29 - 00:22:34]
+And what you're going to do is you're going to ask the LLM to give you a three-page,
+
+[00:22:34 - 00:22:36]
+or I'm sorry, a three-paragraph response.
+
+[00:22:36 - 00:22:37]
+I'm going to like to read.
+
+[00:22:38 - 00:22:38]
+I'm kidding.
+
+[00:22:38 - 00:22:38]
+I'm kidding.
+
+[00:22:38 - 00:22:39]
+I do not.
+
+[00:22:40 - 00:22:44]
+It's going to give you a three-paragraph response about whatever topic that you've chosen.
+
+[00:22:44 - 00:22:52]
+and your objective is to pick out at least five facts from the output that it gave you and fact-checked them.
+
+[00:22:52 - 00:22:57]
+And when you fact-check them, it is not just about, is this true, but where are the sources that you found?
+
+[00:22:57 - 00:22:58]
+What did they say about it?
+
+[00:22:58 - 00:22:59]
+What is the context?
+
+[00:23:00 - 00:23:08]
+And that is essentially what you're going to be doing if you use this technique or if you use these tools going forward in your work.
+
+[00:23:09 - 00:23:09]
+All right.
+
+[00:23:09 - 00:23:13]
+Well, with that, we will see your post will interact with you on the discussion board.
+
+[00:23:14 - 00:23:15]
+see there. Thanks.

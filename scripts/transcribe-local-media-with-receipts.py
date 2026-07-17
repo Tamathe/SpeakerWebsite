@@ -37,6 +37,8 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--model-label", default="")
     parser.add_argument("--device", choices=("auto", "cuda", "cpu"), default="auto")
     parser.add_argument("--compute-type", default="")
+    parser.add_argument("--initial-prompt", default="")
+    parser.add_argument("--hotwords", default="")
     parser.add_argument("--force", action="store_true")
     parser.add_argument("recordings", nargs="+", type=Path)
     return parser.parse_args()
@@ -145,11 +147,11 @@ def main() -> None:
         source_hash = sha256(source_path)
         source_info = source_path.stat()
         duration = probe_duration(source_path)
-        prompt = (
+        prompt = args.initial_prompt or (
             "The MDM podcast hosted by Tama Thé. "
             f"Episode: {base}. Medical decision making, medicine, and medical education."
         )
-        hotwords = (
+        hotwords = args.hotwords or (
             "Tama Thé; The MDM; Medical Decision Making; Melissa Puffenbarger; "
             f"Katrianna Urrea; Spencer Brown; {base}"
         )

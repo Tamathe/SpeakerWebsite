@@ -48,11 +48,6 @@ export function SpeakingPage() {
               A shared statewide data infrastructure will identify patients at
               risk and connect them with care.
             </p>
-            <div className="featured-talk-details" aria-label="Video details">
-              <span>1:23 excerpt</span>
-              <span>English captions</span>
-              <span>Produced by NBME</span>
-            </div>
             <a
               className="button button-primary featured-talk-cta"
               href="https://f.io/AWtTiZWu"
@@ -149,11 +144,6 @@ export function SpeakingPage() {
               output, compare it with trusted sources, and decide when it
               belongs in the work.
             </p>
-            <div className="featured-talk-details" aria-label="Video details">
-              <span>1:11 excerpt</span>
-              <span>English captions</span>
-              <span>Foundational AI literacy</span>
-            </div>
           </div>
           <div className="story-player">
             <video
@@ -195,11 +185,6 @@ export function SpeakingPage() {
               find collaborators outside their usual disciplines, and work
               toward a small, testable next step.
             </p>
-            <div className="featured-talk-details" aria-label="Video details">
-              <span>0:58 film</span>
-              <span>English captions</span>
-              <span>University of Kentucky</span>
-            </div>
             <a
               className="text-link"
               href={incubatorSiteUrl}

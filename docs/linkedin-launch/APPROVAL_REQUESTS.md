@@ -4,9 +4,11 @@ These are private, one-to-one notes. Send them individually, adapt the opening t
 
 ## Boris / NBME — clip rights and fellowship language
 
-Boris — I am rebuilding my LinkedIn around a practical question I raised at NICE: what would it take to make AI genuinely useful in healthcare, beyond the model itself?
+Boris — I am preparing a short LinkedIn excerpt from my NICE presentation about treating healthcare AI as shared infrastructure. The final cut is about 38 seconds, uses only my remarks, begins with “If AI is going to revolutionize healthcare, who does it for them?” and ends with the health-intelligence-layer idea.
 
-I cut a 43-second excerpt from the NICE recording, beginning with “So let’s do it for them” and ending with the health-intelligence-layer idea. Before I use it as a native LinkedIn video, could you tell me whether NBME is comfortable with that excerpt being posted with NBME and NICE credited? I would also appreciate a quick factual check on this description: “my completed NBME AI Research Fellowship, focused on clinical reasoning and assessment.” I am not asking for an endorsement—just rights and accuracy.
+The video credits NBME NICE on screen and will not be used as paid advertising. Would NBME permit me to publish the excerpt on my personal LinkedIn page? I am happy to send you the final cut for review and use whatever credit language you prefer.
+
+Could you also confirm that `NBME Invitational Conference for Educators (NICE), June 2026` is the correct public attribution?
 
 ## Scott Prather — Microsoft wording and campaign footage
 
