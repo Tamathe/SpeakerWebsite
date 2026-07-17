@@ -1,61 +1,57 @@
 WEBVTT
 
-00:00:00.000 --> 00:00:03.000
-That's the OSCE grader, just with a different face on it.
+00:00:00.000 --> 00:00:06.540
+So when we think about hallucinations, there are two major places
+where we can intervene as the human in the loop.
 
-00:00:03.000 --> 00:00:07.000
-That's what the NBME did. It's not just me, right?
+00:00:07.040 --> 00:00:11.240
+The first is the input side,
+and then the second is the output side.
 
-00:00:07.000 --> 00:00:09.000
-It's the state of Kentucky. It's my students.
+00:00:11.240 --> 00:00:17.940
+We're going to talk through some strategies for evaluating
+your outputs for hallucinations, but it starts with your input.
 
-00:00:09.000 --> 00:00:13.000
-And because we found that we had lightning in a bottle,
+00:00:18.240 --> 00:00:24.120
+If you are cognizant and thoughtful about the things
+that you're asking...
 
-00:00:13.000 --> 00:00:15.000
-we had lightning in a bottle with these guys,
+00:00:24.120 --> 00:00:29.060
+...the way that you're prompting the large language model,
+then you can mitigate the vast majority of hallucinations.
 
-00:00:15.000 --> 00:00:19.000
-because I was in the room and I got to design
-our AI literacy course.
+00:00:29.060 --> 00:00:34.440
+Some of the strategies and phrases
+that you can use to mitigate these are...
 
-00:00:19.000 --> 00:00:22.000
-I built the whole thing around what they achieved, right?
+00:00:34.740 --> 00:00:38.700
+"Provide citations for the claim."
+"Can you link me to the original study?"
 
-00:00:22.000 --> 00:00:26.000
-So every single module is a new practical skill
+00:00:38.700 --> 00:00:42.700
+"List three reputable sources
+that support this statement..."
 
-00:00:26.000 --> 00:00:29.000
-that you have to use in order to build
-a longitudinal project.
+00:00:42.700 --> 00:00:48.960
+"...and then quote the specific sentence from your source
+that contains this information."
 
-00:00:29.000 --> 00:00:30.000
-We call it the Bluegrass AI proposal.
+00:00:48.960 --> 00:00:54.440
+All of these are strategies that we're going to use
+in different ways going forward.
 
-00:00:30.000 --> 00:00:35.000
-Students have to choose a problem in a community
-that they care about
+00:00:54.440 --> 00:00:59.040
+But if you build them in from the beginning and force
+the language model to not just say, "Yeah, Shakespeare said this"...
 
-00:00:35.000 --> 00:00:41.000
-and try to solve it with artificial intelligence.
-And so what you get is Shayla McGuire.
+00:00:59.040 --> 00:01:04.020
+...but also to say, "Where did he say it?
+What was the context?"
 
-00:00:41.000 --> 00:00:48.000
-She's a 19-year-old kid. She built a system to help
-her sorority raise money for their philanthropy,
+00:01:04.020 --> 00:01:09.280
+"Can you give me other sources for what
+William Shakespeare said about video games?"
 
-00:00:48.000 --> 00:00:54.000
-which is a shelter for people who are survivors
-of domestic abuse. Right?
-
-00:00:54.000 --> 00:00:59.000
-And she raised thousands of dollars. That's the OSCE grader.
-It's just got a different face.
-
-00:00:59.000 --> 00:01:06.000
-It's just got a different purpose, right?
-All of this came from the NBME.
-
-00:01:06.000 --> 00:01:10.612
-And so this is where I want to slow down a little bit,
-because what it's doing for Kentucky now is actually making a difference.
+00:01:09.280 --> 00:01:11.340
+Then eventually it's going to say,
+"Oh, he didn't actually say anything." It admits the truth.
