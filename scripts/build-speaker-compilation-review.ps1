@@ -40,7 +40,7 @@ $clips = @(
   [pscustomobject]@{ Label = "Dinosaur vehicle composite"; Start = 33.00; Duration = 1.50; Source = $module7 },
   [pscustomobject]@{ Label = "Table collaboration"; Start = 100.50; Duration = 1.50; Source = $microsoft },
   [pscustomobject]@{ Label = "NICE - lung cancer slide and stage"; Start = 542.29; Duration = 1.59; Source = $nice },
-  [pscustomobject]@{ Label = "Kentucky Legislature - AI at UK"; Start = 1405.00; Duration = 3.00; Source = $lrc },
+  [pscustomobject]@{ Label = "Kentucky Legislature - AI at UK"; Start = 1412.00; Duration = 3.00; Crop = "crop=300:169:320:180"; Source = $lrc },
   [pscustomobject]@{ Label = "Beach composite"; Start = 54.20; Duration = 1.50; Source = $module7 },
   [pscustomobject]@{ Label = "NICE - Kentucky Precision Health"; Start = 642.25; Duration = 3.00; Source = $nice },
   [pscustomobject]@{ Label = "Seated conversation - after transition"; Start = 152.90; Duration = 1.50; Source = $microsoft },
@@ -81,7 +81,14 @@ for ($index = 0; $index -lt $clips.Count; $index++) {
     $timingFilter = "fps=24,setpts=PTS-STARTPTS"
   }
 
-  $filters += "[$index`:v]scale=960:540:force_original_aspect_ratio=increase,crop=960:540,$timingFilter,setsar=1[v$index]"
+  $framingFilter = if ($clip.Crop) {
+    "$($clip.Crop),scale=960:540:flags=lanczos"
+  }
+  else {
+    "scale=960:540:force_original_aspect_ratio=increase,crop=960:540"
+  }
+
+  $filters += "[$index`:v]$framingFilter,$timingFilter,setsar=1[v$index]"
   $labels += "[v$index]"
 }
 
