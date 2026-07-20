@@ -29,7 +29,7 @@ $lrc = Join-Path $site "Media\Kentucky-Legislature-AI-at-UK-2025.mp4"
 # Source starts avoid the brief baked-in transition flashes in the campus,
 # balcony, and seated-conversation footage.
 $clips = @(
-  [pscustomobject]@{ Label = "Markey stage - later/right position"; Start = 2400.00; Duration = 3.00; Source = $markey },
+  [pscustomobject]@{ Label = "Kentucky Legislature - AI at UK"; Start = 1412.00; Duration = 3.00; Crop = "crop=300:169:320:180"; Source = $lrc },
   [pscustomobject]@{ Label = "Campus walk - after transition"; Start = 48.40; Duration = 1.50; Source = $microsoft },
   [pscustomobject]@{ Label = "AI presenter composite"; Start = 8.30; Duration = 1.50; Source = $module7 },
   [pscustomobject]@{ Label = "NICE - OSCE grading cost"; Start = 110.75; Duration = 3.00; Source = $nice },
@@ -40,7 +40,7 @@ $clips = @(
   [pscustomobject]@{ Label = "Dinosaur vehicle composite"; Start = 33.00; Duration = 1.50; Source = $module7 },
   [pscustomobject]@{ Label = "Table collaboration"; Start = 100.50; Duration = 1.50; Source = $microsoft },
   [pscustomobject]@{ Label = "NICE - lung cancer slide and stage"; Start = 542.29; Duration = 1.59; Source = $nice },
-  [pscustomobject]@{ Label = "Kentucky Legislature - AI at UK"; Start = 1412.00; Duration = 3.00; Crop = "crop=300:169:320:180"; Source = $lrc },
+  [pscustomobject]@{ Label = "Markey stage - later/right position"; Start = 2400.00; Duration = 3.00; Source = $markey },
   [pscustomobject]@{ Label = "Beach composite"; Start = 54.20; Duration = 1.50; Source = $module7 },
   [pscustomobject]@{ Label = "NICE - Kentucky Precision Health"; Start = 642.25; Duration = 3.00; Source = $nice },
   [pscustomobject]@{ Label = "Seated conversation - after transition"; Start = 152.90; Duration = 1.50; Source = $microsoft },

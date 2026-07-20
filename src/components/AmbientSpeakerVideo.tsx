@@ -81,7 +81,7 @@ export function AmbientSpeakerVideo({ className }: AmbientSpeakerVideoProps) {
         data-analytics-ignore="true"
       >
         <source
-          src="/media/speaking/speaker-compilation-loop.mp4?v=montage-v5"
+          src="/media/speaking/speaker-compilation-loop.mp4?v=montage-v6"
           type="video/mp4"
         />
       </video>
