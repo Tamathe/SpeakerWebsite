@@ -22,6 +22,7 @@ $markey = Join-Path $incubatorMedia "C0029.MP4"
 $nice = Join-Path $site "Media\Tama-The_NICE-2026.mp4"
 $expo = Join-Path $incubatorMedia "C0040.MP4"
 $lrc = Join-Path $site "Media\Kentucky-Legislature-AI-at-UK-2025.mp4"
+$wkyt = Join-Path $site "Media\WKYT-UK-Partners-with-Microsoft-First-AI-Conference-2026.mp4"
 
 # This edit deliberately omits the Microsoft logo, mannequin montage, and the
 # earlier Markey/chair and both laptop-table shots. The NICE lung-cancer clip
@@ -29,8 +30,9 @@ $lrc = Join-Path $site "Media\Kentucky-Legislature-AI-at-UK-2025.mp4"
 # Source starts avoid the brief baked-in transition flashes in the campus,
 # balcony, and seated-conversation footage.
 $clips = @(
-  [pscustomobject]@{ Label = "Kentucky Legislature - AI at UK"; Start = 1412.00; Duration = 3.00; Crop = "crop=300:169:320:180"; Source = $lrc },
+  [pscustomobject]@{ Label = "Kentucky Legislature - full LRC broadcast frame"; Start = 1404.00; Duration = 3.00; Source = $lrc },
   [pscustomobject]@{ Label = "Campus walk - after transition"; Start = 48.40; Duration = 1.50; Source = $microsoft },
+  [pscustomobject]@{ Label = "WKYT - Cats AI in Action interview"; Start = 97.60; Duration = 3.00; Source = $wkyt },
   [pscustomobject]@{ Label = "AI presenter composite"; Start = 8.30; Duration = 1.50; Source = $module7 },
   [pscustomobject]@{ Label = "NICE - OSCE grading cost"; Start = 110.75; Duration = 3.00; Source = $nice },
   [pscustomobject]@{ Label = "Name lower third"; Start = 52.00; Duration = 3.50; Source = $microsoft },
