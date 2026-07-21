@@ -5,9 +5,9 @@ const siteOrigin = "https://tamathe.com";
 const outputDirectory = resolve("dist", "client");
 const templatePath = resolve(outputDirectory, "index.html");
 const metadata = {
-  title: "Tama Thé, MD | Turning information into care",
+  title: "Tama Thé, MD | Data-driven precision",
   description:
-    "Tama Thé's work to build the connections that turn health information and AI into completed care across Kentucky.",
+    "Tama Thé connects data to action across healthcare, education, and public systems.",
 };
 
 function replaceMeta(html, attribute, key, value) {

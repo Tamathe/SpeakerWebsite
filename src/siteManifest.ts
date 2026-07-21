@@ -7,6 +7,8 @@ export type RouteDefinition = {
   description: string;
 };
 
+export const siteOrigin = "https://tamathe.com";
+
 export const homeRoute: RouteDefinition = {
   id: "home",
   path: "/",

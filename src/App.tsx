@@ -2,7 +2,12 @@ import { useEffect } from "react";
 import { SiteShell } from "./components/SiteShell";
 import { NotFoundPage } from "./pages/NotFoundPage";
 import { SpeakingPage } from "./pages/SpeakingPage";
-import { legacyRedirects, normalizePath, resolveRoute } from "./siteManifest";
+import {
+  legacyRedirects,
+  normalizePath,
+  resolveRoute,
+  siteOrigin,
+} from "./siteManifest";
 
 function setMeta(selector: string, content: string) {
   document.querySelector<HTMLMetaElement>(selector)?.setAttribute("content", content);
@@ -21,17 +26,17 @@ function App() {
     }
 
     const canonicalPath = route.id === "not-found" ? window.location.pathname : route.path;
-    const canonicalUrl = `${window.location.origin}${canonicalPath}`;
+    const canonicalUrl = `${siteOrigin}${canonicalPath}`;
 
     document.title = route.title;
     setMeta('meta[name="description"]', route.description);
     setMeta('meta[property="og:title"]', route.title);
     setMeta('meta[property="og:description"]', route.description);
     setMeta('meta[property="og:url"]', canonicalUrl);
-    setMeta('meta[property="og:image"]', `${window.location.origin}/og.png`);
+    setMeta('meta[property="og:image"]', `${siteOrigin}/og.png`);
     setMeta('meta[name="twitter:title"]', route.title);
     setMeta('meta[name="twitter:description"]', route.description);
-    setMeta('meta[name="twitter:image"]', `${window.location.origin}/og.png`);
+    setMeta('meta[name="twitter:image"]', `${siteOrigin}/og.png`);
     document
       .querySelector<HTMLLinkElement>('link[rel="canonical"]')
       ?.setAttribute("href", canonicalUrl);

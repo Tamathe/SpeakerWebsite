@@ -1,10 +1,12 @@
 import { handleAnalyticsRequest } from "./analytics.js";
 
 const siteMetadata = {
-  title: "Tama Thé, MD | Turning information into care",
+  title: "Tama Thé, MD | Data-driven precision",
   description:
-    "Tama Thé's work to build the connections that turn health information and AI into completed care across Kentucky.",
+    "Tama Thé connects data to action across healthcare, education, and public systems.",
 };
+
+const siteOrigin = "https://tamathe.com";
 
 const legacyRedirects = {
   "/speaking": "/#featured-talk",
@@ -55,12 +57,16 @@ export default {
     const pathname = normalizePath(url.pathname);
     const redirectTarget = legacyRedirects[pathname];
 
+    if (url.hostname.toLowerCase() === "www.tamathe.com") {
+      return Response.redirect(new URL(`${pathname}${url.search}${url.hash}`, siteOrigin), 308);
+    }
+
     if (pathname === "/api/analytics") {
       return handleAnalyticsRequest(request, env);
     }
 
     if (redirectTarget) {
-      return Response.redirect(new URL(redirectTarget, url.origin), 301);
+      return Response.redirect(new URL(redirectTarget, siteOrigin), 301);
     }
 
     const response = await env.ASSETS.fetch(request);
@@ -77,8 +83,8 @@ export default {
           title: "Page not found | Tama Thé, MD",
           description: "The requested page could not be found.",
         };
-    const canonicalUrl = isHome ? `${url.origin}/` : `${url.origin}${pathname}`;
-    const socialImageUrl = `${url.origin}/og.png`;
+    const canonicalUrl = isHome ? `${siteOrigin}/` : `${siteOrigin}${pathname}`;
+    const socialImageUrl = `${siteOrigin}/og.png`;
     const htmlResponse = new Response(response.body, {
       headers: response.headers,
       status: isHome ? response.status : 404,
